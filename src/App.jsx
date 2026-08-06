@@ -36,7 +36,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('/books_data.json');
+      const response = await fetch(`${import.meta.env.BASE_URL}books_data.json`);
       if (!response.ok) {
         throw new Error('所蔵データが見つかりません。クローラーを実行してデータを生成してください。');
       }
