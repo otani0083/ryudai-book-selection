@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T11:51:59.608Z",
+  "lastUpdated": "2026-08-06T13:52:50.384Z",
   "books": [
     {
       "isbn": "9784819114745",
@@ -22,7 +22,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -62,7 +62,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -74,7 +74,7 @@
       "pubDate": "2026-08-07",
       "category": "okinawa-ja",
       "ndc": "戦争",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -98,7 +98,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -116,7 +116,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -138,7 +138,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -160,7 +160,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -175,7 +175,7 @@
       "pubDate": "2026-10-01",
       "category": "okinawa-ja",
       "ndc": "ガボールアイ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -197,7 +197,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -268,7 +268,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -292,7 +292,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -317,7 +317,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -332,7 +332,7 @@
       "pubDate": "2026-09-10",
       "category": "okinawa-ja",
       "ndc": "岩波映画　グループ現代　羽仁進　林竹二　教育映画　記録映画　ドキュメンタリー　十牛図　世界図絵　沖縄　教室の子供たち　絵を描く子どもたち",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -351,7 +351,7 @@
       "pubDate": "2026-08-20",
       "category": "okinawa-ja",
       "ndc": "AI",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -379,7 +379,7 @@
       "pubDate": "2026-09-13",
       "category": "okinawa-ja",
       "ndc": "SF",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -394,7 +394,7 @@
       "pubDate": "2026-10-01",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -430,7 +430,7 @@
       "pubDate": "2026-07-07",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -448,7 +448,7 @@
       "pubDate": "2026-09-10",
       "category": "okinawa-ja",
       "ndc": "辺野古",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -469,11 +469,9 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD1957442X"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784899825050",
@@ -486,7 +484,7 @@
       "pubDate": "2026-07-29",
       "category": "okinawa-ja",
       "ndc": "オタク",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -508,7 +506,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -520,7 +518,7 @@
       "pubDate": 2026.7,
       "category": "okinawa-ja",
       "ndc": "Y33",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -542,7 +540,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -564,7 +562,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -586,7 +584,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -687,7 +685,7 @@
       "pubDate": "2026-10-05",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -729,7 +727,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -744,7 +742,7 @@
       "pubDate": "2026-07-30",
       "category": "okinawa-ja",
       "ndc": "ワイキキ ホノルル マウイ カウアイ 夏休み 海外 旅行 HAWAI ハワイ ホテル ガイド クヒオ フィジー グアム タヒチ フラガール 南の島 沖縄 大人 ハワイ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -756,7 +754,7 @@
       "pubDate": "2026-10-07",
       "category": "okinawa-ja",
       "ndc": "おはなし",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -795,7 +793,7 @@
       "pubDate": "2026-07-28",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -834,7 +832,7 @@
       "pubDate": "2026-07-13",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -855,7 +853,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -877,7 +875,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -892,7 +890,7 @@
       "pubDate": "2026-08-19",
       "category": "okinawa-ja",
       "ndc": "沖縄",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -910,7 +908,7 @@
           "@_xsi:type": "dcndl:NDC9"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -928,7 +926,7 @@
       "pubDate": "2026-09-30",
       "category": "okinawa-ja",
       "ndc": "カクヨム",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -948,7 +946,7 @@
       "pubDate": "2026-08-12",
       "category": "okinawa-ja",
       "ndc": "TVB : 農業科学",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1025,7 +1023,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1040,7 +1038,7 @@
       "pubDate": "2026-09-07",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1055,7 +1053,7 @@
       "pubDate": "2026-07-10",
       "category": "okinawa-ja",
       "ndc": "片山鶴子",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1073,7 +1071,7 @@
       "pubDate": "2026-08-12",
       "category": "okinawa-ja",
       "ndc": "トラウマ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1094,7 +1092,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1116,7 +1114,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1131,7 +1129,7 @@
       "pubDate": "2026-06-30",
       "category": "okinawa-ja",
       "ndc": "MSCベリッシマ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1194,7 +1192,7 @@
       "pubDate": "2026-08-26",
       "category": "okinawa-ja",
       "ndc": "自立支援ケア",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1246,7 +1244,7 @@
       "pubDate": "2026-08-28",
       "category": "okinawa-ja",
       "ndc": "県別　方言　感情　表現　辞典　ことば　地方　言語",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1309,7 +1307,7 @@
       "pubDate": "2026-07-08",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1336,7 +1334,7 @@
       "pubDate": "2026-08-04",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1358,7 +1356,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1379,7 +1377,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1397,7 +1395,7 @@
       "pubDate": "2026-09-18",
       "category": "okinawa-ja",
       "ndc": "国宝",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1412,7 +1410,7 @@
       "pubDate": "2026-09-17",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1436,7 +1434,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1454,7 +1452,7 @@
       "pubDate": "2026-09-11",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1469,7 +1467,7 @@
       "pubDate": "2026-08-24",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1709,7 +1707,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1749,7 +1747,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1801,7 +1799,7 @@
       "pubDate": "2026-08-10",
       "category": "okinawa-ja",
       "ndc": "国立民族学博物館",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1822,7 +1820,7 @@
       "pubDate": "2026-10-02",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1843,7 +1841,7 @@
           "@_xsi:type": "dcndl:NDC9"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1975,7 +1973,7 @@
       "pubDate": "2026-08-05",
       "category": "okinawa-ja",
       "ndc": "FC琉球",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2025,7 +2023,7 @@
       "pubDate": "2026-08-10",
       "category": "okinawa-ja",
       "ndc": "卒塔婆",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2047,7 +2045,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2238,7 +2236,7 @@
       "pubDate": "2026-06-30",
       "category": "okinawa-ja",
       "ndc": "PFAS",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2478,7 +2476,7 @@
       "pubDate": "2026-10-30",
       "category": "okinawa-ja",
       "ndc": "エロマンガ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2722,7 +2720,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2807,7 +2805,7 @@
       "pubDate": "2026-10-08",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2895,7 +2893,7 @@
       "pubDate": "2026-09-10",
       "category": "okinawa-ja",
       "ndc": "KJMB : リーダーシップ＆モチベーション",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2932,7 +2930,7 @@
       "pubDate": "2026-09-17",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2969,7 +2967,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3013,7 +3011,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3035,7 +3033,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3057,7 +3055,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3072,7 +3070,7 @@
       "pubDate": "2026-10-19",
       "category": "okinawa-ja",
       "ndc": "VSCB : 求職／転職",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3087,7 +3085,7 @@
       "pubDate": "2026-10-19",
       "category": "okinawa-ja",
       "ndc": "VSCB : 求職／転職",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3102,7 +3100,7 @@
       "pubDate": "2026-10-19",
       "category": "okinawa-ja",
       "ndc": "VSCB : 求職／転職",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3117,7 +3115,7 @@
       "pubDate": "2026-10-19",
       "category": "okinawa-ja",
       "ndc": "VSCB : 求職／転職",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3147,7 +3145,7 @@
       "pubDate": "2026-10-19",
       "category": "okinawa-ja",
       "ndc": "VSCB : 求職／転職",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3192,7 +3190,7 @@
       "pubDate": "2026-11-26",
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3343,9 +3341,12 @@
       "pubDate": "2022",
       "category": "okinawa-en",
       "ndc": "Foreign",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "館内のみ",
+        "研究室": "蔵書あり"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BC05934472"
     },
     {
       "isbn": "9781322117171",
@@ -3379,7 +3380,7 @@
       "pubDate": "2021",
       "category": "okinawa-en",
       "ndc": "Foreign",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3391,7 +3392,7 @@
       "pubDate": "2020",
       "category": "okinawa-en",
       "ndc": "Foreign",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3403,7 +3404,7 @@
       "pubDate": "2021",
       "category": "okinawa-en",
       "ndc": "Foreign",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3415,7 +3416,7 @@
       "pubDate": "2020",
       "category": "okinawa-en",
       "ndc": "Foreign",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3427,7 +3428,7 @@
       "pubDate": "2026-09-02",
       "category": "academic",
       "ndc": "コーラン注釈　ハディース編纂　イスラーム法学　ハワーリジュ派　シーア派　イバード派　コーラン学　スーフィズム（イスラーム神秘主義）　ムハンマド　アブー・ハニーファ　シャーフィイー　アフマド・イブン・ハンバル　タバリー　イブン・イスハーク　シーバワイフ　アシュア",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3439,7 +3440,7 @@
       "pubDate": "2026-09-11",
       "category": "academic",
       "ndc": "西洋美術　キュビスム　まなざしのレッスン　ルーブル　オルセー",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3507,7 +3508,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3601,7 +3602,7 @@
       "pubDate": "2026-09-16",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3616,7 +3617,7 @@
       "pubDate": "2026-09-29",
       "category": "academic",
       "ndc": "国際課税　外国税額控除　移転価格税制　CFC税制　BEPS2.0　2つの柱　租税条約　OECDモデル租税条約",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3634,7 +3635,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3649,7 +3650,7 @@
       "pubDate": "2026-09-30",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3661,7 +3662,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "武道憲章　稽古　道場　誤審問題　スポーツ科学　トレーニング論　体罰問題　ブルース・リー　MMA　総合格闘技　達人　剣道　柔道　空手　薙刀　弓道　宮本武蔵　柳生十兵衛",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3677,7 +3678,7 @@
       "pubDate": "2026-09-01",
       "category": "academic",
       "ndc": "地震　地震波動伝播　数値シミュレーション　差分法　並列計算　OpenSWPC",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3699,7 +3700,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3711,7 +3712,7 @@
       "pubDate": "2026-10-02",
       "category": "academic",
       "ndc": "人材開発　組織開発　暗黙知　実践知　経験学習　対話　内省　ファシリテーション　コーチング　課題解決　定性的研究　現象学　エビデンス主義　プロフェッショナル",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3729,7 +3730,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3741,7 +3742,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "波　水面波　波動論　流体力学　非線形理論　ソリトン　共鳴　カオス　浅水波　KdV方程式　ストークス　ファラデー　ケルヴィン　摂動法　振動数　ハンドブック",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3753,7 +3754,7 @@
       "pubDate": "2026-09-25",
       "category": "academic",
       "ndc": "生活習慣病　メタボリックシンドローム　健康寿命　介護　アンチ・ドーピング　トレーニング　糖尿病　骨折　筋断裂　脱臼　スポーツ障害　肩こり　腰痛　救急処置　リハビリテーション　野球肘　精神疾患",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3770,7 +3771,7 @@
       "pubDate": "2026-09-25",
       "category": "academic",
       "ndc": "SNS　Facebook　X（旧Twitter）　Instagram　YouTube　TikTok　Yahoo!ニュース　アルゴリズム　AI　アプリ　選択的接触　選択的回避　分極化　誤情報　偽情報　陰謀論",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3788,7 +3789,7 @@
       "pubDate": "2026-09-29",
       "category": "academic",
       "ndc": "先制　存在権力　情動　潜勢力　不確実性　知覚　身体　出来事　衝撃と畏怖　フーコー　スピノザ　新保守主義　新自由主義　リスク　統治性　ドゥルーズ",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3800,7 +3801,7 @@
       "pubDate": "2026-08-17",
       "category": "academic",
       "ndc": "ゾウ　動物園　山王祭　見世物　デパート",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3821,7 +3822,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3833,7 +3834,7 @@
       "pubDate": "2026-08-04",
       "category": "academic",
       "ndc": "共通一次　センター試験　大学共通テスト　能研テスト　教育改革　西岡武夫　新自由クラブ　拒否権モデル　大学受験資格　文部科学省　国大協　私大協　中教審　受験地獄　教育行政学",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3845,7 +3846,7 @@
       "pubDate": "2026-08-28",
       "category": "academic",
       "ndc": "大学病院　医学部　病院経営　経営難　診療報酬　医師の働き方改革　医師偏在　医療安全",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3857,7 +3858,7 @@
       "pubDate": "2026-10-02",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3882,7 +3883,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3904,7 +3905,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3985,7 +3986,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4024,7 +4025,7 @@
       "pubDate": "2026-08-10",
       "category": "academic",
       "ndc": "矢部貞治",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4046,7 +4047,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4068,7 +4069,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4095,7 +4096,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4117,7 +4118,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4204,7 +4205,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4378,7 +4379,7 @@
       "pubDate": "2026-08-07",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4418,7 +4419,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4529,7 +4530,7 @@
       "pubDate": "2026-08-12",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4618,7 +4619,7 @@
       "pubDate": 2026.6,
       "category": "academic",
       "ndc": "Y93",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4636,7 +4637,7 @@
       "pubDate": "2026-08-07",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4654,7 +4655,7 @@
       "pubDate": "2026-08-07",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4669,7 +4670,7 @@
       "pubDate": "2026-08-05",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4691,7 +4692,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4709,7 +4710,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4733,7 +4734,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4822,7 +4823,7 @@
       "pubDate": "2026-08-27",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4983,7 +4984,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5237,7 +5238,7 @@
       "pubDate": "2026-07-28",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5249,7 +5250,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5261,7 +5262,7 @@
       "pubDate": "2026-09-24",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5279,7 +5280,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5291,7 +5292,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5303,7 +5304,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5471,7 +5472,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5493,9 +5494,11 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出中"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19307092"
     },
     {
       "isbn": "9784007610462",
@@ -5586,7 +5589,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5631,7 +5634,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5790,7 +5793,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5824,7 +5827,7 @@
       "pubDate": "2026-07-28",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5839,7 +5842,7 @@
       "pubDate": "2026-09-10",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5873,7 +5876,7 @@
       "pubDate": "2026-08-03",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5888,7 +5891,7 @@
       "pubDate": "2026-09-03",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5908,7 +5911,7 @@
       "pubDate": "2026-10-10",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5923,7 +5926,7 @@
       "pubDate": "2026-09-30",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5948,7 +5951,7 @@
       "pubDate": "2026-09-30",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5966,7 +5969,7 @@
       "pubDate": "2026-10-10",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5981,7 +5984,7 @@
       "pubDate": "2026-07-13",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5999,7 +6002,7 @@
       "pubDate": "2026-08-26",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6014,7 +6017,7 @@
       "pubDate": "2026-09-09",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6119,7 +6122,7 @@
       "pubDate": "2026-09-10",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6134,7 +6137,7 @@
       "pubDate": "2026-09-30",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6149,7 +6152,7 @@
       "pubDate": "2026-09-10",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6164,7 +6167,7 @@
       "pubDate": "2026-07-28",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6179,7 +6182,7 @@
       "pubDate": "2026-09-14",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6212,7 +6215,7 @@
       "pubDate": "2026-08-03",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6227,7 +6230,7 @@
       "pubDate": "2026-07-15",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6239,7 +6242,7 @@
       "pubDate": "2026-09-15",
       "category": "academic",
       "ndc": "福島　イェール大学　日欧比較　入来文書　封建制",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6255,7 +6258,7 @@
       "pubDate": "2026-09-01",
       "category": "academic",
       "ndc": "境界　越境　経験",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6267,7 +6270,7 @@
       "pubDate": "2026-08-25",
       "category": "academic",
       "ndc": "穀倉地帯　平野　水田　農村　開墾　浪人",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6292,7 +6295,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6304,7 +6307,7 @@
       "pubDate": "2026-09-18",
       "category": "academic",
       "ndc": "肉食　神々　生贄　アマテラス　スサノヲ　葛城　蘇我",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6316,7 +6319,7 @@
       "pubDate": "2026-08-25",
       "category": "academic",
       "ndc": "感染症　伝染病　コレラ　赤痢　チフス　衛生",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6338,7 +6341,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6362,7 +6365,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "米　コメ　市場　流通　金融　経済　食糧",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6374,7 +6377,7 @@
       "pubDate": "2026-09-29",
       "category": "academic",
       "ndc": "議会　国会　報道　メディア　新聞　雑誌　ラジオ",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6386,7 +6389,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "軍師　関ヶ原　黒田　茶の湯　連歌",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6398,7 +6401,7 @@
       "pubDate": "2026-09-29",
       "category": "academic",
       "ndc": "狛犬　霊獣　日清戦争　日露戦争　日中戦争　代替わり　災害　コロナ禍",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6420,7 +6423,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6432,7 +6435,7 @@
       "pubDate": "2026-09-25",
       "category": "academic",
       "ndc": "雑誌　戦国",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6444,7 +6447,7 @@
       "pubDate": "2026-08-17",
       "category": "academic",
       "ndc": "浅草　日記　史料",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6466,7 +6469,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6488,7 +6491,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6506,7 +6509,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6528,11 +6531,9 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19559845"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784642078276",
@@ -6552,7 +6553,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6564,7 +6565,7 @@
       "pubDate": "2026-08-24",
       "category": "academic",
       "ndc": "紀伊国　秀長　熊野　赤木城　藤堂高虎　棚田",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6586,11 +6587,9 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19120058"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784642053235",
@@ -6613,7 +6612,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6635,7 +6634,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6647,7 +6646,7 @@
       "pubDate": "2026-10-30",
       "category": "academic",
       "ndc": "婚礼　結婚　住まい",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6665,7 +6664,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6681,7 +6680,7 @@
       "pubDate": "2026-08-25",
       "category": "academic",
       "ndc": "名城　城郭　北海道　チャシ　陣屋　台場　城館",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6813,7 +6812,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6937,7 +6936,7 @@
       "pubDate": "2026-09-14",
       "category": "academic",
       "ndc": "思想史",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7066,7 +7065,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7088,7 +7087,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7174,7 +7173,7 @@
       "pubDate": "2026-08-28",
       "category": "academic",
       "ndc": "フランス サン=ラジェ� ボージョレ 領主 裁判 農村 土地経営 民事 判決 密漁 陳情 革命 犯罪 国王  課税  地主 小作 ブルジョワ リヨン 司法 警察 狩猟 住民 貴族 共有地",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7201,7 +7200,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7219,7 +7218,7 @@
       "pubDate": "2026-09-08",
       "category": "academic",
       "ndc": "こども家庭庁 こども基本法 子どもの安全 発達障害 発達支援 ウェルビーイング 地域コミュニティ",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7236,7 +7235,7 @@
       "pubDate": "2026-08-10",
       "category": "academic",
       "ndc": "動機づけ 人間関係 職業性ストレス 過労死 過労自殺 労働災害 職場のいじめ ハラスメント メンタルヘルス 多職種連携 キャリア支援 就労支援 多様な働き方 働き方",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7255,7 +7254,7 @@
       "pubDate": "2026-08-25",
       "category": "academic",
       "ndc": "行動観察法 発達検査 認知・知能検査 人格検査 領域別アセスメント",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7281,7 +7280,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7310,7 +7309,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7322,7 +7321,7 @@
       "pubDate": "2026-08-10",
       "category": "academic",
       "ndc": "福祉事務所 不正受給 生活保護法第78条 情報公開",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7406,7 +7405,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7485,7 +7484,7 @@
       "pubDate": "2026-10-20",
       "category": "academic",
       "ndc": "ソーシャルワーク専門職のグローバル定義 倫理綱領 多職種連携 総合的・包括的支援",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7562,7 +7561,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7577,7 +7576,7 @@
       "pubDate": "2026-09-15",
       "category": "academic",
       "ndc": "ブランド・ビジネス ブランディング ブランド・エクイティ ブランド心理 グローバル・ブランド ブランド・マーケティング ブランド・ポートフォリオ ブランドの真正性 KPI EBITDA",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7593,7 +7592,7 @@
       "pubDate": "2026-09-01",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7608,7 +7607,7 @@
       "pubDate": "2026-09-02",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7667,7 +7666,7 @@
       "pubDate": "2026-08-04",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7679,7 +7678,7 @@
       "pubDate": "2026-07-07",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7695,7 +7694,7 @@
       "pubDate": "2026-09-16",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7710,7 +7709,7 @@
       "pubDate": "2026-08-17",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7725,7 +7724,7 @@
       "pubDate": "2026-08-04",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7747,7 +7746,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7774,7 +7773,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7786,7 +7785,7 @@
       "pubDate": "2026-09-04",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7989,7 +7988,7 @@
       "pubDate": "2026-10-02",
       "category": "academic",
       "ndc": "丸善プラネット",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8019,7 +8018,7 @@
       "pubDate": "2026-10-02",
       "category": "academic",
       "ndc": "丸善プラネット",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8034,7 +8033,7 @@
       "pubDate": "2026-09-26",
       "category": "academic",
       "ndc": "ヤングケアラー",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8114,7 +8113,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8129,7 +8128,7 @@
       "pubDate": "2026-10-13",
       "category": "academic",
       "ndc": "クルーズトラベラー",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8144,7 +8143,7 @@
       "pubDate": "2026-10-05",
       "category": "academic",
       "ndc": "国際協力",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8166,7 +8165,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8288,7 +8287,7 @@
       "pubDate": "2026-10-02",
       "category": "academic",
       "ndc": "発生生物学",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8311,7 +8310,7 @@
       "pubDate": "2026-09-02",
       "category": "academic",
       "ndc": "生態学",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8526,7 +8525,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8607,7 +8606,7 @@
       "pubDate": "2026-09-08",
       "category": "academic",
       "ndc": "RB : 地球科学",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8832,7 +8831,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8853,7 +8852,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8875,7 +8874,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8897,7 +8896,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8926,7 +8925,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8941,7 +8940,7 @@
       "pubDate": "2026-09-25",
       "category": "academic",
       "ndc": "Unknown",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9118,7 +9117,7 @@
       "pubDate": "2026-08-26",
       "category": "academic",
       "ndc": "PHQ : 量子物理学（量子力学＆量子場理論）",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9305,7 +9304,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9419,7 +9418,7 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9480,7 +9479,7 @@
       "pubDate": "2026-10-05",
       "category": "academic",
       "ndc": "PHK : 電気、電磁気＆磁気",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
