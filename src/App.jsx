@@ -13,6 +13,30 @@ import {
   Globe
 } from 'lucide-react';
 
+// Helper to format NDC to string safely (avoids React object rendering crash)
+const formatNDC = (ndc) => {
+  if (!ndc) return '不明';
+  if (typeof ndc === 'string') return ndc;
+  if (typeof ndc === 'number') return String(ndc);
+  if (Array.isArray(ndc)) {
+    return ndc
+      .map(item => {
+        if (typeof item === 'string') return item;
+        if (typeof item === 'number') return String(item);
+        if (item && typeof item === 'object') {
+          return item['#text'] || item.text || JSON.stringify(item);
+        }
+        return '';
+      })
+      .filter(Boolean)
+      .join(', ');
+  }
+  if (typeof ndc === 'object') {
+    return ndc['#text'] || ndc.text || JSON.stringify(ndc);
+  }
+  return String(ndc);
+};
+
 export default function App() {
   const [data, setData] = useState({ lastUpdated: null, books: [] });
   const [loading, setLoading] = useState(true);
@@ -93,7 +117,6 @@ export default function App() {
     // Sort Logic
     result.sort((a, b) => {
       if (sortBy === 'newest') {
-        // Simple string comparison for pubDate (e.g. 2026.06 or 2026-05)
         return String(b.pubDate).localeCompare(String(a.pubDate));
       } else if (sortBy === 'title') {
         return String(a.title).localeCompare(String(b.title), 'ja');
@@ -139,7 +162,7 @@ export default function App() {
         book.author,
         book.publisher,
         book.pubDate,
-        book.ndc,
+        formatNDC(book.ndc),
         book.status,
         holdingDetail,
         link
@@ -401,7 +424,7 @@ export default function App() {
                       {book.pubDate}
                     </td>
                     <td data-label="分類(NDC)">
-                      {book.ndc || '不明'}
+                      {formatNDC(book.ndc)}
                     </td>
                     <td data-label="アクション" onClick={(e) => e.stopPropagation()}>
                       <div className="table-actions">
@@ -494,7 +517,7 @@ export default function App() {
                   </tr>
                   <tr>
                     <th>分類 (NDC)</th>
-                    <td>{selectedBook.ndc || '不明'}</td>
+                    <td>{formatNDC(selectedBook.ndc)}</td>
                   </tr>
                 </tbody>
               </table>
