@@ -420,8 +420,10 @@ async function checkCalilHoldings(isbnList) {
 
 async function main() {
   console.log('=== START CRAWLING BOOK INFORMATION ===');
-  const fromDate = getPastDate(3); // 3 months ago
-  console.log(`Target publish date from: ${fromDate}`);
+  const okinawaFromDate = getPastDate(12); // 12 months ago for Okinawa local materials
+  const academicFromDate = getPastDate(3);   // Keep 3 months for General Academic books to avoid bloat
+  console.log(`Okinawa books date from: ${okinawaFromDate}`);
+  console.log(`Academic books date from: ${academicFromDate}`);
   
   const booksMap = new Map();
   
@@ -432,8 +434,8 @@ async function main() {
     const items = await fetchNDL({
       any: kw,
       mediatype: 'books',
-      from: fromDate,
-      cnt: 100
+      from: okinawaFromDate, // 12 months ago
+      cnt: 300
     });
     console.log(`Found ${items.length} items for keyword "${kw}"`);
     for (const item of items) {
@@ -473,8 +475,8 @@ async function main() {
     const items = await fetchNDL({
       publisher: pub,
       mediatype: 'books',
-      from: fromDate,
-      cnt: 50
+      from: okinawaFromDate, // 12 months ago
+      cnt: 200
     });
     console.log(`Found ${items.length} items for publisher "${pub}"`);
     for (const item of items) {
@@ -546,7 +548,7 @@ async function main() {
     const items = await fetchNDL({
       publisher: pub,
       mediatype: 'books',
-      from: fromDate,
+      from: academicFromDate, // 3 months ago (avoid Calil overload for general books)
       cnt: 30
     });
     console.log(`Found ${items.length} items for Academic publisher "${pub}"`);
