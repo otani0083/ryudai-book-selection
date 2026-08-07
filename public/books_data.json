@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T00:56:58.056Z",
+  "lastUpdated": "2026-08-07T01:03:51.796Z",
   "books": [
     {
       "isbn": "9784819114745",
@@ -28,29 +28,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784641149625",
-      "title": "アクティブ・ラーニングで学ぶ国際関係　：　戦争と平和を考える",
-      "author": [
-        "上杉勇司",
-        "長谷川晋",
-        "高木綾"
-      ],
-      "publisher": "有斐閣",
-      "pubDate": "２０２６．６",
-      "category": "okinawa-ja",
-      "ndc": [
-        "国際政治",
-        {
-          "#text": 319,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I16111000001186048",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784801308343",
       "title": "あなたの知らない怖い沖縄",
       "author": "神里, 純平",
@@ -65,63 +42,6 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034809576",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784309232065",
-      "title": "敢へて消さず…　日記の中の戦争 : 新・ドキュメント太平洋戦争１９４５",
-      "author": "ＮＨＫスペシャル取材班・横井秀信",
-      "publisher": "河出書房新社",
-      "pubDate": "2026-08-07",
-      "category": "okinawa-ja",
-      "ndc": "戦争",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784309232065",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784896344943",
-      "title": "アルナスとベガ",
-      "author": [
-        "やまと, 作家",
-        "ゆざわ, ひろゆき"
-      ],
-      "publisher": "明窓出版",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "Y17",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 726.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034769684",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784163921273",
-      "title": "池袋高齢者暴走事故 : 遺族と加害者家族の2060日",
-      "author": "守田, 哲",
-      "publisher": "文藝春秋",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "自動車事故--東京都豊島区",
-        {
-          "#text": 916,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034819849",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -173,171 +93,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784815645748",
-      "title": "1日3分パズルでぐんぐん目がよくなる！ ガボール・アイ",
-      "author": "平松類",
-      "publisher": [
-        "ＳＢクリエイティブ",
-        "ＳＢクリエイティブ"
-      ],
-      "pubDate": "2026-10-01",
-      "category": "okinawa-ja",
-      "ndc": "ガボールアイ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815645748",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784761503659",
-      "title": "一級建築士合格戦略製図試験のウラ指導",
-      "author": "Unknown",
-      "publisher": "学芸出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "建築士",
-        {
-          "#text": "Y57",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 520.79,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034809792",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784771040656",
-      "title": "異文化共生と観光",
-      "author": [
-        "谷口　知司",
-        "須藤　廣",
-        "早川　諒"
-      ],
-      "publisher": [
-        "晃洋書房",
-        "晃洋書房"
-      ],
-      "pubDate": "2026-09-15",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784771040656",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784896943931",
-      "title": "イラスト解説　謎だらけのキノコ　冬虫夏草",
-      "author": "盛口満",
-      "publisher": [
-        "八坂書房",
-        "八坂書房"
-      ],
-      "pubDate": "2026-08-25",
-      "category": "okinawa-ja",
-      "ndc": "冬虫夏草",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784896943931",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784652207918",
-      "title": "兎の眼 : 長編小説",
-      "author": [
-        "灰谷, 健次郎",
-        "長谷川, 知子, 1947-"
-      ],
-      "publisher": "理論社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": 913.6,
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827696",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784149112268",
-      "title": "歌とキーワードで読み解くアメリカ合衆国 : こころをよむ",
-      "author": "Unknown",
-      "publisher": "NHK出版",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "アメリカ合衆国 歴史",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 253,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034781051",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784160090903",
-      "title": "運命の出会い : 那覇、ワシントン、そして熱海",
-      "author": "真喜志, 興亜, 1942-",
-      "publisher": [
-        "文藝春秋企画出版部",
-        "文藝春秋"
-      ],
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034794341",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784862508812",
-      "title": "英語ができる人は、日本語が違う",
-      "author": "米元, 愛弓美",
-      "publisher": [
-        "ESPOIR出版",
-        "ザメディアジョン"
-      ],
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "英語--会話",
-        {
-          "#text": "KS62",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 837.8,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034765568",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784472406478",
       "title": "映像のなかの教育 映像としての教育 : 羽仁進の教室映画と林竹二の授業映画",
       "author": "三木　博",
@@ -350,109 +105,6 @@
       "ndc": "岩波映画　グループ現代　羽仁進　林竹二　教育映画　記録映画　ドキュメンタリー　十牛図　世界図絵　沖縄　教室の子供たち　絵を描く子どもたち",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784472406478",
       "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784049112986",
-      "title": "AI白書2026",
-      "author": [
-        "岩澤　有祐",
-        "鈴木　雅大",
-        "東京大学　松尾・岩澤研究室"
-      ],
-      "publisher": [
-        "角川アスキー総合研究所",
-        "ＫＡＤＯＫＡＷＡ"
-      ],
-      "pubDate": "2026-08-20",
-      "category": "okinawa-ja",
-      "ndc": "AI",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784049112986",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784991213274",
-      "title": "SF生環境構築史大全",
-      "author": [
-        "中谷礼仁",
-        "松田法子",
-        "青井哲人",
-        "小阪淳",
-        "日埜直彦",
-        "藤原辰史",
-        "石橋正孝",
-        "巽孝之",
-        "塚本由晴",
-        "永田希",
-        "樋口恭介",
-        "土方正志"
-      ],
-      "publisher": [
-        "ミラツク",
-        "英治出版"
-      ],
-      "pubDate": "2026-09-13",
-      "category": "okinawa-ja",
-      "ndc": "SF",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784991213274",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784866432038",
-      "title": "MBAでは教えない社長の人間学　リーダーの心に効く百話の薬",
-      "author": "木俣佳丈",
-      "publisher": [
-        "アチーブメント出版",
-        "アチーブメント出版"
-      ],
-      "pubDate": "2026-10-01",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784866432038",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784816931048",
-      "title": "大宅壮一文庫に見る雑誌は「万博」をどう伝えてきたか",
-      "author": "大宅壮一文庫",
-      "publisher": "日外アソシエーツ",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "万国博覧会--雑誌--書目",
-        {
-          "#text": 606.9,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797269",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784867106112",
-      "title": "岡田ちほ写真集 ボーダーライン",
-      "author": [
-        "岡田 ちほ",
-        "関 純一"
-      ],
-      "publisher": [
-        "ガイドワークス",
-        "ガイドワークス"
-      ],
-      "pubDate": "2026-07-07",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784867106112",
-      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -747,31 +399,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784813766261",
-      "title": "お嬢の愛は俺のもの",
-      "author": [
-        "小森, りんご",
-        "Neno"
-      ],
-      "publisher": "スターツ出版",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "Y84",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 726.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034794290",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784418261178",
       "title": "大人のハワイ　ｖｏｌ．６０",
       "author": "大人のハワイ編集部",
@@ -783,101 +410,6 @@
       "category": "okinawa-ja",
       "ndc": "ワイキキ ホノルル マウイ カウアイ 夏休み 海外 旅行 HAWAI ハワイ ホテル ガイド クヒオ フィジー グアム タヒチ フラガール 南の島 沖縄 大人 ハワイ",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784418261178",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784065440988",
-      "title": "おとなも知らない　ほんとうにあったお話　6年生",
-      "author": "講談社",
-      "publisher": "講談社",
-      "pubDate": "2026-10-07",
-      "category": "okinawa-ja",
-      "ndc": "おはなし",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784065440988",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784344696310",
-      "title": "オリオンビールはなぜ愛され続けるのか",
-      "author": "村野, 一",
-      "publisher": [
-        "幻冬舎メディアコンサルティング",
-        "幻冬舎"
-      ],
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "オリオンビール株式会社",
-        {
-          "#text": 588.54,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034835884",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784594103255",
-      "title": "カコイチ　華彩なな LAST写真集",
-      "author": [
-        "高橋慶佑",
-        "華彩なな"
-      ],
-      "publisher": [
-        "扶桑社",
-        "扶桑社"
-      ],
-      "pubDate": "2026-07-28",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784594103255",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784434372193",
-      "title": "籠中の神は恋願う",
-      "author": "水花",
-      "publisher": [
-        "アルファポリス",
-        "星雲社"
-      ],
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "Y84",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 726.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034783122",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784774408927",
-      "title": "歌誌月光　97号",
-      "author": "Unknown",
-      "publisher": [
-        "皓星社",
-        "皓星社"
-      ],
-      "pubDate": "2026-07-13",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784774408927",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -944,88 +476,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784838758128",
-      "title": "合本アイスか、ドーナツか。",
-      "author": "Unknown",
-      "publisher": "マガジンハウス",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "菓子",
-        {
-          "#text": 596.65,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I22211002000108746",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784049721270",
-      "title": "規格外素人のプロ野球人生",
-      "author": [
-        "Jaja",
-        "桑島　黎音"
-      ],
-      "publisher": [
-        "ＫＡＤＯＫＡＷＡ",
-        "ＫＡＤＯＫＡＷＡ"
-      ],
-      "pubDate": "2026-09-30",
-      "category": "okinawa-ja",
-      "ndc": "カクヨム",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784049721270",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784909151698",
-      "title": "季刊『農業と経済』92巻2号（2026年春号）",
-      "author": [
-        "北川 太一",
-        "比嘉 政浩",
-        "川﨑 訓昭",
-        "山野 薫"
-      ],
-      "publisher": [
-        "英明企画編集",
-        "英明企画編集"
-      ],
-      "pubDate": "2026-08-12",
-      "category": "okinawa-ja",
-      "ndc": "TVB : 農業科学",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784909151698",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784879818416",
-      "title": "キノコ好きな虫と虫から生えるキノコのなぞ : ゲッチョ先生の冬虫夏草コレクション",
-      "author": "盛口, 満, 1962-",
-      "publisher": "少年写真新聞社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "冬虫夏草",
-        {
-          "#text": "Y11",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 474.77,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034717092",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784327394486",
       "title": "気持ちが伝わる！　沖縄語リアルフレーズBOOK〈新装版〉",
       "author": "比嘉　光龍",
@@ -1037,144 +487,6 @@
       "category": "okinawa-ja",
       "ndc": "沖縄語",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784327394486",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784787726315",
-      "title": "旧石器時代の遺跡50",
-      "author": [
-        "小野 昭",
-        "堤 隆"
-      ],
-      "publisher": [
-        "新泉社",
-        "新泉社"
-      ],
-      "pubDate": "2026-09-14",
-      "category": "okinawa-ja",
-      "ndc": "遺跡ガイド",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784787726315",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784313003095",
-      "title": "給与小六法",
-      "author": "人事行政研究所",
-      "publisher": "学陽書房",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "給与--公務員--法令--日本",
-        {
-          "#text": "CZ-343",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 317.34,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034806941",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784911362679",
-      "title": "狂笑",
-      "author": "オオシロ ワタル",
-      "publisher": [
-        "游藝舎",
-        "游藝舎"
-      ],
-      "pubDate": "2026-09-07",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911362679",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784198662240",
-      "title": "金運秘儀　一生困らない、豊かさを呼び覚ます",
-      "author": "片山鶴子",
-      "publisher": [
-        "徳間書店",
-        "徳間書店"
-      ],
-      "pubDate": "2026-07-10",
-      "category": "okinawa-ja",
-      "ndc": "片山鶴子",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784198662240",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874989845",
-      "title": "虐待とトラウマの世代間連鎖を乗り越える",
-      "author": [
-        "丹野清彦",
-        "楠 凡之"
-      ],
-      "publisher": [
-        "高文研",
-        "高文研"
-      ],
-      "pubDate": "2026-08-12",
-      "category": "okinawa-ja",
-      "ndc": "トラウマ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874989845",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784991438028",
-      "title": "吟醸掌篇",
-      "author": "栗林, 佐知",
-      "publisher": "編集工房けいこう舎",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH6",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.68,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780063",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784761533175",
-      "title": "クリニックの設計手法 : 図面と写真でみるビル診+戸建て34事例",
-      "author": "小川, 正弘",
-      "publisher": "学芸出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "病院建築",
-        {
-          "#text": "NA249",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 526.49,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034787860",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -1196,144 +508,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784785982447",
-      "title": "CRAZY BLOOD LINE NOW　2",
-      "author": "東本 昌平",
-      "publisher": [
-        "少年画報社",
-        "少年画報社"
-      ],
-      "pubDate": "2026-07-27",
-      "category": "okinawa-ja",
-      "ndc": "CB750four",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784785982447",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784272795055",
-      "title": "月刊クレスコ　2026年8月号",
-      "author": "クレスコ編集委員会　全日本教職員組合（全教）",
-      "publisher": "大月書店",
-      "pubDate": "2026-07-28",
-      "category": "okinawa-ja",
-      "ndc": "クレスコ　全教　全日本教職員組合　教員　教員向け　教育雑誌",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784272795055",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784121029188",
-      "title": "軍都を歩く : 基地と住民の地域生活史",
-      "author": "清水, 亮, 1991-",
-      "publisher": "中央公論新社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "生活--日本--歴史--明治以後",
-        {
-          "#text": 365.021,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034817541",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784824305015",
-      "title": "ケアの“超レベル上げ”講座 : あなたが変われば高齢者も変わる！　本当の自立支援ケア入門",
-      "author": [
-        "杉本浩司",
-        "佐々木　淳"
-      ],
-      "publisher": [
-        "中央法規出版",
-        "中央法規出版"
-      ],
-      "pubDate": "2026-08-26",
-      "category": "okinawa-ja",
-      "ndc": "自立支援ケア",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784824305015",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784569861241",
-      "title": "結局、熱狂できる人がうまくいく。 : タブーを恐れず成果に導く60の金言",
-      "author": "福田, 淳",
-      "publisher": "PHP研究所",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "人生訓--サラリーマン",
-        {
-          "#text": "US51",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 159.4,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034719629",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784490109665",
-      "title": "県別 罵詈雑言辞典　新装版",
-      "author": [
-        "真田　信治",
-        "友定　賢治"
-      ],
-      "publisher": "東京堂出版",
-      "pubDate": "2026-08-28",
-      "category": "okinawa-ja",
-      "ndc": "県別　罵詈雑言　罵り　罵声　ことば　方言",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784490109665",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784490109658",
-      "title": "県別 方言感情表現辞典　新装版",
-      "author": [
-        "真田　信治",
-        "友定　賢治"
-      ],
-      "publisher": "東京堂出版",
-      "pubDate": "2026-08-28",
-      "category": "okinawa-ja",
-      "ndc": "県別　方言　感情　表現　辞典　ことば　地方　言語",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784490109658",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784098547746",
-      "title": "限界！推し活伝説 YOSHIO",
-      "author": "齊藤 万丈",
-      "publisher": [
-        "小学館",
-        "小学館"
-      ],
-      "pubDate": "2026-09-11",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784098547746",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784755403705",
       "title": "現代沖縄小説選",
       "author": [
@@ -1348,201 +522,6 @@
       "category": "okinawa-ja",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784755403705",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784771040687",
-      "title": "現代日本の助教諭と教員不足 : その任用実態と構造的要因",
-      "author": "王　婷",
-      "publisher": [
-        "晃洋書房",
-        "晃洋書房"
-      ],
-      "pubDate": "2026-09-01",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784771040687",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784868390176",
-      "title": "言論空間2026夏号",
-      "author": "現代の理論・社会フォーラム",
-      "publisher": [
-        "同時代社",
-        "同時代社"
-      ],
-      "pubDate": "2026-07-08",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868390176",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784065448144",
-      "title": "後宮を欺かば　愛され下手な奴婢ですが",
-      "author": "壁井 ユカコ",
-      "publisher": "講談社",
-      "pubDate": "2026-09-15",
-      "category": "okinawa-ja",
-      "ndc": "ライトノベル",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784065448144",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784868630074",
-      "title": "高校生につなぐ戦争証言",
-      "author": "高校生平和のつどい実行委員会",
-      "publisher": [
-        "地平社",
-        "地平社"
-      ],
-      "pubDate": "2026-08-04",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868630074",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784909782793",
-      "title": "神戸〈生きられた運動経験〉の貫戦史 : 海港都市が生んだ〈抵抗と文化〉/〈抵抗の文化〉",
-      "author": "黒川, 伊織, 1974-",
-      "publisher": "小さ子社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "平和運動--神戸市",
-        {
-          "#text": "A75",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 319.8,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034753361",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784761529925",
-      "title": "国宝建築事典 : イラストで巡る完全ガイド",
-      "author": [
-        "矢ヶ崎 善太郎",
-        "野村 彰"
-      ],
-      "publisher": [
-        "学芸出版社",
-        "学芸出版社"
-      ],
-      "pubDate": "2026-09-18",
-      "category": "okinawa-ja",
-      "ndc": "国宝",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784761529925",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784575340181",
-      "title": "こころには結婚しない理由がある",
-      "author": "モー子",
-      "publisher": [
-        "双葉社",
-        "双葉社"
-      ],
-      "pubDate": "2026-09-17",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784575340181",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784000229869",
-      "title": "言葉の森のかくれんぼ",
-      "author": [
-        "斎藤, 真理子, 1960-",
-        "鄭, 修阭, 1979-"
-      ],
-      "publisher": "岩波書店",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 914.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736843",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784480441263",
-      "title": "言葉を失ったあとで　増補版",
-      "author": [
-        "信田 さよ子",
-        "上間 陽子"
-      ],
-      "publisher": [
-        "筑摩書房",
-        "筑摩書房"
-      ],
-      "pubDate": "2026-09-11",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784480441263",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784750519210",
-      "title": "この身体で生きていく : 自分の道を歩む人",
-      "author": "共同通信社",
-      "publisher": [
-        "亜紀書房",
-        "亜紀書房"
-      ],
-      "pubDate": "2026-08-24",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784750519210",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784863115002",
-      "title": "今昔 島影めぐり",
-      "author": "斎藤 潤",
-      "publisher": [
-        "産業編集センター",
-        "産業編集センター"
-      ],
-      "pubDate": "2026-08-31",
-      "category": "okinawa-ja",
-      "ndc": "島旅",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784863115002",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -1571,409 +550,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784065429877",
-      "title": "最恐ホラー : 廃墟の映画館",
-      "author": [
-        "真藤, 順丈",
-        "梨"
-      ],
-      "publisher": "講談社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034769762",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784873028828",
-      "title": "最後のサムライたち義烈空挺隊－アメリカとの戦争と戦後日本の総括－",
-      "author": "藤原　文四郎",
-      "publisher": [
-        "郁朋社",
-        "郁朋社"
-      ],
-      "pubDate": "2026-09-03",
-      "category": "okinawa-ja",
-      "ndc": "義烈空挺隊",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784873028828",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784413047593",
-      "title": "再出発",
-      "author": "枝野幸男",
-      "publisher": [
-        "青春出版社",
-        "青春出版社"
-      ],
-      "pubDate": "2026-09-03",
-      "category": "okinawa-ja",
-      "ndc": "立憲民主党",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784413047593",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784049722215",
-      "title": "CYBERJAPAN DANCERS HARACHAN写真集 SAUVAGE",
-      "author": "HARACHAN",
-      "publisher": [
-        "ＫＡＤＯＫＡＷＡ",
-        "ＫＡＤＯＫＡＷＡ"
-      ],
-      "pubDate": "2026-10-02",
-      "category": "okinawa-ja",
-      "ndc": "CYBERJAPANDANCERS",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784049722215",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784299074263",
-      "title": "the Bibian : CANDY TUNE村川緋杏1st写真集",
-      "author": "Unknown",
-      "publisher": "宝島社",
-      "pubDate": 2026.8,
-      "category": "okinawa-ja",
-      "ndc": [
-        "村川, 緋杏 ムラカワ, ビビアン",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 767.8,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034817631",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784762937064",
-      "title": "私家集研究の愉悦",
-      "author": "兼築, 信行",
-      "publisher": "汲古書院",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "和歌--歴史",
-        {
-          "#text": 911.102,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034839162",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784754734701",
-      "title": "市街地周辺土地の評価 Ｑ&Ａ（二訂版）",
-      "author": "松本好正",
-      "publisher": "一般財団法人大蔵財務協会｜税務・財務の専門書籍と刊行物",
-      "pubDate": "2026-09-04",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784754734701",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784907053833",
-      "title": "仕事文脈vol.28",
-      "author": "Unknown",
-      "publisher": [
-        "タバブックス",
-        "タバブックス"
-      ],
-      "pubDate": "2026-06-17",
-      "category": "okinawa-ja",
-      "ndc": "JB : 社会&文化：一般",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784907053833",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784794813206",
-      "title": "死の現場に立つ人たち : ご遺体のそばには「人」がいる",
-      "author": "波名城 翔",
-      "publisher": [
-        "新評論",
-        "新評論"
-      ],
-      "pubDate": "2026-10-13",
-      "category": "okinawa-ja",
-      "ndc": "自殺",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784794813206",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784888774307",
-      "title": "明智光秀 : 本能寺までの道のりを辿る史跡写真とその解説集",
-      "author": "塩見　弥一",
-      "publisher": [
-        "22世紀アート",
-        "日興企画"
-      ],
-      "pubDate": "2026-08-04",
-      "category": "okinawa-ja",
-      "ndc": "明智光秀",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784888774307",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784623100736",
-      "title": "足利義教 : 万人恐怖、言ふ莫れ言ふ莫れ",
-      "author": "秦野　裕介",
-      "publisher": "ミネルヴァ書房",
-      "pubDate": "2026-08-13",
-      "category": "okinawa-ja",
-      "ndc": "『看聞日記』 『満済准后日記』 『薩戒記』 伏見宮貞成親王 万里小路時房 中山定親",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100736",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784814006588",
-      "title": "アジア海域世界の港市 : 異文化共生の原理店屋と四合院",
-      "author": [
-        "布野, 修司, 1949-",
-        "趙, 冲, 1981-"
-      ],
-      "publisher": "京都大学学術出版会",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "都市地理--アジア--歴史",
-        {
-          "#text": "G94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 290.173,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034763486",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784434380419",
-      "title": "アジェンダ　未来への課題　第９３号 : 軍事中心の経済社会にNO！",
-      "author": "一般社団法人アジェンダ・プロジェクト",
-      "publisher": [
-        "アジェンダ・プロジェクト",
-        "星雲社"
-      ],
-      "pubDate": "2026-06-24",
-      "category": "okinawa-ja",
-      "ndc": "軍事費",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784434380419",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784767835969",
-      "title": "海のふしぎ図鑑 : 見て、知って、驚く",
-      "author": [
-        "後藤, 忠徳",
-        "畠山, 泰英, 1969-"
-      ],
-      "publisher": "エクスナレッジ",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "海洋",
-        {
-          "#text": "ME311",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 452,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034802586",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784639031383",
-      "title": "貝と骨からみた江戸と国元",
-      "author": [
-        "阿部常樹",
-        "畑山智史"
-      ],
-      "publisher": [
-        "雄山閣",
-        "雄山閣"
-      ],
-      "pubDate": "2026-07-28",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784639031383",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784911820001",
-      "title": "季刊民族学197　特集　女性と仕事の人類学：わたしたちが働いて生きていくこと",
-      "author": [
-        "宇田川妙子",
-        "中谷文美",
-        "松尾瑞穂",
-        "塩田潤",
-        "松前もゆる",
-        "椎野若菜",
-        "嶺崎寛子",
-        "野依智子",
-        "北村文",
-        "八木百合子",
-        "上羽陽子",
-        "門馬一平",
-        "黒田賢治",
-        "中川理",
-        "松井梓",
-        "&#134071;田憲司",
-        "濱田琢司",
-        "川瀬慈"
-      ],
-      "publisher": [
-        "千里文化財団",
-        "千里文化財団"
-      ],
-      "pubDate": "2026-08-10",
-      "category": "okinawa-ja",
-      "ndc": "国立民族学博物館",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911820001",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784535527584",
-      "title": "基礎講義 憲法",
-      "author": [
-        "織原 保尚",
-        "桧垣 伸次",
-        "森本 直子",
-        "吉田 仁美",
-        "渡邊 暁彦"
-      ],
-      "publisher": [
-        "日本評論社",
-        "日本評論社"
-      ],
-      "pubDate": "2026-10-02",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784535527584",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784585324119",
-      "title": "古文書研究",
-      "author": "Unknown",
-      "publisher": [
-        "日本古文書学会",
-        "勉誠出版（発売）"
-      ],
-      "pubDate": "２０２６．６",
-      "category": "okinawa-ja",
-      "ndc": [
-        "古文書学－雑誌",
-        {
-          "#text": 210.02,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I16111000001187790",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784286277493",
-      "title": "さきのもりひと",
-      "author": "杉谷, 藤樹",
-      "publisher": "文芸社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034804747",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874989791",
-      "title": "司法が初めて認定した民間人戦争PTSD : 戦争はいかに精神を破壊するか",
-      "author": [
-        "瑞慶山, 茂, 1943-",
-        "蟻塚, 亮二"
-      ],
-      "publisher": "高文研",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "戦争犠牲者",
-        {
-          "#text": "AZ-554",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 369.37,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034724716",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784874989715",
       "title": "写真記録沖縄戦 : 決定版 : 国内唯一の\"戦場\"から\"基地の島\"へ",
       "author": "大田, 昌秀, 1925-2017",
@@ -1992,29 +568,6 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034729493",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784480513823",
-      "title": "修辞的思考 : 論理でとらえきれぬもの",
-      "author": "香西, 秀信, 1958-2013",
-      "publisher": "筑摩書房",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "修辞学",
-        {
-          "#text": "KE98",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 801.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034745573",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -2065,25 +618,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784091542748",
-      "title": "STRAY5",
-      "author": [
-        "森多 ヒロ",
-        "Bリーグ"
-      ],
-      "publisher": [
-        "小学館",
-        "小学館"
-      ],
-      "pubDate": "2026-08-28",
-      "category": "okinawa-ja",
-      "ndc": "NBA",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784091542748",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784899825036",
       "title": "瑞泉庵の日々",
       "author": "池宮, 喜輝, 1886-1967",
@@ -2093,50 +627,6 @@
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034792299",
       "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784862152725",
-      "title": "石造物と中世史研究 : 東アジアと列島",
-      "author": [
-        "市村高男",
-        "李　根雨",
-        "高津　孝",
-        "劉　恒武"
-      ],
-      "publisher": [
-        "高志書院",
-        "高志書院"
-      ],
-      "pubDate": "2026-08-10",
-      "category": "okinawa-ja",
-      "ndc": "卒塔婆",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784862152725",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784838234431",
-      "title": "総括 柳田国男・口承文芸論 : 『遠野物語』からの出発",
-      "author": "石井, 正己, 1958-",
-      "publisher": "三弥井書店",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "民俗学",
-        {
-          "#text": "GD1",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 380.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034753280",
-      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2164,44 +654,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784868260202",
-      "title": "地方自治と軍事基地 : 「戦争国家体制」づくりに対峙する",
-      "author": [
-        "小林, 武, 1941-",
-        "渡名喜, 庸安"
-      ],
-      "publisher": "自治体研究社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日米安全保障条約",
-        {
-          "#text": 319.8,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034835809",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784652207925",
-      "title": "太陽の子 : 長編小説",
-      "author": [
-        "灰谷, 健次郎",
-        "田畑, 精一"
-      ],
-      "publisher": "理論社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": 913.6,
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827697",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784642306454",
       "title": "都市でたどる日本の歴史 : 三内丸山遺跡から渋谷まで",
       "author": "北村　優季",
@@ -2211,209 +663,6 @@
       "ndc": "都市　三内丸山　吉野ヶ里　纒向遺跡　飛鳥　平城京　平安京　平泉　鎌倉　首里　一乗谷　大坂　江戸　札幌　渋谷",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306454",
       "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784344045996",
-      "title": "謎の先には\"開運\"がある! : 歴史ミステリとパワースポットを調べてわかったこと",
-      "author": "桜井, 識子",
-      "publisher": "幻冬舎",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "心霊研究",
-        {
-          "#text": 147,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034819736",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784883036332",
-      "title": "日本語・日本研究第４巻第2号",
-      "author": "日本語・日本研究編集委員会",
-      "publisher": "三元社",
-      "pubDate": "2026-06-20",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784883036332",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874492628",
-      "title": "日本史再考",
-      "author": "田中英道",
-      "publisher": [
-        "慶友社",
-        "慶友社"
-      ],
-      "pubDate": "2026-08-03",
-      "category": "okinawa-ja",
-      "ndc": "聖徳太子",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874492628",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784254172072",
-      "title": "ビジュアル詳細サンゴ礁の世界 : 多面的に観る・知る・科学する",
-      "author": [
-        "日本サンゴ礁学会",
-        "梅澤, 有",
-        "鹿熊, 信一郎, 1957-",
-        "栗原, 晴子",
-        "高橋, そよ, 1976-",
-        "山下, 洋, 水圏生産科学",
-        "山野, 博哉, 1970-"
-      ],
-      "publisher": "朝倉書店",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "珊瑚礁",
-        {
-          "#text": "ME521",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 455.9,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034727052",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784909118912",
-      "title": "PFAS 処理技術の最新動向 ー各国規制の現状、分離・分解・除去・回収・吸着・浄化技術、分析法、今後の課題ー",
-      "author": [
-        "堀　久男",
-        "玉虫　完次",
-        "後藤　嘉孝",
-        "西　　秀樹",
-        "今野　大輝",
-        "大河　佑貴",
-        "古田　絢裟",
-        "前原加奈子",
-        "島村　宗孝",
-        "出水　丈志",
-        "日髙　次彦",
-        "横田　治雄",
-        "松本　道明",
-        "山内　　仁",
-        "西村　　章",
-        "青山　　章",
-        "長縄　弘親",
-        "西村　　章",
-        "國井　　聡",
-        "林　夕紀子",
-        "森川　　純",
-        "芳賀　直樹",
-        "相浦　良徳",
-        "大岩　正人",
-        "大塚　優一",
-        "竹内　　希",
-        "小林　洋一",
-        "滝本　大裕",
-        "古川　浩司",
-        "栁澤　博幸"
-      ],
-      "publisher": [
-        "ＡｎｄＴｅｃｈ",
-        "ＡｎｄＴｅｃｈ"
-      ],
-      "pubDate": "2026-06-30",
-      "category": "okinawa-ja",
-      "ndc": "PFAS",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784909118912",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784896393033",
-      "title": "ふるさとの偉人に学ぶ!歴史の陰に息づく47の志の物語",
-      "author": "白駒, 妃登美",
-      "publisher": [
-        "モラロジー道徳教育財団",
-        "廣池学園事業部"
-      ],
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日本--伝記",
-        {
-          "#text": 281.04,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827527",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784785322816",
-      "title": "物理を微分形式で語り直す : 座標系によらない美しい表現を求めて",
-      "author": "前野　昌弘",
-      "publisher": [
-        "裳華房",
-        "裳華房"
-      ],
-      "pubDate": "2026-09-30",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784785322816",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784535050570",
-      "title": "法の科学　第57号 : 人権の基盤",
-      "author": "民主主義科学者協会法律部会",
-      "publisher": [
-        "日本評論社",
-        "日本評論社"
-      ],
-      "pubDate": "2026-09-28",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784535050570",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784899766315",
-      "title": "僕らの起源に還るとき、この素晴らしき世界はもっと輝く : わったーりゅう! 2",
-      "author": "中本, 勝得",
-      "publisher": "ヴォイス出版事業部",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "心霊研究",
-        {
-          "#text": "Y86",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 147,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034745620",
-      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2506,290 +755,6 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797169",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784198680145",
-      "title": "龍神様の金運手帳２０２７　３６５日、豊かさの流れを整える",
-      "author": "片山鶴子",
-      "publisher": [
-        "徳間書店",
-        "徳間書店"
-      ],
-      "pubDate": "2026-09-26",
-      "category": "okinawa-ja",
-      "ndc": "鶴龍",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784198680145",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784847086823",
-      "title": "生駒里奈 写真集 『 ルリカケス 』",
-      "author": "青山 裕企",
-      "publisher": "ワニブックス",
-      "pubDate": "2026-08-21",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784847086823",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784391168655",
-      "title": "かすみ霞 : 長谷川かすみファースト写真集",
-      "author": "Unknown",
-      "publisher": "主婦と生活社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "長谷川, かすみ ハセガワ, カスミ",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 778.21,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034771701",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784764612457",
-      "title": "軍事史学",
-      "author": "軍事史学会",
-      "publisher": [
-        "錦正社",
-        "錦正社"
-      ],
-      "pubDate": "2026-07-06",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784764612457",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784098641475",
-      "title": "そんなコト、描いていいんですか！？",
-      "author": "えのき",
-      "publisher": [
-        "小学館",
-        "小学館"
-      ],
-      "pubDate": "2026-10-30",
-      "category": "okinawa-ja",
-      "ndc": "エロマンガ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784098641475",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784122078369",
-      "title": "食べるたのしみ",
-      "author": "田辺聖子",
-      "publisher": [
-        "中央公論新社",
-        "中央公論新社"
-      ],
-      "pubDate": "2026-09-18",
-      "category": "okinawa-ja",
-      "ndc": "食エッセイ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784122078369",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784103571414",
-      "title": "丹心/まごころ",
-      "author": "仁科, 斂",
-      "publisher": "新潮社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034806869",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784344699700",
-      "title": "扉 : 今を苦しむ人と、そのご家族、そして「あなた」へ",
-      "author": "森本, 明夫",
-      "publisher": [
-        "幻冬舎メディアコンサルティング",
-        "幻冬舎"
-      ],
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "癌",
-        {
-          "#text": "SC19",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 598.4,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034787931",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784272500956",
-      "title": "日本の戦争遺跡 : 決定版",
-      "author": "戦争遺跡保存全国ネットワーク",
-      "publisher": "大月書店",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日本--歴史--1868-1945",
-        {
-          "#text": "GB411",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 210.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034773925",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784344045866",
-      "title": "ハレの日、ケの日",
-      "author": "大竹, しのぶ, 1957-",
-      "publisher": "幻冬舎",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "大竹, しのぶ, 1957-",
-        {
-          "#text": "KD655",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 772.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034806924",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784759268232",
-      "title": "ハンセン病問題と人権Q&A",
-      "author": "『ハンセン病問題と人権 Q&A』編集委員会",
-      "publisher": [
-        "解放出版社",
-        "解放出版社"
-      ],
-      "pubDate": "2026-09-11",
-      "category": "okinawa-ja",
-      "ndc": "らい予防法",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784759268232",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784911625040",
-      "title": "フライの雑誌　137（2026秋号） : 特集　ティペットを語ろう。魚にいちばん近い糸｜図解［ノットの再確認］｜夏の釣り上がりとヒゲナガカワトビケラのフライ｜人とクマとの共生を考えるフォーラム",
-      "author": "「フライの雑誌」編集部",
-      "publisher": [
-        "フライの雑誌社",
-        "フライの雑誌社"
-      ],
-      "pubDate": "2026-08-24",
-      "category": "okinawa-ja",
-      "ndc": "フライフィッシング",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911625040",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784911226391",
-      "title": "まんげつおどり",
-      "author": "ミロコ マチコ",
-      "publisher": [
-        "ミシマ社",
-        "ミシマ社"
-      ],
-      "pubDate": "2026-09-18",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911226391",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784750519197",
-      "title": "〈見ること〉の未来 : ゴヤの眼の傍らで",
-      "author": "今福, 竜太",
-      "publisher": "亜紀書房",
-      "pubDate": 2026.8,
-      "category": "okinawa-ja",
-      "ndc": [
-        "文化人類学",
-        {
-          "#text": 389.04,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034822201",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784413047555",
-      "title": "もう一度こんな日本を旅したい : 人生に深みを与えてくれる日本の原風景",
-      "author": "下重, 暁子, 1936-",
-      "publisher": "青春出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日本--紀行",
-        {
-          "#text": "GB645",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 219.09,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034785709",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -5214,6 +3179,31 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784000229869",
+      "title": "言葉の森のかくれんぼ",
+      "author": [
+        "斎藤, 真理子, 1960-",
+        "鄭, 修阭, 1979-"
+      ],
+      "publisher": "岩波書店",
+      "pubDate": 2026.6,
+      "category": "academic",
+      "ndc": [
+        {
+          "#text": "KH971",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 914.6,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736843",
+      "status": "エラー",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784007610455",
       "title": "山月記・李陵 : 他九篇",
       "author": "中島, 敦, 1909-1942",
@@ -5367,6 +3357,29 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000142509",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784641149625",
+      "title": "アクティブ・ラーニングで学ぶ国際関係　：　戦争と平和を考える",
+      "author": [
+        "上杉勇司",
+        "長谷川晋",
+        "高木綾"
+      ],
+      "publisher": "有斐閣",
+      "pubDate": "２０２６．６",
+      "category": "academic",
+      "ndc": [
+        "国際政治",
+        {
+          "#text": 319,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I16111000001186048",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -6797,6 +4810,19 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034804696",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784623100736",
+      "title": "足利義教 : 万人恐怖、言ふ莫れ言ふ莫れ",
+      "author": "秦野　裕介",
+      "publisher": "ミネルヴァ書房",
+      "pubDate": "2026-08-13",
+      "category": "academic",
+      "ndc": "『看聞日記』 『満済准后日記』 『薩戒記』 伏見宮貞成親王 万里小路時房 中山定親",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100736",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8770,6 +6796,37 @@
       "category": "academic",
       "ndc": "RB : 地球科学",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254160864",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784254172072",
+      "title": "ビジュアル詳細サンゴ礁の世界 : 多面的に観る・知る・科学する",
+      "author": [
+        "日本サンゴ礁学会",
+        "梅澤, 有",
+        "鹿熊, 信一郎, 1957-",
+        "栗原, 晴子",
+        "高橋, そよ, 1976-",
+        "山下, 洋, 水圏生産科学",
+        "山野, 博哉, 1970-"
+      ],
+      "publisher": "朝倉書店",
+      "pubDate": 2026.6,
+      "category": "academic",
+      "ndc": [
+        "珊瑚礁",
+        {
+          "#text": "ME521",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 455.9,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034727052",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""

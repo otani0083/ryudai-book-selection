@@ -113,6 +113,49 @@ function isExcludedBook(title, ndc, category) {
   return false;
 }
 
+// Strict check to determine if the book is deeply related to Okinawa (theme/subject)
+// Prevents books matching solely due to "Okinawa" in TOC or author profile
+function isDeeplyOkinawaRelated(item) {
+  if (!item) return false;
+  
+  const title = String(item.title || '').toLowerCase();
+  const creator = String(item['dc:creator'] || '').toLowerCase();
+  const publisher = String(item['dc:publisher'] || '').toLowerCase();
+  
+  // 1. Keywords to search in Title/Subtitle (Strong indicators)
+  const okinawaKeywords = [
+    '沖縄', '琉球', '奄美', '八重山', '宮古', '尖閣', '普天間', '辺野古', 
+    '石垣', '西表', '首里', 'ひめゆり', 'okinawa', 'ryukyu', 'amami'
+  ];
+  if (okinawaKeywords.some(kw => title.includes(kw))) {
+    return true;
+  }
+  
+  // 2. Search in Subject (NDL subject headings represent the book's main theme)
+  const subjectList = [];
+  if (item['dc:subject']) {
+    const rawSubjects = Array.isArray(item['dc:subject']) ? item['dc:subject'] : [item['dc:subject']];
+    for (const sub of rawSubjects) {
+      if (typeof sub === 'string') {
+        subjectList.push(sub.toLowerCase());
+      } else if (sub && sub['#text']) {
+        subjectList.push(String(sub['#text']).toLowerCase());
+      }
+    }
+  }
+  if (subjectList.some(sub => okinawaKeywords.some(kw => sub.includes(kw)))) {
+    return true;
+  }
+  
+  // 3. Check if published by a local Okinawa publisher
+  if (okinawaPublishers.some(pub => publisher.includes(pub))) {
+    return true;
+  }
+  
+  // Return false if it just matches "Okinawa" in random fields (like creator biography or TOC)
+  return false;
+}
+
 // Fetch NDL Search OpenSearch
 async function fetchNDL(params) {
   const queryStr = Object.entries(params)
@@ -253,13 +296,8 @@ async function fetchLocalNewspaperBooks() {
         const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
         const publisher = item['dc:publisher'] || 'Unknown';
         
-        // Dynamically classify book: Okinawa local OR general academic
-        const hasOkinawaKeyword = 
-          title.includes('沖縄') || title.includes('琉球') || title.includes('奄美') || title.includes('島') ||
-          (item['dc:creator'] && (item['dc:creator'].includes('沖縄') || item['dc:creator'].includes('琉球'))) ||
-          (publisher && (publisher.includes('沖縄') || publisher.includes('琉球') || okinawaPublishers.includes(publisher)));
-        
-        const category = hasOkinawaKeyword ? 'okinawa-ja' : 'academic';
+        // Dynamically classify book based on deep relation to Okinawa
+        const category = isDeeplyOkinawaRelated(item) ? 'okinawa-ja' : 'academic';
         
         books.push({
           isbn,
@@ -391,6 +429,12 @@ async function main() {
       // Exclude check
       if (isExcludedBook(item.title, ndc, 'okinawa-ja')) continue;
       
+      // Strict filter: must be deeply related to Okinawa
+      if (!isDeeplyOkinawaRelated(item)) {
+        console.log(`Skipping weakly related Okinawa book: "${item.title}"`);
+        continue;
+      }
+      
       booksMap.set(isbn, {
         isbn,
         title: item.title,
@@ -420,7 +464,6 @@ async function main() {
       if (!isbn) continue;
       
       // AVOID BUG: Tokyo's mainstream publisher "新星出版社" matches query "新星出版"
-      // Skip it here (we can fetch it under academic or let it get filtered)
       const rawPublisher = item['dc:publisher'] || 'Unknown';
       if (pub === '新星出版' && String(rawPublisher).includes('新星出版社')) {
         console.log(`Skipping non-Okinawa publisher match (got "${rawPublisher}" for query "${pub}")`);
@@ -525,9 +568,6 @@ async function main() {
     if (!booksMap.has(b.isbn)) {
       console.log(`Adding new book from news review: "${b.title}" -> Category: ${b.category}`);
       booksMap.set(b.isbn, b);
-    } else {
-      // If already exists but classified in a different category (e.g. newspaper book was academic but NDL matched okinawa-ja)
-      // we keep the map's original, which is fine.
     }
   }
   
