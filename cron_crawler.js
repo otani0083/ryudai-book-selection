@@ -13,6 +13,18 @@ const SYSTEM_ID = 'Univ_Ryukyu'; // 琉球大学附属図書館
 const OUTPUT_DIR = path.join(__dirname, 'public');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'books_data.json');
 
+// local Okinawa publishers list
+const okinawaPublishers = [
+  'ボーダーインク',
+  '沖縄タイムス社',
+  '琉球新報社',
+  '新星出版',
+  '沖縄文化社',
+  '榕樹書林',
+  'ひるぎ社',
+  'むぎ社'
+];
+
 // Sleep utility
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -79,7 +91,7 @@ function isExcludedBook(title, ndc, category) {
     '演習', '試験対策', '検定試験', '学習参考書', '高校入試', 
     '中学入試', '大学入学共通テスト', '赤本', '共通テスト', 
     '教科書ガイド', '英検', 'TOEIC', '資格試験', '模擬試験', 
-    '予想問題', 'ドリル', '書き込み式', 'かんたん合格'
+    '予想問題', '書き込み式', 'かんたん合格'
   ];
   
   if (excludeKeywords.some(kw => title.includes(kw))) {
@@ -239,19 +251,28 @@ async function fetchLocalNewspaperBooks() {
         if (!isbn) continue;
         
         const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
+        const publisher = item['dc:publisher'] || 'Unknown';
+        
+        // Dynamically classify book: Okinawa local OR general academic
+        const hasOkinawaKeyword = 
+          title.includes('沖縄') || title.includes('琉球') || title.includes('奄美') || title.includes('島') ||
+          (item['dc:creator'] && (item['dc:creator'].includes('沖縄') || item['dc:creator'].includes('琉球'))) ||
+          (publisher && (publisher.includes('沖縄') || publisher.includes('琉球') || okinawaPublishers.includes(publisher)));
+        
+        const category = hasOkinawaKeyword ? 'okinawa-ja' : 'academic';
         
         books.push({
           isbn,
           title: item.title,
           author: item['dc:creator'] || 'Unknown',
-          publisher: item['dc:publisher'] || 'Unknown',
+          publisher: publisher,
           pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || 'Unknown',
-          category: 'okinawa-ja', // newspaper review books are local Okinawa books
+          category: category, // dynamic classification
           ndc: ndc,
           sourceUrl: item.link || `https://ndlsearch.ndl.go.jp/books/${item.guid?.['#text'] || ''}`
         });
         
-        console.log(`Successfully identified book: "${item.title}" (ISBN: ${isbn})`);
+        console.log(`Successfully identified book: "${item.title}" (ISBN: ${isbn}) -> Category: ${category}`);
         break; // Only take the first matching book
       }
     } catch (err) {
@@ -386,16 +407,6 @@ async function main() {
   
   // 2. Gather Okinawa Japanese Books (by local publishers)
   console.log('\n--- 2. Okinawa Japanese Books (by local publishers) ---');
-  const okinawaPublishers = [
-    'ボーダーインク',
-    '沖縄タイムス社',
-    '琉球新報社',
-    '新星出版',
-    '沖縄文化社',
-    '榕樹書林',
-    'ひるぎ社',
-    'むぎ社'
-  ];
   for (const pub of okinawaPublishers) {
     const items = await fetchNDL({
       publisher: pub,
@@ -408,6 +419,14 @@ async function main() {
       const isbn = extractISBN(item['dc:identifier']);
       if (!isbn) continue;
       
+      // AVOID BUG: Tokyo's mainstream publisher "新星出版社" matches query "新星出版"
+      // Skip it here (we can fetch it under academic or let it get filtered)
+      const rawPublisher = item['dc:publisher'] || 'Unknown';
+      if (pub === '新星出版' && String(rawPublisher).includes('新星出版社')) {
+        console.log(`Skipping non-Okinawa publisher match (got "${rawPublisher}" for query "${pub}")`);
+        continue;
+      }
+      
       const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
       
       // Exclude check
@@ -417,7 +436,7 @@ async function main() {
         isbn,
         title: item.title,
         author: item['dc:creator'] || 'Unknown',
-        publisher: item['dc:publisher'] || pub,
+        publisher: rawPublisher,
         pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || 'Unknown',
         category: 'okinawa-ja',
         ndc: ndc,
@@ -501,11 +520,14 @@ async function main() {
   const newsBooks = await fetchLocalNewspaperBooks();
   console.log(`Found ${newsBooks.length} books in newspaper reviews.`);
   for (const b of newsBooks) {
-    if (isExcludedBook(b.title, b.ndc, 'okinawa-ja')) continue;
+    if (isExcludedBook(b.title, b.ndc, b.category)) continue;
     
     if (!booksMap.has(b.isbn)) {
-      console.log(`Adding new book from news review: "${b.title}"`);
+      console.log(`Adding new book from news review: "${b.title}" -> Category: ${b.category}`);
       booksMap.set(b.isbn, b);
+    } else {
+      // If already exists but classified in a different category (e.g. newspaper book was academic but NDL matched okinawa-ja)
+      // we keep the map's original, which is fine.
     }
   }
   

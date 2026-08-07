@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T00:28:46.943Z",
+  "lastUpdated": "2026-08-07T00:28:44.008Z",
   "books": [
     {
       "isbn": "9784819114745",
@@ -2824,562 +2824,6 @@
       "category": "okinawa-ja",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784871276924",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074088",
-      "title": "頭がよくなるなぞなぞチャレンジ!小学校",
-      "author": "日本なぞなぞ能力検定協会",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "謎",
-        {
-          "#text": "Y5",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 31.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034767563",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405121010",
-      "title": "頭のいい人が身につけている　ロジカルシンキング　トレーニング",
-      "author": "吉澤準特",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-11-04",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405121010",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104839",
-      "title": "あらゆるビジネスに結びつく 地図で見る地政学リスク10  -ルートと世界経済-",
-      "author": "奥山真司",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-28",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104839",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405094789",
-      "title": "一汁三菜のおぼんのごはん : 隠れ家カフェの店主が教える献立レシピ",
-      "author": "しらいし, やすこ",
-      "publisher": "新星出版社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "料理",
-        {
-          "#text": "Y73",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 596,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034717009",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074132",
-      "title": "イラストでわかる忍者",
-      "author": [
-        "習志野青龍窟",
-        "いずみ朔庵"
-      ],
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-11-09",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405074132",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405094796",
-      "title": "珈琲抽出の科学 知識とスキル",
-      "author": "堀口俊英",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-08",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405094796",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104815",
-      "title": "これだけは知っておきたい!ビジネスマナーBOOK",
-      "author": [
-        "岩下, 宣子, 1945-",
-        "岩下, 美和子"
-      ],
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "ビジネスマナー",
-        {
-          "#text": "DH314",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 336.49,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034802440",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104860",
-      "title": "コンサルタントの5つの仕事術",
-      "author": "東秀樹",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-11-04",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104860",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104853",
-      "title": "最新オールカラー版　これだけは知っておきたい 図解　離婚のための準備と手続き　改訂7版",
-      "author": [
-        "鈴木　幸子",
-        "柳沢　里美"
-      ],
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-09-25",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104853",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405120556",
-      "title": "サクッとわかる ビジネス教養  貿易とエネルギー",
-      "author": "井田仁康",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-09-29",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405120556",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405120549",
-      "title": "サクッとわかる ビジネス教養 リーダーシップ",
-      "author": "遠藤功",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-09-10",
-      "category": "okinawa-ja",
-      "ndc": "KJMB : リーダーシップ＆モチベーション",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405120549",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405087088",
-      "title": "思考する筋トレ : 本当に効く科学的トレーニング法",
-      "author": "筋肉あるある, 1994-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "筋力トレーニング",
-        {
-          "#text": "Y77",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 780.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034717008",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104846",
-      "title": "小説を読むだけでわかる　統計学",
-      "author": "渡辺 美智子",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-09-17",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104846",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405027985",
-      "title": "新版 ざっくりわかる簿記の本",
-      "author": "宇田川敏正",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-09-25",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405027985",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074101",
-      "title": "12歳になるまでに覚えたい★マナー&常識パーフェクトBOOK : めちゃカワMAX!!",
-      "author": "Unknown",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "礼儀作法",
-        {
-          "#text": "Y1",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 385.9,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034778738",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405120532",
-      "title": "すぐにわかるゲーム理論",
-      "author": "渡辺, 隆裕, 1964-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "ゲーム理論",
-        {
-          "#text": "DA49",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 331.19,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034778737",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104761",
-      "title": "図解わかる会社をやめるときの手続きのすべて",
-      "author": "中尾, 幸村, 1951-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "社会保険 日本",
-        {
-          "#text": "Y71",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 366.46,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034717010",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104778",
-      "title": "図解わかる定年前後の手続きのすべて",
-      "author": "中尾, 幸村, 1951-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "社会保険 日本",
-        {
-          "#text": "Y71",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 366.46,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034739061",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405120525",
-      "title": "ドラッカー入門",
-      "author": "井坂, 康志",
-      "publisher": "新星出版社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "経営管理",
-        {
-          "#text": "DH211",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 336,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034722268",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405028012",
-      "title": "2028年度版　絶対決める！ 実戦添削例から学ぶ 公務員試験　論文・作文",
-      "author": "石井秀明",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-19",
-      "category": "okinawa-ja",
-      "ndc": "VSCB : 求職／転職",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405028012",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405027992",
-      "title": "2028年度版 地方公務員[初級］",
-      "author": "受験研究会",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-19",
-      "category": "okinawa-ja",
-      "ndc": "VSCB : 求職／転職",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405027992",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104785",
-      "title": "2026-2027年版 図解わかる　個人事業の始め方",
-      "author": "宇田川敏正",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-16",
-      "category": "okinawa-ja",
-      "ndc": "KJH : 起業家精神／ベンチャー企業",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104785",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405104822",
-      "title": "発達障害・グレーゾーンかもしれない人の時間術",
-      "author": "中村郁",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-08-21",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405104822",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074125",
-      "title": "800円ではじめよう　かわいい！楽しい！ぬりえブック ひみつの扉のラビリンス",
-      "author": "クリハラマリ",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-11-26",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405074125",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074118",
-      "title": "2つの意味の物語 : 先輩は彼女を狙っていた",
-      "author": "ささき, かつお, 1967-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "Y8",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034802439",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405012943",
-      "title": "勉強するほど面白くなる はじめての韓国語",
-      "author": "金文喜",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-29",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405012943",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405074095",
-      "title": "本当に怖い話MAXエンドレスフィアー : 終わりのない恐怖",
-      "author": "室秋, 沙耶美",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "心霊研究",
-        {
-          "#text": "Y8",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034778739",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405094819",
-      "title": "もっと！野菜はスープとみそ汁でとればいい",
-      "author": "倉橋利江",
-      "publisher": [
-        "新星出版社",
-        "新星出版社"
-      ],
-      "pubDate": "2026-10-16",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784405094819",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784405094802",
-      "title": "ワインテイスティングの基礎知識",
-      "author": "久保, 將, 1957-",
-      "publisher": "新星出版社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "ワイン",
-        {
-          "#text": "Y73",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 596.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797171",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -10053,7 +9497,7 @@
       "author": "古賀, 及子, 1979-",
       "publisher": "ダイヤモンド社",
       "pubDate": 2026.6,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         {
           "#text": "KH971",
@@ -10075,7 +9519,7 @@
       "author": "Unknown",
       "publisher": "綜合ユニコム",
       "pubDate": 2019.3,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "体育施設--日本",
         {
@@ -10102,7 +9546,7 @@
       ],
       "publisher": "新幹社",
       "pubDate": 2009.12,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "引揚問題",
         {
@@ -10125,7 +9569,7 @@
       "author": "北朝鮮帰国者の記憶を記録する会",
       "publisher": "集英社",
       "pubDate": 2026.5,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "朝鮮民主主義人民共和国--社会",
         {
@@ -10148,7 +9592,7 @@
       "author": "河野, 有理",
       "publisher": "新潮社",
       "pubDate": 2026.5,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "政治思想--日本--歴史--1945-",
         {
@@ -10171,7 +9615,7 @@
       "author": "栗田, シメイ, 1987-",
       "publisher": "講談社",
       "pubDate": 2026.6,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "強盗",
         {
@@ -10194,7 +9638,7 @@
       "author": "坂牛, 卓",
       "publisher": "晶文社",
       "pubDate": 2025.2,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "建築",
         {
@@ -10219,7 +9663,7 @@
       "author": "山本, 兼一",
       "publisher": "文芸春秋",
       "pubDate": 2011.11,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         {
           "#text": 913.6,
@@ -10241,7 +9685,7 @@
       "author": "安達, 未来",
       "publisher": "光文社",
       "pubDate": 2025.4,
-      "category": "okinawa-ja",
+      "category": "academic",
       "ndc": [
         "自制心",
         {
