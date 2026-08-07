@@ -203,9 +203,9 @@ async function fetchNDL(params) {
   }
 }
 
-// Fetch Open Library (for English books on Okinawa/Ryukyu/Amami)
 async function fetchOpenLibrary(keyword) {
-  const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(keyword)}&fields=title,author_name,isbn,publish_year,language,publisher,key&limit=60`;
+  // limit を 200 に増やす
+  const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(keyword)}&fields=title,author_name,isbn,publish_year,language,publisher,key&limit=200`;
   console.log(`OpenLibrary Query: ${url}`);
   
   try {
@@ -221,8 +221,8 @@ async function fetchOpenLibrary(keyword) {
     const filtered = docs.filter(doc => {
       const hasIsbn = doc.isbn && doc.isbn.length > 0;
       const isEnglish = doc.language?.includes('eng');
-      const maxYear = doc.publish_year ? Math.max(...doc.publish_year) : 0;
-      const isRecent = maxYear >= 2020;
+      // 探索範囲を 2010年以降（過去15年分以上）に拡大！
+      const isRecent = maxYear >= 2010;
       return hasIsbn && isEnglish && isRecent;
     });
     
@@ -513,7 +513,7 @@ async function main() {
   
   // 3. Gather Okinawa English Books
   console.log('\n--- 3. Okinawa English Books ---');
-  const engKeywords = ['Okinawa', 'Ryukyu', 'Amami'];
+  const engKeywords = ['Okinawa', 'Okinawan', 'Ryukyu', 'Ryukyus', 'Loochoo', 'Amami'];
   for (const kw of engKeywords) {
     const oLibBooks = await fetchOpenLibrary(kw);
     console.log(`Found ${oLibBooks.length} English books with ISBN for keyword "${kw}"`);
