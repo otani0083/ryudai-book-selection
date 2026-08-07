@@ -1,156 +1,6 @@
 {
-  "lastUpdated": "2026-08-07T01:03:51.796Z",
+  "lastUpdated": "2026-08-07T01:14:22.913Z",
   "books": [
-    {
-      "isbn": "9784819114745",
-      "title": "紅い沖縄認知戦 : 中国の行動原理を暴く",
-      "author": "仲新城, 誠, 1973-",
-      "publisher": [
-        "産経新聞出版",
-        "日本工業新聞社"
-      ],
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "中国--外国関係--日本",
-        {
-          "#text": "A99-C9Z",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 319.2201,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034773932",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784801308343",
-      "title": "あなたの知らない怖い沖縄",
-      "author": "神里, 純平",
-      "publisher": "彩図社",
-      "pubDate": 2026.8,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県--歴史",
-        {
-          "#text": 219.9,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034809576",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784300121726",
-      "title": "石垣・竹富・西表・宮古島",
-      "author": "Unknown",
-      "publisher": "TAC株式会社出版事業部",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県 案内記",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 291.99,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034742610",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784533173608",
-      "title": "石垣宮古完全版",
-      "author": "Unknown",
-      "publisher": "JTBパブリッシング",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県 案内記",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 291.99,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034763506",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784472406478",
-      "title": "映像のなかの教育 映像としての教育 : 羽仁進の教室映画と林竹二の授業映画",
-      "author": "三木　博",
-      "publisher": [
-        "玉川大学出版部",
-        "玉川大学出版部"
-      ],
-      "pubDate": "2026-09-10",
-      "category": "okinawa-ja",
-      "ndc": "岩波映画　グループ現代　羽仁進　林竹二　教育映画　記録映画　ドキュメンタリー　十牛図　世界図絵　沖縄　教室の子供たち　絵を描く子どもたち",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784472406478",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784846316044",
-      "title": "沖縄意見広告運動16年の歩み　2010-2025 : もう二度と沖縄を、本土を戦場にさせない！",
-      "author": [
-        "「16年の歩み」刊行委員会",
-        "沖縄意見広告運動"
-      ],
-      "publisher": [
-        "沖縄意見広告運動",
-        "鹿砦社"
-      ],
-      "pubDate": "2026-09-10",
-      "category": "okinawa-ja",
-      "ndc": "辺野古",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784846316044",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784004321156",
-      "title": "沖縄を語りつぐ : ある家族の歴史",
-      "author": [
-        "川平, 朝清",
-        "Kabira, Jon"
-      ],
-      "publisher": "岩波書店",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "川平, 朝清",
-        {
-          "#text": 289.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736855",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD1957442X"
-    },
     {
       "isbn": "9784899825050",
       "title": "沖縄オタククロニクル1970年代～2000年代 : または那覇のオタク少年がいかにして沖縄初のライトノベル作家になったのか",
@@ -163,135 +13,7 @@
       "category": "okinawa-ja",
       "ndc": "オタク",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784899825050",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784023348158",
-      "title": "沖縄",
-      "author": "Unknown",
-      "publisher": "朝日新聞出版",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県 案内記",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 291.99,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034734550",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784814140855",
-      "title": "沖縄県公立高校",
-      "author": "Unknown",
-      "publisher": "東京学参",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": "Y33",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034833070",
       "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784300121719",
-      "title": "沖縄",
-      "author": "Unknown",
-      "publisher": "TAC株式会社出版事業部",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県 案内記",
-        {
-          "#text": "Y94",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 291.99,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034742609",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784846025700",
-      "title": "沖縄で「沖縄」を考える日乗",
-      "author": "藤井, 誠二, 1965-",
-      "publisher": "論創社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県--社会",
-        {
-          "#text": "GC311",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 302.199,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034722203",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784774408514",
-      "title": "沖縄とわが旅路",
-      "author": "鎌田, 慧, 1938-",
-      "publisher": "皓星社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄問題",
-        {
-          "#text": "GC311",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 312.199,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034756841",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784416525876",
-      "title": "沖縄のウミウシ : DNA解析による最新の分類図鑑1089種",
-      "author": "今川, 郁, 1965-",
-      "publisher": "誠文堂新光社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "ウミウシ--沖縄県--図鑑",
-        {
-          "#text": "RA6",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 484.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034785685",
-      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -325,299 +47,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784769834441",
-      "title": "沖縄悲遇の作戦 : 頭脳派参謀・八原博通が挑んだ日米決戦",
-      "author": "稲垣, 武, 1934-2010",
-      "publisher": "潮書房光人新社",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "太平洋戦争 (1941-1945)--会戦--沖縄県",
-        {
-          "#text": "GB541",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 210.75,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034710306",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784787292865",
-      "title": "沖縄文学のざわめき : 記憶と痛みの気配をなぞる",
-      "author": "村上, 陽子, 1981-",
-      "publisher": "青弓社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "琉球文学--歴史",
-        {
-          "#text": 910.29,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034822282",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784779131448",
-      "title": "沖縄ホンネぶっちゃけ散歩（仮）",
-      "author": "カベルナリア吉田",
-      "publisher": "彩流社",
-      "pubDate": "2026-10-05",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784779131448",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784845122745",
-      "title": "沖縄は今も「戦世」をうたう : 戦争から生まれ、平和を願った、島うたの80年史",
-      "author": "藤田, 正",
-      "publisher": "旬報社",
-      "pubDate": 2026.8,
-      "category": "okinawa-ja",
-      "ndc": [
-        "歌謡--沖縄県--歴史",
-        {
-          "#text": 767.02199,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034825322",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784418261178",
-      "title": "大人のハワイ　ｖｏｌ．６０",
-      "author": "大人のハワイ編集部",
-      "publisher": [
-        "株式会社 世界文化社",
-        "株式会社 世界文化社"
-      ],
-      "pubDate": "2026-07-30",
-      "category": "okinawa-ja",
-      "ndc": "ワイキキ ホノルル マウイ カウアイ 夏休み 海外 旅行 HAWAI ハワイ ホテル ガイド クヒオ フィジー グアム タヒチ フラガール 南の島 沖縄 大人 ハワイ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784418261178",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784480441027",
-      "title": "カジムヌガタイ : 風が語る沖縄戦",
-      "author": "比嘉, 慂, 1953-",
-      "publisher": "筑摩書房",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        {
-          "#text": "Y84",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 726.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034745595",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784622098614",
-      "title": "語り、聞く沖縄の戦世 : 戦中・戦後の生活史",
-      "author": "沖縄タイムス社",
-      "publisher": "みすず書房",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄県--伝記",
-        {
-          "#text": "GK13",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 281.99,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034742632",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874989869",
-      "title": "環境・沖縄・平和教育に導かれて",
-      "author": "柴田 健",
-      "publisher": [
-        "高文研",
-        "高文研"
-      ],
-      "pubDate": "2026-08-19",
-      "category": "okinawa-ja",
-      "ndc": "沖縄",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874989869",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784327394486",
-      "title": "気持ちが伝わる！　沖縄語リアルフレーズBOOK〈新装版〉",
-      "author": "比嘉　光龍",
-      "publisher": [
-        "研究社",
-        "研究社"
-      ],
-      "pubDate": "2026-08-24",
-      "category": "okinawa-ja",
-      "ndc": "沖縄語",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784327394486",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784908514449",
-      "title": "CRUISE Traveller Summer  2026 : これからの沖縄アイランドクルーズ",
-      "author": "クルーズトラベラー編集部",
-      "publisher": [
-        "クルーズトラベラーカンパニー",
-        "丸善出版"
-      ],
-      "pubDate": "2026-06-30",
-      "category": "okinawa-ja",
-      "ndc": "MSCベリッシマ",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784908514449",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784755403705",
-      "title": "現代沖縄小説選",
-      "author": [
-        "孫知延",
-        "大城貞俊"
-      ],
-      "publisher": [
-        "インパクト出版会",
-        "インパクト出版会"
-      ],
-      "pubDate": "2026-09-28",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784755403705",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784868500094",
-      "title": "誤解だらけの沖縄と領土問題",
-      "author": "八幡, 和郎, 1951-",
-      "publisher": "清談社Publico",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日本--外国関係--歴史",
-        {
-          "#text": "A99-Z",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 319.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034783055",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874989715",
-      "title": "写真記録沖縄戦 : 決定版 : 国内唯一の\"戦場\"から\"基地の島\"へ",
-      "author": "大田, 昌秀, 1925-2017",
-      "publisher": "高文研",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "太平洋戦争 (1941-1945)--会戦--沖縄県",
-        {
-          "#text": "GB544",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 210.75,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034729493",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784868161486",
-      "title": "首里城の大龍柱 : 向きをめぐる史実と政治",
-      "author": "後田多 敦",
-      "publisher": [
-        "春風社",
-        "春風社"
-      ],
-      "pubDate": "2026-07-13",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868161486",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784868310495",
-      "title": "新版 琉球紅型",
-      "author": "青幻舎編集部",
-      "publisher": [
-        "青幻舎",
-        "青幻舎"
-      ],
-      "pubDate": "2026-09-12",
-      "category": "okinawa-ja",
-      "ndc": "ryukyubingata",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868310495",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784591190395",
-      "title": "ジンベーニョの　ゆめ",
-      "author": "柳　明菜",
-      "publisher": "ポプラ社",
-      "pubDate": "2026-08-05",
-      "category": "okinawa-ja",
-      "ndc": "FC琉球",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784591190395",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784899825036",
       "title": "瑞泉庵の日々",
       "author": "池宮, 喜輝, 1886-1967",
@@ -626,170 +55,7 @@
       "category": "okinawa-ja",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034792299",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784877145088",
-      "title": "地を這う声のために",
-      "author": "目取真, 俊, 1960-",
-      "publisher": "影書房",
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄問題",
-        {
-          "#text": "GC311",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 312.199,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034767641",
       "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784642306454",
-      "title": "都市でたどる日本の歴史 : 三内丸山遺跡から渋谷まで",
-      "author": "北村　優季",
-      "publisher": "吉川弘文館",
-      "pubDate": "2026-08-25",
-      "category": "okinawa-ja",
-      "ndc": "都市　三内丸山　吉野ヶ里　纒向遺跡　飛鳥　平城京　平安京　平泉　鎌倉　首里　一乗谷　大坂　江戸　札幌　渋谷",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306454",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784874989883",
-      "title": "無責任の体系と沖縄戦 : 戦争犯罪・語り・平和教育",
-      "author": "島袋 純",
-      "publisher": [
-        "高文研",
-        "高文研"
-      ],
-      "pubDate": "2026-09-16",
-      "category": "okinawa-ja",
-      "ndc": "沖縄戦",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874989883",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784120060632",
-      "title": "厄介な宣教師　ベッテルハイムと琉球",
-      "author": "与那原恵",
-      "publisher": [
-        "中央公論新社",
-        "中央公論新社"
-      ],
-      "pubDate": "2026-09-18",
-      "category": "okinawa-ja",
-      "ndc": "ペリー艦隊",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784120060632",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784911705148",
-      "title": "琉球古陶湧田焼 : 新たなる美の発見 : 神田淡平コレクション",
-      "author": "鈴木, 敬, 1961-",
-      "publisher": "メトロポリタンプレス",
-      "pubDate": "[2026.7]",
-      "category": "okinawa-ja",
-      "ndc": [
-        "陶磁器--沖縄県--那覇市--図集",
-        {
-          "#text": 751.1,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034833136",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784492062319",
-      "title": "琉球・台湾とつなげて学ぶ日中全史",
-      "author": "岡本, 隆司",
-      "publisher": "東洋経済新報社",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "日本--外国関係--中国--歴史",
-        {
-          "#text": 210.1822,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034792097",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784326303656",
-      "title": "琉球列島の持続可能な発展と安全保障 : 「対中抑止のフロンティア」か「平和の緩衝地帯」か",
-      "author": "岡田, 実, pub.2008",
-      "publisher": "勁草書房",
-      "pubDate": 2026.7,
-      "category": "okinawa-ja",
-      "ndc": [
-        "沖縄問題",
-        {
-          "#text": "GC311",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 312.199,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797169",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784871277204",
-      "title": "文学は勇気と希望の灯 : 沖縄タイムス「沖縄文芸批評-小説の現在」 : 2016年-2025年",
-      "author": "玉代㔟, 章",
-      "publisher": [
-        "玉代㔟章",
-        "沖縄タイムス社"
-      ],
-      "pubDate": 2026.6,
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797501",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "館内のみ"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19577235"
-    },
-    {
-      "isbn": "9784871276924",
-      "title": "やんばるの健康問題 : ピンチをチャンスに変えようよ！",
-      "author": "Unknown",
-      "publisher": [
-        "公立大学法人名桜大学",
-        "沖縄タイムス社"
-      ],
-      "pubDate": "2026-07-29",
-      "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784871276924",
-      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -818,7 +84,7 @@
       "category": "okinawa-en",
       "ndc": "Foreign",
       "sourceUrl": "https://openlibrary.org/works/OL4124476W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -958,7 +224,7 @@
       "category": "academic",
       "ndc": "韓国美術　越境　近代　植民地統治　移動",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130860741",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1049,7 +315,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130201629",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1316,7 +582,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034825276",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1329,7 +595,7 @@
       "category": "academic",
       "ndc": "共通一次　センター試験　大学共通テスト　能研テスト　教育改革　西岡武夫　新自由クラブ　拒否権モデル　大学受験資格　文部科学省　国大協　私大協　中教審　受験地獄　教育行政学",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130532037",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1404,7 +670,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034774171",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1466,7 +732,7 @@
       "category": "academic",
       "ndc": "東南アジア",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815812553",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1489,7 +755,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034763337",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1676,7 +942,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797179",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1692,7 +958,7 @@
       "category": "academic",
       "ndc": "歴史",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815812539",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1718,7 +984,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034745534",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1815,7 +1081,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431179",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1834,7 +1100,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812716",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1972,7 +1238,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738935",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2274,7 +1540,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034794320",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2510,7 +1776,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588326097",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2621,7 +1887,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012051",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2643,7 +1909,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012099",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2698,7 +1964,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034724746",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2718,7 +1984,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012044",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2803,7 +2069,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588490422",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2829,7 +2095,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784005010189",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2981,6 +2247,30 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784004321156",
+      "title": "沖縄を語りつぐ : ある家族の歴史",
+      "author": [
+        "川平, 朝清",
+        "Kabira, Jon"
+      ],
+      "publisher": "岩波書店",
+      "pubDate": 2026.6,
+      "category": "academic",
+      "ndc": [
+        "川平, 朝清",
+        {
+          "#text": 289.1,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736855",
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD1957442X"
+    },
+    {
       "isbn": "9784007610431",
       "title": "オデュッセイア",
       "author": [
@@ -3026,7 +2316,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736839",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3199,7 +2489,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736843",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3693,7 +2983,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641244115",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3769,7 +3059,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641126732",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3913,7 +3203,7 @@
       "category": "academic",
       "ndc": "福島　イェール大学　日欧比較　入来文書　封建制",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642048071",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3930,7 +3220,7 @@
       "category": "academic",
       "ndc": "境界　越境　経験",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642084970",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3995,7 +3285,7 @@
       "category": "academic",
       "ndc": "感染症　伝染病　コレラ　赤痢　チフス　衛生",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306478",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4083,7 +3373,7 @@
       "category": "academic",
       "ndc": "狛犬　霊獣　日清戦争　日露戦争　日中戦争　代替わり　災害　コロナ禍",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306492",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4106,7 +3396,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034761028",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4155,9 +3445,11 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034712581",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19119751"
     },
     {
       "isbn": "9784642306447",
@@ -4178,7 +3470,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812721",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4225,6 +3517,19 @@
         "本館": "貸出可"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19559845"
+    },
+    {
+      "isbn": "9784642306454",
+      "title": "都市でたどる日本の歴史 : 三内丸山遺跡から渋谷まで",
+      "author": "北村　優季",
+      "publisher": "吉川弘文館",
+      "pubDate": "2026-08-25",
+      "category": "academic",
+      "ndc": "都市　三内丸山　吉野ヶ里　纒向遺跡　飛鳥　平城京　平安京　平泉　鎌倉　首里　一乗谷　大坂　江戸　札幌　渋谷",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306454",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784642078276",
@@ -4433,6 +3738,29 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784622098614",
+      "title": "語り、聞く沖縄の戦世 : 戦中・戦後の生活史",
+      "author": "沖縄タイムス社",
+      "publisher": "みすず書房",
+      "pubDate": 2026.6,
+      "category": "academic",
+      "ndc": [
+        "沖縄県--伝記",
+        {
+          "#text": "GK13",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 281.99,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034742632",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784622098652",
       "title": "洪水礼讃 : 環境飼い慣らしの人類史",
       "author": [
@@ -4522,7 +3850,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034799575",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4652,7 +3980,7 @@
       "category": "academic",
       "ndc": "思想史",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098720",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4715,7 +4043,7 @@
       "category": "academic",
       "ndc": "反ユダヤ主義",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098669",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4961,7 +4289,7 @@
       "category": "academic",
       "ndc": "こども家庭庁 こども基本法 子どもの安全 発達障害 発達支援 ウェルビーイング 地域コミュニティ",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101238",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5056,7 +4384,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034804695",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5122,7 +4450,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034734537",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5158,7 +4486,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034789921",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5171,7 +4499,7 @@
       "category": "academic",
       "ndc": "ウクライナ ジョージア チェチェン ダゲスタン モルドヴァ アルメニア アゼルバイジャン 青年ユーラシア連盟 ユーラシアニズム キエフ・ルーシー 神秘主義 ルーミー ロシア正教会",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101412",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5422,7 +4750,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780938",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5448,7 +4776,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326449880",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5676,6 +5004,29 @@
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034740931",
       "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326303656",
+      "title": "琉球列島の持続可能な発展と安全保障 : 「対中抑止のフロンティア」か「平和の緩衝地帯」か",
+      "author": "岡田, 実, pub.2008",
+      "publisher": "勁草書房",
+      "pubDate": 2026.7,
+      "category": "academic",
+      "ndc": [
+        "沖縄問題",
+        {
+          "#text": "GC311",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 312.199,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797169",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5922,6 +5273,22 @@
       "category": "academic",
       "ndc": "クルーズトラベラー",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784908514456",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784908514449",
+      "title": "CRUISE Traveller Summer  2026 : これからの沖縄アイランドクルーズ",
+      "author": "クルーズトラベラー編集部",
+      "publisher": [
+        "クルーズトラベラーカンパニー",
+        "丸善出版"
+      ],
+      "pubDate": "2026-06-30",
+      "category": "academic",
+      "ndc": "MSCベリッシマ",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784908514449",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -6382,7 +5749,7 @@
       "category": "academic",
       "ndc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254523072",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6553,7 +5920,7 @@
       "category": "academic",
       "ndc": "TH : エネルギー技術&工学",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254201864",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6591,7 +5958,7 @@
       "category": "academic",
       "ndc": "RN : 環境",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254172096",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6613,7 +5980,7 @@
       "category": "academic",
       "ndc": "RN : 環境",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254180725",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6662,7 +6029,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034697051",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6847,7 +6214,7 @@
       "category": "academic",
       "ndc": "MB : 医学：一般",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254123203",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7107,7 +6474,7 @@
         }
       ],
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034724866",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
