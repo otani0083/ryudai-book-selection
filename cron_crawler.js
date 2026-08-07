@@ -203,46 +203,63 @@ async function fetchNDL(params) {
   }
 }
 
+// Fetch Open Library (for English books on Okinawa/Ryukyu/Amami)
 async function fetchOpenLibrary(keyword) {
   // limit を 200 に増やす
   const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(keyword)}&fields=title,author_name,isbn,publish_year,language,publisher,key&limit=200`;
   console.log(`OpenLibrary Query: ${url}`);
   
-  try {
-    const res = await fetch(url);
-    if (!res.ok) {
-      console.error(`OpenLibrary API HTTP error: ${res.status}`);
-      return [];
+  let attempts = 0;
+  const maxAttempts = 3;
+  
+  while (attempts < maxAttempts) {
+    attempts++;
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': 'RyukyuUnivBookSelectionTool/1.0 (contact: otani0083@github.io)'
+        }
+      });
+      
+      if (!res.ok) {
+        throw new Error(`HTTP error: ${res.status}`);
+      }
+      
+      const data = await res.json();
+      const docs = data.docs || [];
+      
+      const filtered = docs.filter(doc => {
+        const hasIsbn = doc.isbn && doc.isbn.length > 0;
+        const isEnglish = doc.language?.includes('eng');
+        const maxYear = doc.publish_year ? Math.max(...doc.publish_year) : 0;
+        // 探索範囲を 2010年以降（過去15年分以上）に拡大！
+        const isRecent = maxYear >= 2010;
+        return hasIsbn && isEnglish && isRecent;
+      });
+      
+      return filtered.map(doc => ({
+        isbn: cleanISBN(doc.isbn[0]),
+        title: doc.title,
+        author: doc.author_name?.join(', ') || 'Unknown',
+        publisher: doc.publisher?.join(', ') || 'Unknown',
+        pubDate: doc.publish_year ? String(Math.max(...doc.publish_year)) : 'Unknown',
+        category: 'okinawa-en',
+        ndc: 'Foreign',
+        description: 'Open Library metadata (English Edition).',
+        toc: 'Table of contents not available for this English book.',
+        sourceUrl: doc.key ? `https://openlibrary.org${doc.key}` : 'https://openlibrary.org'
+      })).filter(b => b.isbn !== null);
+      
+    } catch (error) {
+      console.warn(`Attempt ${attempts} failed for OpenLibrary keyword "${keyword}": ${error.message}`);
+      if (attempts >= maxAttempts) {
+        console.error(`Error fetching Open Library after ${maxAttempts} attempts: ${error.message}`);
+        return [];
+      }
+      await sleep(3000 * attempts); // 指数バックオフで待機してリトライ
     }
-    const data = await res.json();
-    const docs = data.docs || [];
-    
-    // Filter English docs with ISBN, published recently (since 2020)
-    const filtered = docs.filter(doc => {
-      const hasIsbn = doc.isbn && doc.isbn.length > 0;
-      const isEnglish = doc.language?.includes('eng');
-      const maxYear = doc.publish_year ? Math.max(...doc.publish_year) : 0;
-      // 探索範囲を 2010年以降（過去15年分以上）に拡大！
-      const isRecent = maxYear >= 2010;
-      return hasIsbn && isEnglish && isRecent;
-    });
-    
-    return filtered.map(doc => ({
-      isbn: cleanISBN(doc.isbn[0]),
-      title: doc.title,
-      author: doc.author_name?.join(', ') || 'Unknown',
-      publisher: doc.publisher?.join(', ') || 'Unknown',
-      pubDate: doc.publish_year ? String(Math.max(...doc.publish_year)) : 'Unknown',
-      category: 'okinawa-en',
-      ndc: 'Foreign',
-      description: 'Open Library metadata (English Edition).',
-      toc: 'Table of contents not available for this English book.',
-      sourceUrl: doc.key ? `https://openlibrary.org${doc.key}` : 'https://openlibrary.org'
-    })).filter(b => b.isbn !== null);
-  } catch (error) {
-    console.error(`Error fetching Open Library: ${error.message}`);
-    return [];
   }
+  return [];
 }
 
 // Fetch book info from okinawa newspapers via Google News RSS
@@ -426,6 +443,19 @@ async function main() {
   console.log(`Okinawa books date from: ${okinawaFromDate}`);
   console.log(`Academic books date from: ${academicFromDate}`);
   
+  // Load existing data to prevent transient API failure data loss (especially for English books)
+  let existingBooks = [];
+  if (fs.existsSync(OUTPUT_FILE)) {
+    try {
+      const raw = fs.readFileSync(OUTPUT_FILE, 'utf-8');
+      const parsed = JSON.parse(raw);
+      existingBooks = parsed.books || [];
+      console.log(`Loaded ${existingBooks.length} existing books from local cache.`);
+    } catch (err) {
+      console.warn(`Failed to parse existing books data: ${err.message}`);
+    }
+  }
+
   const booksMap = new Map();
   
   // 1. Gather Okinawa Japanese Books (by Keyword)
@@ -587,6 +617,32 @@ async function main() {
       booksMap.set(b.isbn, b);
     }
   }
+  
+  // 5.5 Merge existing books to prevent disappearance due to API query limits or temporary network failure
+  console.log('\n--- 5.5 Merging with existing database cache to prevent data loss ---');
+  let mergedCount = 0;
+  for (const b of existingBooks) {
+    if (!booksMap.has(b.isbn)) {
+      booksMap.set(b.isbn, {
+        isbn: b.isbn,
+        title: b.title,
+        author: b.author,
+        publisher: b.publisher,
+        pubDate: b.pubDate,
+        category: b.category,
+        ndc: b.ndc,
+        description: b.description || 'Unknown',
+        toc: b.toc || 'Unknown',
+        sourceUrl: b.sourceUrl || '',
+        // preserve existing holding status to speed up next step if calil is slow
+        status: b.status || '調査中',
+        libkey: b.libkey || {},
+        reserveurl: b.reserveurl || ''
+      });
+      mergedCount++;
+    }
+  }
+  console.log(`Merged ${mergedCount} historical books back into active collection map.`);
   
   const allBooks = Array.from(booksMap.values());
   console.log(`\nTotal gathered books (after filters): ${allBooks.length}`);
