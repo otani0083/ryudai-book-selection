@@ -10,7 +10,11 @@ import {
   Info, 
   X,
   FileSpreadsheet,
-  Globe
+  Globe,
+  Check,
+  EyeOff,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 
 // Helper to format NDC to string safely (avoids React object rendering crash)
@@ -48,12 +52,25 @@ export default function App() {
   const [statusFilter, setStatusFilter] = useState('all'); // all, owned, missing
   const [sortBy, setSortBy] = useState('newest'); // newest, title, status
   
+  // Selection check states for CSV Export
+  const [checkedIsbns, setCheckedIsbns] = useState(new Set());
+  
+  // User processed states stored in LocalStorage
+  // Maps ISBN -> 'selected' | 'unnecessary' | 'normal'
+  const [userStatuses, setUserStatuses] = useState({});
+  const [hideProcessed, setHideProcessed] = useState(true); // Hide processed by default
+
+  // Accordion toggle states in Modal
+  const [isDescExpanded, setIsDescExpanded] = useState(false);
+  const [isTocExpanded, setIsTocExpanded] = useState(false);
+
   // Modal State
   const [selectedBook, setSelectedBook] = useState(null);
 
-  // Fetch book selection data
+  // Fetch book selection data and load local storage
   useEffect(() => {
     fetchData();
+    loadLocalStatuses();
   }, []);
 
   const fetchData = async () => {
@@ -74,6 +91,40 @@ export default function App() {
     }
   };
 
+  const loadLocalStatuses = () => {
+    try {
+      const stored = localStorage.getItem('ryudai_book_user_status');
+      if (stored) {
+        setUserStatuses(JSON.parse(stored));
+      }
+    } catch (err) {
+      console.error('Failed to load user statuses:', err);
+    }
+  };
+
+  // Update processed status
+  const handleUpdateUserStatus = (isbn, status) => {
+    const updated = { ...userStatuses, [isbn]: status };
+    setUserStatuses(updated);
+    localStorage.setItem('ryudai_book_user_status', JSON.stringify(updated));
+  };
+
+  // Toggle user status: 'normal' <-> 'selected'
+  const toggleSelectStatus = (isbn, e) => {
+    if (e) e.stopPropagation();
+    const current = userStatuses[isbn] || 'normal';
+    const next = current === 'selected' ? 'normal' : 'selected';
+    handleUpdateUserStatus(isbn, next);
+  };
+
+  // Toggle user status: 'normal' <-> 'unnecessary'
+  const toggleUnnecessaryStatus = (isbn, e) => {
+    if (e) e.stopPropagation();
+    const current = userStatuses[isbn] || 'normal';
+    const next = current === 'unnecessary' ? 'normal' : 'unnecessary';
+    handleUpdateUserStatus(isbn, next);
+  };
+
   // Category display names and tab configs
   const tabs = [
     { id: 'okinawa-ja', name: '沖縄・琉球・奄美 (和書)', color: 'okinawa-ja' },
@@ -81,20 +132,35 @@ export default function App() {
     { id: 'academic', name: '一般学術書 (推薦)', color: 'academic' }
   ];
 
-  // Helper to count items in each category
+  // Helper to count items in each category (only active unprocessed ones if filter is active)
   const tabCounts = useMemo(() => {
     const counts = { 'okinawa-ja': 0, 'okinawa-en': 0, academic: 0 };
     data.books.forEach(book => {
       if (counts[book.category] !== undefined) {
+        // If hideProcessed is checked, skip counting selected or unnecessary ones
+        if (hideProcessed) {
+          const status = userStatuses[book.isbn] || 'normal';
+          if (status === 'selected' || status === 'unnecessary') {
+            return;
+          }
+        }
         counts[book.category]++;
       }
     });
     return counts;
-  }, [data.books]);
+  }, [data.books, userStatuses, hideProcessed]);
 
   // Filter & Search & Sort Logic
   const filteredBooks = useMemo(() => {
     let result = data.books.filter(book => book.category === activeTab);
+
+    // Hide processed books (selected/unnecessary) if toggle is active
+    if (hideProcessed) {
+      result = result.filter(book => {
+        const uStat = userStatuses[book.isbn] || 'normal';
+        return uStat !== 'selected' && uStat !== 'unnecessary';
+      });
+    }
 
     // Filter by Status
     if (statusFilter === 'owned') {
@@ -127,17 +193,61 @@ export default function App() {
     });
 
     return result;
-  }, [data.books, activeTab, statusFilter, searchQuery, sortBy]);
+  }, [data.books, activeTab, statusFilter, searchQuery, sortBy, userStatuses, hideProcessed]);
 
-  // Export to CSV Function
+  // Checkbox handling for selections
+  const handleSelectBook = (isbn, e) => {
+    e.stopPropagation();
+    const next = new Set(checkedIsbns);
+    if (next.has(isbn)) {
+      next.delete(isbn);
+    } else {
+      next.add(isbn);
+    }
+    setCheckedIsbns(next);
+  };
+
+  const handleSelectAll = () => {
+    const next = new Set(checkedIsbns);
+    const visibleIsbns = filteredBooks.map(b => b.isbn);
+    const allChecked = visibleIsbns.every(isbn => checkedIsbns.has(isbn));
+
+    if (allChecked) {
+      // Uncheck all visible books
+      visibleIsbns.forEach(isbn => next.delete(isbn));
+    } else {
+      // Check all visible books
+      visibleIsbns.forEach(isbn => next.add(isbn));
+    }
+    setCheckedIsbns(next);
+  };
+
+  // Check if all visible books are checked
+  const isAllChecked = useMemo(() => {
+    if (filteredBooks.length === 0) return false;
+    return filteredBooks.every(b => checkedIsbns.has(b.isbn));
+  }, [filteredBooks, checkedIsbns]);
+
+  // Clean selections when tab changes
+  useEffect(() => {
+    setCheckedIsbns(new Set());
+  }, [activeTab]);
+
+  // Export to CSV Function (Handles custom selections)
   const exportToCSV = () => {
-    if (filteredBooks.length === 0) return;
+    // If some books are selected via checkboxes, export only those.
+    // Otherwise, export all books currently visible in the filtered list.
+    const targetBooks = checkedIsbns.size > 0 
+      ? data.books.filter(b => checkedIsbns.has(b.isbn))
+      : filteredBooks;
+
+    if (targetBooks.length === 0) return;
     
     // Define Headers
-    const headers = ['ISBN', 'カテゴリ', 'タイトル', '著者', '出版社', '出版日', '分類(NDC)', '所蔵状況', '配架場所と状態', 'OPAC予約URL(所蔵あり) / 典拠URL(未所蔵)'];
+    const headers = ['ISBN', 'カテゴリ', 'タイトル', '著者', '出版社', '出版日', '分類(NDC)', '所蔵状況', '配架場所と状態', 'ユーザー選書状態', 'OPAC予約URL(所蔵あり) / 典拠URL(未所蔵)'];
     
     // Build rows
-    const rows = filteredBooks.map(book => {
+    const rows = targetBooks.map(book => {
       // Format holdings location detail
       let holdingDetail = '';
       if (book.libkey && Object.keys(book.libkey).length > 0) {
@@ -154,6 +264,12 @@ export default function App() {
       const link = book.status === '所蔵あり' 
         ? (book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`)
         : (book.sourceUrl || '');
+
+      const userStatusLabel = userStatuses[book.isbn] === 'selected' 
+        ? '選書済' 
+        : userStatuses[book.isbn] === 'unnecessary' 
+          ? '所蔵不要' 
+          : '未処理';
       
       return [
         book.isbn,
@@ -165,6 +281,7 @@ export default function App() {
         formatNDC(book.ndc),
         book.status,
         holdingDetail,
+        userStatusLabel,
         link
       ];
     });
@@ -183,12 +300,13 @@ export default function App() {
     const link = document.createElement('a');
     link.setAttribute('href', url);
     
-    // Dynamic filename based on active category and filter
+    // Dynamic filename based on active category and selection count
     const dateStr = new Date().toISOString().split('T')[0];
     const categoryLabel = tabs.find(t => t.id === activeTab)?.name.replace(/\s+/g, '') || activeTab;
-    const filterLabel = statusFilter === 'all' ? '全所蔵' : statusFilter === 'owned' ? '所蔵のみ' : '未所蔵のみ';
+    const isSelectionExport = checkedIsbns.size > 0;
+    const countLabel = isSelectionExport ? `${checkedIsbns.size}件選択` : '全表示件';
     
-    link.setAttribute('download', `琉大選書_${categoryLabel}_${filterLabel}_${dateStr}.csv`);
+    link.setAttribute('download', `琉大選書_${categoryLabel}_${countLabel}_${dateStr}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -208,6 +326,13 @@ export default function App() {
       return `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`;
     }
     return `https://covers.openbd.jp/${isbn}.jpg`;
+  };
+
+  // Modal expand states reset helper
+  const handleOpenBookModal = (book) => {
+    setSelectedBook(book);
+    setIsDescExpanded(false);
+    setIsTocExpanded(false);
   };
 
   return (
@@ -335,7 +460,20 @@ export default function App() {
               </div>
             </div>
 
-            <div className="filter-group">
+            <div className="filter-group" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
+              {/* Processed Toggle Filter */}
+              <div className="toggle-filter-wrapper">
+                <input
+                  type="checkbox"
+                  id="hide-processed-toggle"
+                  checked={hideProcessed}
+                  onChange={(e) => setHideProcessed(e.target.checked)}
+                />
+                <label htmlFor="hide-processed-toggle" style={{ cursor: 'pointer', userSelect: 'none' }}>
+                  選書済・不要を非表示にする
+                </label>
+              </div>
+
               <span className="filter-label">並び替え:</span>
               <select
                 className="select-filter"
@@ -350,11 +488,13 @@ export default function App() {
               <button
                 className="btn-primary"
                 onClick={exportToCSV}
-                disabled={filteredBooks.length === 0}
-                style={{ opacity: filteredBooks.length === 0 ? 0.6 : 1 }}
+                disabled={filteredBooks.length === 0 && checkedIsbns.size === 0}
+                style={{ opacity: (filteredBooks.length === 0 && checkedIsbns.size === 0) ? 0.6 : 1 }}
               >
                 <FileSpreadsheet size={16} />
-                CSV出力 ({filteredBooks.length}件)
+                {checkedIsbns.size > 0 
+                  ? `CSV出力 (${checkedIsbns.size}件選択中)` 
+                  : `CSV出力 (全${filteredBooks.length}件)`}
               </button>
             </div>
           </div>
@@ -379,82 +519,127 @@ export default function App() {
             <table className="books-table">
               <thead>
                 <tr>
-                  <th>所蔵状況</th>
+                  <th className="col-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={isAllChecked}
+                      onChange={handleSelectAll}
+                      style={{ cursor: 'pointer', width: '16px', height: '16px' }}
+                    />
+                  </th>
+                  <th style={{ width: '110px' }}>所蔵状況</th>
                   <th>タイトル</th>
                   <th>著者</th>
                   <th>出版社</th>
                   <th>出版年月</th>
                   <th>分類(NDC)</th>
-                  <th>アクション</th>
+                  <th style={{ width: '180px' }}>選書ステータス & リンク</th>
                 </tr>
               </thead>
               <tbody>
-                {filteredBooks.map((book) => (
-                  <tr key={book.isbn} onClick={() => setSelectedBook(book)}>
-                    <td data-label="所蔵状況">
-                      <span className={`status-badge ${book.status === '所蔵あり' ? 'owned' : book.status === '未所蔵' ? 'missing' : 'checking'}`} style={{ display: 'inline-flex', width: 'fit-content' }}>
-                        {book.status === '所蔵あり' ? (
-                          <>
-                            <CheckCircle size={12} />
-                            所蔵あり
-                          </>
-                        ) : book.status === '未所蔵' ? (
-                          <>
-                            <AlertCircle size={12} />
-                            未所蔵
-                          </>
-                        ) : (
-                          <>
-                            <RefreshCw size={12} className="spin" />
-                            調査中
-                          </>
-                        )}
-                      </span>
-                    </td>
-                    <td data-label="タイトル" className="book-title-cell" title={book.title}>
-                      {book.title}
-                    </td>
-                    <td data-label="著者" className="book-author-cell" title={book.author}>
-                      {book.author}
-                    </td>
-                    <td data-label="出版社" title={book.publisher}>
-                      {book.publisher}
-                    </td>
-                    <td data-label="出版年月">
-                      {book.pubDate}
-                    </td>
-                    <td data-label="分類(NDC)">
-                      {formatNDC(book.ndc)}
-                    </td>
-                    <td data-label="アクション" onClick={(e) => e.stopPropagation()}>
-                      <div className="table-actions">
-                        {book.status === '所蔵あり' ? (
-                          <a
-                            href={book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-table-action btn-table-opac"
-                          >
-                            OPAC配架
-                            <ExternalLink size={12} />
-                          </a>
-                        ) : book.sourceUrl ? (
-                          <a
-                            href={book.sourceUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-table-action btn-table-source"
-                          >
-                            典拠を確認
-                            <Globe size={12} />
-                          </a>
-                        ) : (
-                          <span style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>-</span>
-                        )}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
+                {filteredBooks.map((book) => {
+                  const uStat = userStatuses[book.isbn] || 'normal';
+                  let rowClass = '';
+                  if (uStat === 'selected') rowClass = 'row-selected';
+                  else if (uStat === 'unnecessary') rowClass = 'row-unnecessary';
+
+                  return (
+                    <tr 
+                      key={book.isbn} 
+                      onClick={() => handleOpenBookModal(book)}
+                      className={rowClass}
+                    >
+                      <td className="checkbox-cell" onClick={(e) => e.stopPropagation()}>
+                        <input
+                          type="checkbox"
+                          checked={checkedIsbns.has(book.isbn)}
+                          onChange={(e) => handleSelectBook(book.isbn, e)}
+                        />
+                      </td>
+                      <td data-label="所蔵状況">
+                        <span className={`status-badge ${book.status === '所蔵あり' ? 'owned' : book.status === '未所蔵' ? 'missing' : 'checking'}`} style={{ display: 'inline-flex', width: 'fit-content' }}>
+                          {book.status === '所蔵あり' ? (
+                            <>
+                              <CheckCircle size={12} />
+                              所蔵あり
+                            </>
+                          ) : book.status === '未所蔵' ? (
+                            <>
+                              <AlertCircle size={12} />
+                              未所蔵
+                            </>
+                          ) : (
+                            <>
+                              <RefreshCw size={12} className="spin" />
+                              調査中
+                            </>
+                          )}
+                        </span>
+                      </td>
+                      <td data-label="タイトル" className="book-title-cell" title={book.title}>
+                        {book.title}
+                      </td>
+                      <td data-label="著者" className="book-author-cell" title={book.author}>
+                        {book.author}
+                      </td>
+                      <td data-label="出版社" title={book.publisher}>
+                        {book.publisher}
+                      </td>
+                      <td data-label="出版年月">
+                        {book.pubDate}
+                      </td>
+                      <td data-label="分類(NDC)">
+                        {formatNDC(book.ndc)}
+                      </td>
+                      <td data-label="選書判定 & リンク" onClick={(e) => e.stopPropagation()}>
+                        <div className="table-actions">
+                          {/* User Decision Toggles */}
+                          <div className="quick-action-btns">
+                            <button
+                              className={`btn-quick ${uStat === 'selected' ? 'selected-active' : ''}`}
+                              onClick={(e) => toggleSelectStatus(book.isbn, e)}
+                              title={uStat === 'selected' ? '選書マークを解除' : '選書済みにする'}
+                            >
+                              <Check size={14} />
+                            </button>
+                            <button
+                              className={`btn-quick ${uStat === 'unnecessary' ? 'unnecessary-active' : ''}`}
+                              onClick={(e) => toggleUnnecessaryStatus(book.isbn, e)}
+                              title={uStat === 'unnecessary' ? '所蔵不要マークを解除' : '所蔵不要にする'}
+                            >
+                              <EyeOff size={14} />
+                            </button>
+                          </div>
+
+                          {/* OPAC / Source link */}
+                          {book.status === '所蔵あり' ? (
+                            <a
+                              href={book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn-table-action btn-table-opac"
+                            >
+                              OPAC
+                              <ExternalLink size={12} />
+                            </a>
+                          ) : book.sourceUrl ? (
+                            <a
+                              href={book.sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn-table-action btn-table-source"
+                            >
+                              典拠
+                              <Globe size={12} />
+                            </a>
+                          ) : (
+                            <span style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>-</span>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
@@ -497,6 +682,44 @@ export default function App() {
                   >
                     {selectedBook.status === '所蔵あり' ? '琉大所蔵あり' : selectedBook.status === '未所蔵' ? '琉大未所蔵' : '所蔵状況調査中'}
                   </span>
+
+                  {/* Quick Status Control Inside Modal */}
+                  <div style={{ display: 'flex', gap: '0.5rem', marginTop: 'auto' }}>
+                    <button
+                      className={`btn-secondary ${userStatuses[selectedBook.isbn] === 'selected' ? 'selected-active' : ''}`}
+                      onClick={() => toggleSelectStatus(selectedBook.isbn)}
+                      style={{
+                        padding: '0.4rem 0.8rem',
+                        fontSize: '0.8rem',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.25rem',
+                        backgroundColor: userStatuses[selectedBook.isbn] === 'selected' ? 'var(--color-status-owned-bg)' : '#ffffff',
+                        borderColor: userStatuses[selectedBook.isbn] === 'selected' ? 'var(--color-status-owned)' : 'var(--border-color)',
+                        color: userStatuses[selectedBook.isbn] === 'selected' ? 'var(--color-status-owned)' : 'var(--text-muted)'
+                      }}
+                    >
+                      <Check size={14} />
+                      選書済
+                    </button>
+                    <button
+                      className={`btn-secondary ${userStatuses[selectedBook.isbn] === 'unnecessary' ? 'unnecessary-active' : ''}`}
+                      onClick={() => toggleUnnecessaryStatus(selectedBook.isbn)}
+                      style={{
+                        padding: '0.4rem 0.8rem',
+                        fontSize: '0.8rem',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.25rem',
+                        backgroundColor: userStatuses[selectedBook.isbn] === 'unnecessary' ? 'var(--color-status-missing-bg)' : '#ffffff',
+                        borderColor: userStatuses[selectedBook.isbn] === 'unnecessary' ? 'var(--color-status-missing)' : 'var(--border-color)',
+                        color: userStatuses[selectedBook.isbn] === 'unnecessary' ? 'var(--color-status-missing)' : 'var(--text-muted)'
+                      }}
+                    >
+                      <EyeOff size={14} />
+                      所蔵不要
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -521,6 +744,42 @@ export default function App() {
                   </tr>
                 </tbody>
               </table>
+
+              {/* Content / Description Accordion */}
+              {selectedBook.description && selectedBook.description !== 'Unknown' && (
+                <div className="modal-expand-section">
+                  <div 
+                    className="expand-header" 
+                    onClick={() => setIsDescExpanded(!isDescExpanded)}
+                  >
+                    <span>内容紹介・要約</span>
+                    {isDescExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                  </div>
+                  {isDescExpanded && (
+                    <div className="expand-content">
+                      {selectedBook.description}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* TOC Accordion */}
+              {selectedBook.toc && selectedBook.toc !== 'Unknown' && (
+                <div className="modal-expand-section">
+                  <div 
+                    className="expand-header" 
+                    onClick={() => setIsTocExpanded(!isTocExpanded)}
+                  >
+                    <span>目次情報</span>
+                    {isTocExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                  </div>
+                  {isTocExpanded && (
+                    <div className="expand-content">
+                      {selectedBook.toc}
+                    </div>
+                  )}
+                </div>
+              )}
 
               {/* Holdings Details Box */}
               <div className="holdings-info-box">
