@@ -137,7 +137,6 @@ export default function App() {
     const counts = { 'okinawa-ja': 0, 'okinawa-en': 0, academic: 0 };
     data.books.forEach(book => {
       if (counts[book.category] !== undefined) {
-        // If hideProcessed is checked, skip counting selected or unnecessary ones
         if (hideProcessed) {
           const status = userStatuses[book.isbn] || 'normal';
           if (status === 'selected' || status === 'unnecessary') {
@@ -213,10 +212,8 @@ export default function App() {
     const allChecked = visibleIsbns.every(isbn => checkedIsbns.has(isbn));
 
     if (allChecked) {
-      // Uncheck all visible books
       visibleIsbns.forEach(isbn => next.delete(isbn));
     } else {
-      // Check all visible books
       visibleIsbns.forEach(isbn => next.add(isbn));
     }
     setCheckedIsbns(next);
@@ -235,8 +232,6 @@ export default function App() {
 
   // Export to CSV Function (Handles custom selections)
   const exportToCSV = () => {
-    // If some books are selected via checkboxes, export only those.
-    // Otherwise, export all books currently visible in the filtered list.
     const targetBooks = checkedIsbns.size > 0 
       ? data.books.filter(b => checkedIsbns.has(b.isbn))
       : filteredBooks;
@@ -244,11 +239,23 @@ export default function App() {
     if (targetBooks.length === 0) return;
     
     // Define Headers
-    const headers = ['ISBN', 'カテゴリ', 'タイトル', '著者', '出版社', '出版日', '分類(NDC)', '所蔵状況', '配架場所と状態', 'ユーザー選書状態', 'OPAC予約URL(所蔵あり) / 典拠URL(未所蔵)'];
+    const headers = [
+      'ISBN', 
+      'カテゴリ', 
+      'タイトル', 
+      '著者', 
+      '出版社', 
+      '出版日', 
+      '分類(NDC)', 
+      '所蔵状況', 
+      '配架場所と状態', 
+      'ユーザー選書状態', 
+      'OPAC予約/典拠URL', 
+      'カーリル詳細URL'
+    ];
     
     // Build rows
     const rows = targetBooks.map(book => {
-      // Format holdings location detail
       let holdingDetail = '';
       if (book.libkey && Object.keys(book.libkey).length > 0) {
         holdingDetail = Object.entries(book.libkey)
@@ -260,7 +267,6 @@ export default function App() {
       
       const categoryName = tabs.find(t => t.id === book.category)?.name || book.category;
       
-      // Determine link based on status
       const link = book.status === '所蔵あり' 
         ? (book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`)
         : (book.sourceUrl || '');
@@ -270,6 +276,8 @@ export default function App() {
         : userStatuses[book.isbn] === 'unnecessary' 
           ? '所蔵不要' 
           : '未処理';
+      
+      const calilUrl = `https://calil.jp/book/${book.isbn}`;
       
       return [
         book.isbn,
@@ -282,17 +290,16 @@ export default function App() {
         book.status,
         holdingDetail,
         userStatusLabel,
-        link
+        link,
+        calilUrl
       ];
     });
 
-    // Create CSV content with quotes to handle commas inside text
     const csvContent = [
       headers.join(','),
       ...rows.map(row => row.map(val => `"${String(val).replace(/"/g, '""')}"`).join(','))
     ].join('\n');
 
-    // Add UTF-8 BOM so Excel opens it correctly in Japanese
     const bom = '\uFEFF';
     const blob = new Blob([bom + csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
@@ -300,7 +307,6 @@ export default function App() {
     const link = document.createElement('a');
     link.setAttribute('href', url);
     
-    // Dynamic filename based on active category and selection count
     const dateStr = new Date().toISOString().split('T')[0];
     const categoryLabel = tabs.find(t => t.id === activeTab)?.name.replace(/\s+/g, '') || activeTab;
     const isSelectionExport = checkedIsbns.size > 0;
@@ -328,7 +334,6 @@ export default function App() {
     return `https://covers.openbd.jp/${isbn}.jpg`;
   };
 
-  // Modal expand states reset helper
   const handleOpenBookModal = (book) => {
     setSelectedBook(book);
     setIsDescExpanded(false);
@@ -533,7 +538,7 @@ export default function App() {
                   <th>出版社</th>
                   <th>出版年月</th>
                   <th>分類(NDC)</th>
-                  <th style={{ width: '180px' }}>選書ステータス & リンク</th>
+                  <th style={{ width: '240px' }}>選書判定 & リンク</th>
                 </tr>
               </thead>
               <tbody>
@@ -611,6 +616,18 @@ export default function App() {
                             </button>
                           </div>
 
+                          {/* Calil Detail Link */}
+                          <a
+                            href={`https://calil.jp/book/${book.isbn}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-table-action btn-table-source"
+                            title="カーリルで蔵書・他館状況を確認"
+                          >
+                            カーリル
+                            <ExternalLink size={11} />
+                          </a>
+
                           {/* OPAC / Source link */}
                           {book.status === '所蔵あり' ? (
                             <a
@@ -632,9 +649,7 @@ export default function App() {
                               典拠
                               <Globe size={12} />
                             </a>
-                          ) : (
-                            <span style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>-</span>
-                          )}
+                          ) : null}
                         </div>
                       </td>
                     </tr>
@@ -817,6 +832,24 @@ export default function App() {
               >
                 閉じる
               </button>
+              
+              {/* Calil Detail Link */}
+              <a
+                href={`https://calil.jp/book/${selectedBook.isbn}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+                style={{ 
+                  padding: '0.5rem 1rem', 
+                  fontSize: '0.9rem',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.25rem'
+                }}
+              >
+                カーリルで見る
+                <ExternalLink size={14} />
+              </a>
               
               {selectedBook.status === '所蔵あり' ? (
                 <a
