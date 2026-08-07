@@ -842,3 +842,178 @@ a:hover {
     align-items: stretch;
   }
 }
+
+/* Books Table (List view) */
+.books-table-wrapper {
+  background: var(--card-bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.books-table th,
+.books-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+.books-table th {
+  background-color: var(--color-sea-deep);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.books-table th:first-child {
+  border-top-left-radius: var(--radius-md);
+}
+
+.books-table th:last-child {
+  border-top-right-radius: var(--radius-md);
+}
+
+.books-table tr {
+  transition: var(--transition-smooth);
+  cursor: pointer;
+}
+
+.books-table tr:hover {
+  background-color: var(--color-sea-light);
+}
+
+.books-table tr:last-child td {
+  border-bottom: none;
+}
+
+.books-table .book-title-cell {
+  font-weight: 700;
+  color: var(--color-sea-deep);
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.books-table .book-title-cell:hover {
+  color: var(--color-sea-teal);
+}
+
+.books-table .book-author-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Actions in Table */
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-table-action {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.btn-table-opac {
+  background-color: var(--color-sea-teal);
+  color: #ffffff;
+  border: 1px solid var(--color-sea-teal);
+}
+
+.btn-table-opac:hover {
+  background-color: var(--color-sea-deep);
+  border-color: var(--color-sea-deep);
+}
+
+.btn-table-source {
+  background-color: #ffffff;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+}
+
+.btn-table-source:hover {
+  background-color: #f1f5f9;
+  color: var(--text-main);
+  border-color: var(--text-light);
+}
+
+/* Responsive Table cards for Mobile */
+@media (max-width: 900px) {
+  .books-table,
+  .books-table thead,
+  .books-table tbody,
+  .books-table th,
+  .books-table td,
+  .books-table tr {
+    display: block;
+  }
+  
+  .books-table thead {
+    display: none; /* Hide header on mobile */
+  }
+  
+  .books-table tr {
+    border-bottom: 2px solid var(--border-color);
+    padding: 1rem;
+    position: relative;
+    background: #ffffff;
+  }
+  
+  .books-table td {
+    border: none;
+    padding: 0.35rem 0;
+    padding-left: 45%;
+    position: relative;
+    white-space: normal;
+    text-align: right;
+    font-size: 0.9rem;
+  }
+  
+  .books-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 40%;
+    text-align: left;
+    font-weight: 700;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  
+  .books-table .book-title-cell {
+    max-width: none;
+    text-align: right;
+    font-size: 1.05rem;
+  }
+  
+  .books-table .book-author-cell {
+    max-width: none;
+  }
+  
+  .table-actions {
+    justify-content: flex-end;
+  }
+}

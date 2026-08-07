@@ -69,6 +69,38 @@ function extractISBN(identifierField) {
   return null;
 }
 
+// Exclude check for books not suitable for university libraries
+function isExcludedBook(title, ndc, category) {
+  if (!title) return false;
+  
+  // 1. Exclude workbooks, text preparation, etc. (Keyword check)
+  const excludeKeywords = [
+    '問題集', '過去問', '参考書', 'ドリル', 'ワークブック', 
+    '演習', '試験対策', '検定試験', '学習参考書', '高校入試', 
+    '中学入試', '大学入学共通テスト', '赤本', '共通テスト', 
+    '教科書ガイド', '英検', 'TOEIC', '資格試験', '模擬試験', 
+    '予想問題', 'ドリル', '書き込み式', 'かんたん合格'
+  ];
+  
+  if (excludeKeywords.some(kw => title.includes(kw))) {
+    console.log(`Excluding workbook/reference book: "${title}"`);
+    return true;
+  }
+  
+  // 2. Exclude novels that are NOT Okinawa-related (NDC check for 'academic' category)
+  // NDC 913 (Japanese novels), 933 (English novels), etc.
+  if (category === 'academic' && ndc) {
+    const ndcStr = String(ndc).trim();
+    // Regex matches 913.x, 933.x, 913, 933 or 9x3 generally, and 91x (novels)
+    if (/^9\d3/.test(ndcStr) || /^913/.test(ndcStr) || /^933/.test(ndcStr) || /^91/.test(ndcStr)) {
+      console.log(`Excluding non-Okinawa novel (NDC ${ndcStr}): "${title}"`);
+      return true;
+    }
+  }
+  
+  return false;
+}
+
 // Fetch NDL Search OpenSearch
 async function fetchNDL(params) {
   const queryStr = Object.entries(params)
@@ -100,7 +132,7 @@ async function fetchNDL(params) {
 
 // Fetch Open Library (for English books on Okinawa/Ryukyu/Amami)
 async function fetchOpenLibrary(keyword) {
-  const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(keyword)}&fields=title,author_name,isbn,publish_year,language,publisher&limit=60`;
+  const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(keyword)}&fields=title,author_name,isbn,publish_year,language,publisher,key&limit=60`;
   console.log(`OpenLibrary Query: ${url}`);
   
   try {
@@ -128,12 +160,107 @@ async function fetchOpenLibrary(keyword) {
       publisher: doc.publisher?.join(', ') || 'Unknown',
       pubDate: doc.publish_year ? String(Math.max(...doc.publish_year)) : 'Unknown',
       category: 'okinawa-en',
-      ndc: 'Foreign'
+      ndc: 'Foreign',
+      sourceUrl: doc.key ? `https://openlibrary.org${doc.key}` : 'https://openlibrary.org'
     })).filter(b => b.isbn !== null);
   } catch (error) {
     console.error(`Error fetching Open Library: ${error.message}`);
     return [];
   }
+}
+
+// Fetch book info from okinawa newspapers via Google News RSS
+async function fetchLocalNewspaperBooks() {
+  console.log('\n--- Fetching book information from local newspaper reviews ---');
+  const sources = [
+    { name: '沖縄タイムス書評', query: 'site:okinawatimes.co.jp 書評' },
+    { name: '琉球新報書評', query: 'site:ryukyushimpo.jp 書評' }
+  ];
+  
+  const extractedTitles = new Set();
+  const books = [];
+  
+  const parser = new XMLParser();
+  
+  for (const source of sources) {
+    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(source.query)}&hl=ja&gl=JP&ceid=JP:ja`;
+    console.log(`Google News query: ${url}`);
+    
+    try {
+      const res = await fetch(url);
+      if (!res.ok) {
+        console.error(`Google News HTTP error: ${res.status}`);
+        continue;
+      }
+      const xml = await res.text();
+      const jsonObj = parser.parse(xml);
+      const items = jsonObj.rss?.channel?.item;
+      if (!items) continue;
+      
+      const itemList = Array.isArray(items) ? items : [items];
+      for (const item of itemList) {
+        // Extract bracketed titles 『...』 and 「...」
+        const matches1 = item.title.match(/『([^』]+)』/g) || [];
+        const matches2 = item.title.match(/「([^」]+)」/g) || [];
+        const matches = [...matches1, ...matches2];
+        
+        for (const m of matches) {
+          const title = m.replace(/[『』「」]/g, '').trim();
+          // Skip generic words or very short strings
+          if (title.length > 2 && !title.includes('社説') && !title.includes('コラム') && !title.includes('オピニオン')) {
+            extractedTitles.add(title);
+          }
+        }
+      }
+    } catch (err) {
+      console.error(`Error parsing newspaper feed: ${err.message}`);
+    }
+    await sleep(1000);
+  }
+  
+  console.log(`Extracted ${extractedTitles.size} unique book titles from newspaper reviews.`);
+  
+  // Search NDL Search for details of these titles
+  // Limit to top 15 to prevent heavy loading
+  const titleList = Array.from(extractedTitles).slice(0, 15);
+  console.log(`Searching NDL Search for top ${titleList.length} titles...`);
+  
+  for (const title of titleList) {
+    try {
+      console.log(`NDL Lookup for news book: "${title}"`);
+      const items = await fetchNDL({
+        title: title,
+        mediatype: 'books',
+        cnt: 3
+      });
+      
+      for (const item of items) {
+        const isbn = extractISBN(item['dc:identifier']);
+        if (!isbn) continue;
+        
+        const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
+        
+        books.push({
+          isbn,
+          title: item.title,
+          author: item['dc:creator'] || 'Unknown',
+          publisher: item['dc:publisher'] || 'Unknown',
+          pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || 'Unknown',
+          category: 'okinawa-ja', // newspaper review books are local Okinawa books
+          ndc: ndc,
+          sourceUrl: item.link || `https://ndlsearch.ndl.go.jp/books/${item.guid?.['#text'] || ''}`
+        });
+        
+        console.log(`Successfully identified book: "${item.title}" (ISBN: ${isbn})`);
+        break; // Only take the first matching book
+      }
+    } catch (err) {
+      console.error(`Error looking up NDL for "${title}": ${err.message}`);
+    }
+    await sleep(1000); // polite sleep
+  }
+  
+  return books;
 }
 
 // Query Calil API for library holdings
@@ -239,6 +366,10 @@ async function main() {
       if (!isbn) continue;
       
       const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
+      
+      // Exclude check
+      if (isExcludedBook(item.title, ndc, 'okinawa-ja')) continue;
+      
       booksMap.set(isbn, {
         isbn,
         title: item.title,
@@ -246,7 +377,8 @@ async function main() {
         publisher: item['dc:publisher'] || 'Unknown',
         pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || item['dc:date'] || 'Unknown',
         category: 'okinawa-ja',
-        ndc: ndc
+        ndc: ndc,
+        sourceUrl: item.link || `https://ndlsearch.ndl.go.jp/books/${item.guid?.['#text'] || ''}`
       });
     }
     await sleep(1000);
@@ -277,6 +409,10 @@ async function main() {
       if (!isbn) continue;
       
       const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
+      
+      // Exclude check
+      if (isExcludedBook(item.title, ndc, 'okinawa-ja')) continue;
+      
       booksMap.set(isbn, {
         isbn,
         title: item.title,
@@ -284,7 +420,8 @@ async function main() {
         publisher: item['dc:publisher'] || pub,
         pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || 'Unknown',
         category: 'okinawa-ja',
-        ndc: ndc
+        ndc: ndc,
+        sourceUrl: item.link || `https://ndlsearch.ndl.go.jp/books/${item.guid?.['#text'] || ''}`
       });
     }
     await sleep(1000);
@@ -297,6 +434,9 @@ async function main() {
     const oLibBooks = await fetchOpenLibrary(kw);
     console.log(`Found ${oLibBooks.length} English books with ISBN for keyword "${kw}"`);
     for (const b of oLibBooks) {
+      // Exclude check
+      if (isExcludedBook(b.title, b.ndc, 'okinawa-en')) continue;
+      
       // Don't overwrite Japanese books if already added
       if (!booksMap.has(b.isbn)) {
         booksMap.set(b.isbn, b);
@@ -339,6 +479,10 @@ async function main() {
       if (booksMap.has(isbn)) continue;
       
       const ndc = item['dc:subject']?.['#text'] || item['dc:subject'] || 'Unknown';
+      
+      // Exclude check (including novels here!)
+      if (isExcludedBook(item.title, ndc, 'academic')) continue;
+      
       booksMap.set(isbn, {
         isbn,
         title: item.title,
@@ -346,17 +490,30 @@ async function main() {
         publisher: item['dc:publisher'] || pub,
         pubDate: item['dcterms:issued'] || item['dc:date']?.['#text'] || 'Unknown',
         category: 'academic',
-        ndc: ndc
+        ndc: ndc,
+        sourceUrl: item.link || `https://ndlsearch.ndl.go.jp/books/${item.guid?.['#text'] || ''}`
       });
     }
     await sleep(1000);
   }
   
-  const allBooks = Array.from(booksMap.values());
-  console.log(`\nTotal gathered books with ISBN: ${allBooks.length}`);
+  // 5. Gather Books from Newspaper Reviews
+  const newsBooks = await fetchLocalNewspaperBooks();
+  console.log(`Found ${newsBooks.length} books in newspaper reviews.`);
+  for (const b of newsBooks) {
+    if (isExcludedBook(b.title, b.ndc, 'okinawa-ja')) continue;
+    
+    if (!booksMap.has(b.isbn)) {
+      console.log(`Adding new book from news review: "${b.title}"`);
+      booksMap.set(b.isbn, b);
+    }
+  }
   
-  // 5. Query Calil for Ryukyu University holdings
-  console.log('\n--- 5. Checking holdings in Calil API ---');
+  const allBooks = Array.from(booksMap.values());
+  console.log(`\nTotal gathered books (after filters): ${allBooks.length}`);
+  
+  // 6. Query Calil for Ryukyu University holdings
+  console.log('\n--- 6. Checking holdings in Calil API ---');
   // Chunk size 10 to be gentle and accurate
   const chunkSize = 10;
   const booksWithHoldings = [];
@@ -386,7 +543,7 @@ async function main() {
     await sleep(1500);
   }
   
-  // 6. Write out JSON data
+  // 7. Write out JSON data
   if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }

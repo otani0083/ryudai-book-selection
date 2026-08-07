@@ -111,7 +111,7 @@ export default function App() {
     if (filteredBooks.length === 0) return;
     
     // Define Headers
-    const headers = ['ISBN', 'カテゴリ', 'タイトル', '著者', '出版社', '出版日', '分類(NDC)', '所蔵状況', '配架場所と状態', '詳細リンク/OPAC予約URL'];
+    const headers = ['ISBN', 'カテゴリ', 'タイトル', '著者', '出版社', '出版日', '分類(NDC)', '所蔵状況', '配架場所と状態', 'OPAC予約URL(所蔵あり) / 典拠URL(未所蔵)'];
     
     // Build rows
     const rows = filteredBooks.map(book => {
@@ -127,6 +127,11 @@ export default function App() {
       
       const categoryName = tabs.find(t => t.id === book.category)?.name || book.category;
       
+      // Determine link based on status
+      const link = book.status === '所蔵あり' 
+        ? (book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`)
+        : (book.sourceUrl || '');
+      
       return [
         book.isbn,
         categoryName,
@@ -137,7 +142,7 @@ export default function App() {
         book.ndc,
         book.status,
         holdingDetail,
-        book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`
+        link
       ];
     });
 
@@ -176,8 +181,6 @@ export default function App() {
   // Fallback covers helper
   const getCoverUrl = (isbn) => {
     if (!isbn) return null;
-    // openBD API serves Japanese book covers well
-    // fallback to OpenLibrary for foreign book covers
     if (activeTab === 'okinawa-en') {
       return `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`;
     }
@@ -204,7 +207,7 @@ export default function App() {
         <section className="hero-section">
           <h2 className="hero-title">選書支援ダッシュボード</h2>
           <p className="hero-subtitle">
-            沖縄県内の出版社や新刊情報から「沖縄・琉球・奄美」に関する地域資料、および総合大学として必要な「一般学術書」の新刊情報を集約し、琉大の所蔵状況を判定したリストです。
+            沖縄県内の出版社や新聞書評から「沖縄・琉球・奄美」に関する地域資料、および総合大学として必要な「一般学術書」の新刊情報を集約し、琉大の所蔵状況を判定したリストです。
           </p>
         </section>
 
@@ -349,88 +352,88 @@ export default function App() {
             </p>
           </div>
         ) : (
-          <div className="books-grid">
-            {filteredBooks.map((book) => (
-              <div key={book.isbn} className="book-card">
-                <div className="book-card-header">
-                  <span className={`book-category-badge ${book.category}`}>
-                    {book.category === 'okinawa-ja' ? '和書・地域' : book.category === 'okinawa-en' ? '洋書・地域' : '学術書'}
-                  </span>
-                  
-                  <span className={`status-badge ${book.status === '所蔵あり' ? 'owned' : book.status === '未所蔵' ? 'missing' : 'checking'}`}>
-                    {book.status === '所蔵あり' ? (
-                      <>
-                        <CheckCircle size={12} />
-                        所蔵あり
-                      </>
-                    ) : book.status === '未所蔵' ? (
-                      <>
-                        <AlertCircle size={12} />
-                        未所蔵
-                      </>
-                    ) : (
-                      <>
-                        <RefreshCw size={12} className="spin" />
-                        調査中
-                      </>
-                    )}
-                  </span>
-                </div>
-
-                <div className="book-card-body">
-                  <h3 className="book-title" title={book.title}>{book.title}</h3>
-                  <p className="book-author">{book.author}</p>
-                  
-                  <div className="book-meta">
-                    <div className="meta-row">
-                      <span>出版社</span>
-                      <span className="meta-val">{book.publisher}</span>
-                    </div>
-                    <div className="meta-row">
-                      <span>出版日</span>
-                      <span className="meta-val">{book.pubDate}</span>
-                    </div>
-                    <div className="meta-row">
-                      <span>ISBN</span>
-                      <span className="meta-val">{book.isbn}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="book-card-actions">
-                  <button 
-                    className="btn-card-action btn-card-details"
-                    onClick={() => setSelectedBook(book)}
-                  >
-                    <Info size={14} />
-                    詳細情報
-                  </button>
-                  
-                  {book.status === '所蔵あり' && book.reserveurl ? (
-                    <a
-                      href={book.reserveurl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-card-action btn-card-opac"
-                    >
-                      OPAC配架確認
-                      <ExternalLink size={12} />
-                    </a>
-                  ) : (
-                    <a
-                      href={`https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-card-action btn-card-opac"
-                      style={{ color: 'var(--color-accent-orange)' }}
-                    >
-                      OPAC検索
-                      <ExternalLink size={12} />
-                    </a>
-                  )}
-                </div>
-              </div>
-            ))}
+          <div className="books-table-wrapper">
+            <table className="books-table">
+              <thead>
+                <tr>
+                  <th>所蔵状況</th>
+                  <th>タイトル</th>
+                  <th>著者</th>
+                  <th>出版社</th>
+                  <th>出版年月</th>
+                  <th>分類(NDC)</th>
+                  <th>アクション</th>
+                </tr>
+              </thead>
+              <tbody>
+                {filteredBooks.map((book) => (
+                  <tr key={book.isbn} onClick={() => setSelectedBook(book)}>
+                    <td data-label="所蔵状況">
+                      <span className={`status-badge ${book.status === '所蔵あり' ? 'owned' : book.status === '未所蔵' ? 'missing' : 'checking'}`} style={{ display: 'inline-flex', width: 'fit-content' }}>
+                        {book.status === '所蔵あり' ? (
+                          <>
+                            <CheckCircle size={12} />
+                            所蔵あり
+                          </>
+                        ) : book.status === '未所蔵' ? (
+                          <>
+                            <AlertCircle size={12} />
+                            未所蔵
+                          </>
+                        ) : (
+                          <>
+                            <RefreshCw size={12} className="spin" />
+                            調査中
+                          </>
+                        )}
+                      </span>
+                    </td>
+                    <td data-label="タイトル" className="book-title-cell" title={book.title}>
+                      {book.title}
+                    </td>
+                    <td data-label="著者" className="book-author-cell" title={book.author}>
+                      {book.author}
+                    </td>
+                    <td data-label="出版社" title={book.publisher}>
+                      {book.publisher}
+                    </td>
+                    <td data-label="出版年月">
+                      {book.pubDate}
+                    </td>
+                    <td data-label="分類(NDC)">
+                      {book.ndc || '不明'}
+                    </td>
+                    <td data-label="アクション" onClick={(e) => e.stopPropagation()}>
+                      <div className="table-actions">
+                        {book.status === '所蔵あり' ? (
+                          <a
+                            href={book.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${book.isbn}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-table-action btn-table-opac"
+                          >
+                            OPAC配架
+                            <ExternalLink size={12} />
+                          </a>
+                        ) : book.sourceUrl ? (
+                          <a
+                            href={book.sourceUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-table-action btn-table-source"
+                          >
+                            典拠を確認
+                            <Globe size={12} />
+                          </a>
+                        ) : (
+                          <span style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>-</span>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         )}
       </main>
@@ -533,9 +536,9 @@ export default function App() {
                 閉じる
               </button>
               
-              {selectedBook.status === '所蔵あり' && selectedBook.reserveurl ? (
+              {selectedBook.status === '所蔵あり' ? (
                 <a
-                  href={selectedBook.reserveurl}
+                  href={selectedBook.reserveurl || `https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${selectedBook.isbn}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
@@ -544,23 +547,23 @@ export default function App() {
                   OPACで配架を確認する
                   <ExternalLink size={14} />
                 </a>
-              ) : (
+              ) : selectedBook.sourceUrl ? (
                 <a
-                  href={`https://opac.lib.u-ryukyu.ac.jp/opc/search?q=${selectedBook.isbn}`}
+                  href={selectedBook.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
                   style={{ 
                     padding: '0.5rem 1rem', 
                     fontSize: '0.9rem',
-                    backgroundColor: 'var(--color-accent-orange)',
+                    backgroundColor: 'var(--color-sea-teal)',
                     color: '#ffffff'
                   }}
                 >
-                  OPACで再検索する
-                  <ExternalLink size={14} />
+                  典拠詳細を確認する
+                  <Globe size={14} />
                 </a>
-              )}
+              ) : null}
             </div>
           </div>
         </div>
