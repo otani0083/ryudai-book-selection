@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T02:02:37.622Z",
+  "lastUpdated": "2026-08-07T02:08:43.605Z",
   "books": [
     {
       "isbn": "9784758414968",
@@ -11503,11 +11503,41 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784478122426",
-      "title": "暮らしの信じ方",
-      "author": "古賀, 及子, 1979-",
-      "publisher": "ダイヤモンド社",
-      "pubDate": 2026.6,
+      "isbn": "9784867537824",
+      "title": "白湯を飲む女 : 短編小説5章 : 作家への読後文 (書簡体書評) 5編",
+      "author": "藤野, 史子",
+      "publisher": "日本電子書籍技術普及協会",
+      "pubDate": 2023.3,
+      "category": "academic",
+      "ndc": [
+        {
+          "#text": "KH971",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 913.6,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>日本電子書籍技術普及協会,2023,978-4-86753-782-4<p><ul><li>タイトル：白湯を飲む女 : 短編小説5章 : 作家への読後文 (書簡体書評) 5編</li><li>タイトル（読み）：サユ オ ノム オンナ : タンペン ショウセツ 5ショウ : サッカ エ ノ ドクゴブン (ショカンタイ ショヒョウ) 5ヘン</li><li>責任表示：藤野史子 著</li><li>シリーズ名：JETDA personal publications</li><li>NDC(10)：913.6</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I032822366",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784861328800",
+      "title": "よりぬきお江戸じょんのび便り",
+      "author": [
+        "河治, 和香",
+        "杉井, ギサブロー"
+      ],
+      "publisher": [
+        "新潟日報社読者局出版企画部",
+        "新潟日報メディアネット(メディアビジネス部出版グループ)"
+      ],
+      "pubDate": 2025.5,
       "category": "academic",
       "ndc": [
         {
@@ -11519,215 +11549,140 @@
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>ダイヤモンド社,2026,978-4-478-12242-6<p><ul><li>タイトル：暮らしの信じ方</li><li>タイトル（読み）：クラシ ノ シンジカタ</li><li>責任表示：古賀及子 著</li><li>NDC(10)：914.6</li></ul>",
+      "description": "<p>新潟日報社読者局出版企画部,2025,978-4-86132-880-0<p><ul><li>タイトル：よりぬきお江戸じょんのび便り</li><li>タイトル（読み）：ヨリヌキ オエド ジョンノビダヨリ</li><li>責任表示：河治和香, 杉井ギサブロー 著</li><li>NDC(10)：914.6</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034782999",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034093729",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
     {
-      "isbn": "9784881506981",
-      "title": "アーバンスポーツ施設の事業化計画資料集 : スポーツクライミング/B3スポーツ/パルクール/パデル/eスポーツ",
-      "author": "Unknown",
-      "publisher": "綜合ユニコム",
-      "pubDate": 2019.3,
+      "isbn": "9784835085425",
+      "title": "民衆史の狼火を : 追悼色川大吉",
+      "author": "三木, 健, 1940-",
+      "publisher": "不二出版",
+      "pubDate": 2022.5,
       "category": "academic",
       "ndc": [
-        "体育施設--日本",
+        "色川, 大吉, 1925-2021",
         {
-          "#text": "FS28",
+          "#text": "GK199",
           "@_xsi:type": "dcndl:NDLC"
         },
         {
-          "#text": 780.67,
+          "#text": 289.1,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>綜合ユニコム,2019,978-4-88150-698-1<p><ul><li>タイトル：アーバンスポーツ施設の事業化計画資料集 : スポーツクライミング/B3スポーツ/パルクール/パデル/eスポーツ</li><li>タイトル（読み）：アーバン スポーツ シセツ ノ ジギョウカ ケイカク シリョウシュウ : スポーツ クライミング / B3 スポーツ / パルクール / パデル / eスポーツ</li><li>NDC(10)：780.67</li></ul>",
+      "description": "<p>不二出版,2022,978-4-8350-8542-5<p><ul><li>タイトル：民衆史の狼火を : 追悼色川大吉</li><li>タイトル（読み）：ミンシュウシ ノ ノロシ オ : ツイトウ イロカワ ダイキチ</li><li>責任表示：三木健 編</li><li>NDC(10)：289.1</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I029961077",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I032132399",
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BC14830412"
     },
     {
-      "isbn": "9784884000882",
-      "title": "北朝鮮帰国者問題の歴史と課題",
-      "author": [
-        "坂中, 英徳, 1945-2023",
-        "韓, 錫圭",
-        "菊池, 嘉晃"
-      ],
-      "publisher": "新幹社",
-      "pubDate": 2009.12,
+      "isbn": "4772603794",
+      "title": "うおつか流大人の食育",
+      "author": "魚柄, 仁之助, 1956-",
+      "publisher": "合同出版",
+      "pubDate": 2006.11,
       "category": "academic",
       "ndc": [
-        "引揚問題",
+        "食生活--日本",
         {
-          "#text": "EG71",
+          "#text": "EG257",
           "@_xsi:type": "dcndl:NDLC"
         },
         {
-          "#text": 369.37,
+          "#text": 498.5,
           "@_xsi:type": "dcndl:NDC9"
         }
       ],
-      "description": "<p>新幹社,2009,978-4-88400-088-2<p><ul><li>タイトル：北朝鮮帰国者問題の歴史と課題</li><li>タイトル（読み）：キタチョウセン キコクシャ モンダイ ノ レキシ ト カダイ</li><li>責任表示：坂中英徳, 韓錫圭, 菊池嘉晃 共著</li><li>NDC(9)：369.37</li></ul>",
+      "description": "<p>合同出版,2006,4-7726-0379-4<p><ul><li>タイトル：うおつか流大人の食育</li><li>タイトル（読み）：ウオツカリュウ オトナ ノ ショクイク</li><li>責任表示：魚柄仁之助 著</li><li>NDC(9)：498.5</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010654947",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008545996",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
     {
-      "isbn": "9784087214123",
-      "title": "証言・北朝鮮帰国者 : 祖国に渡った「在日」はどう生きたか",
-      "author": "北朝鮮帰国者の記憶を記録する会",
-      "publisher": "集英社",
-      "pubDate": 2026.5,
+      "isbn": "4413082923",
+      "title": "あなたはまだ知らない…遺伝子操作、コンピュータ・パニック、核エネルギー制御不能・・・!?",
+      "author": "おもしろ世紀末総研",
+      "publisher": "青春出版社",
+      "pubDate": 1996,
       "category": "academic",
       "ndc": [
-        "朝鮮民主主義人民共和国--社会",
+        "科学技術",
         {
-          "#text": "GE138",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 302.21,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>集英社,2026,978-4-08-721412-3<p><ul><li>タイトル：証言・北朝鮮帰国者 : 祖国に渡った「在日」はどう生きたか</li><li>タイトル（読み）：ショウゲン キタチョウセン キコクシャ : ソコク ニ ワタッタ ザイニチ ワ ドウ イキタカ</li><li>責任表示：「北朝鮮帰国者」の記憶を記録する会 編</li><li>シリーズ名：集英社新書 ; 1312</li><li>シリーズ名（読み）：シュウエイシャ シンショ ; 1312</li><li>NDC(10)：302.21</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034686575",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784106039478",
-      "title": "日本史はいかに物語られてきたか",
-      "author": "河野, 有理",
-      "publisher": "新潮社",
-      "pubDate": 2026.5,
-      "category": "academic",
-      "ndc": [
-        "政治思想--日本--歴史--1945-",
-        {
-          "#text": "A22",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 311.21,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>新潮社,2026,978-4-10-603947-8<p><ul><li>タイトル：日本史はいかに物語られてきたか</li><li>タイトル（読み）：ニホンシ ワ イカニ モノガタラレテ キタカ</li><li>責任表示：河野有理 著</li><li>シリーズ名：新潮選書</li><li>シリーズ名（読み）：シンチョウ センショ</li><li>NDC(10)：311.21</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034701500",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784065412954",
-      "title": "檻の中のルフィ : 闇バイトを生んだ者たち",
-      "author": "栗田, シメイ, 1987-",
-      "publisher": "講談社",
-      "pubDate": 2026.6,
-      "category": "academic",
-      "ndc": [
-        "強盗",
-        {
-          "#text": "AZ-751",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 368.65,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>講談社,2026,978-4-06-541295-4<p><ul><li>タイトル：檻の中のルフィ : 闇バイトを生んだ者たち</li><li>タイトル（読み）：オリ ノ ナカ ノ ルフィ : ヤミバイト オ ウンダ モノタチ</li><li>責任表示：栗田シメイ 著</li><li>NDC(10)：368.65</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034767562",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784794974624",
-      "title": "建築を見る技術",
-      "author": "坂牛, 卓",
-      "publisher": "晶文社",
-      "pubDate": 2025.2,
-      "category": "academic",
-      "ndc": [
-        "建築",
-        {
-          "#text": "KA21",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 520,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>晶文社,2025,978-4-7949-7462-4<p><ul><li>タイトル：建築を見る技術</li><li>タイトル（読み）：ケンチク オ ミル ギジュツ</li><li>責任表示：坂牛卓 著</li><li>NDC(10)：520</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I033937895",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784163810102",
-      "title": "赤絵そうめん",
-      "author": "山本, 兼一",
-      "publisher": "文芸春秋",
-      "pubDate": 2011.11,
-      "category": "academic",
-      "ndc": [
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC9"
-        },
-        {
-          "#text": 913.6,
+          "#text": 404,
           "@_xsi:type": "dcndl:NDC8"
         }
       ],
-      "description": "<p>文芸春秋,2011,9784163810102<p><ul><li>タイトル：赤絵そうめん</li><li>タイトル（読み）：アカエ ソウメン</li><li>責任表示：山本兼一著</li><li>NDC(9)：913.6</li></ul>",
+      "description": "<p>青春出版社,1996,4413082923<p><ul><li>タイトル：あなたはまだ知らない…遺伝子操作、コンピュータ・パニック、核エネルギー制御不能・・・!?</li><li>タイトル（読み）：アナタ ワ マダ シラナイ イデンシ ソウサ コンピュータ パニック カク エネルギ- セイギョ フノウ</li><li>責任表示：おもしろ世紀末総研編</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384887531526",
-      "status": "エラー",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434907059734",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
     {
-      "isbn": "9784334106195",
-      "title": "締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学",
-      "author": "安達, 未来",
-      "publisher": "光文社",
-      "pubDate": 2025.4,
+      "isbn": "9784771020214",
+      "title": "愛する者の死とどう向き合うか : 悲嘆の癒し",
+      "author": [
+        "Becker, Carl B, 1951-",
+        "山本, 佳世子, 死生学"
+      ],
+      "publisher": "晃洋書房",
+      "pubDate": 2009.1,
       "category": "academic",
       "ndc": [
-        "自制心",
+        "悲しみ",
         {
-          "#text": "SB118",
+          "#text": "SB112",
           "@_xsi:type": "dcndl:NDLC"
         },
         {
-          "#text": 141.8,
-          "@_xsi:type": "dcndl:NDC10"
+          "#text": 141.6,
+          "@_xsi:type": "dcndl:NDC9"
         }
       ],
-      "description": "<p>光文社,2025,978-4-334-10619-5<p><ul><li>タイトル：締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学</li><li>タイトル（読み）：シメキリ ヨリ ハヤク テイシュツ サレタ レポート ワ ナゼ ツマラナイ ノカ : サキノバシ ト マエダオシ ノ シンリガク</li><li>責任表示：安達未来 著</li><li>シリーズ名：光文社新書 ; 1355</li><li>シリーズ名（読み）：コウブンシャ シンショ ; 1355</li><li>NDC(10)：141.8</li></ul>",
+      "description": "<p>晃洋書房,2009,978-4-7710-2021-4<p><ul><li>タイトル：愛する者の死とどう向き合うか : 悲嘆の癒し</li><li>タイトル（読み）：アイスル モノ ノ シ ト ドウ ムキアウカ : ヒタン ノ イヤシ</li><li>責任表示：カール・ベッカー 編著,山本佳世子 訳</li><li>シリーズ名：こころの未来叢書</li><li>シリーズ名（読み）：ココロ ノ ミライ ソウショ</li><li>NDC(9)：141.6</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034020726",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010030759",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
+    },
+    {
+      "isbn": "9784140887608",
+      "title": "バラバラな世界で共に生きる : リチャード・ローティの哲学",
+      "author": "朱, 喜哲, 1985-",
+      "publisher": "NHK出版",
+      "pubDate": 2026.5,
+      "category": "academic",
+      "ndc": [
+        "Rorty, Richard, 1931-2007",
+        {
+          "#text": "HD194",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 133.9,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>NHK出版,2026,978-4-14-088760-8<p><ul><li>タイトル：バラバラな世界で共に生きる : リチャード・ローティの哲学</li><li>タイトル（読み）：バラバラ ナ セカイ デ トモ ニ イキル : リチャード ローティ ノ テツガク</li><li>責任表示：朱喜哲 著</li><li>シリーズ名：NHK出版新書 ; 760</li><li>シリーズ名（読み）：エヌエイチケー シュッパン シンショ ; 760</li><li>NDC(10)：133.9</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034684200",
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18939090"
     }
   ]
 }
