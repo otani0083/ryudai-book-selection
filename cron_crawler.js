@@ -221,6 +221,7 @@ async function fetchOpenLibrary(keyword) {
     const filtered = docs.filter(doc => {
       const hasIsbn = doc.isbn && doc.isbn.length > 0;
       const isEnglish = doc.language?.includes('eng');
+      const maxYear = doc.publish_year ? Math.max(...doc.publish_year) : 0;
       // 探索範囲を 2010年以降（過去15年分以上）に拡大！
       const isRecent = maxYear >= 2010;
       return hasIsbn && isEnglish && isRecent;
