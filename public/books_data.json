@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T07:04:15.349Z",
+  "lastUpdated": "2026-08-09T01:02:57.764Z",
   "books": [
     {
       "isbn": "9784758414968",
@@ -81,18 +81,22 @@
     {
       "isbn": "9784801308343",
       "title": "あなたの知らない怖い沖縄",
-      "author": "神里, 純平",
+      "author": "神里, 純平, 1979-",
       "publisher": "彩図社",
       "pubDate": 2026.8,
       "category": "okinawa-ja",
       "ndc": [
-        "沖縄県--歴史",
+        "沖縄県--社会",
         {
-          "#text": 219.9,
+          "#text": "GC311",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 302.199,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>彩図社,2026,978-4-8013-0834-3<p><ul><li>タイトル：あなたの知らない怖い沖縄</li><li>タイトル（読み）：アナタ ノ シラナイ コワイ オキナワ</li><li>責任表示：神里純平 著</li><li>NDC(10)：219.9</li></ul>",
+      "description": "<p>彩図社,2026,978-4-8013-0834-3<p><ul><li>タイトル：あなたの知らない怖い沖縄</li><li>タイトル（読み）：アナタ ノ シラナイ コワイ オキナワ</li><li>責任表示：神里純平 著</li><li>NDC(10)：302.199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034809576",
       "status": "未所蔵",
@@ -255,7 +259,7 @@
       "description": "<p>三笠書房,2026,978-4-8379-4083-8<p><ul><li>タイトル：医師が教える「健幸」になる休み方沖縄式リトリート</li><li>タイトル（読み）：イシ ガ オシエル ケンコウ ニ ナル ヤスミカタ オキナワシキ リトリート</li><li>責任表示：城所望 著</li><li>NDC(10)：498.35</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034599149",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -330,7 +334,7 @@
       "description": "<p>[2026],JTBパブリッシング,2026,978-4-533-17360-8<p><ul><li>タイトル：石垣宮古完全版</li><li>タイトル（読み）：イシガキ ミヤコ カンゼンバン</li><li>シリーズ名：JTBのMOOK</li><li>シリーズ名（読み）：ジェーティービー ノ ムック</li><li>NDC(10)：291.99</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034763506",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -542,20 +546,24 @@
       "isbn": "9784004321156",
       "title": "沖縄を語りつぐ : ある家族の歴史",
       "author": [
-        "川平, 朝清",
-        "Kabira, Jon"
+        "川平, 朝清, 1927-",
+        "ジョン・カビラ, 1958-"
       ],
       "publisher": "岩波書店",
       "pubDate": 2026.6,
       "category": "okinawa-ja",
       "ndc": [
-        "川平, 朝清",
+        "川平 (家)",
         {
-          "#text": 289.1,
+          "#text": "GK13",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 288.3,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>岩波書店,2026,978-4-00-432115-6<p><ul><li>タイトル：沖縄を語りつぐ : ある家族の歴史</li><li>タイトル（読み）：オキナワ オ カタリツグ : アル カゾク ノ レキシ</li><li>責任表示：川平朝清, ジョン・カビラ 著</li><li>シリーズ名：岩波新書 新赤版 ; 2115</li><li>シリーズ名（読み）：イワナミ シンショ シンアカバン ; 2115</li><li>NDC(10)：289.1</li></ul>",
+      "description": "<p>岩波書店,2026,978-4-00-432115-6<p><ul><li>タイトル：沖縄を語りつぐ : ある家族の歴史</li><li>タイトル（読み）：オキナワ オ カタリツグ : アル カゾク ノ レキシ</li><li>責任表示：川平朝清, ジョン・カビラ 著</li><li>シリーズ名：岩波新書 新赤版 ; 2115</li><li>シリーズ名（読み）：イワナミ シンショ シンアカバン ; 2115</li><li>NDC(10)：288.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736855",
       "status": "所蔵あり",
@@ -578,7 +586,7 @@
       "description": "<p>ボーダーインク,2026-07-29,9784899825050<p><ul><li>タイトル：沖縄オタククロニクル1970年代～2000年代 : または那覇のオタク少年がいかにして沖縄初のライトノベル作家になったのか</li><li>タイトル（読み）：オキナワオタククロニクルセンキュウヒャクナナジュウネンダイニセンネンダイ : マタハナハノオタクショウネンガイカニシテオキナワハツノライトノベルサッカニナッタノカ</li><li>責任表示：神野オキナ 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784899825050",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -777,7 +785,7 @@
       "description": "<p>2027,協同出版,2025,978-4-319-07256-9<p><ul><li>タイトル：沖縄県の公務員採用試験 (教養試験) : 沖縄県の警察官A (大卒)</li><li>タイトル（読み）：オキナワケン ノ コウムイン サイヨウ シケン (キョウヨウ シケン) : オキナワケン ノ ケイサツカン A (ダイソツ)</li><li>責任表示：公務員試験研究会 編</li><li>シリーズ名：公務員採用試験対策シリーズ</li><li>シリーズ名（読み）：コウムイン サイヨウ シケン タイサク シリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034365461",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -822,7 +830,7 @@
       "description": "<p>2027,協同出版,2026,978-4-319-07252-1<p><ul><li>タイトル：沖縄県の公務員採用試験 (教養試験) : 那覇市・沖縄市・宜野湾市の中級</li><li>タイトル（読み）：オキナワケン ノ コウムイン サイヨウ シケン (キョウヨウ シケン) : ナハシ ・ オキナワシ ・ ギノワンシ ノ チュウキュウ</li><li>責任表示：公務員試験研究会 編</li><li>シリーズ名：公務員採用試験対策シリーズ</li><li>シリーズ名（読み）：コウムイン サイヨウ シケン タイサク シリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034452338",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -852,7 +860,7 @@
       "description": "<p>2027,協同出版,2026,978-4-319-07257-6<p><ul><li>タイトル：沖縄県の公務員採用試験 (教養試験) : 沖縄県の警察官B (高卒程度)</li><li>タイトル（読み）：オキナワケン ノ コウムイン サイヨウ シケン (キョウヨウ シケン) : オキナワケン ノ ケイサツカン B (コウソツ テイド)</li><li>責任表示：公務員試験研究会 編</li><li>シリーズ名：公務員採用試験対策シリーズ</li><li>シリーズ名（読み）：コウムイン サイヨウ シケン タイサク シリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034511842",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -867,7 +875,7 @@
       "description": "<p>2027,協同出版,2026,978-4-319-07253-8<p><ul><li>タイトル：沖縄県の公務員採用試験 (教養試験) : 那覇市・沖縄市・浦添市・宜野湾市の初級</li><li>タイトル（読み）：オキナワケン ノ コウムイン サイヨウ シケン (キョウヨウ シケン) : ナハシ ・ オキナワシ ・ ウラソエシ ・ ギノワンシ ノ ショキュウ</li><li>責任表示：公務員試験研究会 編</li><li>シリーズ名：公務員採用試験対策シリーズ</li><li>シリーズ名（読み）：コウムイン サイヨウ シケン タイサク シリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034533885",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -938,7 +946,7 @@
       "description": "<p>財経詳報社,2025,978-4-88177-915-6<p><ul><li>タイトル：沖縄県の税制・財政制度</li><li>タイトル（読み）：オキナワケン ノ ゼイセイ ザイセイ セイド</li><li>責任表示：髙沢修一 著</li><li>NDC(10)：349.2199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034452235",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1286,7 +1294,7 @@
       "description": "<p>ボーダーインク,2026-08-17,9784899825067<p><ul><li>タイトル：沖縄の葬祭 : 葬儀・法事から仏壇・お墓まで</li><li>タイトル（読み）：オキナワノソウサイ : ソウギホウジカラブツダンオハカマデ</li><li>責任表示：稲福政斉 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784899825067",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1301,7 +1309,7 @@
       "description": "<p>ボーダーインク,2026,978-4-89982-504-3<p><ul><li>タイトル：おきなわの不動産相続 : ホントにあった24の事例</li><li>タイトル（読み）：オキナワ ノ フドウサン ソウゾク : ホント ニ アッタ 24 ノ ジレイ</li><li>責任表示：友利真由美</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034731909",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1694,7 +1702,7 @@
       "description": "<p>'26,昭文社,2025,978-4-398-21868-1<p><ul><li>タイトル：沖縄ベストスポット</li><li>タイトル（読み）：オキナワ ベスト スポット</li><li>シリーズ名：まっぷるマガジン. 沖縄 ; 03</li><li>シリーズ名（読み）：マップル マガジン. オキナワ ; 3</li><li>NDC(10)：291.99</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034399744",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1722,7 +1730,7 @@
       "description": "<p>地球の歩き方,2026,978-4-05-802597-0<p><ul><li>タイトル：沖縄本島周辺15離島 : 伊平屋島 野甫島 伊是名島 伊江島 水納島 津堅島 久高島 粟国島 渡名喜島 座間味島 阿嘉島 慶留間島 渡嘉敷島 北大東島 南大東島</li><li>タイトル（読み）：オキナワ ホントウ シュウヘン ジュウゴ リトウ : イヘヤジマ ノホジマ イゼナジマ イエジマ ミンナシマ ツケンジマ クダカジマ アグニジマ トナキジマ ザマミジマ アカジマ ゲルマジマ トカシキジマ キタダイトウジマ ミナミダイトウジマ</li><li>シリーズ名：地球の歩き方 島旅 ; 17</li><li>シリーズ名（読み）：チキュウ ノ アルキカタ シマタビ ; 17</li><li>NDC(10)：291.99093</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034574208",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1814,7 +1822,7 @@
       "description": "<p>旬報社,2026,978-4-8451-2274-5<p><ul><li>タイトル：沖縄は今も「戦世」をうたう : 戦争から生まれ、平和を願った、島うたの80年史</li><li>タイトル（読み）：オキナワ ワ イマ モ イクサユ オ ウタウ : センソウ カラ ウマレ ヘイワ オ ネガッタ シマウタ ノ ハチジュウネンシ</li><li>責任表示：藤田正 著</li><li>シリーズ名：PEACE BOOK ; 5</li><li>NDC(10)：767.02199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034825322",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1839,7 +1847,7 @@
       "description": "<p>'27,昭文社,2026,978-4-398-21867-4<p><ul><li>タイトル：沖縄</li><li>タイトル（読み）：オキナワ</li><li>シリーズ名：まっぷるマガジン. 沖縄 ; 01</li><li>シリーズ名（読み）：マップル マガジン. オキナワ ; 1</li><li>NDC(10)：291.99</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034541769",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1864,7 +1872,7 @@
       "description": "<p>昭文社,2025,978-4-398-15640-2<p><ul><li>タイトル：沖縄</li><li>タイトル（読み）：オキナワ</li><li>シリーズ名：ことりっぷ</li><li>シリーズ名（読み）：コトリップ</li><li>NDC(10)：291.99</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034296517",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1882,7 +1890,7 @@
       "description": "<p>株式会社 世界文化社,2026-07-30,9784418261178<p><ul><li>タイトル：大人のハワイ　ｖｏｌ．６０</li><li>タイトル（読み）：オトナノハワイロクジュウ</li><li>責任表示：大人のハワイ編集部 著・文・その他</li><li>シリーズ名：別冊家庭画報</li><li>シリーズ名（読み）：ベッサツカテイガホウ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784418261178",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1897,7 +1905,7 @@
       "description": "<p>国立歴史民俗博物館,2026,978-4-909293-31-2<p><ul><li>タイトル：同じ墓に入る人びと : 沖縄県糸満の門中行事</li><li>タイトル（読み）：オナジ ハカ ニ ハイル ヒトビト : オキナワケン イトマン ノ ムンチュウ ギョウジ</li><li>責任表示：国立歴史民俗博物館 編集</li><li>シリーズ名：歴博映像フォーラム ; 19</li><li>シリーズ名（読み）：レキハク エイゾウ フォーラム ; 19</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034549695",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -1925,7 +1933,7 @@
       "description": "<p>北斗書房,2026,9784892900808<p><ul><li>タイトル：鹿児島から沖縄のヤムイモ、タロイモ、キャッサバ</li><li>タイトル（読み）：カゴシマ カラ オキナワ ノ ヤムイモ タロイモ キャッサバ</li><li>責任表示：遠城道雄, 西澤優著</li><li>NDC(10)：626.42</li><li>NDC(9)：626.42</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970308312567368973",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2043,7 +2051,7 @@
       "description": "<p>高文研,2026-08-19,9784874989869<p><ul><li>タイトル：環境・沖縄・平和教育に導かれて</li><li>タイトル（読み）：カンキョウオキナワヘイワキョウイクニミチビカレテ</li><li>責任表示：柴田 健 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874989869",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2116,7 +2124,7 @@
       "description": "<p>其の3,花書院,2026,978-4-86773-108-6<p><ul><li>タイトル：九州・沖縄同人誌傑作選</li><li>タイトル（読み）：キュウシュウ ・ オキナワ ドウジンシ ケッサクセン</li><li>NDC(10)：913.68</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034528130",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2190,7 +2198,7 @@
       "description": "<p>榕樹書林,2025,978-4-89805-262-4<p><ul><li>タイトル：おもろさうし : 現代詩訳 : 琉球国の叙事詩</li><li>タイトル（読み）：オモロサウシ : ゲンダイシヤク : リュウキュウコク ノ ジョジシ</li><li>責任表示：鳥越皓之</li><li>シリーズ名：がじゅまるブックス = Gajumaru books ; 20</li><li>シリーズ名（読み）：ガジュマル ブックス = Gajumaru books ; 20</li><li>NDC(10)：911.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034320596",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2205,7 +2213,7 @@
       "description": "<p>琉球新報社,2026,9784867640333<p><ul><li>タイトル：きょうの沖縄戦1945</li><li>タイトル（読み）：キョウノオキナワセン1945</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I11213564675",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2220,7 +2228,7 @@
       "description": "<p>榕樹書林,2026,978-4-89805-263-1<p><ul><li>タイトル：清代初期中国琉球文人交流の研究</li><li>責任表示：季龍飛 著</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034686684",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2245,7 +2253,7 @@
       "description": "<p>七月社,2025,978-4-909544-44-5<p><ul><li>タイトル：久高島祭祀論</li><li>タイトル（読み）：クダガジマ サイシロン</li><li>責任表示：吉成直樹</li><li>NDC(10)：386.199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034332694",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2270,7 +2278,7 @@
       "description": "<p>ボーダーインク,2025,978-4-89982-495-4<p><ul><li>タイトル：具志頭間切の歴史散歩 : 先人たちの奥深い物語への誘い</li><li>タイトル（読み）：グシチャン マギリ ノ レキシ サンポ : センジンタチ ノ オクブカイ モノガタリ エノ イザナイ</li><li>責任表示：宮城信夫</li><li>NDC(10)：219.9</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034363154",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2298,7 +2306,7 @@
       "description": "<p>沖縄タイムス社,2025,978-4-87127-325-1<p><ul><li>タイトル：個性の塊!うちの子がゆく : 自閉スペクトラム症の女児と家族の奮闘記</li><li>タイトル（読み）：コセイ ノ カタマリ ! ウチ ノ コ ガ ユク : ジヘイ スペクトラムショウ ノ ジョジ ト カゾク ノ フントウキ</li><li>責任表示：SAKURA 作,城間直秀 監修</li><li>NDC(10)：378.8</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034477702",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2313,11 +2321,9 @@
       "description": "<p>ボーダーインク,2026,978-4-89982-498-5<p><ul><li>タイトル：ことばの花束 : 書簡点描</li><li>タイトル（読み）：コトバ ノ ハナタバ : ショカン テンビョウ</li><li>責任表示：仲程昌徳 著</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034604568",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18329384"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784868500094",
@@ -2340,7 +2346,7 @@
       "description": "<p>清談社Publico,2026,978-4-86850-009-4<p><ul><li>タイトル：誤解だらけの沖縄と領土問題</li><li>タイトル（読み）：ゴカイダラケ ノ オキナワ ト リョウド モンダイ</li><li>責任表示：八幡和郎 著</li><li>NDC(10)：319.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034783055",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2367,11 +2373,9 @@
       "description": "<p>南原あい,2025,978-4-87127-719-8<p><ul><li>タイトル：護佐丸の星 : 南原あい戯曲集</li><li>タイトル（読み）：ゴサマル ノ ホシ : ナンバラ アイ ギキョクシュウ</li><li>責任表示：南原あい 著</li><li>NDC(10)：912.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034368146",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "館内のみ"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD13958167"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784897046303",
@@ -2394,7 +2398,7 @@
       "description": "<p>[2025]最新版,ユニプラン,2025,978-4-89704-630-3<p><ul><li>タイトル：散策&観賞沖縄本島編 : 体験学習スポットガイド</li><li>タイトル（読み）：サンサク アンド カンショウ オキナワ ホントウヘン : タイケン ガクシュウ スポット ガイド</li><li>NDC(10)：291.99093</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034312073",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2426,17 +2430,29 @@
     {
       "isbn": "9784868161486",
       "title": "首里城の大龍柱 : 向きをめぐる史実と政治",
-      "author": "後田多 敦",
-      "publisher": [
-        "春風社",
-        "春風社"
+      "author": [
+        "加藤, 里織",
+        "後田多, 敦",
+        "前田, 孝和, 1950-",
+        "神奈川大学"
       ],
-      "pubDate": "2026-07-13",
+      "publisher": "春風社",
+      "pubDate": 2026.7,
       "category": "okinawa-ja",
-      "ndc": "Unknown",
-      "description": "<p>春風社,2026-07-13,9784868161486<p><ul><li>タイトル：首里城の大龍柱 : 向きをめぐる史実と政治</li><li>タイトル（読み）：シュリジョウノダイリュウチュウ : ムキヲメグルシジツトセイジ</li><li>責任表示：後田多 敦 著・文・その他</li></ul>",
+      "ndc": [
+        "首里城",
+        {
+          "#text": "KA372",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 521.823,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>春風社,2026,978-4-86816-148-6<p><ul><li>タイトル：首里城の大龍柱 : 向きをめぐる史実と政治</li><li>タイトル（読み）：シュ リジョウ ノ ダイリュウ チュウ : ムキ オ メグル シジツ ト セイジ</li><li>責任表示：後田多敦</li><li>NDC(10)：521.823</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868161486",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797495",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -2462,7 +2478,7 @@
       "description": "<p>上,溪水社,2026,978-4-86327-690-1<p><ul><li>タイトル：「首里の言葉」を聞く : 明治13 (1880) 年『沖繩對話』</li><li>タイトル（読み）：「 シュリ ノ コトバ 」 オ キク : メイジ 13 (1880) ネン 『 オキナワ タイワ 』</li><li>責任表示：多和田眞一郎</li><li>NDC(10)：818.99</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034623035",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2487,7 +2503,7 @@
       "description": "<p>ボーダーインク,2026,978-4-89982-502-9<p><ul><li>タイトル：食堂faidamaと島の風のようなごはん : 沖縄の恵みをたっぷりと</li><li>タイトル（読み）：ショクドウ ファイダマ ト シマ ノ カゼ ノ ヨウナ ゴハン : オキナワ ノ メグミ オ タップリ ト</li><li>責任表示：高江洲毅, 高江洲美沙 著</li><li>NDC(10)：596</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034637546",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2505,7 +2521,7 @@
       "description": "<p>青幻舎,2026-09-12,9784868310495<p><ul><li>タイトル：新版 琉球紅型</li><li>タイトル（読み）：シンパン リュウキュウビンガタ</li><li>責任表示：青幻舎編集部 編集</li><li>シリーズ名：青幻舎ビジュアル文庫</li><li>シリーズ名（読み）：セイゲンシャビジュアルブンコ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784868310495",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2520,7 +2536,7 @@
       "description": "<p>ポプラ社,2026-08-05,9784591190395<p><ul><li>タイトル：ジンベーニョの　ゆめ</li><li>タイトル（読み）：ジンベーニョノユメ</li><li>責任表示：柳　明菜 著・文・その他</li><li>シリーズ名：単行本 ； 621</li><li>シリーズ名（読み）：タンコウボン</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784591190395",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2535,7 +2551,7 @@
       "description": "<p>ボーダーインク,2026,978-4-89982-503-6<p><ul><li>タイトル：瑞泉庵の日々</li><li>タイトル（読み）：ズイセンアン ノ ヒビ</li><li>責任表示：池宮喜輝 著</li><li>シリーズ名：池宮喜輝著作集 ; 3</li><li>シリーズ名（読み）：イケミヤ キキ チョサクシュウ ; 3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034792299",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2560,7 +2576,7 @@
       "description": "<p>晃洋書房,2026,978-4-7710-3989-6<p><ul><li>タイトル：戦後沖縄とエネルギー経済 : 電力と尖閣沖油田を中心に</li><li>タイトル（読み）：センゴ オキナワ ト エネルギー ケイザイ : デンリョク ト センカクオキ ユデン オ チュウシン ニ</li><li>責任表示：宮地英敏 著</li><li>NDC(10)：501.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034514101",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2585,7 +2601,7 @@
       "description": "<p>広島大学高等教育研究開発センター,2026,978-4-86637-059-0<p><ul><li>タイトル：占領下沖縄の高等教育関連文献・資料目録</li><li>タイトル（読み）：センリョウカ オキナワ ノ コウトウ キョウイク カンレン ブンケン ・ シリョウ モクロク</li><li>責任表示：蝶慎一</li><li>シリーズ名：高等教育研究叢書 = Reviews in higher education ; 181</li><li>シリーズ名（読み）：コウトウ キョウイク ケンキュウ ソウショ = Reviews in higher education ; 181</li><li>NDC(10)：377.2199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034697647",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2615,11 +2631,9 @@
       "description": "<p>琥珀書房,2026,978-4-911589-17-5<p><ul><li>タイトル：占領下の痕跡 : 一九五〇年代沖縄の社会と景観</li><li>タイトル（読み）：センリョウカ ノ スクラップ : センキュウヒャクゴジュウネンダイ オキナワ ノ シャカイ ト ケイカン</li><li>責任表示：加藤政洋 [ほか] 編著</li><li>シリーズ名：鹿ヶ谷叢書 ; 008</li><li>シリーズ名（読み）：シシガタニ ソウショ ; 8</li><li>NDC(10)：219.9072</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034498183",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14749184"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784833141697",
@@ -2648,7 +2662,7 @@
       "description": "<p>中部大学,2026,978-4-8331-4169-7<p><ul><li>タイトル：そのとき私は、宮古の聖なる森の片隅で</li><li>タイトル（読み）：ソノトキ ワタクシ ワ ミヤコ ノ セイナル モリ ノ カタスミ デ</li><li>責任表示：平井芽阿里 著</li><li>シリーズ名：中部大学ブックシリーズアクタ ; 37</li><li>シリーズ名（読み）：チュウブ ダイガク ブック シリーズ アクタ ; 37</li><li>NDC(10)：387.02199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034549441",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2748,7 +2762,7 @@
       "description": "<p>七月社,2026,978-4-909544-47-6<p><ul><li>タイトル：千葉真一、南へ : アクション映画魂と沖縄・台湾</li><li>タイトル（読み）：チバ シンイチ 、 ミナミ エ : アクション エイガ ダマシイ ト オキナワ ・ タイワン</li><li>責任表示：沖縄映画研究会 編</li><li>NDC(10)：778.21</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034551809",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -2837,9 +2851,11 @@
       "description": "<p>京都大学学術出版会,2026,978-4-8140-0640-3<p><ul><li>タイトル：南洋群島に生きた沖縄移民 : 〈不可視化した世界/忘却した時〉をたぐりよせる</li><li>タイトル（読み）：ナンヨウ グントウ ニ イキタ オキナワ イミン : フカシカ シタ セカイ ボウキャク シタ トキ オ タグリヨセル</li><li>責任表示：森亜紀子 著</li><li>NDC(10)：334.5199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034581143",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD15070796"
     },
     {
       "isbn": "9784405097193",
@@ -2912,11 +2928,9 @@
       "description": "<p>筑摩書房,2025,978-4-480-44076-1<p><ul><li>タイトル：裸足で逃げる : 沖縄の夜の街の少女たち</li><li>タイトル（読み）：ハダシ デ ニゲル : オキナワ ノ ヨル ノ マチ ノ ショウジョタチ</li><li>責任表示：上間陽子 著</li><li>シリーズ名：ちくま文庫 ; う52-1</li><li>シリーズ名（読み）：チクマ ブンコ ; ウ-52-1</li><li>NDC(10)：367.9</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034442457",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "館内のみ"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14098133"
+      "status": "エラー",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784750360232",
@@ -2939,9 +2953,12 @@
       "description": "<p>明石書店,2025,978-4-7503-6023-2<p><ul><li>タイトル：ポジショナリティと〈日沖関係〉 : 沖縄と日本の権力構造、集団的利害と責任の様態を問い直す</li><li>タイトル（読み）：ポジショナリティ ト ニチオキ カンケイ : オキナワ ト ニホン ノ ケンリョク コウゾウ シュウダンテキ リガイ ト セキニン ノ ヨウタイ オ トイナオス</li><li>責任表示：池田緑 著</li><li>NDC(10)：312.199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034471031",
-      "status": "エラー",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "館内のみ",
+        "研究室": "蔵書あり"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14311809"
     },
     {
       "isbn": "9784874989883",
@@ -3241,7 +3258,7 @@
       "description": "<p>2025-26SEASON,東京ニュース通信社,2025,978-4-86836-020-9<p><ul><li>タイトル：琉球ゴールデンキングスオフィシャルブック</li><li>タイトル（読み）：リュウキュウ ゴールデン キングス オフィシャル ブック</li><li>シリーズ名：TOKYO NEWS MOOK ; 通巻1213号</li><li>シリーズ名（読み）：トウキョウ ニュース ムック ; 1213</li><li>NDC(10)：783.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034330029",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3351,11 +3368,9 @@
       "description": "<p>第19回,琉球大学,2026,978-4-911246-04-7<p><ul><li>タイトル：琉球大学びぶりお文学賞受賞作品集</li><li>タイトル（読み）：リュウキュウ ダイガク ビブリオ ブンガクショウ ジュショウ サクヒンシュウ</li><li>責任表示：琉球大学附属図書館 編集</li><li>シリーズ名：琉球大学附属図書館報「びぶりお」特別号 ; 2025</li><li>シリーズ名（読み）：リュウキュウ ダイガク フゾク トショカンホウ 「 ビブリオ 」 トクベツゴウ ; 2025</li><li>NDC(10)：913.68</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034558252",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD16935113"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784325268888",
@@ -3377,7 +3392,7 @@
       "description": "<p>2026年版,教学社,2025,978-4-325-26888-8<p><ul><li>タイトル：琉球大学</li><li>タイトル（読み）：リュウキュウ ダイガク</li><li>シリーズ名：大学赤本シリーズ ; 170</li><li>シリーズ名（読み）：ダイガク アカホン シリーズ ; 170</li><li>NDC(10)：376.87</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034358021",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3402,11 +3417,9 @@
       "description": "<p>八坂書房,2025,978-4-89694-385-6<p><ul><li>タイトル：琉球動物民俗事典 : 聞き書き琉球列島の動物利用</li><li>タイトル（読み）：リュウキュウ ドウブツ ミンゾク ジテン : キキガキ リュウキュウ レットウ ノ ドウブツ リヨウ</li><li>責任表示：盛口満 編著</li><li>NDC(10)：482.197</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034461486",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD1430665X"
+      "status": "エラー",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9787522868790",
@@ -3728,7 +3741,7 @@
       "description": "<p>風媒社,2026,978-4-8331-5478-9<p><ul><li>タイトル：鹿児島弁 : 薩摩半島大隅半島奄美大島徳之島屋久島種子島甑島</li><li>タイトル（読み）：カゴッマベン : サツマ ハントウ オオスミ ハントウ アマミ オオシマ トクノシマ ヤクシマ タネガシマ コシキジマ</li><li>責任表示：末吉順治 著</li><li>NDC(10)：818.97</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034502523",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3756,7 +3769,7 @@
       "description": "<p>北斗書房,2026,978-4-89290-078-5<p><ul><li>タイトル：「共生」を考える : 希少種による農作物被害の現場から</li><li>タイトル（読み）：キョウセイ オ カンガエル : キショウシュ ニ ヨル ノウサクブツ ヒガイ ノ ゲンバ カラ</li><li>責任表示：河合渓, 鈴木真理子, 髙山耕二 編著</li><li>シリーズ名：鹿児島大学島嶼研ブックレット ; 27</li><li>シリーズ名（読み）：カゴシマ ダイガク トウショケン ブックレット ; 27</li><li>NDC(10)：615.86</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034579399",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3784,7 +3797,7 @@
       "description": "<p>国立民族学博物館,2025,978-4-910055-17-6<p><ul><li>タイトル：研究集会「徳之島・奄美大島の芸能と祭りに関する人類文化アーカイブズプロジェクトの成果と課題」報告書</li><li>タイトル（読み）：ケンキュウ シュウカイ 「 トクノシマ ・ アマミ オオシマ ノ ゲイノウ ト マツリ ニ カンスル ジンルイ ブンカ アーカイブズ プロジェクト ノ セイカ ト カダイ 」 ホウコクショ</li><li>責任表示：笹原亮二 編</li><li>シリーズ名：国立民族学博物館調査報告 = Senri ethnological reports ; 158</li><li>シリーズ名（読み）：コクリツ ミンゾクガク ハクブツカン チョウサ ホウコク = Senri ethnological reports ; 158</li><li>NDC(10)：382.197</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034328588",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3808,7 +3821,7 @@
       "description": "<p>小学館,2025,978-4-09-682507-5<p><ul><li>タイトル：Sanctuary : 奄美 : 生きものたちの息吹</li><li>タイトル（読み）：サンクチュアリ : アマミ : イキモノタチ ノ イブキ</li><li>責任表示：浜田太 著</li><li>NDC(10)：748</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034444861",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3823,7 +3836,7 @@
       "description": "<p>アジア文化社文芸思潮出版部,2026,978-4-907958-54-1<p><ul><li>タイトル：闘牛の絆 : 奄美大島物語</li><li>タイトル（読み）：トウギュウ ノ キズナ : アマミ オオシマ モノガタリ</li><li>責任表示：勢隆二 著</li><li>NDC(10)：913.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I2712B17264835",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3848,7 +3861,7 @@
       "description": "<p>新典社,2025,978-4-7879-6880-7<p><ul><li>タイトル：南島素描 : 奄美・沖縄の巫俗</li><li>タイトル（読み）：ナントウ ソビョウ : アマミ オキナワ ノ フゾク</li><li>責任表示：齋藤正憲 著</li><li>シリーズ名：新典社選書 ; 130</li><li>シリーズ名（読み）：シンテンシャ センショ ; 130</li><li>NDC(10)：387.02199</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034432853",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3873,11 +3886,9 @@
       "description": "<p>中央公論新社,2026,978-4-12-102904-1<p><ul><li>タイトル：日米密約史 : 核、朝鮮有事、沖縄をめぐる裏交渉</li><li>タイトル（読み）：ニチベイ ミツヤクシ : カク チョウセン ユウジ オキナワ オ メグル ウラコウショウ</li><li>責任表示：信夫隆司 著</li><li>シリーズ名：中公新書 ; 2904</li><li>シリーズ名（読み）：チュウコウ シンショ ; 2904</li><li>NDC(10)：319.1053</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034660695",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出中"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18618439"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784408057781",
@@ -3952,7 +3963,7 @@
       "description": "<p>ジロプロダクション,2026,978-4-86791-084-9<p><ul><li>タイトル：AWAI : 奄美2016-2025</li><li>タイトル（読み）：AWAI : アマミ 2016 - 2025</li><li>責任表示：館野二朗</li><li>NDC(10)：748</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034541680",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -3977,7 +3988,7 @@
       "description": "<p>ボーダーインク,2026,978-4-89982-500-5<p><ul><li>タイトル：自然栽培の野菜はなぜ生命力が強いのか : 沖縄の16の農家さんに学ぶ</li><li>タイトル（読み）：シゼン サイバイ ノ ヤサイ ワ ナゼ セイメイリョク ガ ツヨイノカ : オキナワ ノ 16 ノ ノウカサン ニ マナブ</li><li>責任表示：大滝百合子</li><li>NDC(10)：615.71</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034574466",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4008,7 +4019,7 @@
       "description": "<p>恩納村教育委員会,2026,978-4-89982-497-8<p><ul><li>タイトル：世界一サンゴと人にやさしい村 : 恩納村「サンゴの村宣言」の取り組みを見てみよう</li><li>タイトル（読み）：セカイイチ サンゴ ト ヒト ニ ヤサシイ ムラ : オンナムラ 「 サンゴ ノ ムラ センゲン 」 ノ トリクミ オ ミテミヨウ</li><li>責任表示：黒部ゆみ 写真・構成,恩納村文化情報センター主催「絵本づくりワークショップ」のみなさん 文,恩納村漁業協同組合 監修</li><li>NDC(10)：483.35</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034543976",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4032,7 +4043,7 @@
       "description": "<p>97号,沖縄タイムス社,2026,9784871273275<p><ul><li>タイトル：新沖縄文学</li><li>タイトル（読み）：シン オキナワ ブンガク</li><li>責任表示：沖縄タイムス社 編</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I25115118820",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4050,27 +4061,25 @@
       "description": "<p>玉代㔟章,2026,978-4-87127-720-4<p><ul><li>タイトル：文学は勇気と希望の灯 : 沖縄タイムス「沖縄文芸批評-小説の現在」 : 2016年-2025年</li><li>タイトル（読み）：ブンガク ワ ユウキ ト キボウ ノ トモシビ : オキナワ タイムス 「 オキナワ ブンゲイ ヒヒョウ-ショウセツ ノ ゲンザイ 」 : 2016ネン-2025ネン</li><li>責任表示：玉代㔟章</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797501",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "館内のみ"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19577235"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784871276924",
-      "title": "やんばるの健康問題 : ピンチをチャンスに変えようよ！",
-      "author": "Unknown",
+      "title": "やんばるの健康問題 : ピンチをチャンスに変えようよ! : 看護学科の若手教員が考えるやんばるの強み",
+      "author": "清水, かおり",
       "publisher": [
-        "公立大学法人名桜大学",
+        "名桜大学",
         "沖縄タイムス社"
       ],
-      "pubDate": "2026-07-29",
+      "pubDate": 2026.6,
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "description": "<p>公立大学法人名桜大学,2026-07-29,9784871276924<p><ul><li>タイトル：やんばるの健康問題 : ピンチをチャンスに変えようよ！</li><li>タイトル（読み）：ヤンバルノケンコウモンダイ : ピンチヲチャンスニカエヨウヨ</li><li>シリーズ名：名桜大学やんばるブックレット ； 10</li><li>シリーズ名（読み）：メイオウダイガクヤンバルブックレット</li></ul>",
+      "description": "<p>名桜大学,2026,978-4-87127-692-4<p><ul><li>タイトル：やんばるの健康問題 : ピンチをチャンスに変えようよ! : 看護学科の若手教員が考えるやんばるの強み</li><li>タイトル（読み）：ヤ ンバル ノ ケンコウ モンダイ : ピンチ オ チャンス ニ カエヨウ ヨ! : カンゴ ガッカ ノ ワカテ キョウイン ガ カンガエル ヤ ンバル ノ ツヨミ</li><li>責任表示：清水かおり 編</li><li>シリーズ名：名桜大学やんばるブックレット ; 10</li><li>シリーズ名（読み）：メイザクラ ダイガク ヤ ンバルブックレット ; 10</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784871276924",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034842429",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4094,7 +4103,7 @@
       "description": "<p>沖縄タイムス社,2025,978-4-87127-322-0<p><ul><li>タイトル：やんばるの森の12のおはなし</li><li>タイトル（読み）：ヤンバル ノ モリ ノ 12 ノ オハナシ</li><li>責任表示：おおしろあいか 作・絵</li><li>NDC(10)：913.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034368130",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4121,7 +4130,7 @@
       "description": "<p>沖縄文化社,2025,978-4-902412-41-3<p><ul><li>タイトル：わったーレキコちゃん</li><li>タイトル（読み）：ワッター レキコチャン</li><li>責任表示：渚美鈴</li><li>NDC(10)：726.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034410397",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4160,7 +4169,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL1930105W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4175,7 +4184,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL21496006W",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4190,7 +4199,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20741819W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4205,7 +4214,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL4124476W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4220,7 +4229,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL48539W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4235,7 +4244,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL25217696W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4250,7 +4259,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL9353670W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4265,12 +4274,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20303242W",
-      "status": "所蔵あり",
-      "libkey": {
-        "研究室": "蔵書あり",
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BB18338722"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "1138994685",
@@ -4283,11 +4289,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL21295528W",
-      "status": "所蔵あり",
-      "libkey": {
-        "研究室": "蔵書あり"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BB23260373"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9781526726025",
@@ -4315,7 +4319,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL19320849W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4390,7 +4394,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20656883W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4405,11 +4409,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20240862W",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BB21143619"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9781714643448",
@@ -4422,7 +4424,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL38216829W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4437,7 +4439,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL26830961W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4467,7 +4469,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL36018954W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4562,12 +4564,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL18369473W",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可",
-        "研究室": "蔵書あり"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BA60591645"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "0752458132",
@@ -4580,7 +4579,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL5817145W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4595,12 +4594,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL182687W",
-      "status": "所蔵あり",
-      "libkey": {
-        "研究室": "蔵書あり",
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BA00344036"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9781280636028",
@@ -4694,7 +4690,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL36093208W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4739,7 +4735,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL150284W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4754,7 +4750,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL26512989W",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4784,7 +4780,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL16176673W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -4923,11 +4919,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL32423835W",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BC11044094"
+      "status": "エラー",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "1634504844",
@@ -5019,7 +5013,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL36487201W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5034,7 +5028,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL26868453W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5049,7 +5043,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL29032346W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5064,7 +5058,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL40570271W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5079,7 +5073,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20755632W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5109,7 +5103,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL30761611W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5124,7 +5118,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL38102963W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5139,7 +5133,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL27100643W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5154,7 +5148,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL27859206W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5169,7 +5163,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL29114535W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5184,7 +5178,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL29036366W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5199,11 +5193,9 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL28400420W",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD05207624"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9789004414693",
@@ -5216,7 +5208,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL26134751W",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5261,7 +5253,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL35709210W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5433,7 +5425,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL36296977W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5478,7 +5470,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL30706242W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5538,7 +5530,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL41298913W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5583,7 +5575,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL19746810W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5613,7 +5605,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL29754510W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5658,7 +5650,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL20758874W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5673,7 +5665,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL21359173W",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5780,7 +5772,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL5663629W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5795,7 +5787,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL6373737W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5870,7 +5862,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL39873012W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5885,7 +5877,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL28490574W",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -5930,7 +5922,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL34096168W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6082,7 +6074,7 @@
       "description": "Open Library metadata (English Edition).",
       "toc": "Table of contents not available for this English book.",
       "sourceUrl": "https://openlibrary.org/works/OL35915594W",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6127,7 +6119,7 @@
       "description": "<p>東京大学出版会,2026-09-11,9784130820929<p><ul><li>タイトル：イメージの歴史をつむぐ　１中世～近代のフランス美術</li><li>タイトル（読み）：イメージノレキシヲツムグイチチュウセイカラキンダイノフランスビジュツ</li><li>責任表示：松井　裕美 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130820929",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6222,7 +6214,7 @@
       "description": "<p>東京大学出版会,2026-09-28,9784130661669<p><ul><li>タイトル：大津波と森里海まちづくり : 被災地に湿地を再生させた気仙沼・舞根</li><li>タイトル（読み）：オオツナミトモリサトウミマチヅクリ : ヒサイチニシッチヲサイセイサセタケセンヌマモウネ</li><li>責任表示：横山　勝英 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130661669",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6237,7 +6229,7 @@
       "description": "<p>東京大学出版会,2026-09-02,9784130562508<p><ul><li>タイトル：開発と教育の地政学 : 米国の対ラテンアメリカ教育援助の歴史的系譜</li><li>タイトル（読み）：カイハツトキョウイクノチセイガク : ベイコクノタイラテンアメリカキョウイクエンジョノレキシテキケイフ</li><li>責任表示：江原　裕美 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130562508",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6252,7 +6244,7 @@
       "description": "<p>東京大学出版会,2026-10-01,9784130403276<p><ul><li>タイトル：為替レートの変動と金融政策 : 円安の原因と影響</li><li>タイトル（読み）：カワセレートノヘンドウトキンユウセイサク : エンヤスノゲンイントエイキョウ</li><li>責任表示：小川　英治 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130403276",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6270,7 +6262,7 @@
       "description": "<p>東京大学出版会,2026-09-14,9784130220316<p><ul><li>タイトル：概説　中国近代史</li><li>タイトル（読み）：ガイセツチュウゴクキンダイシ</li><li>責任表示：中村　元哉 編集,家永　真幸 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130220316",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6285,7 +6277,7 @@
       "description": "<p>東京大学出版会,2026-09-16,9784130201629<p><ul><li>タイトル：学生たちの戦後 : 矢内原忠雄と学生問題研究所</li><li>タイトル（読み）：ガクセイタチノセンゴ : ヤナイハラタダオトガクセイモンダイケンキュウジョ</li><li>責任表示：吉見　俊哉 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130201629",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6303,7 +6295,7 @@
       "description": "<p>東京大学出版会,2026-09-14,9784130664509<p><ul><li>タイトル：基礎情報学のポイエーシス : 感性と創造性について</li><li>タイトル（読み）：キソジョウホウガクノポイエーシス : カンセイトソウゾウセイニツイテ</li><li>責任表示：大井　奈美 編集,原島　大輔 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130664509",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6322,7 +6314,7 @@
       "description": "<p>東京大学出版会,2026-09-16,9784130421546<p><ul><li>タイトル：健康経済学講義 : ヒューマン・ケアのための理論と実証</li><li>タイトル（読み）：ケンコウケイザイガクコウギ : ヒューマン・ケアノタメノリロントジッショウ</li><li>責任表示：井深　陽子 編集,後藤　励 編集,泉田　信行 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130421546",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6361,7 +6353,7 @@
       "description": "<p>東京大学出版会,2026,978-4-13-061147-3<p><ul><li>タイトル：固体連続体力学の基礎とモデリング</li><li>タイトル（読み）：コタイ レンゾクタイ リキガク ノ キソ ト モデリング</li><li>責任表示：堀宗朗 著</li><li>NDC(10)：423.7</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034838650",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6379,7 +6371,7 @@
       "description": "<p>東京大学出版会,2026-09-30,9784130203159<p><ul><li>タイトル：災害文化を担う地域歴史資料学</li><li>タイトル（読み）：サイガイブンカヲニナウチイキレキシシリョウガク</li><li>責任表示：奥村　弘 編集,吉川　圭太 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130203159",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6394,7 +6386,7 @@
       "description": "<p>東京大学出版会,2026-08-24,9784130537063<p><ul><li>タイトル：残心の哲学 : 日本武道の再発見</li><li>タイトル（読み）：ザンシンノテツガク : ニホンブドウノサイハッケン</li><li>責任表示：アレキサンダー　ベネット 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130537063",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6413,7 +6405,7 @@
       "description": "<p>東京大学出版会,2026-09-01,9784130607742<p><ul><li>タイトル：地震波動伝播の数値シミュレーション : 差分法の基礎からOpenSWPCによる実践まで</li><li>タイトル（読み）：ジシンハドウデンパノスウチシミュレーション : サブンホウノキソカラオープンエスダブリューピーシーニヨルジッセンマデ</li><li>責任表示：前田　拓人 著・文・その他,武村　俊介 著・文・その他,古村　孝志 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130607742",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6438,7 +6430,7 @@
       "description": "<p>東京大学出版会,2026,978-4-13-062933-1<p><ul><li>タイトル：縦断データ分析 : 構造方程式モデリングによるアプローチ</li><li>タイトル（読み）：ジュウダン データ ブンセキ : コウゾウ ホウテイシキ モデリング ニ ヨル アプローチ</li><li>責任表示：宇佐美慧 著</li><li>NDC(10)：417</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780964",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6453,7 +6445,7 @@
       "description": "<p>東京大学出版会,2026-10-02,9784130403269<p><ul><li>タイトル：人材開発・組織開発の臨床知 : 科学知ではつかみとれないプロフェッショナルたちの流儀</li><li>タイトル（読み）：ジンザイカイハツソシキカイハツノリンショウチ : カガクチデワツカミトレナイプロフェッショナルタチノリュウギ</li><li>責任表示：中原　淳 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130403269",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6474,7 +6466,7 @@
       "description": "<p>東京大学出版会,2026,978-4-13-063412-0<p><ul><li>タイトル：人類の健康はどこへ向かうのか : 持続可能な社会を考える健康のサイエンス</li><li>タイトル（読み）：ジンルイ ノ ケンコウ ワ ドコ エ ムカウ ノカ : ジゾク カノウ ナ シャカイ オ カンガエル ケンコウ ノ サイエンス</li><li>責任表示：東京大学医学部健康総合科学科 編</li><li>NDC(10)：498</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841099",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6489,7 +6481,7 @@
       "description": "<p>東京大学出版会,2026-08-24,9784130606103<p><ul><li>タイトル：水面波の理論的解析</li><li>タイトル（読み）：スイメンハノリロンテキカイセキ</li><li>責任表示：船越　満明 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130606103",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6504,7 +6496,7 @@
       "description": "<p>東京大学出版会,2026-09-25,9784130517010<p><ul><li>タイトル：スポーツ医学の教科書 : 教養としての</li><li>タイトル（読み）：スポーツイガクノキョウカショ : キョウヨウトシテノ</li><li>責任表示：今井　一博 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130517010",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6584,22 +6576,28 @@
       "description": "<p>東京大学出版会,2026,978-4-13-051374-6<p><ul><li>タイトル：探究的な学びとその効果 : 東大附属中等教育学校における実践と検証</li><li>タイトル（読み）：タンキュウテキ ナ マナビ ト ソノ コウカ : トウダイ フゾク チュウトウ キョウイク ガッコウ ニ オケル ジッセン ト ケンショウ</li><li>責任表示：東京大学大学院教育学研究科附属学校教育高度化・効果検証センター, 東京大学大学院教育学研究科附属中等教育学校 編</li><li>NDC(10)：375.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034825276",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
     {
       "isbn": "9784130532037",
       "title": "大学入試改革の失敗学 : 能研テストと文部大臣・西岡武夫による改革の試み",
-      "author": "中村　恵佑",
+      "author": "中村, 恵佑",
       "publisher": "東京大学出版会",
-      "pubDate": "2026-08-04",
+      "pubDate": 2026.7,
       "category": "academic",
-      "ndc": "共通一次　センター試験　大学共通テスト　能研テスト　教育改革　西岡武夫　新自由クラブ　拒否権モデル　大学受験資格　文部科学省　国大協　私大協　中教審　受験地獄　教育行政学",
-      "description": "<p>東京大学出版会,2026-08-04,9784130532037<p><ul><li>タイトル：大学入試改革の失敗学 : 能研テストと文部大臣・西岡武夫による改革の試み</li><li>タイトル（読み）：ダイガクニュウシカイカクノシッパイガク : ノウケンテストトモンブダイジンニシオカタケオニヨルカイカクノココロミ</li><li>責任表示：中村　恵佑 著・文・その他</li></ul>",
+      "ndc": [
+        "入学試験--大学--日本",
+        {
+          "#text": 376.87,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>東京大学出版会,2026,978-4-13-053203-7<p><ul><li>タイトル：大学入試改革の失敗学 : 能研テストと文部大臣・西岡武夫による改革の試み</li><li>タイトル（読み）：ダイガク ニュウシ カイカク ノ シッパイガク : ノウケン テスト ト モンブ ダイジン ニシオカ タケオ ニ ヨル カイカク ノ ココロミ</li><li>責任表示：中村恵佑 著</li><li>NDC(10)：376.87</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130532037",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034843336",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6614,7 +6612,7 @@
       "description": "<p>東京大学出版会,2026-08-28,9784130530408<p><ul><li>タイトル：大学病院 : 日本の医療の要は再興できるか</li><li>タイトル（読み）：ダイガクビョウイン : ニホンノイリョウノカナメワサイコウデキルカ</li><li>責任表示：吉村　健佑 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130530408",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6629,7 +6627,7 @@
       "description": "<p>東京大学出版会,2026-10-02,9784130624268<p><ul><li>タイトル：地域看護アセスメント : 個と地域をつなぎ，健康な暮らしを創り出すために</li><li>タイトル（読み）：チイキカンゴアセスメント : コトチイキヲツナギケンコウナクラシヲツクリダスタメニ</li><li>責任表示：吉岡　京子 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130624268",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6657,7 +6655,7 @@
       "description": "<p>名古屋大学出版会,2026,978-4-8158-1241-6<p><ul><li>タイトル：アダム・スミス哲学論文集</li><li>タイトル（読み）：アダム スミス テツガク ロンブンシュウ</li><li>責任表示：アダム・スミス [著],アダム・スミスの会 監修,水田洋 他訳</li><li>シリーズ名：リ・アーカイヴ叢書</li><li>シリーズ名（読み）：リ アーカイヴ ソウショ</li><li>NDC(10)：133.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034774167",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6682,7 +6680,7 @@
       "description": "<p>名古屋大学出版会,2026,978-4-8158-1245-4<p><ul><li>タイトル：嘘と貪欲 : 西欧中世の商業・商人観</li><li>タイトル（読み）：ウソ ト ドンヨク : セイオウ チュウセイ ノ ショウギョウ ショウニンカン</li><li>責任表示：大黒俊二 著</li><li>シリーズ名：リ・アーカイヴ叢書</li><li>シリーズ名（読み）：リ アーカイヴ ソウショ</li><li>NDC(10)：672.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034774171",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6820,7 +6818,7 @@
       "description": "<p>名古屋大学出版会,2026-08-10,9784815812515<p><ul><li>タイトル：大東亜戦争と東京帝国大学 : 法学・政治学の日独同盟</li><li>タイトル（読み）：ダイトウアセンソウトトウキョウテイコクダイガク : ホウガクセイジガクノニチドクドウメイ</li><li>責任表示：今野 元 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815812515",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -6845,7 +6843,7 @@
       "description": "<p>名古屋大学出版会,2026,978-4-8158-1242-3<p><ul><li>タイトル：中華帝国の構造と世界経済</li><li>タイトル（読み）：チュウカ テイコク ノ コウゾウ ト セカイ ケイザイ</li><li>責任表示：黒田明伸 著</li><li>シリーズ名：リ・アーカイヴ叢書</li><li>シリーズ名（読み）：リ アーカイヴ ソウショ</li><li>NDC(10)：332.22</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034774168",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7050,6 +7048,24 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784766431346",
+      "title": "一冊で読み解く『神学大全』",
+      "author": "ファーガス・カー",
+      "publisher": [
+        "慶應義塾大学出版会",
+        "慶應義塾大学出版会"
+      ],
+      "pubDate": "2026-08-21",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>慶應義塾大学出版会,2026-08-21,9784766431346<p><ul><li>タイトル：一冊で読み解く『神学大全』</li><li>タイトル（読み）：イッサツデヨミトクシンガクタイゼン</li><li>責任表示：ファーガス・カー 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431346",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784766431315",
       "title": "エンタメビジネスの教科書 講義編",
       "author": "中山淳雄",
@@ -7087,7 +7103,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3128-5<p><ul><li>タイトル：音楽都市パリの誕生 : ロマン派を魅了した時代</li><li>タイトル（読み）：オンガク トシ パリ ノ タンジョウ : ロマンハ オ ミリョウ シタ ジダイ</li><li>責任表示：エマニュエル・レベル 著,大岩昌子 訳</li><li>NDC(10)：762.06</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034833102",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7143,7 +7159,11 @@
       "pubDate": 2026.7,
       "category": "academic",
       "ndc": [
-        "日本--外国関係--ロシア--歴史",
+        "日本--外国関係--ロシア--歴史--明治時代",
+        {
+          "#text": "A99-ZR4",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 319.1038,
           "@_xsi:type": "dcndl:NDC10"
@@ -7204,7 +7224,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3125-4<p><ul><li>タイトル：慶應義塾の槇文彦 : 建築とアーバニズム思想</li><li>タイトル（読み）：ケイオウ ギジュク ノ マキ フミヒコ : ケンチク ト アーバニズム シソウ</li><li>責任表示：池田靖史 [ほか] 編</li><li>NDC(10)：523.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034794323",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7225,25 +7245,28 @@
       "description": "<p>慶應義塾大学出版会,2026-08-07,9784766431063<p><ul><li>タイトル：慶応四年五月十五日 : 福澤諭吉、ウェーランド経済書講述の日</li><li>タイトル（読み）：ケイオウヨネンゴガツジュウゴニチ : フクザワユキチウェーランドケイザイショコウジュツノヒ</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431063",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
     {
       "isbn": "9784766431339",
       "title": "仕事とリスクの経済学 : キャリア形成の理想と現実",
-      "author": "阿部正浩",
-      "publisher": [
-        "慶應義塾大学出版会",
-        "慶應義塾大学出版会"
-      ],
-      "pubDate": "2026-08-05",
+      "author": "阿部, 正浩",
+      "publisher": "慶應義塾大学出版会",
+      "pubDate": 2026.8,
       "category": "academic",
-      "ndc": "職業選択",
-      "description": "<p>慶應義塾大学出版会,2026-08-05,9784766431339<p><ul><li>タイトル：仕事とリスクの経済学 : キャリア形成の理想と現実</li><li>タイトル（読み）：シゴトトリスクノケイザイガク : キャリアケイセイノリソウトゲンジツ</li><li>責任表示：阿部正浩 著・文・その他</li></ul>",
+      "ndc": [
+        "労働経済--日本",
+        {
+          "#text": 366.021,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3133-9<p><ul><li>タイトル：仕事とリスクの経済学 : キャリア形成の理想と現実</li><li>タイトル（読み）：シゴト ト リスク ノ ケイザイガク : キャリア ケイセイ ノ リソウ ト ゲンジツ</li><li>責任表示：阿部正浩 著</li><li>NDC(10)：366.021</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431339",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034843441",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7271,7 +7294,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3121-6<p><ul><li>タイトル：死の形而上学 : この世界からいなくなることについて</li><li>タイトル（読み）：シ ノ ケイジジョウガク</li><li>責任表示：吉沢文武, 柏端達也 著</li><li>NDC(10)：114.2</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034761047",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7302,7 +7325,7 @@
       "description": "<p>慶應義塾大学法学研究会,2026,978-4-7664-3118-6<p><ul><li>タイトル：司法的憲法 : 漸進的司法積極主義</li><li>タイトル（読み）：シホウテキ ケンポウ</li><li>責任表示：大林啓吾 著</li><li>シリーズ名：慶應義塾大学法学研究会叢書 ; 99</li><li>シリーズ名（読み）：ケイオウ ギジュク ダイガク ホウガク ケンキュウカイ ソウショ ; 99</li><li>NDC(10)：327.953</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738935",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7333,7 +7356,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3126-1<p><ul><li>タイトル：生成AI時代の情報検索入門</li><li>タイトル（読み）：セイセイ エーアイ ジダイ ノ ジョウホウ ケンサク ニュウモン</li><li>責任表示：上岡真紀子 編著,保坂睦 [ほか] 著</li><li>シリーズ名：AI for Learning</li><li>NDC(10)：007.58</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812715",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7354,7 +7377,7 @@
       "description": "<p>慶應義塾大学出版会,2026-08-07,9784766431094<p><ul><li>タイトル：曾禰中條建築事務所と慶應義塾</li><li>タイトル（読み）：ソネチュウジョウケンチクジムショトケイオウギジュク</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431094",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7379,7 +7402,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3124-7<p><ul><li>タイトル：〈退位〉の終戦史 : 免責と問責にゆれた天皇</li><li>タイトル（読み）：タイイ ノ シュウセンシ : メンセキ ト モンセキ ニ ユレタ テンノウ</li><li>責任表示：河西秀哉 著</li><li>NDC(10)：210.762</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034794322",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7465,7 +7488,7 @@
       "description": "<p>慶應義塾大学出版会,2026-09-24,9784766431445<p><ul><li>タイトル：データを「みる」力を養うための　疫学基礎</li><li>タイトル（読み）：データヲミルチカラヲヤシナウタメノエキガクキソ</li><li>責任表示：杉山大典 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431445",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7483,7 +7506,7 @@
       "description": "<p>慶應義塾大学出版会,2026-09-10,9784766431384<p><ul><li>タイトル：俳句に学ぶ「生きる力」</li><li>タイトル（読み）：ハイクニマナブイキルチカラ</li><li>責任表示：髙柳克弘 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431384",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7501,7 +7524,7 @@
       "description": "<p>福澤諭吉記念慶應義塾史展示館,2026,978-4-7664-3104-9<p><ul><li>タイトル：福澤諭吉記念慶應義塾史展示館開館記念図録</li><li>タイトル（読み）：フクザワ ユキチ キネン ケイオウ ギジュク シ テンジカン カイカン キネン ズロク</li><li>責任表示：都倉武之, 横山寛 編集,石戸晋 ほか撮影</li><li>シリーズ名：慶應義塾史展示館図録シリーズ</li><li>シリーズ名（読み）：ケイオウ ギジュク シ テンジカン ズロク シリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034769829",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7522,7 +7545,7 @@
       "description": "<p>慶應義塾大学出版会,2026-08-07,9784766431056<p><ul><li>タイトル：FUKUZAWA YUKICHI MEMORIAL KEIO HISTORY MUSEUM</li><li>タイトル（読み）：フクザワユキチメモリアルケイオウヒストリーミュージアム</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431056",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7543,7 +7566,7 @@
       "description": "<p>慶應義塾大学出版会,2026-08-07,9784766431117<p><ul><li>タイトル：藤山一郎がゆく！ : 「若き血」から国民栄誉賞まで</li><li>タイトル（読み）：フジヤマイチロウガユク : ワカキチカラコクミンエイヨショウマデ</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431117",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7561,7 +7584,7 @@
       "description": "<p>慶應義塾大学出版会,2026-08-05,9784766431308<p><ul><li>タイトル：「二つの人生」を生きるための経済学再入門</li><li>タイトル（読み）：フタツノジンセイヲイキルタメノケイザイガクサイニュウモン</li><li>責任表示：佐々木宏夫 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431308",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7586,25 +7609,29 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3122-3<p><ul><li>タイトル：ProcessingとPythonではじめるデータビジュアライゼーション入門</li><li>タイトル（読み）：プロセッシング ト パイソン デ ハジメル データ ビジュアライゼーション ニュウモン</li><li>責任表示：山辺真幸 著</li><li>NDC(10)：007.64</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034750798",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
     {
       "isbn": "9784766431209",
       "title": "兵士とリゾート : 米軍保養地と日本観光の戦後史",
-      "author": "阿部, 純一郎",
+      "author": "阿部, 純一郎, 1979-",
       "publisher": "慶應義塾大学出版会",
       "pubDate": 2026.6,
       "category": "academic",
       "ndc": [
-        "観光政策--日本--歴史--1945～",
+        "観光事業--日本--歴史--1945-",
         {
-          "#text": 689.1,
+          "#text": "DK261",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 689.21,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3120-9<p><ul><li>タイトル：兵士とリゾート : 米軍保養地と日本観光の戦後史</li><li>タイトル（読み）：ヘイシ ト リゾート : ベイグン ホヨウチ ト ニホン カンコウ ノ センゴシ</li><li>責任表示：阿部純一郎 著</li><li>NDC(10)：689.1</li></ul>",
+      "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3120-9<p><ul><li>タイトル：兵士とリゾート : 米軍保養地と日本観光の戦後史</li><li>タイトル（読み）：ヘイシ ト リゾート : ベイグン ホヨウチ ト ニホン カンコウ ノ センゴシ</li><li>責任表示：阿部純一郎 著</li><li>NDC(10)：689.21</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034761046",
       "status": "未所蔵",
@@ -7680,7 +7707,7 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3092-9<p><ul><li>タイトル：立憲君主制の成立 : 明治日本の天皇・内閣・議会</li><li>タイトル（読み）：リッケン クンシュセイ ノ セイリツ : メイジ ニホン ノ テンノウ ナイカク ギカイ</li><li>責任表示：原科颯 著</li><li>NDC(10)：312.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738934",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7735,7 +7762,7 @@
       "description": "<p>法政大学出版局,2026-08-27,9784588011948<p><ul><li>タイトル：エミール・ゾラの仕事場</li><li>タイトル（読み）：エミールゾラノシゴトバ</li><li>責任表示：オリヴィエ・ロンブローゾ 著・文・その他,小倉 孝誠 翻訳,安達 孝信 翻訳,野田 農 翻訳,實谷 総一郎 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1194</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588011948",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7763,7 +7790,7 @@
       "description": "<p>法政大学出版局,2026,978-4-588-60383-9<p><ul><li>タイトル：岐路に立つ民主主義 : 政治思想史的考察</li><li>タイトル（読み）：キロ ニ タツ ミンシュ シュギ</li><li>責任表示：古賀敬太, 長谷川一年 編</li><li>シリーズ名：サピエンティア ; 83</li><li>シリーズ名（読み）：サピエンティア ; 83</li><li>NDC(10)：311.7</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034714731",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7831,7 +7858,7 @@
       "description": "<p>法政大学出版局,2026-09-03,9784588490439<p><ul><li>タイトル：首都</li><li>タイトル（読み）：シュト</li><li>責任表示：ローベルト・メナッセ 著・文・その他,福間 具子 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588490439",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7870,7 +7897,7 @@
       "description": "<p>法政大学出版局,2026-07-28,9784588012068<p><ul><li>タイトル：新フランス革命史</li><li>タイトル（読み）：シンフランスカクメイシ</li><li>責任表示：ジャン＝クレマン・マルタン 著・文・その他,田中 正人 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1206</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012068",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -7920,7 +7947,7 @@
       "description": "<p>法政大学出版局,2026,978-4-588-15150-7<p><ul><li>タイトル：尊厳とAI・ロボット</li><li>タイトル（読み）：ソンゲン ト エーアイ ロボット</li><li>責任表示：加藤泰史, 杉本俊介 編</li><li>NDC(10)：150</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034778588",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8055,7 +8082,7 @@
       "description": "<p>法政大学出版局,2026-06-29,9784588603815<p><ul><li>タイトル：どんな名前で呼ぼうとも、それは刑務所</li><li>タイトル（読み）：ドンナナマエデヨボウトモソレハケイムショ</li><li>シリーズ名：サピエンティア ； 81</li><li>シリーズ名（読み）：サピエンティア</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588603815",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8120,7 +8147,7 @@
       "description": "<p>法政大学出版局,2026-09-02,9784588012044<p><ul><li>タイトル：肉食の性政治学 : フェミニズム＝ヴィーガン批評理論</li><li>タイトル（読み）：ニクショクノセイセイジガク : フェミニズム ヴィーガンヒヒョウリロン</li><li>責任表示：キャロル・J.アダムズ 著・文・その他,鶴田 静 翻訳,深沢 レナ 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1204</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012044",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8164,7 +8191,7 @@
       "description": "<p>法政大学出版局,2026-09-09,9784588696022<p><ul><li>タイトル：プロスポーツビジネスと地域社会 : 日本と欧州のコモンズ</li><li>タイトル（読み）：プロスポーツビジネストチイキシャカイ : ニホントオウシュウノコモンズ</li><li>責任表示：釜崎 太 編集,二宮 清純 編集,小澤 一郎 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588696022",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8192,7 +8219,7 @@
       "description": "<p>法政大学出版局,2026,978-4-588-60384-6<p><ul><li>タイトル：南の認識論 : 不在の社会学と正義</li><li>タイトル（読み）：ミナミ ノ ニンシキロン : フザイ ノ シャカイガク ト セイギ</li><li>責任表示：B.デ・ソウザ・サントス 著,北野収 訳</li><li>シリーズ名：サピエンティア ; 84</li><li>シリーズ名（読み）：サピエンティア ; 84</li><li>NDC(10)：361.5</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034740987",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8228,7 +8255,7 @@
       "description": "<p>岩波書店,2026-08-24,9784005010158<p><ul><li>タイトル：アートがわかる！ : 自分を知るための美術入門</li><li>タイトル（読み）：アートガワカル : ジブンヲシルタメノビジュツニュウモン</li><li>責任表示：西岡 文彦 著・文・その他</li><li>シリーズ名：岩波ジュニア新書 ； 1015</li><li>シリーズ名（読み）：イワナミジュニアシンショ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784005010158",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8393,21 +8420,6 @@
       "description": "<p>岩波書店,2026,978-4-00-602384-3<p><ul><li>タイトル：絵本の力</li><li>タイトル（読み）：エホン ノ チカラ</li><li>責任表示：河合隼雄, 松居直, 柳田邦男 著</li><li>シリーズ名：岩波現代文庫. 文芸 ; 384</li><li>シリーズ名（読み）：イワナミ ゲンダイ ブンコ. ブンゲイ ; 384</li><li>NDC(10)：019.53</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736853",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784006004996",
-      "title": "「王朝美」の世界を読みほどく : 平安から鎌倉へ",
-      "author": "千野 香織",
-      "publisher": "岩波書店",
-      "pubDate": "2026-07-17",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-07-17,9784006004996<p><ul><li>タイトル：「王朝美」の世界を読みほどく : 平安から鎌倉へ</li><li>タイトル（読み）：オウチョウビノセカイヲヨミホドク : ヘイアンカラカマクラヘ</li><li>責任表示：千野 香織 著・文・その他</li><li>シリーズ名：岩波現代文庫 ； 学術499</li><li>シリーズ名（読み）：イワナミゲンダイブンコ</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784006004996",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8584,7 +8596,7 @@
       "description": "<p>岩波書店,2026,978-4-00-432118-7<p><ul><li>タイトル：刑法入門</li><li>タイトル（読み）：ケイホウ ニュウモン</li><li>責任表示：山口厚 著</li><li>シリーズ名：岩波新書 新赤版 ; 2118</li><li>シリーズ名（読み）：イワナミ シンショ シンアカバン ; 2118</li><li>NDC(10)：326</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736858",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8717,7 +8729,7 @@
       "description": "<p>岩波書店,2026-08-31,9784000617697<p><ul><li>タイトル：「食料は武器だ！」 : 第二次世界大戦が変えたアメリカの食</li><li>タイトル（読み）：ショクリョウハブキダ : ダイニジセカイタイセンガカエタアメリカノショク</li><li>責任表示：佐藤 千登勢 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000617697",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8786,7 +8798,7 @@
       "description": "<p>下,岩波書店,2026,978-4-00-336059-0<p><ul><li>タイトル：事物の本性について</li><li>タイトル（読み）：ジブツ ノ ホンセイ ニ ツイテ</li><li>責任表示：ルクレティウス 著,瀬口昌久 訳</li><li>シリーズ名：岩波文庫 ; 33-605-2</li><li>シリーズ名（読み）：イワナミ ブンコ ; 33-605-2</li><li>NDC(10)：992.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736849",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -8825,6 +8837,21 @@
       "description": "<p>岩波書店,2026-07,978-4-00-023501-3<p><ul><li>タイトル：スギモトノート銀塩写真技法</li><li>タイトル（読み）：スギモト ノート ギンエン シャシン ギホウ</li><li>責任表示：杉本 博司／著,鈴木 芳雄／聞き手・文</li><li>NDC(9)：740.21</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000142509",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784007316807",
+      "title": "西洋法制史研究 : フランク時代におけるゲルマン法とローマ法",
+      "author": "久保 正幡",
+      "publisher": "岩波書店",
+      "pubDate": "2026-06-12",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-06-12,9784007316807<p><ul><li>タイトル：西洋法制史研究 : フランク時代におけるゲルマン法とローマ法</li><li>タイトル（読み）：セイヨウホウセイシケンキュウ : フランクジダイニオケルゲルマンホウトローマホウ</li><li>責任表示：久保 正幡 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007316807",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8993,7 +9020,7 @@
       "description": "<p>有斐閣,2026-09-08,9784641213487<p><ul><li>タイトル：金融法判例百選 : 別冊ジュリストＮｏ．２７７</li><li>タイトル（読み）：キンユウホウハンレイヒャクセン</li><li>責任表示：森田 宏樹 編集,神作 裕之 編集,加藤 貴仁 編集</li><li>シリーズ名：別冊ジュリスト ； 277</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641213487",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9092,13 +9119,13 @@
         "有斐閣",
         "有斐閣"
       ],
-      "pubDate": "2026-09-30",
+      "pubDate": "2026-10-20",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-09-30,9784641200272<p><ul><li>タイトル：これからの生涯学習</li><li>タイトル（読み）：コレカラノショウガイガクシュウ</li><li>責任表示：堀 薫夫 著・文・その他,堀 薫夫 編集,柳田 雅明 著・文・その他,柳田 雅明 編集,青木 康太朗 著・文・その他,太田 美幸 著・文・その他,小川 義和 著・文・その他,荻野 亮吾 著・文・その他,神部 純一 著・文・その他,長岡 智寿子 著・文・その他,野末 俊比古 著・文・その他</li><li>シリーズ名：y-knot Musubu</li></ul>",
+      "description": "<p>有斐閣,2026-10-20,9784641200272<p><ul><li>タイトル：これからの生涯学習</li><li>タイトル（読み）：コレカラノショウガイガクシュウ</li><li>責任表示：堀 薫夫 著・文・その他,堀 薫夫 編集,柳田 雅明 著・文・その他,柳田 雅明 編集,青木 康太朗 著・文・その他,太田 美幸 著・文・その他,小川 義和 著・文・その他,荻野 亮吾 著・文・その他,神部 純一 著・文・その他,長岡 智寿子 著・文・その他,野末 俊比古 著・文・その他</li><li>シリーズ名：y-knot Musubu</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641200272",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9137,7 +9164,7 @@
       "description": "<p>有斐閣,2026-07-13,9784641229020<p><ul><li>タイトル：人口構造の変化と租税原則の再検討　租税法研究　第54号（2026）</li><li>タイトル（読み）：ジンコウコウゾウノヘンカトソゼイゲンソクノサイケントウ　ソゼイホウケンキュウダイゴジュウヨンゴウ　ニセンジュウロク</li><li>責任表示：租税法学会 編集</li><li>シリーズ名：租税法研究 ； 54</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641229020",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9197,7 +9224,7 @@
       "description": "<p>有斐閣,2026-09-30,9784641244115<p><ul><li>タイトル：知財法実務の交差点 : Ｑ＆Ａと図解で、広がる隣接領域の勘所をつかめる</li><li>タイトル（読み）：チザイホウジツムノコウサテン　キュウアンドエートズカイデヒロガルリンセツリョウイキノカンドコロヲツカメル</li><li>責任表示：アンダーソン・毛利・友常法律事務所 編集,清水 亘 編集</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641244115",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9222,7 +9249,7 @@
       "description": "<p>第3巻,有斐閣,2026,978-4-641-01783-2<p><ul><li>タイトル：注釈刑法</li><li>タイトル（読み）：チュウシャク ケイホウ</li><li>責任表示：西田典之, 山口厚, 佐伯仁志 編集</li><li>シリーズ名：有斐閣コンメンタール</li><li>シリーズ名（読み）：ユウヒカク コンメンタール</li><li>NDC(10)：326.2</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034729499",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9240,7 +9267,7 @@
       "description": "<p>有斐閣,2026-09-30,9784641490352<p><ul><li>タイトル：著作権研究　51</li><li>タイトル（読み）：チョサクケンケンキュウ　ゴジュウイチ</li><li>責任表示：著作権法学会 編集</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641490352",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9258,7 +9285,7 @@
       "description": "<p>有斐閣,2026-06-19,9784641490345<p><ul><li>タイトル：データはだれかのものか : 日本工業所有権法学会年報　第４９号</li><li>タイトル（読み）：データハダレノモノカ</li><li>責任表示：日本工業所有権法学会 編集</li><li>シリーズ名：日本工業所有権法学会年報</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641490345",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9281,7 +9308,7 @@
       "description": "<p>有斐閣,2026-08-03,9784641126732<p><ul><li>タイトル：デジタルプラットフォームを巡る競争政策の最前線</li><li>タイトル（読み）：デジタルプラットフォームヲメグルキョウソウセイサクノサイゼンセン</li><li>責任表示：稲葉 僚太 著・文・その他,稲葉 僚太 編集,大泉 玄之助 著・文・その他,大泉 玄之助 編集,伊永 大輔 著・文・その他,伊永 大輔 編集,中島 菜子 著・文・その他,中島 菜子 編集</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641126732",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9299,7 +9326,7 @@
       "description": "<p>有斐閣,2026-09-10,9784641244122<p><ul><li>タイトル：電力システム改革をめぐる経済法上の課題　日本経済法学会年報　第4７号（通巻69号）　2026年</li><li>タイトル（読み）：デンリョクシステムカイカクヲメグルケイザイホウジョウノカダイ　ニホンケイザイホウガッカイネンポウ　ダイヨンジュウナナゴウツウカンロクジュウキュウゴウンセンニジュウロクネン</li><li>責任表示：日本経済法学会 編集</li><li>シリーズ名：日本経済法学会年報 ； 47</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641244122",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9317,7 +9344,7 @@
       "description": "<p>有斐閣,2026-09-30,9784641175051<p><ul><li>タイトル：都市物語 : 類型ごとにたどる日本のまち空間誌</li><li>タイトル（読み）：トシモノガタリ</li><li>責任表示：西村 幸夫 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641175051",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9376,6 +9403,28 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784641166592",
+      "title": "マーケティング・エクセレンス : 日本マーケティング大賞ベスト・セレクション",
+      "author": [
+        "（公社）日本マーケティング協会",
+        "古川 一郎",
+        "恩藏 直人"
+      ],
+      "publisher": [
+        "有斐閣",
+        "有斐閣"
+      ],
+      "pubDate": "2026-09-30",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>有斐閣,2026-09-30,9784641166592<p><ul><li>タイトル：マーケティング・エクセレンス : 日本マーケティング大賞ベスト・セレクション</li><li>タイトル（読み）：マーケティングエクセレンス</li><li>責任表示：（公社）日本マーケティング協会 監修,古川 一郎 編集,恩藏 直人 編集</li><li>シリーズ名：単行本</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641166592",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784641071469",
       "title": "萬葉集全注　巻第十六",
       "author": [
@@ -9386,10 +9435,10 @@
         "有斐閣",
         "有斐閣"
       ],
-      "pubDate": "2026-09-30",
+      "pubDate": "2026-11-05",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-09-30,9784641071469<p><ul><li>タイトル：萬葉集全注　巻第十六</li><li>タイトル（読み）：マンヨウシュウゼンチュウ　マキダイジュウロク</li><li>責任表示：芳賀 紀雄 編集,内田 賢徳 編集</li><li>シリーズ名：単行本</li></ul>",
+      "description": "<p>有斐閣,2026-11-05,9784641071469<p><ul><li>タイトル：萬葉集全注　巻第十六</li><li>タイトル（読み）：マンヨウシュウゼンチュウ　マキダイジュウロク</li><li>責任表示：芳賀 紀雄 編集,内田 賢徳 編集</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641071469",
       "status": "未所蔵",
@@ -9410,24 +9459,6 @@
       "description": "<p>有斐閣,2026-08-03,9784641139824<p><ul><li>タイトル：未遂犯論の構造と実行の着手論</li><li>タイトル（読み）：ミスイハンロンノコウゾウトジッコウノチャクシュロン</li><li>責任表示：東條 明徳 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641139824",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784641233416",
-      "title": "民法Ⅲ　債権総論",
-      "author": "野村 豊弘",
-      "publisher": [
-        "有斐閣",
-        "有斐閣"
-      ],
-      "pubDate": "2026-07-15",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-07-15,9784641233416<p><ul><li>タイトル：民法Ⅲ　債権総論</li><li>タイトル（読み）：ミンポウサン　サイケンソウロン</li><li>責任表示：野村 豊弘 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641233416",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -9520,7 +9551,7 @@
       "description": "<p>吉川弘文館,2026-09-18,9784642078375<p><ul><li>タイトル：神々と肉食の古代史</li><li>タイトル（読み）：カミガミトニクショクノコダイシ</li><li>責任表示：平林　章仁 著・文・その他</li><li>シリーズ名：読みなおす日本史</li><li>シリーズ名（読み）：ヨミナオスニホンシ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642078375",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9605,7 +9636,7 @@
       "description": "<p>吉川弘文館,2026-09-29,9784642306485<p><ul><li>タイトル：議会報道のメディア史 : 漫画から国会中継まで</li><li>タイトル（読み）：ギカイホウドウノメディアシ : マンガカラコッカイチュウケイマデ</li><li>責任表示：葦名　ふみ 著・文・その他</li><li>シリーズ名：歴史文化ライブラリー ； 648</li><li>シリーズ名（読み）：レキシブンカライブラリー</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306485",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9620,7 +9651,7 @@
       "description": "<p>吉川弘文館,2026-08-24,9784642078290<p><ul><li>タイトル：黒田官兵衛 : 「天下を狙った軍師」の実像</li><li>タイトル（読み）：クロダカンベエ : テンカヲネラッタグンシノジツゾウ</li><li>責任表示：諏訪　勝則 著・文・その他</li><li>シリーズ名：読みなおす日本史</li><li>シリーズ名（読み）：ヨミナオスニホンシ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642078290",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9635,7 +9666,7 @@
       "description": "<p>吉川弘文館,2026-09-29,9784642306492<p><ul><li>タイトル：狛犬と歩く近現代</li><li>タイトル（読み）：コマイヌトアルクキンゲンダイ</li><li>責任表示：小野　美里 著・文・その他</li><li>シリーズ名：歴史文化ライブラリー ； 649</li><li>シリーズ名（読み）：レキシブンカライブラリー</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306492",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9660,7 +9691,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-04805-7<p><ul><li>タイトル：摂関院政期の刑罰と裁定</li><li>タイトル（読み）：セッカン インセイキ ノ ケイバツ ト サイテイ</li><li>責任表示：義江彰夫 著</li><li>NDC(10)：322.13</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034761028",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9675,7 +9706,7 @@
       "description": "<p>吉川弘文館,2026-09-25,9784642092609<p><ul><li>タイトル：戦国史研究　92</li><li>タイトル（読み）：センゴクシケンキュウ９２</li><li>責任表示：戦国史研究会 編集</li><li>シリーズ名：戦国史研究 ； 92</li><li>シリーズ名（読み）：センゴクシケンキュウ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642092609",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9754,6 +9785,10 @@
       "ndc": [
         "水底遺跡",
         {
+          "#text": "G51",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
           "#text": 202.5,
           "@_xsi:type": "dcndl:NDC10"
         }
@@ -9761,7 +9796,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-30642-3<p><ul><li>タイトル：沈没船遺跡の考古学 : 技術・交易・戦争の世界史</li><li>タイトル（読み）：チンボツセン イセキ ノ コウコガク : ギジュツ コウエキ センソウ ノ セカイシ</li><li>責任表示：木村淳 著</li><li>シリーズ名：歴史文化ライブラリー ; 642</li><li>シリーズ名（読み）：レキシ ブンカ ライブラリー ; 642</li><li>NDC(10)：202.5</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812719",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9786,11 +9821,9 @@
       "description": "<p>吉川弘文館,2026,978-4-642-30640-9<p><ul><li>タイトル：東寺と京都の一二〇〇年</li><li>タイトル（読み）：トウジ ト キョウト ノ センニヒャクネン</li><li>責任表示：新見康子 著</li><li>シリーズ名：歴史文化ライブラリー ; 640</li><li>シリーズ名（読み）：レキシ ブンカ ライブラリー ; 640</li><li>NDC(10)：188.55</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034763485",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19559845"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784642078276",
@@ -9813,7 +9846,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-07827-6<p><ul><li>タイトル：殿様と家臣 : 信長に仕えた男たちの幸運と不運</li><li>タイトル（読み）：トノサマ ト カシン : ノブナガ ニ ツカエタ オトコタチ ノ コウウン ト フウン</li><li>責任表示：谷口克広 著</li><li>シリーズ名：読みなおす日本史</li><li>シリーズ名（読み）：ヨミナオス ニホンシ</li><li>NDC(10)：210.48</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034776553",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9828,7 +9861,7 @@
       "description": "<p>吉川弘文館,2026-08-24,9784642084963<p><ul><li>タイトル：豊臣政権と熊野の城 : 土豪たちが生き抜いた紀州制圧戦</li><li>タイトル（読み）：トヨトミセイケントクマノノシロ : ドゴウタチガイキヌイタキシュウセイアツセン</li><li>責任表示：伊藤　裕偉 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642084963",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9853,7 +9886,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-30638-6<p><ul><li>タイトル：墓と石塔の中世 : 石に刻まれた死者供養</li><li>タイトル（読み）：ハカ ト セキトウ ノ チュウセイ : イシ ニ キザマレタ シシャ クヨウ</li><li>責任表示：狭川真一 著</li><li>シリーズ名：歴史文化ライブラリー ; 638</li><li>シリーズ名（読み）：レキシ ブンカ ライブラリー ; 638</li><li>NDC(10)：210.4</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034712582",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9881,7 +9914,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-05323-5<p><ul><li>タイトル：広田弘毅</li><li>タイトル（読み）：ヒロタ コウキ</li><li>責任表示：波多野澄雄 著</li><li>シリーズ名：人物叢書新装版</li><li>シリーズ名（読み）：ジンブツ ソウショ シンソウバン</li><li>NDC(10)：289.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034761029",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -9906,11 +9939,9 @@
       "description": "<p>吉川弘文館,2026,978-4-642-30639-3<p><ul><li>タイトル：船の古代史 : 和船誕生以前</li><li>タイトル（読み）：フネ ノ コダイシ : ワセン タンジョウ イゼン</li><li>責任表示：石村智 著</li><li>シリーズ名：歴史文化ライブラリー ; 639</li><li>シリーズ名（読み）：レキシ ブンカ ライブラリー ; 639</li><li>NDC(10)：552.33</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034765604",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "貸出可"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19559641"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784642084994",
@@ -9978,7 +10009,7 @@
       "description": "<p>吉川弘文館,2026-09-30,9784642015882<p><ul><li>タイトル：室町幕府引付史料集成 上（新装版）</li><li>タイトル（読み）：ムロマチバクフヒキツケシリョウシュウセイジョウシンソウバン</li><li>責任表示：桑山　浩然　 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642015882",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10014,7 +10045,7 @@
       "description": "<p>みすず書房,2026-09-03,9784622097044<p><ul><li>タイトル：インテンションズ</li><li>タイトル（読み）：インテンションズ</li><li>責任表示：オスカー・ワイルド 原著,河内恵子 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622097044",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10035,7 +10066,7 @@
       "description": "<p>みすず書房,2026-08-17,9784622098652<p><ul><li>タイトル：洪水礼讃 : 環境飼い慣らしの人類史</li><li>タイトル（読み）：コウズイライサン : カンキョウカイナラシノジンルイシ</li><li>責任表示：ジェームズ・C・スコット 原著,立木勝 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098652",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10063,7 +10094,7 @@
       "description": "<p>みすず書房,2026,978-4-622-09551-4<p><ul><li>タイトル：構造の世界 : なぜ物体は崩れ落ちないでいられるか</li><li>タイトル（読み）：コウゾウ ノ セカイ : ナゼ ブッタイ ワ クズレオチナイ デ イラレルカ</li><li>責任表示：ジェームズ・E.ゴードン [著],石川廣三 訳</li><li>NDC(10)：501.34</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034799574",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10091,7 +10122,7 @@
       "description": "<p>みすず書房,2026,978-4-622-09855-3<p><ul><li>タイトル：このありふれた星屑は : 家族を喪ったとき、科学が教えてくれたこと</li><li>タイトル（読み）：コノ アリフレタ ホシクズ ワ : カゾク オ ウシナッタ トキ カガク ガ オシエテ クレタ コト</li><li>責任表示：アラン・タウンゼンド [著],梅田智世 訳</li><li>NDC(10)：598.4</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034756745",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10116,7 +10147,7 @@
       "description": "<p>みすず書房,2026,978-4-622-09848-5<p><ul><li>タイトル：コペルニクス説遺聞 : 原典でたどる科学革命初期の諸相</li><li>タイトル（読み）：コペルニクスセツ イブン : ゲンテン デ タドル カガク カクメイ ショキ ノ ショソウ</li><li>責任表示：高橋憲一 編訳</li><li>NDC(10)：440.23</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034799575",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10269,7 +10300,6 @@
         "ハンナ・アーレント",
         "山田正行",
         "金慧",
-        "齋藤純一",
         "橋爪大輝",
         "矢野久美子"
       ],
@@ -10280,7 +10310,7 @@
       "pubDate": "2026-09-14",
       "category": "academic",
       "ndc": "思想史",
-      "description": "<p>みすず書房,2026-09-14,9784622098737<p><ul><li>タイトル：手すりなき思考　2 : 理解のための試論集1953-1975</li><li>タイトル（読み）：テスリナキシコウニ : リカイノタメノシロンシュウセンキュウヒャクゴジュウサンセンキュウヒャクナナジュウゴ</li><li>責任表示：ハンナ・アーレント 原著,山田正行 翻訳,金慧 翻訳,齋藤純一 翻訳,橋爪大輝 翻訳,矢野久美子 翻訳</li></ul>",
+      "description": "<p>みすず書房,2026-09-14,9784622098737<p><ul><li>タイトル：手すりなき思考　2 : 理解のための試論集1953-1975</li><li>タイトル（読み）：テスリナキシコウニ : リカイノタメノシロンシュウセンキュウヒャクゴジュウサンセンキュウヒャクナナジュウゴ</li><li>責任表示：ハンナ・アーレント 原著,山田正行 翻訳,金慧 翻訳,橋爪大輝 翻訳,矢野久美子 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098737",
       "status": "未所蔵",
@@ -10376,7 +10406,7 @@
       "description": "<p>みすず書房,2026,978-4-622-09854-6<p><ul><li>タイトル：人と土地 : 台湾1974-1986</li><li>タイトル（読み）：ヒト ト トチ</li><li>責任表示：阮義忠 [著],栖来ひかり 訳</li><li>NDC(10)：740.2224</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034797080",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10546,7 +10576,7 @@
       "description": "<p>120,ミネルヴァ書房,2026-08-28,9784623100576<p><ul><li>タイトル：近世フランスの所領と領主裁判 : サン＝ラジェ村の社会史</li><li>タイトル（読み）：キンセイフランスノショリョウトリョウシュサイバン : サンラジェムラノシャカイシ</li><li>責任表示：浜田　道夫 著・文・その他</li><li>シリーズ名：MINERVA 西洋史ライブラリー</li><li>シリーズ名（読み）：ミネルヴァセイヨウシライブラリー</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100576",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10576,7 +10606,7 @@
       "description": "<p>13,ミネルヴァ書房,2026,978-4-623-08714-3<p><ul><li>タイトル：公認心理師の基本を学ぶテキスト</li><li>タイトル（読み）：コウニン シンリシ ノ キホン オ マナブ テキスト</li><li>責任表示：川畑直人, 大島剛, 郷式徹 監修</li><li>NDC(10)：146.89</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738866",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10597,6 +10627,21 @@
       "description": "<p>ミネルヴァ書房,2026-09-08,9784623101238<p><ul><li>タイトル：「こどもまんなか社会」ってなんだろう : 子どもの成育環境を再考する</li><li>タイトル（読み）：コドモマンナカシャカイッテナンダロウ : コドモノセイイクカンキョウヲサイコウスル</li><li>責任表示：三輪　律江 編集,斎尾　直子 編集,安部　芳絵 編集,湯川　嘉津美 編集,高橋　尚人 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101238",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784623101290",
+      "title": "コメ政策と日本人 : 劇場化への警告",
+      "author": "神門　善久",
+      "publisher": "ミネルヴァ書房",
+      "pubDate": "2026-09-08",
+      "category": "academic",
+      "ndc": "令和のコメ騒動 加工用米 飼料用米 食糧管理法 農協 農業協同組合 ヤミ米 自主流通米 官製カルテル 新食糧法 ガット・ウルグアイラウンド ドンケル案",
+      "description": "<p>ミネルヴァ書房,2026-09-08,9784623101290<p><ul><li>タイトル：コメ政策と日本人 : 劇場化への警告</li><li>タイトル（読み）：コメセイサクトニホンジン : ゲキジョウカヘノケイコク</li><li>責任表示：神門　善久 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101290",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -10700,7 +10745,7 @@
       "description": "<p>ミネルヴァ書房,2026,978-4-623-10026-2<p><ul><li>タイトル：図説京阪神の地理 : 地図から学ぶ</li><li>タイトル（読み）：ズセツ ケイハンシン ノ チリ : チズ カラ マナブ</li><li>責任表示：山口覚 [ほか] 著</li><li>NDC(10)：291.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034804695",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10774,7 +10819,7 @@
       "description": "<p>ミネルヴァ書房,2026,978-4-623-10102-3<p><ul><li>タイトル：太宰治 : 尊重すべき困つた代物</li><li>タイトル（読み）：ダザイ オサム : ソンチョウ スベキ コマッタ シロモノ</li><li>責任表示：安藤宏 著</li><li>シリーズ名：ミネルヴァ日本評伝選</li><li>シリーズ名（読み）：ミネルヴァ ニホン ヒョウデンセン</li><li>NDC(10)：910.268</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034734537",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10844,7 +10889,7 @@
       "description": "<p>ミネルヴァ書房,2026-09-08,9784623101436<p><ul><li>タイトル：西脇順三郎 : 詩は脳髄を破壊する</li><li>タイトル（読み）：ニシワキジュンザブロウ : シハノウズイヲハカイスル</li><li>責任表示：加藤　孝男 著・文・その他</li><li>シリーズ名：ミネルヴァ日本評伝選</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101436",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10874,7 +10919,7 @@
       "description": "<p>6,ミネルヴァ書房,2026,978-4-623-10022-4<p><ul><li>タイトル：日本の社会学源流と発展</li><li>タイトル（読み）：ニホン ノ シャカイガク ゲンリュウ ト ハッテン</li><li>責任表示：金子勇, 町村敬志 代表編</li><li>NDC(10)：361.21</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738867",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10893,7 +10938,7 @@
       "description": "<p>ミネルヴァ書房,2026-09-01,9784623101122<p><ul><li>タイトル：入門・社会学理論</li><li>タイトル（読み）：ニュウモンシャカイガクリロン</li><li>責任表示：磯　直樹 編集,梅村　麦生 編集,平森　大規 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101122",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10908,7 +10953,7 @@
       "description": "<p>ミネルヴァ書房,2026-10-20,9784623098545<p><ul><li>タイトル：入門 ソーシャルワークの基盤と専門職</li><li>タイトル（読み）：ニュウモンソーシャルワークノキバントセンモンショク</li><li>責任表示：川村　匡由 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623098545",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10923,7 +10968,7 @@
       "description": "<p>ミネルヴァ書房,2026-10-27,9784623101283<p><ul><li>タイトル：農商務省「海外実業練習生」の時代 : 明治大正期の産業振興策</li><li>タイトル（読み）：ノウショウムショウカイガイジツギョウレンシュウセイノジダイ : メイジタイショウキノサンギョウシンコウサク</li><li>責任表示：木山　実 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101283",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10941,7 +10986,7 @@
       "description": "<p>ミネルヴァ書房,2026-09-04,9784623099665<p><ul><li>タイトル：能力主義を問い直す : 教育社会学をめぐる対話</li><li>タイトル（読み）：ノウリョクシュギヲトイナオス : キョウイクシャカイガクヲメグルタイワ</li><li>責任表示：山口　毅 編集,大多和　直樹 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623099665",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10956,7 +11001,7 @@
       "description": "<p>ミネルヴァ書房,2026-11-06,9784623098651<p><ul><li>タイトル：はじめて学ぶアラブの歴史と文化</li><li>タイトル（読み）：ハジメテマナブアラブノレキシトブンカ</li><li>責任表示：勝沼　聡 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623098651",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -10975,7 +11020,7 @@
       "description": "<p>ミネルヴァ書房,2026-08-25,9784623101306<p><ul><li>タイトル：発達187：地域を創る、子育て支援</li><li>タイトル（読み）：ハッタツヒャクハチジュウナナチイキヲツクルコソダテシエン</li><li>責任表示：秋田　喜代美 監修,大豆生田　啓友 監修,川田　学 監修</li><li>シリーズ名：発達</li><li>シリーズ名（読み）：ハッタツ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101306",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11000,25 +11045,7 @@
       "description": "<p>ミネルヴァ書房,2026,978-4-623-10064-4<p><ul><li>タイトル：服部幸應 : 食を通じて人と文化を育む</li><li>タイトル（読み）：ハットリ ユキオ : ショク オ ツウジテ ヒト ト ブンカ オ ハグクム</li><li>責任表示：永野淳太郎 著</li><li>シリーズ名：ミネルヴァ・ジュニア評伝選 ; 4</li><li>シリーズ名（読み）：ミネルヴァ ジュニア ヒョウデンセン ; 4</li><li>NDC(10)：289.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034804697",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784623101108",
-      "title": "ブランド戦略論 : 理論的理解からマーケティング実務まで",
-      "author": [
-        "熊谷　健",
-        "李炅泰"
-      ],
-      "publisher": "ミネルヴァ書房",
-      "pubDate": "2026-09-15",
-      "category": "academic",
-      "ndc": "ブランド・ビジネス ブランディング ブランド・エクイティ ブランド心理 グローバル・ブランド ブランド・マーケティング ブランド・ポートフォリオ ブランドの真正性 KPI EBITDA",
-      "description": "<p>ミネルヴァ書房,2026-09-15,9784623101108<p><ul><li>タイトル：ブランド戦略論 : 理論的理解からマーケティング実務まで</li><li>タイトル（読み）：ブランドセンリャクロン : リロンテキリカイカラマーケティングジツムマデ</li><li>責任表示：熊谷　健 著・文・その他,李炅泰 著・文・その他</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101108",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11037,7 +11064,7 @@
       "description": "<p>勁草書房,2026-09-01,9784326404674<p><ul><li>タイトル：「意思能力を欠く者」をめぐる行政対応と法的課題</li><li>タイトル（読み）：イシノウリョウクヲカクモノヲメグルギョウセイタイオウトホウテキカダイ</li><li>責任表示：北村　喜宣 編集,田中　良弘 編集,釼持　麻衣 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326404674",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11055,7 +11082,7 @@
       "description": "<p>勁草書房,2026-09-02,9784326404667<p><ul><li>タイトル：宇宙ビジネスに対応した法理論の変容</li><li>タイトル（読み）：ウチュウビジネスニタイオウシタホウリロンノヘンヨウ</li><li>責任表示：笹岡　愛美 編集,石井　由梨佳 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326404667",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11083,7 +11110,7 @@
       "description": "<p>勁草書房,2026,978-4-326-35198-5<p><ul><li>タイトル：エネルギーの地政学 : エネルギートランジションと日本の戦略</li><li>タイトル（読み）：エネルギー ノ チセイガク : エネルギー トランジション ト ニホン ノ センリャク</li><li>責任表示：橋本道雄, 中井遼 編,信岡洋子 [ほか] [執筆]</li><li>NDC(10)：501.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780937",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11108,22 +11135,46 @@
       "description": "<p>勁草書房,2026,978-4-326-30364-9<p><ul><li>タイトル：海洋戦略論 : 大国は海でどのように戦うのか</li><li>タイトル（読み）：カイヨウ センリャクロン : タイコク ワ ウミ デ ドノヨウニ タタカウ ノカ</li><li>責任表示：後瀉桂太郎 著</li><li>NDC(10)：397.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780938",
-      "status": "エラー",
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326404681",
+      "title": "数によるガバナンス",
+      "author": [
+        "アラン・シュピオ",
+        "橋本　一径"
+      ],
+      "publisher": "勁草書房",
+      "pubDate": "2026-09-24",
+      "category": "academic",
+      "ndc": "La",
+      "description": "<p>勁草書房,2026-09-24,9784326404681<p><ul><li>タイトル：数によるガバナンス</li><li>タイトル（読み）：カズニヨルガバナンス</li><li>責任表示：アラン・シュピオ 著・文・その他,橋本　一径 翻訳</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326404681",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
     {
       "isbn": "9784326852086",
       "title": "狂熱のパレット : 激闘するゴッホとゴーギャン",
-      "author": "西岡　文彦",
+      "author": "西岡, 文彦",
       "publisher": "勁草書房",
-      "pubDate": "2026-08-04",
+      "pubDate": 2026.7,
       "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>勁草書房,2026-08-04,9784326852086<p><ul><li>タイトル：狂熱のパレット : 激闘するゴッホとゴーギャン</li><li>タイトル（読み）：キョウネツノパレット : ゲキトウスルゴッホトゴーギャン</li><li>責任表示：西岡　文彦 著・文・その他</li></ul>",
+      "ndc": [
+        "Gogh, Vincent van",
+        {
+          "#text": 723.359,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>勁草書房,2026,978-4-326-85208-6<p><ul><li>タイトル：狂熱のパレット : 激闘するゴッホとゴーギャン</li><li>タイトル（読み）：キョウネツ ノ パレット : ゲキトウ スル ゴッホ ト ゴーギャン</li><li>責任表示：西岡文彦 著</li><li>NDC(10)：723.359</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326852086",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841102",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11138,7 +11189,7 @@
       "description": "<p>勁草書房,2026-07-07,9784326449880<p><ul><li>タイトル：空法　第66号</li><li>タイトル（読み）：クウホウダイロクジュウロクゴウ</li><li>責任表示：日本空法学会 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326449880",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11157,6 +11208,24 @@
       "description": "<p>勁草書房,2026-09-16,9784326155040<p><ul><li>タイトル：研究者を目指す時に知っておきたいこと : 研究者という生き方を選ぶ</li><li>タイトル（読み）：ケンキュウシャヲメザストキニシッテオキタイコト : ケンキュウシャトイウイキカタヲエラブ</li><li>責任表示：井上　紗奈 著・文・その他,藤田　益伸 著・文・その他,森田　理仁 著・文・その他</li><li>シリーズ名：研究者人生のささやかな歩み方シリーズ</li><li>シリーズ名（読み）：ケンキュウシャジンセイノササヤカナアユミカタシリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326155040",
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326303663",
+      "title": "壊れる核抑止 : 核兵器運用のリアル",
+      "author": [
+        "兼原　信克",
+        "福田　潤一"
+      ],
+      "publisher": "勁草書房",
+      "pubDate": "2026-09-28",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-09-28,9784326303663<p><ul><li>タイトル：壊れる核抑止 : 核兵器運用のリアル</li><li>タイトル（読み）：コワレルカクヨクシ : カクヘイキウンヨウノリアル</li><li>責任表示：兼原　信克 編集,福田　潤一 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326303663",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11183,17 +11252,38 @@
       "isbn": "9784326451524",
       "title": "サイバネティックアバターと変容する働き方・技能の未来",
       "author": [
-        "赤坂　亮太",
-        "久木田　水生"
+        "赤坂, 亮太",
+        "久木田, 水生"
       ],
       "publisher": "勁草書房",
-      "pubDate": "2026-08-04",
+      "pubDate": 2026.7,
       "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>勁草書房,2026-08-04,9784326451524<p><ul><li>タイトル：サイバネティックアバターと変容する働き方・技能の未来</li><li>タイトル（読み）：サイバネティックアバタートヘンヨウスルハタラキカタギノウノミライ</li><li>責任表示：赤坂　亮太 編集,久木田　水生 編集</li></ul>",
+      "ndc": [
+        "技術革新と労働問題",
+        {
+          "#text": 366.04,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>勁草書房,2026,978-4-326-45152-4<p><ul><li>タイトル：サイバネティックアバターと変容する働き方・技能の未来</li><li>タイトル（読み）：サイバネティック アバター ト ヘンヨウ スル ハタラキカタ ギノウ ノ ミライ</li><li>責任表示：赤坂亮太, 久木田水生 編</li><li>NDC(10)：366.04</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326451524",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841101",
+      "status": "エラー",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326698455",
+      "title": "社会的ジレンマ : ゲーム理論・計算社会科学・因果推論からの解明",
+      "author": "大林　真也",
+      "publisher": "勁草書房",
+      "pubDate": "2026-10-02",
+      "category": "academic",
+      "ndc": "計算社会科学",
+      "description": "<p>勁草書房,2026-10-02,9784326698455<p><ul><li>タイトル：社会的ジレンマ : ゲーム理論・計算社会科学・因果推論からの解明</li><li>タイトル（読み）：シャカイテキジレンマ : ゲームリロンケイサンシャカイカガクインガスイロンカラノカイメイ</li><li>責任表示：大林　真也 著・文・その他</li><li>シリーズ名：シリーズ　数理・計量社会学の応用</li><li>シリーズ名（読み）：シリーズスウリケイリョウシャカイガクノオウヨウ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326698455",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11248,7 +11338,7 @@
       "description": "<p>勁草書房,2026,978-4-326-65455-0<p><ul><li>タイトル：女性を敬して遠ざける : カントとルソー</li><li>タイトル（読み）：ジョセイ オ ケイシテ トオザケル : カント ト ルソー</li><li>責任表示：サラ・コフマン 著,ファヨル入江容子, 横田祐美子, 伊藤潤一郎 訳</li><li>NDC(10)：134.2</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034750806",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11263,7 +11353,7 @@
       "description": "<p>勁草書房,2026-09-04,9784326251971<p><ul><li>タイトル：想起する絵、記憶する演劇 : 「原爆の絵」現象は継承か、それとも教育か</li><li>タイトル（読み）：ソウキスルエキオクスルエンゲキ : ゲンバクノエゲンショウハケイショウカソレトモキョウイクカ</li><li>責任表示：山名　淳 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326251971",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11288,7 +11378,7 @@
       "description": "<p>勁草書房,2026,978-4-326-85207-9<p><ul><li>タイトル：掌の美術論 : 触覚と想像力</li><li>タイトル（読み）：テノヒラ ノ ビジュツロン : ショッカク ト ソウゾウリョク</li><li>責任表示：松井裕美 著</li><li>NDC(10)：700</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780935",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11306,7 +11396,7 @@
       "description": "<p>勁草書房,2026-08-17,9784326603923<p><ul><li>タイトル：ドイツ世襲財産問題の考察 : プロイセンを中心に</li><li>タイトル（読み）：ドイツセシュウザイサンモンダイノコウサツ : プロイセンヲチュウシンニ</li><li>責任表示：マックス・ウェーバー 著・文・その他,加藤　房雄 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326603923",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11324,7 +11414,7 @@
       "description": "<p>勁草書房,2026-09-01,9784326251964<p><ul><li>タイトル：日本の子育て格差 : データからみる教育・家族・階層の現在</li><li>タイトル（読み）：ニホンノコソダテカクサ : データカラミルキョウイクカゾクカイソウノゲンザイ</li><li>責任表示：打越　文弥 編集,胡中　孟徳 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326251964",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11444,19 +11534,25 @@
     },
     {
       "isbn": "9784904074947",
-      "title": "新しい量子力学入門　下",
-      "author": "小泉　裕康",
+      "title": "新しい量子力学入門",
+      "author": "小泉, 裕康",
       "publisher": [
         "筑波大学出版会",
         "丸善出版"
       ],
-      "pubDate": "2026-07-29",
+      "pubDate": 2026.7,
       "category": "academic",
-      "ndc": "量子学",
-      "description": "<p>筑波大学出版会,2026-07-29,9784904074947<p><ul><li>タイトル：新しい量子力学入門　下</li><li>タイトル（読み）：アタラシイリョウシリキガクニュウモン　ゲ</li><li>責任表示：小泉　裕康 著・文・その他</li></ul>",
+      "ndc": [
+        "量子力学",
+        {
+          "#text": 421.3,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>下,筑波大学出版会,2026,978-4-904074-94-7<p><ul><li>タイトル：新しい量子力学入門</li><li>タイトル（読み）：アタラシイ リョウシ リキガク ニュウモン</li><li>責任表示：小泉裕康 著</li><li>NDC(10)：421.3</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784904074947",
-      "status": "未所蔵",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827575",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11678,7 +11774,7 @@
       "description": "<p>クルーズトラベラーカンパニー,2026-06-30,9784908514449<p><ul><li>タイトル：CRUISE Traveller Summer  2026 : これからの沖縄アイランドクルーズ</li><li>タイトル（読み）：クルーズトラベラー　サマー　ニセンニジュウロク : コレカラノオキナワアイランドクルーズ</li><li>責任表示：クルーズトラベラー編集部 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784908514449",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11824,7 +11920,7 @@
       "description": "<p>丸善出版,2026,978-4-621-31298-8<p><ul><li>タイトル：人類学の百科事典</li><li>タイトル（読み）：ジンルイガク ノ ヒャッカ ジテン</li><li>責任表示：日本人類学会 編</li><li>NDC(10)：469.036</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841120",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11842,7 +11938,7 @@
       "description": "<p>丸善出版,2026-09-26,9784621313145<p><ul><li>タイトル：スマホがやめられないのはなぜ？ : 情報とメディアの社会学</li><li>タイトル（読み）：スマホガヤメラレナイノハナゼ : ジョウホウトメディアノシャカイガク</li><li>責任表示：宇田川　敦史 著・文・その他</li><li>シリーズ名：10代の悩みを読み解く社会学</li><li>シリーズ名（読み）：ジュウダイノナヤミヲヨミトクシャカイガク</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313145",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11864,7 +11960,7 @@
       "description": "<p>丸善出版,2026-10-02,9784621313077<p><ul><li>タイトル：図説　現代発生生物学</li><li>タイトル（読み）：ズセツ　ゲンダイハッセイセイブツガク</li><li>責任表示：池田　貴史 著・文・その他,池田　貴史 編集,河西　通 著・文・その他,河西　通 編集,武田　洋幸 著・文・その他,武田　洋幸 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313077",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11890,7 +11986,7 @@
       "description": "<p>丸善出版,2026-09-02,9784621313008<p><ul><li>タイトル：生態学研究ハンドブック : 問いの立て方から、仮説検証、研究成果の伝え方まで</li><li>タイトル（読み）：セイタイガクケンキュウハンドブック : トイノタテカタカラカセツケンショウケンキュウセイカノツタエカタマデ</li><li>責任表示：Richard Karban 著・文・その他,Mikaela Huntzinger 著・文・その他,Ian S. Pearse 著・文・その他,瀧本　岳 監修,瀧本　岳 翻訳,吉田　丈人 監修,吉田　丈人 翻訳,内海　俊介 翻訳,塩尻　かおり 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313008",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11915,7 +12011,7 @@
       "description": "<p>丸善出版,2026,978-4-621-31301-5<p><ul><li>タイトル：誰も教えてくれなかった臨床現場の\"教え方\" : 後輩医師を導くための教育理論</li><li>タイトル（読み）：ダレモ オシエテ クレナカッタ リンショウ ゲンバ ノ オシエカタ : コウハイ イシ オ ミチビク タメ ノ キョウイク リロン</li><li>責任表示：吉田暁 著</li><li>NDC(10)：490.7</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812766",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11933,7 +12029,7 @@
       "description": "<p>丸善出版,2026-09-26,9784621313213<p><ul><li>タイトル：地図を読みとく図鑑</li><li>タイトル（読み）：チズヲヨミトクズカン</li><li>責任表示：今和泉　隆行 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313213",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11951,7 +12047,7 @@
       "description": "<p>シオン,2026-09-30,9784911755020<p><ul><li>タイトル：着床不全と不育症 -赤ちゃんを迎えるために -</li><li>タイトル（読み）：チャクショウフゼントフイクショウ 　アカチャンヲムカエルタメニ</li><li>責任表示：不妊治療情報センター 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911755020",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11969,7 +12065,7 @@
       "description": "<p>交通工学研究会,2026-08-07,9784911686027<p><ul><li>タイトル：二段階横断施設の計画・設計・運用マニュアル</li><li>タイトル（読み）：ニダンカイオウダンシセツノケイカク　セッケイ　ウンヨウマニュアル</li><li>責任表示：交通工学研究会 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911686027",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -11998,7 +12094,7 @@
       "description": "<p>丸善出版,2026,978-4-621-31296-4<p><ul><li>タイトル：人間知能の正体 : 「個人差」はどこからくるのか?</li><li>タイトル（読み）：ニンゲン チノウ ノ ショウタイ : コジンサ ワ ドコ カラ クル ノカ</li><li>責任表示：Ian J.Deary 著,柿沼一雄, 大井由貴 訳</li><li>NDC(10)：141.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034783003",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12049,7 +12145,7 @@
       "description": "<p>産業環境管理協会,2026,978-4-86240-241-7<p><ul><li>タイトル：廃棄物処理の基礎から実務まで : サーキュラーエコノミー時代の環境担当者向け</li><li>タイトル（読み）：ハイキブツ ショリ ノ キソ カラ ジツム マデ : サーキュラー エコノミー ジダイ ノ カンキョウ タントウシャムケ</li><li>責任表示：長岡文明 著</li><li>NDC(10)：519.7</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812767",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12138,7 +12234,7 @@
       "description": "<p>朝倉書店,2026,978-4-254-10309-0<p><ul><li>タイトル：MEG・EEG入門 : 脳磁図と脳波の原理から解析・解釈まで</li><li>タイトル（読み）：エムイージー イーイージー ニュウモン : ノウジズ ト ノウハ ノ ゲンリ カラ カイセキ カイシャク マデ</li><li>責任表示：Riitta Hari, Aina Puce 著,天野薫 [ほか] 監訳</li><li>NDC(10)：492.16</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034724744",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12166,7 +12262,7 @@
       "description": "<p>朝倉書店,2026,978-4-254-17199-0<p><ul><li>タイトル：寄生虫の事典 : 医学・獣医学・生物学から人や社会とのかかわりまで</li><li>タイトル（読み）：キセイチュウ ノ ジテン</li><li>責任表示：永宗喜三郎, 新倉保 編集代表</li><li>NDC(10)：491.9</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034681603",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12184,7 +12280,7 @@
       "description": "<p>朝倉書店,2026-09-05,9784254523072<p><ul><li>タイトル：経済と心理からみるソーシャルメディア : 広告・推薦・共有から生成AIまで</li><li>タイトル（読み）：ケイザイトシンリカラミルソーシャルメディア : コウコクスイセンキョウユウカラセイセイエーアイマデ</li><li>責任表示：藤本　和則 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254523072",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12209,7 +12305,7 @@
       "description": "<p>朝倉書店,2026,978-4-254-64051-9<p><ul><li>タイトル：コンパクト公衆衛生学</li><li>タイトル（読み）：コンパクト コウシュウ エイセイガク</li><li>責任表示：松浦賢長, 小林廉毅, 苅田香苗 編</li><li>NDC(10)：498</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034825341",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12231,7 +12327,7 @@
       "description": "<p>朝倉書店,2026-09-08,9784254160840<p><ul><li>タイトル：災害情報概論</li><li>タイトル（読み）：サイガイジョウホウガイロン</li><li>責任表示：東京大学大学院情報学環総合防災情報研究センター 監修,関谷　直也 編集,田中　淳 編集</li><li>シリーズ名：シリーズ〈災害と情報〉 ； 1</li><li>シリーズ名（読み）：シリーズサイガイトジョウホウ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254160840",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12253,7 +12349,7 @@
       "description": "<p>朝倉書店,2026-09-11,9784254160857<p><ul><li>タイトル：災害とコミュニケーション</li><li>タイトル（読み）：サイガイトコミュニケーション</li><li>責任表示：東京大学大学院情報学環総合防災情報研究センター 監修,田中　淳 編集,小林　秀行 編集</li><li>シリーズ名：シリーズ〈災害と情報〉 ； 2</li><li>シリーズ名（読み）：シリーズサイガイトジョウホウ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254160857",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12274,7 +12370,7 @@
       "description": "<p>朝倉書店,2026-10-25,9784254201871<p><ul><li>タイトル：最適化・最適設計事典</li><li>タイトル（読み）：サイテキカサイテキセッケイジテン</li><li>責任表示：寒野　善博 編集,北山　哲士 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254201871",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12292,7 +12388,7 @@
       "description": "<p>朝倉書店,2026-10-25,9784254118766<p><ul><li>タイトル：最適輸送理論</li><li>タイトル（読み）：サイテキユソウリロン</li><li>責任表示：高津　飛鳥 著・文・その他</li><li>シリーズ名：朝倉数学ライブラリー</li><li>シリーズ名（読み）：アサクラスウガクライブラリー</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254118766",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12313,7 +12409,7 @@
       "description": "<p>朝倉書店,2026-09-15,9784254172119<p><ul><li>タイトル：植物とくらしの図鑑</li><li>タイトル（読み）：ショクブツトクラシノズカン</li><li>責任表示：福田　健二 監修,久保山　京子 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254172119",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12334,7 +12430,7 @@
       "description": "<p>朝倉書店,2026-09-25,9784254123142<p><ul><li>タイトル：深層学習を理解する I : 教師あり学習とモデルの基礎</li><li>タイトル（読み）：シンソウガクシュウヲリカイスルイチ : キョウシアリガクシュウトモデルノキソ</li><li>責任表示：Simon J. D. Prince 著・文・その他,黒川　利明 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254123142",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12355,7 +12451,7 @@
       "description": "<p>朝倉書店,2026-09-25,9784254123159<p><ul><li>タイトル：深層学習を理解する II : 教師なし学習・強化学習・倫理</li><li>タイトル（読み）：シンソウガクシュウヲリカイスルニ : キョウシナシガクシュウキョウカガクシュウリンリ</li><li>責任表示：Simon J. D. Prince 著・文・その他,黒川　利明 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254123159",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12373,7 +12469,7 @@
       "description": "<p>朝倉書店,2026-10-15,9784254201864<p><ul><li>タイトル：図解　エネルギーの事典 : しくみと技術から環境・政策まで</li><li>タイトル（読み）：ズカイエネルギーノジテン : シクミトギジュツカラカンキョウセイサクマデ</li><li>責任表示：⽇本エネルギー学会「エネルギー学」部会 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254201864",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12394,7 +12490,7 @@
       "description": "<p>朝倉書店,2026-10-25,9784254172102<p><ul><li>タイトル：図説日本の絶滅危惧種【植物編】 : 100種から見る日本の自然</li><li>タイトル（読み）：ズセツニホンノゼツメツキグシュショクブツヘン : ヒャクシュカラミルニホンノシゼン</li><li>責任表示：西廣　淳 監修,宮下　直 監修</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254172102",
-      "status": "未所蔵",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12415,7 +12511,7 @@
       "description": "<p>朝倉書店,2026-10-25,9784254172096<p><ul><li>タイトル：図説日本の絶滅危惧種【動物編】 : 100種から見る日本の自然</li><li>タイトル（読み）：ズセツニホンノゼツメツキグシュドウブツヘン : ヒャクシュカラミルニホンノシゼン</li><li>責任表示：宮下　直 監修,西廣　淳 監修</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254172096",
-      "status": "エラー",
+      "status": "調査中",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12516,7 +12612,7 @@
       "description": "<p>朝倉書店,2026,978-4-254-17204-1<p><ul><li>タイトル：脊椎動物学</li><li>タイトル（読み）：セキツイ ドウブツガク</li><li>責任表示：F.ハーヴィー・ポー [ほか] 著,土岐田昌和 訳</li><li>NDC(10)：487</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034838537",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12566,7 +12662,7 @@
       "description": "<p>朝倉書店,2026,978-4-254-34033-4<p><ul><li>タイトル：トキシコロジー</li><li>タイトル（読み）：トキシコロジー</li><li>責任表示：日本毒性学会教育委員会 編</li><li>NDC(10)：491.59</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034750864",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -12616,7 +12712,7 @@
       "description": "<p>朝倉書店,2026-09-25,9784254162820<p><ul><li>タイトル：日本産鉱物大百科</li><li>タイトル（読み）：ニホンサンコウブツダイヒャッカ</li><li>責任表示：松原　聰 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254162820",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13017,7 +13113,7 @@
       "description": "<p>共立出版,2026-08-10,9784320006263<p><ul><li>タイトル：視覚哲学の冒険 : 意識・脳・世界はいかにつながるか</li><li>タイトル（読み）：シカクテツガクノボウケン : イシキノウセカイハイカニツナガルカ</li><li>責任表示：John R. Searle 著・文・その他,長滝 祥司 翻訳,長滝 祥司 解説</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320006263",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13064,7 +13160,7 @@
       "description": "<p>共立出版,2026,978-4-320-05851-4<p><ul><li>タイトル：シロアリ : 生態・社会性・進化</li><li>タイトル（読み）：シロアリ</li><li>責任表示：松本忠夫, 前川清人, 三浦徹 著</li><li>NDC(10)：486.32</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034792087",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13317,7 +13413,7 @@
       "description": "<p>共立出版,2026,978-4-320-11681-8<p><ul><li>タイトル：表現論序説</li><li>タイトル（読み）：ヒョウゲンロン ジョセツ</li><li>責任表示：有木進, 西山享 著</li><li>シリーズ名：表現論の礎 ; 1</li><li>シリーズ名（読み）：ヒョウゲンロン ノ イシズエ ; 1</li><li>NDC(10)：411.62</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738961",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13452,7 +13548,7 @@
       "description": "<p>共立出版,2026-10-05,9784320035621<p><ul><li>タイトル：量子ドット : 閉じ込めと開放の物理学</li><li>タイトル（読み）：リョウシドット : トジコメトカイホウノブツリガク</li><li>責任表示：勝本 信吾 著・文・その他,須藤 彰三 監修,岡 真 監修</li><li>シリーズ名：基本法則から読み解く物理学最前線 ； 42</li><li>シリーズ名（読み）：キホンホウソクカラヨミトクブツリガクサイゼンセン</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320035621",
-      "status": "エラー",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13656,7 +13752,7 @@
       "description": "<p>文芸春秋,2011,9784163810102<p><ul><li>タイトル：赤絵そうめん</li><li>タイトル（読み）：アカエ ソウメン</li><li>責任表示：山本兼一著</li><li>NDC(9)：913.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384887531526",
-      "status": "未所蔵",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -13710,6 +13806,82 @@
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034557568",
       "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784907623838",
+      "title": "もっと怒ってもいいのに : 精神科長期入院、断念と希望と",
+      "author": "植田, 太郎, 1990-",
+      "publisher": "dZERO",
+      "pubDate": 2026.3,
+      "category": "academic",
+      "ndc": [
+        "精神医学--日本",
+        {
+          "#text": "SC361",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 493.7,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>dZERO,2026,978-4-907623-83-8<p><ul><li>タイトル：もっと怒ってもいいのに : 精神科長期入院、断念と希望と</li><li>タイトル（読み）：モット オコッテモ イイノニ : セイシンカ チョウキ ニュウイン 、 ダンネン ト キボウ ト</li><li>責任表示：植田太郎</li><li>NDC(10)：493.7</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034620018",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784006004996",
+      "title": "「王朝美」の世界を読みほどく : 平安から鎌倉へ",
+      "author": "千野 香織",
+      "publisher": "岩波書店",
+      "pubDate": "2026-07-17",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-07-17,9784006004996<p><ul><li>タイトル：「王朝美」の世界を読みほどく : 平安から鎌倉へ</li><li>タイトル（読み）：オウチョウビノセカイヲヨミホドク : ヘイアンカラカマクラヘ</li><li>責任表示：千野 香織 著・文・その他</li><li>シリーズ名：岩波現代文庫 ； 学術499</li><li>シリーズ名（読み）：イワナミゲンダイブンコ</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784006004996",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784641233416",
+      "title": "民法Ⅲ　債権総論",
+      "author": "野村 豊弘",
+      "publisher": [
+        "有斐閣",
+        "有斐閣"
+      ],
+      "pubDate": "2026-07-15",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>有斐閣,2026-07-15,9784641233416<p><ul><li>タイトル：民法Ⅲ　債権総論</li><li>タイトル（読み）：ミンポウサン　サイケンソウロン</li><li>責任表示：野村 豊弘 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641233416",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784623101108",
+      "title": "ブランド戦略論 : 理論的理解からマーケティング実務まで",
+      "author": [
+        "熊谷　健",
+        "李炅泰"
+      ],
+      "publisher": "ミネルヴァ書房",
+      "pubDate": "2026-09-15",
+      "category": "academic",
+      "ndc": "ブランド・ビジネス ブランディング ブランド・エクイティ ブランド心理 グローバル・ブランド ブランド・マーケティング ブランド・ポートフォリオ ブランドの真正性 KPI EBITDA",
+      "description": "<p>ミネルヴァ書房,2026-09-15,9784623101108<p><ul><li>タイトル：ブランド戦略論 : 理論的理解からマーケティング実務まで</li><li>タイトル（読み）：ブランドセンリャクロン : リロンテキリカイカラマーケティングジツムマデ</li><li>責任表示：熊谷　健 著・文・その他,李炅泰 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623101108",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     }
