@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T03:01:41.164Z",
+  "lastUpdated": "2026-10-18T02:19:25.001Z",
   "books": [
     {
       "isbn": "9784758414968",
@@ -900,7 +900,7 @@
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034437399",
       "status": "所蔵あり",
       "libkey": {
-        "本館": "貸出可",
+        "本館": "館内のみ",
         "研究室": "蔵書あり"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14098610"
@@ -956,7 +956,7 @@
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034566841",
       "status": "所蔵あり",
       "libkey": {
-        "本館": "館内のみ"
+        "本館": "貸出可"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18229222"
     },
@@ -1145,6 +1145,24 @@
         "本館": "貸出可"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18328530"
+    },
+    {
+      "isbn": "9784866271866",
+      "title": "沖縄の「戦争と基地」 : 北陸出身記者・60年の報告",
+      "author": "野里　洋",
+      "publisher": [
+        "株式会社桂書房",
+        "株式会社桂書房"
+      ],
+      "pubDate": "2026-10-26",
+      "category": "okinawa-ja",
+      "ndc": "Unknown",
+      "description": "<p>株式会社桂書房,2026-10-26,9784866271866<p><ul><li>タイトル：沖縄の「戦争と基地」 : 北陸出身記者・60年の報告</li><li>タイトル（読み）：オキナワノセンソウトキチ : ホクリクシュッシンキシャ　ロクジュウネンノホウコク</li><li>責任表示：野里　洋 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784866271866",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784899825067",
@@ -1721,6 +1739,24 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784418261185",
+      "title": "大人のハワイ　ｖｏｌ．６１",
+      "author": "世界文化社",
+      "publisher": [
+        "株式会社 世界文化社",
+        "株式会社 世界文化社"
+      ],
+      "pubDate": "2026-11-28",
+      "category": "okinawa-ja",
+      "ndc": "ワイキキ ホノルル マウイ カウアイ 夏休み 海外 旅行 HAWAI ハワイ ホテル ガイド クヒオ フィジー グアム タヒチ フラガール 南の島 沖縄 大人 ハワイ",
+      "description": "<p>株式会社 世界文化社,2026-11-28,9784418261185<p><ul><li>タイトル：大人のハワイ　ｖｏｌ．６１</li><li>タイトル（読み）：オトナノハワイロクジュウイチ</li><li>責任表示：世界文化社 著・文・その他</li><li>シリーズ名：別冊家庭画報</li><li>シリーズ名（読み）：ベッサツカテイガホウ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784418261185",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784909293312",
       "title": "同じ墓に入る人びと : 沖縄県糸満の門中行事",
       "author": "Unknown",
@@ -2124,7 +2160,7 @@
     {
       "isbn": "9784902412437",
       "title": "子や孫に伝えたい黄金言葉 : Okinawan proverbs",
-      "author": "座間味, 宗治",
+      "author": "座間味, 宗治, 1937-",
       "publisher": "沖縄文化社",
       "pubDate": 2026.8,
       "category": "okinawa-ja",
@@ -2290,7 +2326,7 @@
     },
     {
       "isbn": "9784874989968",
-      "title": "信託統治される日本",
+      "title": "信託統治される日本 : 主権なき日米同盟;シュケンナキニチベイドウメイ",
       "author": "屋良 朝博",
       "publisher": [
         "高文研",
@@ -2299,7 +2335,7 @@
       "pubDate": "2026-11-16",
       "category": "okinawa-ja",
       "ndc": "辺野古",
-      "description": "<p>高文研,2026-11-16,9784874989968<p><ul><li>タイトル：信託統治される日本</li><li>タイトル（読み）：シンタクトウジサレルニホン</li><li>責任表示：屋良 朝博 著・文・その他</li></ul>",
+      "description": "<p>高文研,2026-11-16,9784874989968<p><ul><li>タイトル：信託統治される日本 : 主権なき日米同盟;シュケンナキニチベイドウメイ</li><li>タイトル（読み）：シンタクトウジサレルニホン</li><li>責任表示：屋良 朝博 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784874989968",
       "status": "未所蔵",
@@ -2634,11 +2670,9 @@
       "description": "<p>地平社,2026,978-4-911256-44-2<p><ul><li>タイトル：南西諸島の軍事化</li><li>タイトル（読み）：ナンセイ ショトウ ノ グンジカ</li><li>責任表示：池尾靖志 著</li><li>NDC(10)：395.39</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034616793",
-      "status": "所蔵あり",
-      "libkey": {
-        "本館": "館内のみ"
-      },
-      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD18196928"
+      "status": "調査中",
+      "libkey": {},
+      "reserveurl": ""
     },
     {
       "isbn": "9784814006403",
@@ -2803,6 +2837,24 @@
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14311809"
     },
     {
+      "isbn": "9784873028903",
+      "title": "幻の琉球王国",
+      "author": "藤民　央",
+      "publisher": [
+        "郁朋社",
+        "郁朋社"
+      ],
+      "pubDate": "2026-11-10",
+      "category": "okinawa-ja",
+      "ndc": "琉球",
+      "description": "<p>郁朋社,2026-11-10,9784873028903<p><ul><li>タイトル：幻の琉球王国</li><li>タイトル（読み）：マボロシノリュウキュウオウコク</li><li>責任表示：藤民　央 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784873028903",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784874989883",
       "title": "無責任の体系と沖縄戦 : 戦争犯罪・語り・平和教育",
       "author": "島袋, 純, 1961-",
@@ -2963,24 +3015,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784899825074",
-      "title": "琉球怪談 : 現代実話集　闇と癒しの百物語",
-      "author": "小原猛",
-      "publisher": [
-        "ボーダーインク",
-        "ボーダーインク"
-      ],
-      "pubDate": "2026-08",
-      "category": "okinawa-ja",
-      "ndc": "怪談",
-      "description": "<p>ボーダーインク,2026-08,9784899825074<p><ul><li>タイトル：琉球怪談 : 現代実話集　闇と癒しの百物語</li><li>タイトル（読み）：リュウキユウカイダン : ゲンダイジツワシュウヤミトイヤシノヒャクモノガタリ</li><li>責任表示：小原猛 著・文・その他</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784899825074",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784843362464",
       "title": "琉球歌謡",
       "author": [
@@ -3035,7 +3069,7 @@
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034851296",
       "status": "所蔵あり",
       "libkey": {
-        "本館": "貸出可"
+        "本館": "館内のみ"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20375362"
     },
@@ -3396,6 +3430,27 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784825102385",
+      "title": "琉球バッカニア(4)",
+      "author": [
+        "カミツキレイニー",
+        "土井那羽"
+      ],
+      "publisher": [
+        "一迅社",
+        "一迅社"
+      ],
+      "pubDate": "2026-12-16",
+      "category": "okinawa-ja",
+      "ndc": "Unknown",
+      "description": "<p>4,一迅社,2026-12-16,9784825102385<p><ul><li>タイトル：琉球バッカニア(4)</li><li>タイトル（読み）：リュウキュウバッカニア</li><li>責任表示：カミツキレイニー 原著,土井那羽 著・文・その他</li><li>シリーズ名：HOWLコミックス</li><li>シリーズ名（読み）：ハウルコミックス</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784825102385",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784385361178",
       "title": "琉球列島に根ざした言語文化と学校教育 : 北日本とつながり、継承と創造的発展をのぞむ",
       "author": [
@@ -3546,12 +3601,12 @@
     {
       "isbn": "9784991508202",
       "title": "奄美島唄の社会学 : 〈地域・文化・メディア〉の連環を読み解く",
-      "author": "加藤, 晴明",
+      "author": "加藤, 晴明, 1952-",
       "publisher": "あまみ書房",
       "pubDate": 2026.9,
       "category": "okinawa-ja",
       "ndc": "Unknown",
-      "description": "<p>あまみ書房,2026,978-4-9915082-0-2<p><ul><li>タイトル：奄美島唄の社会学 : 〈地域・文化・メディア〉の連環を読み解く</li><li>タイトル（読み）：アマミ シマウタ ノ シャカイガク : 〈 チイキ ・ ブンカ ・ メディア 〉 ノ レンカン オ ヨミ トク</li><li>責任表示：加藤晴明</li></ul>",
+      "description": "<p>あまみ書房,2026,978-4-9915082-0-2<p><ul><li>タイトル：奄美島唄の社会学 : 〈地域・文化・メディア〉の連環を読み解く</li><li>タイトル（読み）：アマミ シマウタ ノ シャカイガク : 〈 チイキ ・ ブンカ ・ メディア 〉 ノ レンカン オ ヨミトク</li><li>責任表示：加藤晴明</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034943359",
       "status": "未所蔵",
@@ -3744,14 +3799,14 @@
     {
       "isbn": "9784907958541",
       "title": "闘牛の絆 : 奄美大島物語",
-      "author": "勢/隆二",
+      "author": "勢, 隆二",
       "publisher": "アジア文化社文芸思潮出版部",
       "pubDate": 2026.1,
       "category": "okinawa-ja",
-      "ndc": 913.6,
-      "description": "<p>アジア文化社文芸思潮出版部,2026,978-4-907958-54-1<p><ul><li>タイトル：闘牛の絆 : 奄美大島物語</li><li>タイトル（読み）：トウギュウ ノ キズナ : アマミ オオシマ モノガタリ</li><li>責任表示：勢隆二 著</li><li>NDC(10)：913.6</li></ul>",
+      "ndc": "Unknown",
+      "description": "<p>アジア文化社文芸思潮出版部,2026,978-4-907958-54-1<p><ul><li>タイトル：闘牛の絆 : 奄美大島物語</li><li>タイトル（読み）：トウギュウ ノ キズナ : アマミ オオシマ モノガタリ</li><li>責任表示：勢隆二</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I2712B17264835",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034722630",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -6030,6 +6085,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784130333108",
+      "title": "「アメリカ・ファースト」時代の国際秩序",
+      "author": "森　聡",
+      "publisher": "東京大学出版会",
+      "pubDate": "2026-11-28",
+      "category": "academic",
+      "ndc": "トランプ関税　ベネズエラ攻撃　イラン攻撃　イスラエル　米中関係　NATO,ウクライナ　国連　移民　プーチン　習近平　金正恩　安保３文書改訂　経済安全保障　国連　国際刑事裁判所　防衛産業　防衛予算",
+      "description": "<p>東京大学出版会,2026-11-28,9784130333108<p><ul><li>タイトル：「アメリカ・ファースト」時代の国際秩序</li><li>タイトル（読み）：アメリカファーストジダイノコクサイチツジョ</li><li>責任表示：森　聡 編集</li><li>シリーズ名：UP  plus</li><li>シリーズ名（読み）：ユーピープラス</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130333108",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784130537070",
       "title": "「歩き」の科学 : もっと楽しく安全な歩行のススメ",
       "author": "松浦　常夫",
@@ -6196,6 +6266,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784130628495",
+      "title": "エイジフレンドリーシティのすすめ : 生活圏をデザインする技法",
+      "author": "後藤　純",
+      "publisher": "東京大学出版会",
+      "pubDate": "2026-12-23",
+      "category": "academic",
+      "ndc": "AFC　WHO　都市政策　超高齢社会　地域包括ケア　介護保険制度　介護予防　自立支援　プレイスメイキング　コミュニティデザイン　自助・互助・共助・公助",
+      "description": "<p>東京大学出版会,2026-12-23,9784130628495<p><ul><li>タイトル：エイジフレンドリーシティのすすめ : 生活圏をデザインする技法</li><li>タイトル（読み）：エイジフレンドリーシティノススメ : セイカツケンヲデザインスルギホウ</li><li>責任表示：後藤　純 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784130628495",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784130860741",
       "title": "越境者のまなざし : 芸術家の移動にみる韓国近代絵画",
       "author": "申　旼正",
@@ -6275,20 +6360,24 @@
       "isbn": "9784130220316",
       "title": "概説中国近代史",
       "author": [
-        "中村, 元哉",
-        "家永, 真幸"
+        "中村, 元哉, 1973-",
+        "家永, 真幸, 1981-"
       ],
       "publisher": "東京大学出版会",
       "pubDate": 2026.9,
       "category": "academic",
       "ndc": [
-        "中国--歴史--近代",
+        "中国--歴史--民国時代",
         {
-          "#text": 222.064,
+          "#text": "GE321",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 222.07,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>東京大学出版会,2026,978-4-13-022031-6<p><ul><li>タイトル：概説中国近代史</li><li>タイトル（読み）：ガイセツ チュウゴク キンダイシ</li><li>責任表示：中村元哉, 家永真幸 編</li><li>NDC(10)：222.064</li></ul>",
+      "description": "<p>東京大学出版会,2026,978-4-13-022031-6<p><ul><li>タイトル：概説中国近代史</li><li>タイトル（読み）：ガイセツ チュウゴク キンダイシ</li><li>責任表示：中村元哉, 家永真幸 編</li><li>NDC(10)：222.07</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034928347",
       "status": "未所蔵",
@@ -6582,52 +6671,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784130606103",
-      "title": "水面波の理論的解析",
-      "author": "船越, 満明, 1951-",
-      "publisher": "東京大学出版会",
-      "pubDate": 2026.8,
-      "category": "academic",
-      "ndc": [
-        "波動",
-        {
-          "#text": "MC43",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 423.84,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>東京大学出版会,2026,978-4-13-060610-3<p><ul><li>タイトル：水面波の理論的解析</li><li>タイトル（読み）：スイメンハ ノ リロンテキ カイセキ</li><li>責任表示：船越満明 著</li><li>NDC(10)：423.84</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034868136",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784130517010",
-      "title": "スポーツ医学の教科書 : 教養としての",
-      "author": "今井, 一博",
-      "publisher": "東京大学出版会",
-      "pubDate": 2026.9,
-      "category": "academic",
-      "ndc": [
-        "運動医学",
-        {
-          "#text": 780.19,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>東京大学出版会,2026,978-4-13-051701-0<p><ul><li>タイトル：スポーツ医学の教科書 : 教養としての</li><li>タイトル（読み）：スポーツ イガク ノ キョウカショ : キョウヨウ ト シテ ノ</li><li>責任表示：今井一博 著</li><li>NDC(10)：780.19</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034921586",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784815812546",
       "title": "オスマン帝国の法廷とジェンダー",
       "author": "秋葉淳",
@@ -6635,10 +6678,10 @@
         "名古屋大学出版会",
         "名古屋大学出版会"
       ],
-      "pubDate": "2026-10-29",
+      "pubDate": "2026-10-20",
       "category": "academic",
       "ndc": "イスラーム",
-      "description": "<p>名古屋大学出版会,2026-10-29,9784815812546<p><ul><li>タイトル：オスマン帝国の法廷とジェンダー</li><li>タイトル（読み）：オスマンテイコクノホウテイトジェンダー</li><li>責任表示：秋葉淳 著・文・その他</li></ul>",
+      "description": "<p>名古屋大学出版会,2026-10-20,9784815812546<p><ul><li>タイトル：オスマン帝国の法廷とジェンダー</li><li>タイトル（読み）：オスマンテイコクノホウテイトジェンダー</li><li>責任表示：秋葉淳 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815812546",
       "status": "未所蔵",
@@ -6776,17 +6819,20 @@
     {
       "isbn": "9784815812584",
       "title": "日系人からラティーノへ : アメリカ移民の環太平洋史",
-      "author": "徳永悠",
-      "publisher": [
-        "名古屋大学出版会",
-        "名古屋大学出版会"
-      ],
-      "pubDate": "2026-10-10",
+      "author": "徳永, 悠",
+      "publisher": "名古屋大学出版会",
+      "pubDate": 2026.1,
       "category": "academic",
-      "ndc": "ロサンゼルス",
-      "description": "<p>名古屋大学出版会,2026-10-10,9784815812584<p><ul><li>タイトル：日系人からラティーノへ : アメリカ移民の環太平洋史</li><li>タイトル（読み）：ニッケイジンカララティーノヘ : アメリカイミンノカンタイヘイヨウシ</li><li>責任表示：徳永悠 著・文・その他</li></ul>",
+      "ndc": [
+        "日本--外国関係--メキシコ--歴史--1868～1945",
+        {
+          "#text": 334.45393,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>名古屋大学出版会,2026,978-4-8158-1258-4<p><ul><li>タイトル：日系人からラティーノへ : アメリカ移民の環太平洋史</li><li>タイトル（読み）：ニッケイジン カラ ラティーノ エ</li><li>責任表示：徳永悠 著</li><li>NDC(10)：334.45393</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784815812584",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034946224",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -6794,7 +6840,7 @@
     {
       "isbn": "9784815812539",
       "title": "百寮蒙塵の国家 : 日本中世朝廷と官司制",
-      "author": "殷, 捷",
+      "author": "殷, 捷, 1993-",
       "publisher": "名古屋大学出版会",
       "pubDate": 2026.9,
       "category": "academic",
@@ -6990,7 +7036,11 @@
       "pubDate": 2026.9,
       "category": "academic",
       "ndc": [
-        "インタビュー--研究・指導",
+        "インタビュー",
+        {
+          "#text": "KF143",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 809.5,
           "@_xsi:type": "dcndl:NDC10"
@@ -7056,13 +7106,17 @@
       "title": "現実をつくる政治学 : 性・言語・認識をめぐるフェミニズム理論",
       "author": [
         "Frye, Marilyn",
-        "井上, 太一"
+        "井上, 太一, 1984-"
       ],
       "publisher": "慶應義塾大学出版会",
       "pubDate": 2026.1,
       "category": "academic",
       "ndc": [
         "フェミニズム",
+        {
+          "#text": "EF71",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 367.1,
           "@_xsi:type": "dcndl:NDC10"
@@ -7142,12 +7196,16 @@
     {
       "isbn": "9784766431360",
       "title": "循環経済の世界とその未来 : 競争と共創の調和へ",
-      "author": "細田, 衛士",
+      "author": "細田, 衛士, 1953-",
       "publisher": "慶應義塾大学出版会",
       "pubDate": 2026.9,
       "category": "academic",
       "ndc": [
         "環境経済学",
+        {
+          "#text": "EG281",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 519,
           "@_xsi:type": "dcndl:NDC10"
@@ -7220,6 +7278,24 @@
       "description": "<p>慶應義塾大学出版会,2026,978-4-7664-3144-5<p><ul><li>タイトル：データを「みる」力を養うための疫学基礎</li><li>タイトル（読み）：データ オ ミル チカラ オ ヤシナウ タメ ノ エキガク キソ</li><li>責任表示：杉山大典 著</li><li>NDC(10)：498.6</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034933938",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784766431551",
+      "title": "入門講義　内戦はなぜ起こるのか",
+      "author": "窪田悠一",
+      "publisher": [
+        "慶應義塾大学出版会",
+        "慶應義塾大学出版会"
+      ],
+      "pubDate": "2026-11-25",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>慶應義塾大学出版会,2026-11-25,9784766431551<p><ul><li>タイトル：入門講義　内戦はなぜ起こるのか</li><li>タイトル（読み）：ニュウモンコウギナイセンハナゼオコルノカ</li><li>責任表示：窪田悠一 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431551",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -7350,6 +7426,67 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784766431155",
+      "title": "諭吉と熊楠 : 未完の二人",
+      "author": [
+        "都倉武之",
+        "志村真幸"
+      ],
+      "publisher": [
+        "慶應義塾大学出版会",
+        "慶應義塾大学出版会"
+      ],
+      "pubDate": "2026-11-20",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>慶應義塾大学出版会,2026-11-20,9784766431155<p><ul><li>タイトル：諭吉と熊楠 : 未完の二人</li><li>タイトル（読み）：ユキチトクマグス : ミカントフタリ</li><li>責任表示：都倉武之 著・文・その他,都倉武之 編集,志村真幸 著・文・その他,志村真幸 編集</li><li>シリーズ名：慶應義塾史展示館図録シリーズ</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロクシリーズ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431155",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784766431476",
+      "title": "和辻哲郎の「恋愛」 : 間柄の倫理を読み直す",
+      "author": "木村純二",
+      "publisher": [
+        "慶應義塾大学出版会",
+        "慶應義塾大学出版会"
+      ],
+      "pubDate": "2026-11-05",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>慶應義塾大学出版会,2026-11-05,9784766431476<p><ul><li>タイトル：和辻哲郎の「恋愛」 : 間柄の倫理を読み直す</li><li>タイトル（読み）：ワツジテツロウノレンアイ : アイダガラノリンリヲトイナオス</li><li>責任表示：木村純二 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431476",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784766431056",
+      "title": "Fukuzawa Yukichi Memorial Keio History Museum",
+      "author": [
+        "都倉, 武之",
+        "横山, 寛",
+        "石戸, 晋"
+      ],
+      "publisher": [
+        "福澤諭吉記念慶應義塾史展示館",
+        "慶應義塾大学出版会"
+      ],
+      "pubDate": 2026.8,
+      "category": "academic",
+      "ndc": "D",
+      "description": "<p>福澤諭吉記念慶應義塾史展示館,2026,978-4-7664-3105-6<p><ul><li>タイトル：Fukuzawa Yukichi Memorial Keio History Museum</li><li>タイトル（読み）：Fukuzawa Yukichi Memorial Keio History Museum</li><li>責任表示：都倉武之, 横山寛 編集,石戸晋 ほか撮影</li><li>シリーズ名：慶應義塾史展示館図録シリーズ</li><li>シリーズ名（読み）：ケイオウ ギジュク シ テンジカン ズロク シリーズ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034863098",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784588011948",
       "title": "エミール・ゾラの仕事場",
       "author": [
@@ -7376,6 +7513,34 @@
       "description": "<p>法政大学出版局,2026,978-4-588-01194-8<p><ul><li>タイトル：エミール・ゾラの仕事場</li><li>タイトル（読み）：エミール ゾラ ノ シゴトバ</li><li>責任表示：オリヴィエ・ロンブローゾ [著],小倉孝誠 [ほか] 訳</li><li>シリーズ名：叢書・ウニベルシタス ; 1194</li><li>シリーズ名（読み）：ソウショ ウニベルシタス ; 1194</li><li>NDC(10)：950.268</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034878907",
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20633934"
+    },
+    {
+      "isbn": "9784588603860",
+      "title": "共存の時代 : 宗派主義に抗う近代アラブ世界",
+      "author": [
+        "ウサーマ・マクディシー",
+        "岡崎 弘樹",
+        "早川 英明",
+        "田中 雅人",
+        "山本 薫",
+        "金城 美幸",
+        "岡 真理"
+      ],
+      "publisher": [
+        "法政大学出版局",
+        "法政大学出版局"
+      ],
+      "pubDate": "2026-11-12",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>法政大学出版局,2026-11-12,9784588603860<p><ul><li>タイトル：共存の時代 : 宗派主義に抗う近代アラブ世界</li><li>タイトル（読み）：キョウゾンノジダイ : シュウハシュイ ニ アラガウ キンダイ アラブ セカイ</li><li>責任表示：ウサーマ・マクディシー 著・文・その他,岡崎 弘樹 監修,岡崎 弘樹 翻訳,早川 英明 翻訳,田中 雅人 翻訳,山本 薫 翻訳,金城 美幸 翻訳,岡 真理 翻訳</li><li>シリーズ名：サピエンティア ； 86</li><li>シリーズ名（読み）：サピエンティア</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588603860",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -7408,7 +7573,10 @@
     {
       "isbn": "9784588012150",
       "title": "クラフト・ワーク",
-      "author": "Unknown",
+      "author": [
+        "ロビン・ホルト",
+        "遠藤 貴宏"
+      ],
       "publisher": [
         "法政大学出版局",
         "法政大学出版局"
@@ -7416,7 +7584,7 @@
       "pubDate": "2026-12-10",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>法政大学出版局,2026-12-10,9784588012150<p><ul><li>タイトル：クラフト・ワーク</li><li>タイトル（読み）：クラフト ワーク</li><li>シリーズ名：叢書・ウニベルシタス ； 1215</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
+      "description": "<p>法政大学出版局,2026-12-10,9784588012150<p><ul><li>タイトル：クラフト・ワーク</li><li>タイトル（読み）：クラフト ワーク</li><li>責任表示：ロビン・ホルト 著・文・その他,遠藤 貴宏 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1215</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012150",
       "status": "未所蔵",
@@ -7499,7 +7667,7 @@
     },
     {
       "isbn": "9784588012105",
-      "title": "尊厳の臨床",
+      "title": "尊厳の臨床 : 尊厳はいかに毀損されているか？",
       "author": [
         "シンティア・フルーリ",
         "香川 知晶"
@@ -7511,7 +7679,7 @@
       "pubDate": "2026-10-27",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>法政大学出版局,2026-10-27,9784588012105<p><ul><li>タイトル：尊厳の臨床</li><li>タイトル（読み）：ソンゲンノリンショウ</li><li>責任表示：シンティア・フルーリ 著・文・その他,香川 知晶 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1210</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
+      "description": "<p>法政大学出版局,2026-10-27,9784588012105<p><ul><li>タイトル：尊厳の臨床 : 尊厳はいかに毀損されているか？</li><li>タイトル（読み）：ソンゲンノリンショウ : ソンゲンハイカニキソンサレテイルカ</li><li>責任表示：シンティア・フルーリ 著・文・その他,香川 知晶 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1210</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012105",
       "status": "未所蔵",
@@ -7578,7 +7746,7 @@
         "Grist, Matthew",
         "中村, 拓也, 1976-",
         "林, 克樹, 1959-",
-        "櫻井, 真文"
+        "櫻井, 真文, 1988-"
       ],
       "publisher": "法政大学出版局",
       "pubDate": 2026.8,
@@ -7597,9 +7765,11 @@
       "description": "<p>法政大学出版局,2026,978-4-588-01207-5<p><ul><li>タイトル：超越論的転回</li><li>タイトル（読み）：チョウエツロンテキ テンカイ</li><li>責任表示：セバスチャン・ガードナー, マシュー・グリスト 編,中村拓也, 林克樹, 櫻井真文 訳</li><li>シリーズ名：叢書・ウニベルシタス ; 1207</li><li>シリーズ名（読み）：ソウショ ウニベルシタス ; 1207</li><li>NDC(10)：133</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841125",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD2021165X"
     },
     {
       "isbn": "9784588012051",
@@ -7620,9 +7790,30 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784588012174",
+      "title": "遠くの自由 : チェーホフ試論",
+      "author": [
+        "ジャック・ランシエール",
+        "髙山 花子"
+      ],
+      "publisher": [
+        "法政大学出版局",
+        "法政大学出版局"
+      ],
+      "pubDate": "2026-11-26",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>法政大学出版局,2026-11-26,9784588012174<p><ul><li>タイトル：遠くの自由 : チェーホフ試論</li><li>タイトル（読み）：トオクノジユウ : チェーホフシロン</li><li>責任表示：ジャック・ランシエール 編集,髙山 花子 翻訳</li><li>シリーズ名：叢書・ウニベルシタス ； 1217</li><li>シリーズ名（読み）：ソウショウニベルシタス</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588012174",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784588130502",
-      "title": "特攻論",
-      "author": "Unknown",
+      "title": "特攻論 : 国家と戦争",
+      "author": "伊藤 益",
       "publisher": [
         "法政大学出版局",
         "法政大学出版局"
@@ -7630,7 +7821,7 @@
       "pubDate": "2026-11-27",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>法政大学出版局,2026-11-27,9784588130502<p><ul><li>タイトル：特攻論</li><li>タイトル（読み）：トッコウロン</li></ul>",
+      "description": "<p>法政大学出版局,2026-11-27,9784588130502<p><ul><li>タイトル：特攻論 : 国家と戦争</li><li>タイトル（読み）：トッコウロン : コッカ ト センソウ</li><li>責任表示：伊藤 益 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784588130502",
       "status": "未所蔵",
@@ -7746,9 +7937,11 @@
       "description": "<p>法政大学出版局,2026,978-4-588-01204-4<p><ul><li>タイトル：肉食の性政治学 : フェミニズム=ヴィーガン批評理論</li><li>タイトル（読み）：ニクショク ノ セイセイジガク : フェミニズム ヴィーガン ヒヒョウ リロン</li><li>責任表示：キャロル・J.アダムズ 著,鶴田静, 深沢レナ 訳</li><li>シリーズ名：叢書・ウニベルシタス ; 1204</li><li>シリーズ名（読み）：ソウショ ウニベルシタス ; 1204</li><li>NDC(10)：367.1</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034888407",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20708352"
     },
     {
       "isbn": "9784588151538",
@@ -7863,22 +8056,20 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784005010189",
-      "title": "新しい「公共」入門　：　思いがけない出会いをつくる",
-      "author": "山本 圭",
-      "publisher": "岩波書店",
-      "pubDate": 2026.9,
-      "category": "academic",
-      "ndc": [
-        "社会科学",
-        {
-          "#text": 301,
-          "@_xsi:type": "dcndl:NDC9"
-        }
+      "isbn": "9784000235020",
+      "title": "アメリカン・ハイスクール発 スクール・オブ・ジャーナリズム",
+      "author": [
+        "カティーナ・パロン",
+        "ハビア・ゲルフィ",
+        "澤 康臣"
       ],
-      "description": "<p>岩波書店,2026-09,978-4-00-501018-9<p><ul><li>タイトル：新しい「公共」入門　：　思いがけない出会いをつくる</li><li>タイトル（読み）：アタラシイ コウキョウ ニュウモン　オモイガケナイ デアイ オ ツクル</li><li>責任表示：山本 圭／著</li><li>シリーズ名：岩波ジュニア新書　：　1018</li><li>シリーズ名（読み）：イワナミ ジュニア シンショ　1018</li><li>NDC(9)：301</li></ul>",
+      "publisher": "岩波書店",
+      "pubDate": "2026-11-12",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-11-12,9784000235020<p><ul><li>タイトル：アメリカン・ハイスクール発 スクール・オブ・ジャーナリズム</li><li>タイトル（読み）：アメリカンハイスクールハツスクールオブジャーナリズム</li><li>責任表示：カティーナ・パロン 著・文・その他,ハビア・ゲルフィ 著・文・その他,澤 康臣 翻訳</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000156794",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000235020",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -7916,12 +8107,16 @@
     {
       "isbn": "9784004321231",
       "title": "イギリス帝国 : 支配と残影",
-      "author": "木畑, 洋一",
+      "author": "木畑, 洋一, 1946-",
       "publisher": "岩波書店",
       "pubDate": 2026.8,
       "category": "academic",
       "ndc": [
         "イギリス--歴史--近代",
+        {
+          "#text": "GG231",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 233.05,
           "@_xsi:type": "dcndl:NDC10"
@@ -7957,12 +8152,16 @@
     {
       "isbn": "9784004321248",
       "title": "いじめ後遺症",
-      "author": "斎藤, 環",
+      "author": "斎藤, 環, 1961-",
       "publisher": "岩波書店",
       "pubDate": 2026.8,
       "category": "academic",
       "ndc": [
         "いじめ",
+        {
+          "#text": "FA38",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 371.42,
           "@_xsi:type": "dcndl:NDC10"
@@ -7978,6 +8177,21 @@
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20505173"
     },
     {
+      "isbn": "9784000617901",
+      "title": "イラン戦争とエネルギー安全保障 : 世界を揺るがす中東危機と日本",
+      "author": "日本エネルギー経済研究所 中東研究センター",
+      "publisher": "岩波書店",
+      "pubDate": "2026-11-27",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-11-27,9784000617901<p><ul><li>タイトル：イラン戦争とエネルギー安全保障 : 世界を揺るがす中東危機と日本</li><li>タイトル（読み）：イランセンソウトエネルギーアンゼンホショウ : セカイヲユルガスチュウトウキキトニホン</li><li>責任表示：日本エネルギー経済研究所 中東研究センター 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000617901",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784007317033",
       "title": "岩波科学ライブラリー200 面積の発見",
       "author": "武藤 徹",
@@ -7988,6 +8202,21 @@
       "description": "<p>岩波書店,2026-10-09,9784007317033<p><ul><li>タイトル：岩波科学ライブラリー200 面積の発見</li><li>タイトル（読み）：イワナミカガクライブラリーメンセキノハッケン</li><li>責任表示：武藤 徹 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007317033",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784007317095",
+      "title": "岩波セミナーブックス 憲法判例を読む",
+      "author": "芦&#917760;部 信喜",
+      "publisher": "岩波書店",
+      "pubDate": "2026-11-10",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-11-10,9784007317095<p><ul><li>タイトル：岩波セミナーブックス 憲法判例を読む</li><li>タイトル（読み）：イワナミセミナーブックスケンポウハンレイヲヨム</li><li>責任表示：芦󠄀部 信喜 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007317095",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8059,14 +8288,33 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784004321385",
+      "title": "宇野千代 闇と光を走る",
+      "author": "尾形 明子",
+      "publisher": "岩波書店",
+      "pubDate": "2026-11-20",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-11-20,9784004321385<p><ul><li>タイトル：宇野千代 闇と光を走る</li><li>タイトル（読み）：ウノチヨヤミトヒカリヲハシル</li><li>責任表示：尾形 明子 著・文・その他</li><li>シリーズ名：岩波新書 ； 新赤版 2138</li><li>シリーズ名（読み）：イワナミシンショ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784004321385",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784004321262",
       "title": "姥棄て考 : 老いの場所をさがして",
-      "author": "赤坂, 憲雄",
+      "author": "赤坂, 憲雄, 1953-",
       "publisher": "岩波書店",
       "pubDate": 2026.8,
       "category": "academic",
       "ndc": [
         "高齢化社会--日本",
+        {
+          "#text": "EC154",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 367.7,
           "@_xsi:type": "dcndl:NDC10"
@@ -8082,22 +8330,16 @@
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20506697"
     },
     {
-      "isbn": "9784005010165",
-      "title": "AI英語学習法",
-      "author": "柳瀬 陽介",
+      "isbn": "9784004321378",
+      "title": "AI時代の言論 : 変わるメディアと安全保障",
+      "author": "竹下 隆一郎",
       "publisher": "岩波書店",
-      "pubDate": 2026.9,
+      "pubDate": "2026-11-20",
       "category": "academic",
-      "ndc": [
-        "英語",
-        {
-          "#text": 830.7,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "description": "<p>岩波書店,2026-09,978-4-00-501016-5<p><ul><li>タイトル：AI英語学習法</li><li>タイトル（読み）：エーアイ エイゴ ガクシュウホウ</li><li>責任表示：柳瀬 陽介／著</li><li>シリーズ名：岩波ジュニア新書　：　1016</li><li>シリーズ名（読み）：イワナミ ジュニア シンショ　1016</li><li>NDC(9)：830.7</li></ul>",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-11-20,9784004321378<p><ul><li>タイトル：AI時代の言論 : 変わるメディアと安全保障</li><li>タイトル（読み）：エーアイジダイノゲンロン : カワルメディアトアンゼンホショウ</li><li>責任表示：竹下 隆一郎 著・文・その他</li><li>シリーズ名：岩波新書 ； 新赤版 2137</li><li>シリーズ名（読み）：イワナミシンショ</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000156378",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784004321378",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8113,21 +8355,6 @@
       "description": "<p>岩波書店,2026-10-15,9784000272711<p><ul><li>タイトル：「男の子だから」「女の子だから」って誰が決めたの？</li><li>タイトル（読み）：オトコノコダカラオンナノコダカラッテダレガキメタノ</li><li>責任表示：堀内 かおる 著・文・その他</li><li>シリーズ名：岩波ジュニアスタートブックス</li><li>シリーズ名（読み）：イワナミジュニアスタートブックス</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000272711",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784000299732",
-      "title": "確率・統計",
-      "author": "松家 敬介",
-      "publisher": "岩波書店",
-      "pubDate": "2026-09-16",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-09-16,9784000299732<p><ul><li>タイトル：確率・統計</li><li>タイトル（読み）：カクリツトウケイ</li><li>責任表示：松家 敬介 著・文・その他</li><li>シリーズ名：大学数学の羅針盤</li><li>シリーズ名（読み）：ダイガクスウガクノラシンバン</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000299732",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8186,16 +8413,16 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784000063517",
-      "title": "関手のトポロジー",
-      "author": "原田 雅名",
+      "isbn": "9784007317088",
+      "title": "カントを読む : ポストモダニズム以降の批判哲学",
+      "author": "牧野 英二",
       "publisher": "岩波書店",
-      "pubDate": "2026-09-16",
+      "pubDate": "2026-11-10",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-09-16,9784000063517<p><ul><li>タイトル：関手のトポロジー</li><li>タイトル（読み）：カンシュノトポロジー</li><li>責任表示：原田 雅名 著・文・その他</li></ul>",
+      "description": "<p>岩波書店,2026-11-10,9784007317088<p><ul><li>タイトル：カントを読む : ポストモダニズム以降の批判哲学</li><li>タイトル（読み）：カントヲヨム : ポストモダニズムイコウノヒハンテキテツガク</li><li>責任表示：牧野 英二 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000063517",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007317088",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8273,46 +8500,16 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784006005030",
-      "title": "建築に何が可能か : 建築と人間と",
-      "author": "原 広司",
+      "isbn": "9784000617857",
+      "title": "近代日本貿易史研究",
+      "author": "杉山 伸也",
       "publisher": "岩波書店",
-      "pubDate": "2026-09-15",
+      "pubDate": "2026-11-25",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-09-15,9784006005030<p><ul><li>タイトル：建築に何が可能か : 建築と人間と</li><li>タイトル（読み）：ケンチクニナニガカノウカ : ケンチクトニンゲント</li><li>責任表示：原 広司 著・文・その他</li><li>シリーズ名：岩波現代文庫 ； 学術503</li><li>シリーズ名（読み）：イワナミゲンダイブンコ</li></ul>",
+      "description": "<p>岩波書店,2026-11-25,9784000617857<p><ul><li>タイトル：近代日本貿易史研究</li><li>タイトル（読み）：キンダイニホンボウエキシケンキュウ</li><li>責任表示：杉山 伸也 著・文・その他</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784006005030",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784007317026",
-      "title": "「権利のための闘争」を読む",
-      "author": "村上 淳一",
-      "publisher": "岩波書店",
-      "pubDate": "2026-10-09",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-10-09,9784007317026<p><ul><li>タイトル：「権利のための闘争」を読む</li><li>タイトル（読み）：ケンリノタメノトウソウヲヨム</li><li>責任表示：村上 淳一 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007317026",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784000269209",
-      "title": "権力",
-      "author": "杉田 敦",
-      "publisher": "岩波書店",
-      "pubDate": "2026-10-06",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>岩波書店,2026-10-06,9784000269209<p><ul><li>タイトル：権力</li><li>タイトル（読み）：ケンリョク</li><li>責任表示：杉田 敦 著・文・その他</li><li>シリーズ名：新装版 思考のフロンティア</li><li>シリーズ名（読み）：シンソウバンシコウノフロンティア</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000269209",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000617857",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8481,6 +8678,27 @@
       "description": "<p>有斐閣,2026-11-05,9784641229129<p><ul><li>タイトル：行政法〔第4版〕</li><li>タイトル（読み）：ギョウセイホウ　ダイヨンハン</li><li>責任表示：宇賀 克也 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641229129",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784641166707",
+      "title": "経済と社会 : 市場・組織・国家の原理論",
+      "author": "稲葉, 振一郎",
+      "publisher": "有斐閣",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "経済社会学",
+        {
+          "#text": 331,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>有斐閣,2026,978-4-641-16670-7<p><ul><li>タイトル：経済と社会 : 市場・組織・国家の原理論</li><li>タイトル（読み）：ケイザイ ト シャカイ</li><li>責任表示：稲葉振一郎 著</li><li>NDC(10)：331</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034890781",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -8849,10 +9067,10 @@
         "有斐閣",
         "有斐閣"
       ],
-      "pubDate": "2026-11-20",
+      "pubDate": "2026-12-01",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-11-20,9784641166738<p><ul><li>タイトル：信認と抵抗の福祉国家史 : 税と債務からみる戦後イギリス</li><li>タイトル（読み）：シンニントテイコウノフクシコッカシ</li><li>責任表示：佐藤 滋 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
+      "description": "<p>有斐閣,2026-12-01,9784641166738<p><ul><li>タイトル：信認と抵抗の福祉国家史 : 税と債務からみる戦後イギリス</li><li>タイトル（読み）：シンニントテイコウノフクシコッカシ</li><li>責任表示：佐藤 滋 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641166738",
       "status": "未所蔵",
@@ -8871,34 +9089,12 @@
         "有斐閣",
         "有斐閣"
       ],
-      "pubDate": "2026-11-30",
+      "pubDate": "2026-11-24",
       "category": "academic",
       "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-11-30,9784641233867<p><ul><li>タイトル：事業理解からはじめる法務</li><li>タイトル（読み）：ジギョウリカイカラハジメルホウム</li><li>責任表示：岡崎 みや 著・文・その他,須貝 崇史 著・文・その他,三浦 修平 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
+      "description": "<p>有斐閣,2026-11-24,9784641233867<p><ul><li>タイトル：事業理解からはじめる法務</li><li>タイトル（読み）：ジギョウリカイカラハジメルホウム</li><li>責任表示：岡崎 みや 著・文・その他,須貝 崇史 著・文・その他,三浦 修平 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641233867",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784641166714",
-      "title": "選択するミドル : 「分離」の時代を生きるための羅針盤",
-      "author": [
-        "服部 泰宏",
-        "琴坂 将広",
-        "佐々木 将人"
-      ],
-      "publisher": [
-        "有斐閣",
-        "有斐閣"
-      ],
-      "pubDate": "2026-11-30",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-11-30,9784641166714<p><ul><li>タイトル：選択するミドル : 「分離」の時代を生きるための羅針盤</li><li>タイトル（読み）：センタクスルミドル</li><li>責任表示：服部 泰宏 著・文・その他,服部 泰宏 編集,琴坂 将広 著・文・その他,琴坂 将広 編集,佐々木 将人 著・文・その他,佐々木 将人 編集</li><li>シリーズ名：単行本</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641166714",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -9210,6 +9406,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784642306553",
+      "title": "(仮)大阪〈水の都〉の一五〇〇年 : 治水と物流の都市社会",
+      "author": "南　秀雄",
+      "publisher": "吉川弘文館",
+      "pubDate": "2026-12-18",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>吉川弘文館,2026-12-18,9784642306553<p><ul><li>タイトル：(仮)大阪〈水の都〉の一五〇〇年 : 治水と物流の都市社会</li><li>タイトル（読み）：オオサカミズノミヤコノセンゴヒャクネン : チスイトブツリュウノトシシャカイ</li><li>責任表示：南　秀雄 著・文・その他</li><li>シリーズ名：歴史文化ライブラリー ； 655</li><li>シリーズ名（読み）：レキシブンカライブラリー</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306553",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784642758574",
       "title": "織田信長と戦国の村 : 天下統一のための近江支配",
       "author": "深谷　幸治",
@@ -9397,21 +9608,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784642728874",
-      "title": "京都の寺社と室町幕府",
-      "author": "細川　武稔",
-      "publisher": "吉川弘文館",
-      "pubDate": "2026-10-01",
-      "category": "academic",
-      "ndc": "寺社",
-      "description": "<p>吉川弘文館,2026-10-01,9784642728874<p><ul><li>タイトル：京都の寺社と室町幕府</li><li>タイトル（読み）：キョウトノジシャトムロマチバクフ</li><li>責任表示：細川　武稔 著・文・その他</li><li>シリーズ名：オンデマンド版</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642728874",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784622098843",
       "title": "空気感（アトモスフェア）",
       "author": [
@@ -9568,24 +9764,6 @@
       "description": "<p>みすず書房,2026-10-09,9784622098706<p><ul><li>タイトル：河口にて</li><li>タイトル（読み）：カコウニテ</li><li>責任表示：ジョルジョ・アガンベン 原著,上村忠男 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098706",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784622098805",
-      "title": "カフカの『変身』をすごくゆっくり読む",
-      "author": "頭木弘樹",
-      "publisher": [
-        "みすず書房",
-        "みすず書房"
-      ],
-      "pubDate": "2026-10-16",
-      "category": "academic",
-      "ndc": "『変身』",
-      "description": "<p>みすず書房,2026-10-16,9784622098805<p><ul><li>タイトル：カフカの『変身』をすごくゆっくり読む</li><li>タイトル（読み）：カフカノヘンシンヲスゴクユックリヨム</li><li>責任表示：頭木弘樹 著・文・その他</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098805",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -10028,7 +10206,8 @@
       "title": "雪〈SNO〉 : 消えてゆく歴史",
       "author": [
         "スヴェルケル・セリーン",
-        "川野太郎"
+        "川野太郎",
+        "杉浦幸之助"
       ],
       "publisher": [
         "みすず書房",
@@ -10037,7 +10216,7 @@
       "pubDate": "2026-11-16",
       "category": "academic",
       "ndc": "気候変動",
-      "description": "<p>みすず書房,2026-11-16,9784622098867<p><ul><li>タイトル：雪〈SNO〉 : 消えてゆく歴史</li><li>タイトル（読み）：ユキ : キエテユクレキシ</li><li>責任表示：スヴェルケル・セリーン 原著,川野太郎 翻訳</li></ul>",
+      "description": "<p>みすず書房,2026-11-16,9784622098867<p><ul><li>タイトル：雪〈SNO〉 : 消えてゆく歴史</li><li>タイトル（読み）：ユキ : キエテユクレキシ</li><li>責任表示：スヴェルケル・セリーン 原著,川野太郎 翻訳,杉浦幸之助 監修</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098867",
       "status": "未所蔵",
@@ -10124,10 +10303,10 @@
         "服部　良久"
       ],
       "publisher": "ミネルヴァ書房",
-      "pubDate": "2026-12-08",
+      "pubDate": "2026-12-10",
       "category": "academic",
       "ndc": "環境史 自然史 ブローデル 地中海 景観 観光  旅行 環境保護",
-      "description": "<p>ミネルヴァ書房,2026-12-08,9784623100668<p><ul><li>タイトル：アルプスの歴史 : ハンニバル進軍から環境保護運動まで</li><li>タイトル（読み）：アルプスノレキシ : ハンニバルシングンカラカンキョウホゴウンドウマデ</li><li>責任表示：ヨン・マテュー 著・文・その他,服部　良久 翻訳</li></ul>",
+      "description": "<p>ミネルヴァ書房,2026-12-10,9784623100668<p><ul><li>タイトル：アルプスの歴史 : ハンニバル進軍から環境保護運動まで</li><li>タイトル（読み）：アルプスノレキシ : ハンニバルシングンカラカンキョウホゴウンドウマデ</li><li>責任表示：ヨン・マテュー 著・文・その他,服部　良久 翻訳</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100668",
       "status": "未所蔵",
@@ -10207,10 +10386,10 @@
         "嶌末　憲子"
       ],
       "publisher": "ミネルヴァ書房",
-      "pubDate": "2026-12-11",
+      "pubDate": "2026-12-20",
       "category": "academic",
       "ndc": "記録 相談記録 経過記録 生活支援記録法 多職種 他職種 協働 対人支援 ヒューマンサービス SOAP F-DAR フォーカスチャーティング DAP CIRAP",
-      "description": "<p>1,ミネルヴァ書房,2026-12-11,9784623100767<p><ul><li>タイトル：F-SOAIPの理論と実際：こども家庭福祉編</li><li>タイトル（読み）：エフソアイピーノリロントジッサイコドモカテイフクシヘン</li><li>責任表示：一般社団法人F-SOAIP実践･教育研究所 監修,小嶋　章吾 編集,嶌末　憲子 編集</li><li>シリーズ名：F-SOAIP実務シリーズ</li><li>シリーズ名（読み）：エフソアイピージツムシリーズ</li></ul>",
+      "description": "<p>1,ミネルヴァ書房,2026-12-20,9784623100767<p><ul><li>タイトル：F-SOAIPの理論と実際：こども家庭福祉編</li><li>タイトル（読み）：エフソアイピーノリロントジッサイコドモカテイフクシヘン</li><li>責任表示：一般社団法人F-SOAIP実践･教育研究所 監修,小嶋　章吾 編集,嶌末　憲子 編集</li><li>シリーズ名：F-SOAIP実務シリーズ</li><li>シリーズ名（読み）：エフソアイピージツムシリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100767",
       "status": "未所蔵",
@@ -10454,6 +10633,21 @@
       "description": "<p>ミネルヴァ書房,2026,978-4-623-09975-7<p><ul><li>タイトル：心理的アセスメント : 支援につながる心理検査の読み解き方</li><li>タイトル（読み）：シンリテキ アセスメント : シエン ニ ツナガル シンリ ケンサ ノ ヨミトキカタ</li><li>責任表示：出口保行 [ほか] 編著</li><li>NDC(10)：146.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034860265",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784623100743",
+      "title": "児童文化の伝統と現在Ⅳ",
+      "author": "京都女子大学児童文化学会",
+      "publisher": "ミネルヴァ書房",
+      "pubDate": "2026-12-10",
+      "category": "academic",
+      "ndc": "絵本 がらがら 水 川 雪の結晶 かげ バレエ 原発事故",
+      "description": "<p>ミネルヴァ書房,2026-12-10,9784623100743<p><ul><li>タイトル：児童文化の伝統と現在Ⅳ</li><li>タイトル（読み）：ジドウブンカノデントウトゲンザイヨン</li><li>責任表示：京都女子大学児童文化学会 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623100743",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -10732,21 +10926,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784623098545",
-      "title": "入門 ソーシャルワークの基盤と専門職",
-      "author": "川村　匡由",
-      "publisher": "ミネルヴァ書房",
-      "pubDate": "2026-12-11",
-      "category": "academic",
-      "ndc": "ソーシャルワーク専門職のグローバル定義 倫理綱領 多職種連携 総合的・包括的支援",
-      "description": "<p>ミネルヴァ書房,2026-12-11,9784623098545<p><ul><li>タイトル：入門 ソーシャルワークの基盤と専門職</li><li>タイトル（読み）：ニュウモンソーシャルワークノキバントセンモンショク</li><li>責任表示：川村　匡由 編集</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623098545",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784326103645",
       "title": "意識の辺縁 : 意識障害、胎児、脳オルガノイド、動物、AIのための倫理学",
       "author": [
@@ -10825,10 +11004,34 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784326103669",
+      "title": "科学のレシピ : 方法・推理・目的から科学を読み解く",
+      "author": [
+        "アンジェラ・ポトチュニク",
+        "マッテオ・コロンボ",
+        "コリー・ライト",
+        "森元　良太",
+        "田中　泉吏",
+        "尾崎　有紀",
+        "高橋　和孝",
+        "松王　政浩"
+      ],
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-30",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-30,9784326103669<p><ul><li>タイトル：科学のレシピ : 方法・推理・目的から科学を読み解く</li><li>タイトル（読み）：カガクノレシピ : ホウホウスイリモクテキカラカガクヲヨミトク</li><li>責任表示：アンジェラ・ポトチュニク 著・文・その他,マッテオ・コロンボ 著・文・その他,コリー・ライト 著・文・その他,森元　良太 翻訳,田中　泉吏 翻訳,尾崎　有紀 翻訳,高橋　和孝 翻訳,松王　政浩 翻訳</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326103669",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784326404681",
       "title": "数によるガバナンス : 法の支配の凋落と新たなる封建社会",
       "author": [
-        "Supiot, Alain",
+        "Supiot, Alain, 1949-",
         "橋本, 一径"
       ],
       "publisher": "勁草書房",
@@ -10836,6 +11039,10 @@
       "category": "academic",
       "ndc": [
         "法の支配",
+        {
+          "#text": "A121",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 321,
           "@_xsi:type": "dcndl:NDC10"
@@ -10899,7 +11106,7 @@
       "isbn": "9784326303663",
       "title": "壊れる核抑止 : 核兵器運用のリアル",
       "author": [
-        "兼原, 信克",
+        "兼原, 信克, 1959-",
         "福田, 潤一",
         "小泉, 悠"
       ],
@@ -10908,6 +11115,10 @@
       "category": "academic",
       "ndc": [
         "核兵器",
+        {
+          "#text": "A75",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 319.8,
           "@_xsi:type": "dcndl:NDC10"
@@ -11028,6 +11239,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784326299430",
+      "title": "対話でゆるくサバイバル : 世渡り下手なボクらの居場所",
+      "author": "山本　真実",
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-28",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-28,9784326299430<p><ul><li>タイトル：対話でゆるくサバイバル : 世渡り下手なボクらの居場所</li><li>タイトル（読み）：タイワデユルクサバイバル : ヨワタリベタナボクラノイバショ</li><li>責任表示：山本　真実 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326299430",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784326103638",
       "title": "知識とは何だろうか［原著第5版］ : 認識論入門",
       "author": [
@@ -11099,6 +11325,21 @@
       "description": "<p>勁草書房,2026-10-29,9784326404704<p><ul><li>タイトル：動産の法務</li><li>タイトル（読み）：ドウサンノホウム</li><li>責任表示：喜多村　勝德 著・文・その他</li><li>シリーズ名：勁草法律実務シリーズ</li><li>シリーズ名（読み）：ケイソウホウリツジツムシリーズ</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326404704",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326750634",
+      "title": "ドキュメント年金改革 : 2025年制度改正はどこへ向かうのか",
+      "author": "内田　泰",
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-24",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-24,9784326750634<p><ul><li>タイトル：ドキュメント年金改革 : 2025年制度改正はどこへ向かうのか</li><li>タイトル（読み）：ドキュメントネンキンカイカク : ニセンニジュウゴネンセイドカイセイハドコヘムカウノカ</li><li>責任表示：内田　泰 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326750634",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11186,6 +11427,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784326852093",
+      "title": "美学・芸術学の歴史 : 〈感性の目覚め〉を追う",
+      "author": "桑島　秀樹",
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-30",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-30,9784326852093<p><ul><li>タイトル：美学・芸術学の歴史 : 〈感性の目覚め〉を追う</li><li>タイトル（読み）：ビガクゲイジュツガクノレキシ : カンセイノメザメヲオウ</li><li>責任表示：桑島　秀樹 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326852093",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784326603916",
       "title": "夫婦の親密性とジェンダー平等 : 感情のケアをめぐる〈名前のない問題〉",
       "author": "岡田, 玖美子",
@@ -11241,6 +11497,21 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784326303687",
+      "title": "「法の支配」を求める権威主義 : 中国の一党体制と司法",
+      "author": "内藤　寛子",
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-28",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-28,9784326303687<p><ul><li>タイトル：「法の支配」を求める権威主義 : 中国の一党体制と司法</li><li>タイトル（読み）：ホウノシハイヲモトメルケンイシュギ : チュウゴクノイットウタイセイトシホウ</li><li>責任表示：内藤　寛子 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326303687",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784326303670",
       "title": "防衛産業 : 「軍拡時代」の防衛力と日本",
       "author": [
@@ -11255,6 +11526,25 @@
       "description": "<p>勁草書房,2026-10-26,9784326303670<p><ul><li>タイトル：防衛産業 : 「軍拡時代」の防衛力と日本</li><li>タイトル（読み）：ボウエイサンギョウ : グンカクジダイノボウエイリョクトニホン</li><li>責任表示：伊藤　弘太郎 編集,佐藤　丙午 編集,小木　洋人 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326303670",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784326505173",
+      "title": "密売人と聖職者 : 利害関係者による規制政策の功罪",
+      "author": [
+        "ブルース・ヤンデル",
+        "アダム・C・スミス",
+        "伊藤　穣"
+      ],
+      "publisher": "勁草書房",
+      "pubDate": "2026-11-28",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>勁草書房,2026-11-28,9784326505173<p><ul><li>タイトル：密売人と聖職者 : 利害関係者による規制政策の功罪</li><li>タイトル（読み）：ミツバイニントセイショクシャ : リガイカンケイシャニヨルキセイセイサクノコウザイ</li><li>責任表示：ブルース・ヤンデル 著・文・その他,アダム・C・スミス 著・文・その他,伊藤　穣 翻訳</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784326505173",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11316,7 +11606,11 @@
       "pubDate": 2026.9,
       "category": "academic",
       "ndc": [
-        "思考(経営管理)",
+        "思考 (経営管理)",
+        {
+          "#text": "DH211",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 336,
           "@_xsi:type": "dcndl:NDC10"
@@ -11330,23 +11624,23 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784621313275",
-      "title": "医学生のための研究倫理",
+      "isbn": "9784621313565",
+      "title": "海の産業遺産50",
       "author": [
-        "浅井　篤",
-        "高野　忠夫",
-        "大北　全俊"
+        "中川　洋",
+        "天野　武弘",
+        "市原　猛志"
       ],
       "publisher": [
         "丸善出版",
         "丸善出版"
       ],
-      "pubDate": "2026-10-28",
+      "pubDate": "2026-12-25",
       "category": "academic",
-      "ndc": "医学研究",
-      "description": "<p>丸善出版,2026-10-28,9784621313275<p><ul><li>タイトル：医学生のための研究倫理</li><li>タイトル（読み）：イガクセイノタメノケンキュウリンリ</li><li>責任表示：浅井　篤 編集,高野　忠夫 編集,大北　全俊 編集</li></ul>",
+      "ndc": "産業遺産",
+      "description": "<p>丸善出版,2026-12-25,9784621313565<p><ul><li>タイトル：海の産業遺産50</li><li>タイトル（読み）：ウミノサンギョウイサンゴジュウ</li><li>責任表示：中川　洋 著・文・その他,天野　武弘 著・文・その他,市原　猛志 著・文・その他</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313275",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313565",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11397,14 +11691,18 @@
       "isbn": "9784621313190",
       "title": "Excelで学ぶ統計・データ解析入門",
       "author": [
-        "中村, 永友",
-        "山田, 智哉"
+        "中村, 永友, 1963-",
+        "山田, 智哉, 1969-"
       ],
       "publisher": "丸善出版",
       "pubDate": 2026.9,
       "category": "academic",
       "ndc": [
-        "数理統計学",
+        "数理統計学--データ処理",
+        {
+          "#text": "MA211",
+          "@_xsi:type": "dcndl:NDLC"
+        },
         {
           "#text": 417,
           "@_xsi:type": "dcndl:NDC10"
@@ -11413,6 +11711,24 @@
       "description": "<p>丸善出版,2026,978-4-621-31319-0<p><ul><li>タイトル：Excelで学ぶ統計・データ解析入門</li><li>タイトル（読み）：エクセル デ マナブ トウケイ データ カイセキ ニュウモン</li><li>責任表示：中村永友, 山田智哉 著</li><li>NDC(10)：417</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034936616",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313640",
+      "title": "エッセンシャル 人文地理学事典 : 基礎・理論・方法",
+      "author": "一般社団法人　人文地理学会",
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-24",
+      "category": "academic",
+      "ndc": "人文地理学",
+      "description": "<p>丸善出版,2026-12-24,9784621313640<p><ul><li>タイトル：エッセンシャル 人文地理学事典 : 基礎・理論・方法</li><li>タイトル（読み）：エッセンシャルジンブンチリガクジテン : キソリロンホウホウ</li><li>責任表示：一般社団法人　人文地理学会 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313640",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11459,24 +11775,6 @@
       "description": "<p>丸善出版,2026,978-4-621-31315-2<p><ul><li>タイトル：親の離婚・再婚で子どもはどうなるの? : ステップファミリーの社会学</li><li>タイトル（読み）：オヤ ノ リコン サイコン デ コドモ ワ ドウナルノ : ステップ ファミリー ノ シャカイガク</li><li>責任表示：野沢慎司 著</li><li>シリーズ名：10代の悩みを読み解く社会学</li><li>シリーズ名（読み）：ジュウダイ ノ ナヤミ オ ヨミトク シャカイガク</li><li>NDC(10)：367.3</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034933803",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784863455924",
-      "title": "改訂　石割技法をめぐる飛鳥時代の石材技術 : 矢穴技法の存在",
-      "author": "山田　政博",
-      "publisher": [
-        "丸善プラネット",
-        "丸善出版"
-      ],
-      "pubDate": "2026-09",
-      "category": "academic",
-      "ndc": "丸善プラネット",
-      "description": "<p>丸善プラネット,2026-09,9784863455924<p><ul><li>タイトル：改訂　石割技法をめぐる飛鳥時代の石材技術 : 矢穴技法の存在</li><li>タイトル（読み）：カイテイ　イシワリギホウヲメグルアスカジダイノセキザイギジュツ : ヤアナギホウノソンザイ</li><li>責任表示：山田　政博 著・文・その他</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784863455924",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11543,6 +11841,28 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784621313435",
+      "title": "極論で語る総合診療　第2版",
+      "author": [
+        "桑間　雄一郎",
+        "香坂　俊",
+        "龍華　朱音"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-30",
+      "category": "academic",
+      "ndc": "初期研修",
+      "description": "<p>丸善出版,2026-12-30,9784621313435<p><ul><li>タイトル：極論で語る総合診療　第2版</li><li>タイトル（読み）：キョクロンデカタルソウゴウシンリョウ　ダイニハン</li><li>責任表示：桑間　雄一郎 著・文・その他,香坂　俊 監修,龍華　朱音 イラスト</li><li>シリーズ名：【極論で語る】シリーズ</li><li>シリーズ名（読み）：キョクロンデカタルシリーズ</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313435",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784908514463",
       "title": "CRUISE Traveller Winter 2027 : オーセンティックシップ愛Ⅱ。",
       "author": "クルーズトラベラー編集部",
@@ -11602,6 +11922,27 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784621313626",
+      "title": "群論パズル : 有限群で遊んで学ぶ抽象代数学入門",
+      "author": [
+        "David　Nacin",
+        "川辺　治之"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-25",
+      "category": "academic",
+      "ndc": "群論",
+      "description": "<p>丸善出版,2026-12-25,9784621313626<p><ul><li>タイトル：群論パズル : 有限群で遊んで学ぶ抽象代数学入門</li><li>タイトル（読み）：グンロンパズル : ユウゲングンデアソンデマナブチュウショウダイスウガクニュウモン</li><li>責任表示：David　Nacin 著・文・その他,川辺　治之 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313626",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784621313329",
       "title": "ゲノムインフォマティクス入門",
       "author": "重信　秀治",
@@ -11620,12 +11961,31 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784621313633",
+      "title": "原子力安全文化の形成と発展 : ―スリーマイル島事故と米国原子力産業の変容―",
+      "author": [
+        "Joseph V. Rees",
+        "青木　孝行",
+        "堂﨑　浩二"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-28",
+      "category": "academic",
+      "ndc": "原子力発電所",
+      "description": "<p>丸善出版,2026-12-28,9784621313633<p><ul><li>タイトル：原子力安全文化の形成と発展 : ―スリーマイル島事故と米国原子力産業の変容―</li><li>タイトル（読み）：ゲンシリョクアンゼンブンカノケイセイトハッテン : スリーマイルトウジコトベイコクゲンシリョクサンギョウノヘンヨウ</li><li>責任表示：Joseph V. Rees 著・文・その他,青木　孝行 翻訳,堂﨑　浩二 翻訳</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313633",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784810611496",
       "title": "鋼橋の腐食と疲労診断",
-      "author": [
-        "土木学会鋼構造委員会鋼橋の診断小委員会",
-        "土木学会"
-      ],
+      "author": "土木学会",
       "publisher": [
         "土木学会",
         "丸善出版"
@@ -11690,6 +12050,67 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784621313497",
+      "title": "産業と労働の社会学事典",
+      "author": "産業と労働の社会学事典編集委員会",
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-28",
+      "category": "academic",
+      "ndc": "社会学",
+      "description": "<p>丸善出版,2026-12-28,9784621313497<p><ul><li>タイトル：産業と労働の社会学事典</li><li>タイトル（読み）：サンギョウトロウドウノシャカイガクジテン</li><li>責任表示：産業と労働の社会学事典編集委員会 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313497",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313541",
+      "title": "C#による建築構造デザイン",
+      "author": [
+        "藤井　大地",
+        "眞鍋　匡利",
+        "平原　朋樹"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-23",
+      "category": "academic",
+      "ndc": "構造デザイン",
+      "description": "<p>丸善出版,2026-12-23,9784621313541<p><ul><li>タイトル：C#による建築構造デザイン</li><li>タイトル（読み）：シーシャープニヨルケンチクコウゾウデザイン</li><li>責任表示：藤井　大地 著・文・その他,眞鍋　匡利 著・文・その他,平原　朋樹 著・文・その他</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313541",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313503",
+      "title": "歯科衛生学生 してはいけないケースファイル : 臨地・臨床実習禁忌集",
+      "author": [
+        "山田　小枝子",
+        "前田　尚子"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-24",
+      "category": "academic",
+      "ndc": "歯科衛生士",
+      "description": "<p>丸善出版,2026-12-24,9784621313503<p><ul><li>タイトル：歯科衛生学生 してはいけないケースファイル : 臨地・臨床実習禁忌集</li><li>タイトル（読み）：シカエイセイガクセイ シテハイケナイケースファイル : リンチリンショウジッシュウキンキシュウ</li><li>責任表示：山田　小枝子 著・文・その他,山田　小枝子 編集,前田　尚子 著・文・その他,前田　尚子 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313503",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784621313237",
       "title": "昭和基地今昔物語 : 南極観測の70年をたどる",
       "author": "神沼　克伊",
@@ -11703,6 +12124,28 @@
       "description": "<p>丸善出版,2026-11-04,9784621313237<p><ul><li>タイトル：昭和基地今昔物語 : 南極観測の70年をたどる</li><li>タイトル（読み）：ショウワキチコンジャクモノガタリ : ナンキョクカンソクノナナジュウネンヲタドル</li><li>責任表示：神沼　克伊 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313237",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313299",
+      "title": "深層学習　下 : 基礎と概念",
+      "author": [
+        "Christopher M. Bishop",
+        "Hugh Bishop",
+        "神嶌　敏弘"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-28",
+      "category": "academic",
+      "ndc": "深層学習",
+      "description": "<p>丸善出版,2026-12-28,9784621313299<p><ul><li>タイトル：深層学習　下 : 基礎と概念</li><li>タイトル（読み）：シンソウガクシュウ　ゲ : キソトガイネン</li><li>責任表示：Christopher M. Bishop 著・文・その他,Hugh Bishop 著・文・その他,神嶌　敏弘 翻訳</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313299",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -11733,191 +12176,22 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784865152654",
-      "title": "JAPIC一般用医薬品集",
-      "author": "日本医薬情報センター",
-      "publisher": [
-        "日本医薬情報センター",
-        "丸善出版"
-      ],
-      "pubDate": 2026.9,
-      "category": "academic",
-      "ndc": [
-        "一般用医薬品--便覧",
-        {
-          "#text": "SD2",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 499.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>2027,日本医薬情報センター,2026,978-4-86515-265-4<p><ul><li>タイトル：JAPIC一般用医薬品集</li><li>タイトル（読み）：ジャピック イッパンヨウ イヤクヒンシュウ</li><li>責任表示：日本医薬情報センター 編集</li><li>NDC(10)：499.7</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034908680",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784865152647",
-      "title": "JAPIC 医療用医薬品集 2027 CD-ROM付",
-      "author": "一般財団法人日本医薬情報センター",
-      "publisher": [
-        "日本医薬情報センター",
-        "丸善出版"
-      ],
-      "pubDate": "2026-09",
-      "category": "academic",
-      "ndc": "医薬品集",
-      "description": "<p>日本医薬情報センター,2026-09,9784865152647<p><ul><li>タイトル：JAPIC 医療用医薬品集 2027 CD-ROM付</li><li>タイトル（読み）：ジャピック　イリョウヨウイヤクヒンシュウ　ニセンニジュウナナ</li><li>責任表示：一般財団法人日本医薬情報センター 編集</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784865152647",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313145",
-      "title": "スマホがやめられないのはなぜ? : 情報とメディアの社会学",
-      "author": "宇田川, 敦史, 1977-",
-      "publisher": "丸善出版",
-      "pubDate": 2026.9,
-      "category": "academic",
-      "ndc": [
-        "青少年問題",
-        {
-          "#text": "Y1",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 7.3,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>丸善出版,2026,978-4-621-31314-5<p><ul><li>タイトル：スマホがやめられないのはなぜ? : 情報とメディアの社会学</li><li>タイトル（読み）：スマホ ガ ヤメラレナイ ノワ ナゼ : ジョウホウ ト メディア ノ シャカイガク</li><li>責任表示：宇田川敦史 著</li><li>シリーズ名：10代の悩みを読み解く社会学</li><li>シリーズ名（読み）：ジュウダイ ノ ナヤミ オ ヨミトク シャカイガク</li><li>NDC(10)：007.3</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034933802",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313077",
-      "title": "図説現代発生生物学",
+      "isbn": "9784621313381",
+      "title": "実用ICP発光分析　原書2版 : 原理・装置構成から操作手順・測定事例まで",
       "author": [
-        "武田, 洋幸",
-        "河西, 通",
-        "池田, 貴史"
-      ],
-      "publisher": "丸善出版",
-      "pubDate": 2026.9,
-      "category": "academic",
-      "ndc": [
-        "発生学",
-        {
-          "#text": 481.2,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>丸善出版,2026,978-4-621-31307-7<p><ul><li>タイトル：図説現代発生生物学</li><li>タイトル（読み）：ズセツ ゲンダイ ハッセイ セイブツガク</li><li>責任表示：武田洋幸, 河西通, 池田貴史 編著</li><li>NDC(10)：481.2</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034941536",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313008",
-      "title": "生態学研究ハンドブック : 問いの立て方から、仮説検証、研究成果の伝え方まで",
-      "author": [
-        "瀧本, 岳, 1973-",
-        "吉田, 丈人",
-        "内海, 俊介",
-        "塩尻, かおり",
-        "Karban, Richard",
-        "Huntzinger, Mikaela, 1969-",
-        "Pearse, Ian S"
-      ],
-      "publisher": "丸善出版",
-      "pubDate": 2026.8,
-      "category": "academic",
-      "ndc": [
-        "生態学--研究・指導",
-        {
-          "#text": "RA141",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 468.07,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>丸善出版,2026,978-4-621-31300-8<p><ul><li>タイトル：生態学研究ハンドブック : 問いの立て方から、仮説検証、研究成果の伝え方まで</li><li>タイトル（読み）：セイタイガク ケンキュウ ハンドブック : トイ ノ タテカタ カラ カセツ ケンショウ ケンキュウ セイカ ノ ツタエカタ マデ</li><li>責任表示：瀧本岳, 吉田丈人 監訳,内海俊介 [ほか] 訳,Richard Karban, Mikaela Huntzinger, Ian S.Pearse [著]</li><li>NDC(10)：468.07</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034888408",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313220",
-      "title": "世界遺産の百科事典",
-      "author": [
-        "世界遺産の百科事典編集委員会",
-        "筑波大学世界遺産学学位プログラム"
+        "Joachim Nölte",
+        "上本　道久"
       ],
       "publisher": [
         "丸善出版",
         "丸善出版"
       ],
-      "pubDate": "2026-11-28",
+      "pubDate": "2026-12-15",
       "category": "academic",
-      "ndc": "世界遺産",
-      "description": "<p>丸善出版,2026-11-28,9784621313220<p><ul><li>タイトル：世界遺産の百科事典</li><li>タイトル（読み）：セカイイサンノヒャッカジテン</li><li>責任表示：世界遺産の百科事典編集委員会 編集,筑波大学世界遺産学学位プログラム 監修</li></ul>",
+      "ndc": "ICP-OES",
+      "description": "<p>丸善出版,2026-12-15,9784621313381<p><ul><li>タイトル：実用ICP発光分析　原書2版 : 原理・装置構成から操作手順・測定事例まで</li><li>タイトル（読み）：ジツヨウアイシーピーハッコウブンセキ　ゲンショニハン : ゲンリソウチコウセイカラソウサテジュンソクテイジレイマデ</li><li>責任表示：Joachim Nölte 著・文・その他,上本　道久 翻訳</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313220",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313107",
-      "title": "世界七大河川でたどる文明誌",
-      "author": [
-        "ヴァネッサ・テイラー",
-        "沖　大幹",
-        "中村　晋一郎"
-      ],
-      "publisher": [
-        "丸善出版",
-        "丸善出版"
-      ],
-      "pubDate": "2026-11-04",
-      "category": "academic",
-      "ndc": "川",
-      "description": "<p>丸善出版,2026-11-04,9784621313107<p><ul><li>タイトル：世界七大河川でたどる文明誌</li><li>タイトル（読み）：セカイナナダイカセンデタドルブンメイシ</li><li>責任表示：ヴァネッサ・テイラー 著・文・その他,沖　大幹 翻訳,中村　晋一郎 翻訳</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313107",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784621313398",
-      "title": "戦術的ピリオダイゼーション日本化への挑戦 : 広島サッカースタイルを世界へ",
-      "author": "上泉　康樹",
-      "publisher": [
-        "丸善出版",
-        "丸善出版"
-      ],
-      "pubDate": "2026-12-02",
-      "category": "academic",
-      "ndc": "戦術的ピリオダイゼーション",
-      "description": "<p>丸善出版,2026-12-02,9784621313398<p><ul><li>タイトル：戦術的ピリオダイゼーション日本化への挑戦 : 広島サッカースタイルを世界へ</li><li>タイトル（読み）：センジュツテキピリオダイゼーションニホンカヘノチョウセン : ヒロシマサッカースタイルヲセカイヘ</li><li>責任表示：上泉　康樹 著・文・その他</li></ul>",
-      "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313398",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313381",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -12079,10 +12353,7 @@
     {
       "isbn": "9784254103144",
       "title": "改訂新版 色覚のメカニズム",
-      "author": [
-        "内川　惠二",
-        "永井　岳大"
-      ],
+      "author": "内川　惠二",
       "publisher": [
         "朝倉書店",
         "朝倉書店"
@@ -12090,7 +12361,7 @@
       "pubDate": "2026-11-01",
       "category": "academic",
       "ndc": "PSC : 発生生物学",
-      "description": "<p>朝倉書店,2026-11-01,9784254103144<p><ul><li>タイトル：改訂新版 色覚のメカニズム</li><li>タイトル（読み）：カイテイシンパン シンパンシキカクノメカニズム</li><li>責任表示：内川　惠二 著・文・その他,永井　岳大 監修</li></ul>",
+      "description": "<p>朝倉書店,2026-11-01,9784254103144<p><ul><li>タイトル：改訂新版 色覚のメカニズム</li><li>タイトル（読み）：カイテイシンパン シンパンシキカクノメカニズム</li><li>責任表示：内川　惠二 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254103144",
       "status": "未所蔵",
@@ -12180,10 +12451,10 @@
         "朝倉書店",
         "朝倉書店"
       ],
-      "pubDate": "2026-10-25",
+      "pubDate": "2026-12-01",
       "category": "academic",
       "ndc": "TBG : 工学製図&機械製図 ／製図",
-      "description": "<p>朝倉書店,2026-10-25,9784254201871<p><ul><li>タイトル：最適化・最適設計事典</li><li>タイトル（読み）：サイテキカサイテキセッケイジテン</li><li>責任表示：寒野　善博 編集,北山　哲士 編集</li></ul>",
+      "description": "<p>朝倉書店,2026-12-01,9784254201871<p><ul><li>タイトル：最適化・最適設計事典</li><li>タイトル（読み）：サイテキカサイテキセッケイジテン</li><li>責任表示：寒野　善博 編集,北山　哲士 編集</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784254201871",
       "status": "未所蔵",
@@ -12324,7 +12595,7 @@
       "title": "シリーズ災害と情報",
       "author": [
         "東京大学大学院情報学環総合防災情報研究センター",
-        "秦, 康範",
+        "秦, 康範, 1972-",
         "関谷, 直也"
       ],
       "publisher": "朝倉書店",
@@ -12381,7 +12652,7 @@
       "isbn": "9784254123142",
       "title": "深層学習を理解する",
       "author": [
-        "Prince, Simon Jeremy Damion",
+        "Prince, Simon J. D. (Simon Jeremy Damion), 1972-",
         "黒川, 利明, 1948-"
       ],
       "publisher": "朝倉書店",
@@ -12629,7 +12900,7 @@
       "title": "ヘルスデータサイエンスのためのデータアーキテクチャ入門",
       "author": [
         "山本, 景一, 1968-",
-        "深津, 吉聡",
+        "深津, 吉聡, 1973-",
         "手良向, 聡, 1963-"
       ],
       "publisher": "朝倉書店",
@@ -12656,17 +12927,20 @@
     {
       "isbn": "9784320116139",
       "title": "完全WKB解析入門",
-      "author": "青木 貴史",
-      "publisher": [
-        "共立出版",
-        "共立出版"
-      ],
-      "pubDate": "2026-10-13",
+      "author": "青木, 貴史",
+      "publisher": "共立出版",
+      "pubDate": 2026.1,
       "category": "academic",
-      "ndc": "PBK : 微積分＆数学的解析",
-      "description": "<p>共立出版,2026-10-13,9784320116139<p><ul><li>タイトル：完全WKB解析入門</li><li>タイトル（読み）：カンゼンダブリュケイビーカイセキニュウモン</li><li>責任表示：青木 貴史 著・文・その他</li></ul>",
+      "ndc": [
+        "関数方程式",
+        {
+          "#text": 415.53,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>共立出版,2026,978-4-320-11613-9<p><ul><li>タイトル：完全WKB解析入門</li><li>タイトル（読み）：カンゼン ダブリューケービー カイセキ ニュウモン</li><li>責任表示：青木貴史 著</li><li>NDC(10)：415.53</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320116139",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034954512",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -12848,6 +13122,24 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784320036574",
+      "title": "新結晶成長ハンドブック",
+      "author": "日本結晶成長学会「新結晶成長ハンドブック」編集委員会",
+      "publisher": [
+        "共立出版",
+        "共立出版"
+      ],
+      "pubDate": "2026-11-24",
+      "category": "academic",
+      "ndc": "PHF : 材料/物質の状態",
+      "description": "<p>共立出版,2026-11-24,9784320036574<p><ul><li>タイトル：新結晶成長ハンドブック</li><li>タイトル（読み）：シンケッショウセイチョウハンドブック</li><li>責任表示：日本結晶成長学会「新結晶成長ハンドブック」編集委員会 編集</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320036574",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784320112810",
       "title": "情報幾何 : 推定と予測の漸近理論",
       "author": "清 智也",
@@ -12940,6 +13232,33 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784320126725",
+      "title": "生活支援ロボットのつくり方 : ＠ホームで学ぶハードウェアからAIまで",
+      "author": [
+        "萩原 良信",
+        "出村 公成",
+        "升谷 保博",
+        "タン ジェフリー トゥ チュアン",
+        "寺田 耕志",
+        "ロボカップ日本委員会",
+        "岡田 浩之",
+        "浅田 稔"
+      ],
+      "publisher": [
+        "共立出版",
+        "共立出版"
+      ],
+      "pubDate": "2026-11-24",
+      "category": "academic",
+      "ndc": "TBG : 工学製図&機械製図 ／製図",
+      "description": "<p>共立出版,2026-11-24,9784320126725<p><ul><li>タイトル：生活支援ロボットのつくり方 : ＠ホームで学ぶハードウェアからAIまで</li><li>タイトル（読み）：セイカツシエンロボットノツクリカタ : アットホームデマナブハードウェアカラエーアイマデ</li><li>責任表示：萩原 良信 著・文・その他,出村 公成 著・文・その他,升谷 保博 著・文・その他,タン ジェフリー トゥ チュアン 著・文・その他,寺田 耕志 著・文・その他,ロボカップ日本委員会 監修,岡田 浩之 編集,浅田 稔 編集</li><li>シリーズ名：ロボカップ公式ガイド</li><li>シリーズ名（読み）：ロボカップコウシキガイド</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320126725",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784320114180",
       "title": "潜在クラス分析",
       "author": [
@@ -12972,22 +13291,25 @@
       "isbn": "9784320058521",
       "title": "竹の世界をめぐる : 生態の不思議と日本文化としての姿",
       "author": [
-        "後藤 晋",
-        "久本 洋子",
-        "小林 慧人",
-        "岩松 文代",
-        "大谷 悠巴"
+        "後藤, 晋",
+        "久本, 洋子",
+        "小林, 慧人",
+        "岩松, 文代",
+        "大谷, 悠巴"
       ],
-      "publisher": [
-        "共立出版",
-        "共立出版"
-      ],
-      "pubDate": "2026-10-13",
+      "publisher": "共立出版",
+      "pubDate": 2026.1,
       "category": "academic",
-      "ndc": "PST : 植物学＆植物の科学",
-      "description": "<p>共立出版,2026-10-13,9784320058521<p><ul><li>タイトル：竹の世界をめぐる : 生態の不思議と日本文化としての姿</li><li>タイトル（読み）：タケノセカイヲメグル : セイタイノフシギトニホンブンカトシテノスガタ</li><li>責任表示：後藤 晋 著・文・その他,後藤 晋 編集,久本 洋子 著・文・その他,久本 洋子 編集,小林 慧人 著・文・その他,岩松 文代 著・文・その他,大谷 悠巴 著・文・その他</li></ul>",
+      "ndc": [
+        "竹",
+        {
+          "#text": 657.9,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>共立出版,2026,978-4-320-05852-1<p><ul><li>タイトル：竹の世界をめぐる : 生態の不思議と日本文化としての姿</li><li>タイトル（読み）：タケ ノ セカイ オ メグル</li><li>責任表示：後藤晋, 久本洋子 編著,小林慧人, 岩松文代, 大谷悠巴 著</li><li>NDC(10)：657.9</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320058521",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034954513",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -13027,7 +13349,16 @@
         "大城 信晃",
         "尾花山 和哉",
         "中村 仁也",
-        "株式会社ホクソエム"
+        "株式会社ホクソエム",
+        "江川 智啓",
+        "菅 由紀子",
+        "木田 浩理",
+        "西郷 彰",
+        "高柳 慎一",
+        "太宰 潮",
+        "曲沼 宏美",
+        "安井 翔太",
+        "吉永 尊洸"
       ],
       "publisher": [
         "共立出版",
@@ -13036,7 +13367,7 @@
       "pubDate": "2026-11-24",
       "category": "academic",
       "ndc": "UNC : データ取り込み＆解析",
-      "description": "<p>共立出版,2026-11-24,9784320126114<p><ul><li>タイトル：データサイエンティスト、キャリアを語る : 過酷なAI時代の楽しい歩き方</li><li>タイトル（読み）：データサイエンティストキャリアヲカタル : カコクナエーアイジダイノタノシイアルキカタ</li><li>責任表示：大城 信晃 編集,尾花山 和哉 編集,中村 仁也 編集,株式会社ホクソエム 編集</li></ul>",
+      "description": "<p>共立出版,2026-11-24,9784320126114<p><ul><li>タイトル：データサイエンティスト、キャリアを語る : 過酷なAI時代の楽しい歩き方</li><li>タイトル（読み）：データサイエンティストキャリアヲカタル : カコクナエーアイジダイノタノシイアルキカタ</li><li>責任表示：大城 信晃 著・文・その他,大城 信晃 編集,尾花山 和哉 著・文・その他,尾花山 和哉 編集,中村 仁也 著・文・その他,中村 仁也 編集,株式会社ホクソエム 編集,江川 智啓 著・文・その他,菅 由紀子 著・文・その他,木田 浩理 著・文・その他,西郷 彰 著・文・その他,高柳 慎一 著・文・その他,太宰 潮 著・文・その他,曲沼 宏美 著・文・その他,安井 翔太 著・文・その他,吉永 尊洸 著・文・その他</li></ul>",
       "toc": "",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784320126114",
       "status": "未所蔵",
@@ -13280,29 +13611,90 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784864121880",
-      "title": "英語でビブリオバトル実践集",
+      "isbn": "9784880653334",
+      "title": "アートプロジェクト : 芸術と共創する社会",
       "author": [
-        "木村, 修平, 1977-",
-        "近藤, 雪絵"
+        "熊倉, 純子",
+        "菊地, 拓児, 1981-",
+        "長津, 結一郎, 1985-"
       ],
-      "publisher": "子どもの未来社",
-      "pubDate": 2021.2,
+      "publisher": "水曜社",
+      "pubDate": 2014.1,
       "category": "academic",
       "ndc": [
-        "英語教育",
+        "アートマネジメント",
         {
-          "#text": "FC95",
+          "#text": "K271",
           "@_xsi:type": "dcndl:NDLC"
         },
         {
-          "#text": 375.893,
+          "#text": 709,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>水曜社,2014,978-4-88065-333-4<p><ul><li>タイトル：アートプロジェクト : 芸術と共創する社会</li><li>タイトル（読み）：アート プロジェクト</li><li>責任表示：熊倉純子 監修,菊地拓児, 長津結一郎 企画/編集</li><li>NDC(9)：709</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I025102804",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784109101912",
+      "title": "Ask yourself! : 自分自身を頼みとして生きるということ",
+      "author": "近藤, 嶺一, 1941-",
+      "publisher": [
+        "新潮社図書編集室",
+        "新潮社"
+      ],
+      "pubDate": 2021.5,
+      "category": "academic",
+      "ndc": [
+        "近藤, 嶺一, 1941-",
+        {
+          "#text": "GK199",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 289.1,
           "@_xsi:type": "dcndl:NDC10"
         }
       ],
-      "description": "<p>子どもの未来社,2021,978-4-86412-188-0<p><ul><li>タイトル：英語でビブリオバトル実践集</li><li>タイトル（読み）：エイゴ デ ビブリオ バトル ジッセンシュウ</li><li>責任表示：木村修平, 近藤雪絵 編著</li><li>NDC(10)：375.893</li></ul>",
+      "description": "<p>新潮社図書編集室,2021,978-4-10-910191-2<p><ul><li>タイトル：Ask yourself! : 自分自身を頼みとして生きるということ</li><li>タイトル（読み）：アースク ユアセルフ : ジブン ジシン オ タノミ ト シテ イキル ト イウ コト</li><li>責任表示：近藤嶺一 著</li><li>NDC(10)：289.1</li></ul>",
       "toc": "",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I031241518",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I031447446",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784911226384",
+      "title": "エッセイ本のつくり方 : 韓国ベストセラー編集者の企業秘密",
+      "author": [
+        "イ ヨンシル",
+        "清水 知佐子"
+      ],
+      "publisher": "ミシマ社",
+      "pubDate": 2026,
+      "category": "academic",
+      "ndc": [
+        "エッセイ",
+        {
+          "#text": 901.4,
+          "@_xsi:type": "dcndl:NDC10"
+        },
+        {
+          "#text": 901.4,
+          "@_xsi:type": "dcndl:NDC9"
+        },
+        {
+          "#text": 901.4,
+          "@_xsi:type": "dcndl:NDC8"
+        }
+      ],
+      "description": "<p>ミシマ社,2026,978-4-911226-38-4<p><ul><li>タイトル：エッセイ本のつくり方 : 韓国ベストセラー編集者の企業秘密</li><li>タイトル（読み）：エッセイボン ノ ツクリカタ : カンコク ベスト セラー ヘンシュウシャ ノ キギョウ ヒミツ</li><li>責任表示：イヨンシル 著,清水知佐子 訳</li><li>NDC(10)：901.4</li><li>NDC(9)：901.4</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I25115135342",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -13338,6 +13730,739 @@
       "reserveurl": ""
     },
     {
+      "isbn": "9784864121880",
+      "title": "英語でビブリオバトル実践集",
+      "author": [
+        "木村, 修平, 1977-",
+        "近藤, 雪絵"
+      ],
+      "publisher": "子どもの未来社",
+      "pubDate": 2021.2,
+      "category": "academic",
+      "ndc": [
+        "英語教育",
+        {
+          "#text": "FC95",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 375.893,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>子どもの未来社,2021,978-4-86412-188-0<p><ul><li>タイトル：英語でビブリオバトル実践集</li><li>タイトル（読み）：エイゴ デ ビブリオ バトル ジッセンシュウ</li><li>責任表示：木村修平, 近藤雪絵 編著</li><li>NDC(10)：375.893</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I031241518",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784163921297",
+      "title": "監督、神になる : 池田高校記憶の衝突",
+      "author": "田中, 仰, 1992-",
+      "publisher": "文藝春秋",
+      "pubDate": 2026.7,
+      "category": "academic",
+      "ndc": [
+        "蔦, 文也, 1923-2001",
+        {
+          "#text": "FS35",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 783.7,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>文藝春秋,2026,978-4-16-392129-7<p><ul><li>タイトル：監督、神になる : 池田高校記憶の衝突</li><li>タイトル（読み）：カントク カミ ニ ナル : イケダ コウコウ キオク ノ ショウトツ</li><li>責任表示：田中仰 著</li><li>NDC(10)：783.7</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827593",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784907623838",
+      "title": "もっと怒ってもいいのに : 精神科長期入院、断念と希望と",
+      "author": "植田, 太郎, 1990-",
+      "publisher": "dZERO",
+      "pubDate": 2026.3,
+      "category": "academic",
+      "ndc": [
+        "精神医学--日本",
+        {
+          "#text": "SC361",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 493.7,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>dZERO,2026,978-4-907623-83-8<p><ul><li>タイトル：もっと怒ってもいいのに : 精神科長期入院、断念と希望と</li><li>タイトル（読み）：モット オコッテモ イイノニ : セイシンカ チョウキ ニュウイン 、 ダンネン ト キボウ ト</li><li>責任表示：植田太郎</li><li>NDC(10)：493.7</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034620018",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784866250601",
+      "title": "愛のことはもう仕方ない",
+      "author": "枡野, 浩一, 1968-",
+      "publisher": "サイゾー",
+      "pubDate": 2016.6,
+      "category": "academic",
+      "ndc": [
+        {
+          "#text": "KH867",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 913.6,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>サイゾー,2016,978-4-86625-060-1<p><ul><li>タイトル：愛のことはもう仕方ない</li><li>タイトル（読み）：アイ ノ コト ワ モウ シカタナイ</li><li>責任表示：枡野浩一 著</li><li>NDC(9)：913.6</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I027332123",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784065365687",
+      "title": "迷惑な終活",
+      "author": "内館, 牧子, 1948-2025",
+      "publisher": "講談社",
+      "pubDate": 2024.9,
+      "category": "academic",
+      "ndc": [
+        {
+          "#text": "KH971",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 913.6,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>講談社,2024,978-4-06-536568-7<p><ul><li>タイトル：迷惑な終活</li><li>タイトル（読み）：メイワク ナ シュウカツ</li><li>責任表示：内館牧子 著</li><li>NDC(10)：913.6</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I033671464",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784334106195",
+      "title": "締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学",
+      "author": "安達, 未来",
+      "publisher": "光文社",
+      "pubDate": 2025.4,
+      "category": "academic",
+      "ndc": [
+        "自制心",
+        {
+          "#text": "SB118",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 141.8,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>光文社,2025,978-4-334-10619-5<p><ul><li>タイトル：締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学</li><li>タイトル（読み）：シメキリ ヨリ ハヤク テイシュツ サレタ レポート ワ ナゼ ツマラナイ ノカ : サキノバシ ト マエダオシ ノ シンリガク</li><li>責任表示：安達未来 著</li><li>シリーズ名：光文社新書 ; 1355</li><li>シリーズ名（読み）：コウブンシャ シンショ ; 1355</li><li>NDC(10)：141.8</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034020726",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784065412954",
+      "title": "檻の中のルフィ : 闇バイトを生んだ者たち",
+      "author": "栗田, シメイ, 1987-",
+      "publisher": "講談社",
+      "pubDate": 2026.6,
+      "category": "academic",
+      "ndc": [
+        "強盗",
+        {
+          "#text": "AZ-751",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 368.65,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>講談社,2026,978-4-06-541295-4<p><ul><li>タイトル：檻の中のルフィ : 闇バイトを生んだ者たち</li><li>タイトル（読み）：オリ ノ ナカ ノ ルフィ : ヤミバイト オ ウンダ モノタチ</li><li>責任表示：栗田シメイ 著</li><li>NDC(10)：368.65</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034767562",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784891949983",
+      "title": "URBAN RESEARCH:PARIS",
+      "author": "Unknown",
+      "publisher": "パルコエンタテインメント事業部",
+      "pubDate": 2013.2,
+      "category": "academic",
+      "ndc": [
+        {
+          "#text": "KC726",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 748,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>パルコエンタテインメント事業部,2013,978-4-89194-998-3<p><ul><li>タイトル：URBAN RESEARCH:PARIS</li><li>タイトル（読み）：アーバン リサーチ パリ</li><li>NDC(9)：748</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I024254161",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784271210320",
+      "title": "イギリス文学と文化のエートスとコンストラクション : 石田久教授喜寿記念論文集",
+      "author": "Unknown",
+      "publisher": "大阪教育図書",
+      "pubDate": 2014.8,
+      "category": "academic",
+      "ndc": [
+        "イギリス文学--論文集",
+        {
+          "#text": "KS74",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 930.4,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>大阪教育図書,2014,978-4-271-21032-0<p><ul><li>タイトル：イギリス文学と文化のエートスとコンストラクション : 石田久教授喜寿記念論文集</li><li>タイトル（読み）：イギリス ブンガク ト ブンカ ノ エートス ト コンストラクション : イシダ ヒサシ キョウジュ キジュ キネン ロンブンシュウ</li><li>責任表示：石田久教授喜寿記念論文集刊行委員会 編</li><li>NDC(9)：930.4</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I025519879",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784000617291",
+      "title": "法獣医学者が解き明かす動物の事件簿",
+      "author": "田中, 亜紀, 1974-",
+      "publisher": "岩波書店",
+      "pubDate": 2025.11,
+      "category": "academic",
+      "ndc": [
+        "獣医学",
+        {
+          "#text": "RB541",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 649.89,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>岩波書店,2025,978-4-00-061729-1<p><ul><li>タイトル：法獣医学者が解き明かす動物の事件簿</li><li>タイトル（読み）：ホウジュウイガクシャ ガ トキアカス ドウブツ ノ ジケンボ</li><li>責任表示：田中亜紀 著</li><li>NDC(10)：649.89</li></ul>",
+      "toc": "",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034370626",
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD14051810"
+    },
+    {
+      "isbn": "9784899825074",
+      "title": "琉球怪談 : 現代実話集　闇と癒しの百物語",
+      "author": "小原猛",
+      "publisher": [
+        "ボーダーインク",
+        "ボーダーインク"
+      ],
+      "pubDate": "2026-08",
+      "category": "okinawa-ja",
+      "ndc": "怪談",
+      "description": "<p>ボーダーインク,2026-08,9784899825074<p><ul><li>タイトル：琉球怪談 : 現代実話集　闇と癒しの百物語</li><li>タイトル（読み）：リュウキユウカイダン : ゲンダイジツワシュウヤミトイヤシノヒャクモノガタリ</li><li>責任表示：小原猛 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784899825074",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784130606103",
+      "title": "水面波の理論的解析",
+      "author": "船越, 満明, 1951-",
+      "publisher": "東京大学出版会",
+      "pubDate": 2026.8,
+      "category": "academic",
+      "ndc": [
+        "波動",
+        {
+          "#text": "MC43",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 423.84,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>東京大学出版会,2026,978-4-13-060610-3<p><ul><li>タイトル：水面波の理論的解析</li><li>タイトル（読み）：スイメンハ ノ リロンテキ カイセキ</li><li>責任表示：船越満明 著</li><li>NDC(10)：423.84</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034868136",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784130517010",
+      "title": "スポーツ医学の教科書 : 教養としての",
+      "author": "今井, 一博",
+      "publisher": "東京大学出版会",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "運動医学",
+        {
+          "#text": 780.19,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>東京大学出版会,2026,978-4-13-051701-0<p><ul><li>タイトル：スポーツ医学の教科書 : 教養としての</li><li>タイトル（読み）：スポーツ イガク ノ キョウカショ : キョウヨウ ト シテ ノ</li><li>責任表示：今井一博 著</li><li>NDC(10)：780.19</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034921586",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784005010189",
+      "title": "新しい「公共」入門　：　思いがけない出会いをつくる",
+      "author": "山本 圭",
+      "publisher": "岩波書店",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "社会科学",
+        {
+          "#text": 301,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>岩波書店,2026-09,978-4-00-501018-9<p><ul><li>タイトル：新しい「公共」入門　：　思いがけない出会いをつくる</li><li>タイトル（読み）：アタラシイ コウキョウ ニュウモン　オモイガケナイ デアイ オ ツクル</li><li>責任表示：山本 圭／著</li><li>シリーズ名：岩波ジュニア新書　：　1018</li><li>シリーズ名（読み）：イワナミ ジュニア シンショ　1018</li><li>NDC(9)：301</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000156794",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784005010165",
+      "title": "AI英語学習法",
+      "author": "柳瀬 陽介",
+      "publisher": "岩波書店",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "英語",
+        {
+          "#text": 830.7,
+          "@_xsi:type": "dcndl:NDC9"
+        }
+      ],
+      "description": "<p>岩波書店,2026-09,978-4-00-501016-5<p><ul><li>タイトル：AI英語学習法</li><li>タイトル（読み）：エーアイ エイゴ ガクシュウホウ</li><li>責任表示：柳瀬 陽介／著</li><li>シリーズ名：岩波ジュニア新書　：　1016</li><li>シリーズ名（読み）：イワナミ ジュニア シンショ　1016</li><li>NDC(9)：830.7</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000156378",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784000299732",
+      "title": "確率・統計",
+      "author": "松家 敬介",
+      "publisher": "岩波書店",
+      "pubDate": "2026-09-16",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-09-16,9784000299732<p><ul><li>タイトル：確率・統計</li><li>タイトル（読み）：カクリツトウケイ</li><li>責任表示：松家 敬介 著・文・その他</li><li>シリーズ名：大学数学の羅針盤</li><li>シリーズ名（読み）：ダイガクスウガクノラシンバン</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000299732",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784000063517",
+      "title": "関手のトポロジー",
+      "author": "原田 雅名",
+      "publisher": "岩波書店",
+      "pubDate": "2026-09-16",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-09-16,9784000063517<p><ul><li>タイトル：関手のトポロジー</li><li>タイトル（読み）：カンシュノトポロジー</li><li>責任表示：原田 雅名 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000063517",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784006005030",
+      "title": "建築に何が可能か : 建築と人間と",
+      "author": "原 広司",
+      "publisher": "岩波書店",
+      "pubDate": "2026-09-15",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-09-15,9784006005030<p><ul><li>タイトル：建築に何が可能か : 建築と人間と</li><li>タイトル（読み）：ケンチクニナニガカノウカ : ケンチクトニンゲント</li><li>責任表示：原 広司 著・文・その他</li><li>シリーズ名：岩波現代文庫 ； 学術503</li><li>シリーズ名（読み）：イワナミゲンダイブンコ</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784006005030",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784007317026",
+      "title": "「権利のための闘争」を読む",
+      "author": "村上 淳一",
+      "publisher": "岩波書店",
+      "pubDate": "2026-10-09",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-10-09,9784007317026<p><ul><li>タイトル：「権利のための闘争」を読む</li><li>タイトル（読み）：ケンリノタメノトウソウヲヨム</li><li>責任表示：村上 淳一 著・文・その他</li><li>シリーズ名：岩波オンデマンドブックス</li><li>シリーズ名（読み）：イワナミオンデマンドブックス</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784007317026",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784000269209",
+      "title": "権力",
+      "author": "杉田 敦",
+      "publisher": "岩波書店",
+      "pubDate": "2026-10-06",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>岩波書店,2026-10-06,9784000269209<p><ul><li>タイトル：権力</li><li>タイトル（読み）：ケンリョク</li><li>責任表示：杉田 敦 著・文・その他</li><li>シリーズ名：新装版 思考のフロンティア</li><li>シリーズ名（読み）：シンソウバンシコウノフロンティア</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784000269209",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784641166714",
+      "title": "選択するミドル : 「分離」の時代を生きるための羅針盤",
+      "author": [
+        "服部 泰宏",
+        "琴坂 将広",
+        "佐々木 将人"
+      ],
+      "publisher": [
+        "有斐閣",
+        "有斐閣"
+      ],
+      "pubDate": "2026-11-30",
+      "category": "academic",
+      "ndc": "Unknown",
+      "description": "<p>有斐閣,2026-11-30,9784641166714<p><ul><li>タイトル：選択するミドル : 「分離」の時代を生きるための羅針盤</li><li>タイトル（読み）：センタクスルミドル</li><li>責任表示：服部 泰宏 著・文・その他,服部 泰宏 編集,琴坂 将広 著・文・その他,琴坂 将広 編集,佐々木 将人 著・文・その他,佐々木 将人 編集</li><li>シリーズ名：単行本</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641166714",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784642728874",
+      "title": "京都の寺社と室町幕府",
+      "author": "細川　武稔",
+      "publisher": "吉川弘文館",
+      "pubDate": "2026-10-01",
+      "category": "academic",
+      "ndc": "寺社",
+      "description": "<p>吉川弘文館,2026-10-01,9784642728874<p><ul><li>タイトル：京都の寺社と室町幕府</li><li>タイトル（読み）：キョウトノジシャトムロマチバクフ</li><li>責任表示：細川　武稔 著・文・その他</li><li>シリーズ名：オンデマンド版</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642728874",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784622098805",
+      "title": "カフカの『変身』をすごくゆっくり読む",
+      "author": "頭木弘樹",
+      "publisher": [
+        "みすず書房",
+        "みすず書房"
+      ],
+      "pubDate": "2026-10-16",
+      "category": "academic",
+      "ndc": "『変身』",
+      "description": "<p>みすず書房,2026-10-16,9784622098805<p><ul><li>タイトル：カフカの『変身』をすごくゆっくり読む</li><li>タイトル（読み）：カフカノヘンシンヲスゴクユックリヨム</li><li>責任表示：頭木弘樹 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784622098805",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784623098545",
+      "title": "入門 ソーシャルワークの基盤と専門職",
+      "author": "川村　匡由",
+      "publisher": "ミネルヴァ書房",
+      "pubDate": "2026-12-11",
+      "category": "academic",
+      "ndc": "ソーシャルワーク専門職のグローバル定義 倫理綱領 多職種連携 総合的・包括的支援",
+      "description": "<p>ミネルヴァ書房,2026-12-11,9784623098545<p><ul><li>タイトル：入門 ソーシャルワークの基盤と専門職</li><li>タイトル（読み）：ニュウモンソーシャルワークノキバントセンモンショク</li><li>責任表示：川村　匡由 編集</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784623098545",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313275",
+      "title": "医学生のための研究倫理",
+      "author": [
+        "浅井　篤",
+        "高野　忠夫",
+        "大北　全俊"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-10-28",
+      "category": "academic",
+      "ndc": "医学研究",
+      "description": "<p>丸善出版,2026-10-28,9784621313275<p><ul><li>タイトル：医学生のための研究倫理</li><li>タイトル（読み）：イガクセイノタメノケンキュウリンリ</li><li>責任表示：浅井　篤 編集,高野　忠夫 編集,大北　全俊 編集</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313275",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784863455924",
+      "title": "改訂　石割技法をめぐる飛鳥時代の石材技術 : 矢穴技法の存在",
+      "author": "山田　政博",
+      "publisher": [
+        "丸善プラネット",
+        "丸善出版"
+      ],
+      "pubDate": "2026-09",
+      "category": "academic",
+      "ndc": "丸善プラネット",
+      "description": "<p>丸善プラネット,2026-09,9784863455924<p><ul><li>タイトル：改訂　石割技法をめぐる飛鳥時代の石材技術 : 矢穴技法の存在</li><li>タイトル（読み）：カイテイ　イシワリギホウヲメグルアスカジダイノセキザイギジュツ : ヤアナギホウノソンザイ</li><li>責任表示：山田　政博 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784863455924",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784865152654",
+      "title": "JAPIC一般用医薬品集",
+      "author": "日本医薬情報センター",
+      "publisher": [
+        "日本医薬情報センター",
+        "丸善出版"
+      ],
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "一般用医薬品--便覧",
+        {
+          "#text": "SD2",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 499.7,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>2027,日本医薬情報センター,2026,978-4-86515-265-4<p><ul><li>タイトル：JAPIC一般用医薬品集</li><li>タイトル（読み）：ジャピック イッパンヨウ イヤクヒンシュウ</li><li>責任表示：日本医薬情報センター 編集</li><li>NDC(10)：499.7</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034908680",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784865152647",
+      "title": "JAPIC 医療用医薬品集 2027 CD-ROM付",
+      "author": "一般財団法人日本医薬情報センター",
+      "publisher": [
+        "日本医薬情報センター",
+        "丸善出版"
+      ],
+      "pubDate": "2026-09",
+      "category": "academic",
+      "ndc": "医薬品集",
+      "description": "<p>日本医薬情報センター,2026-09,9784865152647<p><ul><li>タイトル：JAPIC 医療用医薬品集 2027 CD-ROM付</li><li>タイトル（読み）：ジャピック　イリョウヨウイヤクヒンシュウ　ニセンニジュウナナ</li><li>責任表示：一般財団法人日本医薬情報センター 編集</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784865152647",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313145",
+      "title": "スマホがやめられないのはなぜ? : 情報とメディアの社会学",
+      "author": "宇田川, 敦史, 1977-",
+      "publisher": "丸善出版",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "青少年問題",
+        {
+          "#text": "Y1",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 7.3,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>丸善出版,2026,978-4-621-31314-5<p><ul><li>タイトル：スマホがやめられないのはなぜ? : 情報とメディアの社会学</li><li>タイトル（読み）：スマホ ガ ヤメラレナイ ノワ ナゼ : ジョウホウ ト メディア ノ シャカイガク</li><li>責任表示：宇田川敦史 著</li><li>シリーズ名：10代の悩みを読み解く社会学</li><li>シリーズ名（読み）：ジュウダイ ノ ナヤミ オ ヨミトク シャカイガク</li><li>NDC(10)：007.3</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034933802",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313077",
+      "title": "図説現代発生生物学",
+      "author": [
+        "武田, 洋幸",
+        "河西, 通",
+        "池田, 貴史"
+      ],
+      "publisher": "丸善出版",
+      "pubDate": 2026.9,
+      "category": "academic",
+      "ndc": [
+        "発生学",
+        {
+          "#text": 481.2,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>丸善出版,2026,978-4-621-31307-7<p><ul><li>タイトル：図説現代発生生物学</li><li>タイトル（読み）：ズセツ ゲンダイ ハッセイ セイブツガク</li><li>責任表示：武田洋幸, 河西通, 池田貴史 編著</li><li>NDC(10)：481.2</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034941536",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313008",
+      "title": "生態学研究ハンドブック : 問いの立て方から、仮説検証、研究成果の伝え方まで",
+      "author": [
+        "瀧本, 岳, 1973-",
+        "吉田, 丈人",
+        "内海, 俊介",
+        "塩尻, かおり",
+        "Karban, Richard",
+        "Huntzinger, Mikaela, 1969-",
+        "Pearse, Ian S"
+      ],
+      "publisher": "丸善出版",
+      "pubDate": 2026.8,
+      "category": "academic",
+      "ndc": [
+        "生態学--研究・指導",
+        {
+          "#text": "RA141",
+          "@_xsi:type": "dcndl:NDLC"
+        },
+        {
+          "#text": 468.07,
+          "@_xsi:type": "dcndl:NDC10"
+        }
+      ],
+      "description": "<p>丸善出版,2026,978-4-621-31300-8<p><ul><li>タイトル：生態学研究ハンドブック : 問いの立て方から、仮説検証、研究成果の伝え方まで</li><li>タイトル（読み）：セイタイガク ケンキュウ ハンドブック : トイ ノ タテカタ カラ カセツ ケンショウ ケンキュウ セイカ ノ ツタエカタ マデ</li><li>責任表示：瀧本岳, 吉田丈人 監訳,内海俊介 [ほか] 訳,Richard Karban, Mikaela Huntzinger, Ian S.Pearse [著]</li><li>NDC(10)：468.07</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034888408",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313220",
+      "title": "世界遺産の百科事典",
+      "author": [
+        "世界遺産の百科事典編集委員会",
+        "筑波大学世界遺産学学位プログラム"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-11-28",
+      "category": "academic",
+      "ndc": "世界遺産",
+      "description": "<p>丸善出版,2026-11-28,9784621313220<p><ul><li>タイトル：世界遺産の百科事典</li><li>タイトル（読み）：セカイイサンノヒャッカジテン</li><li>責任表示：世界遺産の百科事典編集委員会 編集,筑波大学世界遺産学学位プログラム 監修</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313220",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313107",
+      "title": "世界七大河川でたどる文明誌",
+      "author": [
+        "ヴァネッサ・テイラー",
+        "沖　大幹",
+        "中村　晋一郎"
+      ],
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-11-04",
+      "category": "academic",
+      "ndc": "川",
+      "description": "<p>丸善出版,2026-11-04,9784621313107<p><ul><li>タイトル：世界七大河川でたどる文明誌</li><li>タイトル（読み）：セカイナナダイカセンデタドルブンメイシ</li><li>責任表示：ヴァネッサ・テイラー 著・文・その他,沖　大幹 翻訳,中村　晋一郎 翻訳</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313107",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
+      "isbn": "9784621313398",
+      "title": "戦術的ピリオダイゼーション日本化への挑戦 : 広島サッカースタイルを世界へ",
+      "author": "上泉　康樹",
+      "publisher": [
+        "丸善出版",
+        "丸善出版"
+      ],
+      "pubDate": "2026-12-02",
+      "category": "academic",
+      "ndc": "戦術的ピリオダイゼーション",
+      "description": "<p>丸善出版,2026-12-02,9784621313398<p><ul><li>タイトル：戦術的ピリオダイゼーション日本化への挑戦 : 広島サッカースタイルを世界へ</li><li>タイトル（読み）：センジュツテキピリオダイゼーションニホンカヘノチョウセン : ヒロシマサッカースタイルヲセカイヘ</li><li>責任表示：上泉　康樹 著・文・その他</li></ul>",
+      "toc": "Unknown",
+      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784621313398",
+      "status": "未所蔵",
+      "libkey": {},
+      "reserveurl": ""
+    },
+    {
       "isbn": "9784861347696",
       "title": "嘘!アイツが私の旦那様!? : 目覚めたら10年後の未来",
       "author": "宮越, 和草",
@@ -13355,7 +14480,7 @@
         }
       ],
       "description": "<p>フロンティアワークス,2015,978-4-86134-769-6<p><ul><li>タイトル：嘘!アイツが私の旦那様!? : 目覚めたら10年後の未来</li><li>タイトル（読み）：ウソ アイツ ガ ワタクシ ノ ダンナサマ : メザメタラ ジュウネンゴ ノ ミライ</li><li>責任表示：宮越和草 著</li><li>シリーズ名：miel TL comics</li><li>NDC(9)：726.1</li></ul>",
-      "toc": "",
+      "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I026242064",
       "status": "未所蔵",
       "libkey": {},
@@ -13376,7 +14501,7 @@
         }
       ],
       "description": "<p>平凡社,1986,4582434134<p><ul><li>タイトル：アトラス東京 : 地図でよむ江戸〜東京</li><li>タイトル（読み）：アトラス トウキョウ : チズ デ ヨム エド トウキョウ</li><li>責任表示：正井泰夫監修</li></ul>",
-      "toc": "",
+      "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434853529869",
       "status": "未所蔵",
       "libkey": {},
@@ -13506,27 +14631,6 @@
       "description": "<p>慶應義塾大学出版会,2026-08-15,9784766431094<p><ul><li>タイトル：曾禰中條建築事務所と慶應義塾</li><li>タイトル（読み）：ソネチュウジョウケンチクジムショトケイオウギジュク</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431094",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784766431056",
-      "title": "FUKUZAWA YUKICHI MEMORIAL KEIO HISTORY MUSEUM",
-      "author": [
-        "都倉武之",
-        "横山寛"
-      ],
-      "publisher": [
-        "慶應義塾大学出版会",
-        "慶應義塾大学出版会"
-      ],
-      "pubDate": "2026-08-15",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>慶應義塾大学出版会,2026-08-15,9784766431056<p><ul><li>タイトル：FUKUZAWA YUKICHI MEMORIAL KEIO HISTORY MUSEUM</li><li>タイトル（読み）：フクザワユキチメモリアルケイオウヒストリーミュージアム</li><li>責任表示：都倉武之 編集,横山寛 編集</li><li>シリーズ名：慶應義塾史展示館図録</li><li>シリーズ名（読み）：ケイオウギジュクシテンジカンズロク</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784766431056",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -13721,30 +14825,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784911226384",
-      "title": "エッセイ本のつくり方　：　韓国ベストセラー編集者の企業秘密",
-      "author": [
-        "イ ヨンシル",
-        "清水 知佐子"
-      ],
-      "publisher": "ミシマ社",
-      "pubDate": 2026.8,
-      "category": "academic",
-      "ndc": [
-        "編集",
-        {
-          "#text": 21.4,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "description": "<p>ミシマ社,2026-08,978-4-911226-38-4<p><ul><li>タイトル：エッセイ本のつくり方　：　韓国ベストセラー編集者の企業秘密</li><li>タイトル（読み）：エッセイボン ノ ツクリカタ　カンコク ベスト セラー ヘンシュウシャ ノ キギョウ ヒミツ</li><li>責任表示：イ ヨンシル／著,清水 知佐子／訳</li><li>NDC(9)：021.4</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000001-I27211002000146686",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "4871880605",
       "title": "ISDN時代伸びる企業の情報戦略",
       "author": [
@@ -13773,31 +14853,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784163921297",
-      "title": "監督、神になる : 池田高校記憶の衝突",
-      "author": "田中, 仰, 1992-",
-      "publisher": "文藝春秋",
-      "pubDate": 2026.7,
-      "category": "academic",
-      "ndc": [
-        "蔦, 文也, 1923-2001",
-        {
-          "#text": "FS35",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 783.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>文藝春秋,2026,978-4-16-392129-7<p><ul><li>タイトル：監督、神になる : 池田高校記憶の衝突</li><li>タイトル（読み）：カントク カミ ニ ナル : イケダ コウコウ キオク ノ ショウトツ</li><li>責任表示：田中仰 著</li><li>NDC(10)：783.7</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034827593",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784334110529",
       "title": "戦艦「大和」最期の新証言",
       "author": "池田, 遼太, 1998-",
@@ -13818,55 +14873,6 @@
       "description": "<p>光文社,2026,978-4-334-11052-9<p><ul><li>タイトル：戦艦「大和」最期の新証言</li><li>タイトル（読み）：センカン ヤマト サイゴ ノ シンショウゲン</li><li>責任表示：池田遼太 著</li><li>シリーズ名：光文社新書 ; 1419</li><li>シリーズ名（読み）：コウブンシャ シンショ ; 1419</li><li>NDC(10)：556.91</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034802421",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784907623838",
-      "title": "もっと怒ってもいいのに : 精神科長期入院、断念と希望と",
-      "author": "植田, 太郎, 1990-",
-      "publisher": "dZERO",
-      "pubDate": 2026.3,
-      "category": "academic",
-      "ndc": [
-        "精神医学--日本",
-        {
-          "#text": "SC361",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 493.7,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>dZERO,2026,978-4-907623-83-8<p><ul><li>タイトル：もっと怒ってもいいのに : 精神科長期入院、断念と希望と</li><li>タイトル（読み）：モット オコッテモ イイノニ : セイシンカ チョウキ ニュウイン 、 ダンネン ト キボウ ト</li><li>責任表示：植田太郎</li><li>NDC(10)：493.7</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034620018",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784866250601",
-      "title": "愛のことはもう仕方ない",
-      "author": "枡野, 浩一, 1968-",
-      "publisher": "サイゾー",
-      "pubDate": 2016.6,
-      "category": "academic",
-      "ndc": [
-        {
-          "#text": "KH867",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "description": "<p>サイゾー,2016,978-4-86625-060-1<p><ul><li>タイトル：愛のことはもう仕方ない</li><li>タイトル（読み）：アイ ノ コト ワ モウ シカタナイ</li><li>責任表示：枡野浩一 著</li><li>NDC(9)：913.6</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I027332123",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -13930,31 +14936,6 @@
       "reserveurl": ""
     },
     {
-      "isbn": "9784334106195",
-      "title": "締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学",
-      "author": "安達, 未来",
-      "publisher": "光文社",
-      "pubDate": 2025.4,
-      "category": "academic",
-      "ndc": [
-        "自制心",
-        {
-          "#text": "SB118",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 141.8,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>光文社,2025,978-4-334-10619-5<p><ul><li>タイトル：締め切りより早く提出されたレポートはなぜつまらないのか : 「先延ばし」と「前倒し」の心理学</li><li>タイトル（読み）：シメキリ ヨリ ハヤク テイシュツ サレタ レポート ワ ナゼ ツマラナイ ノカ : サキノバシ ト マエダオシ ノ シンリガク</li><li>責任表示：安達未来 著</li><li>シリーズ名：光文社新書 ; 1355</li><li>シリーズ名（読み）：コウブンシャ シンショ ; 1355</li><li>NDC(10)：141.8</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034020726",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
       "isbn": "9784065416518",
       "title": "神の蝶、舞う果て",
       "author": "上橋, 菜穂子, 1962-",
@@ -13974,55 +14955,6 @@
       "description": "<p>講談社,2026,978-4-06-541651-8<p><ul><li>タイトル：神の蝶、舞う果て</li><li>タイトル（読み）：カミ ノ チョウ マウ ハテ</li><li>責任表示：上橋菜穂子 著</li><li>NDC(10)：913.6</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034500245",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784065412954",
-      "title": "檻の中のルフィ : 闇バイトを生んだ者たち",
-      "author": "栗田, シメイ, 1987-",
-      "publisher": "講談社",
-      "pubDate": 2026.6,
-      "category": "academic",
-      "ndc": [
-        "強盗",
-        {
-          "#text": "AZ-751",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 368.65,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>講談社,2026,978-4-06-541295-4<p><ul><li>タイトル：檻の中のルフィ : 闇バイトを生んだ者たち</li><li>タイトル（読み）：オリ ノ ナカ ノ ルフィ : ヤミバイト オ ウンダ モノタチ</li><li>責任表示：栗田シメイ 著</li><li>NDC(10)：368.65</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034767562",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784891949983",
-      "title": "URBAN RESEARCH:PARIS",
-      "author": "Unknown",
-      "publisher": "パルコエンタテインメント事業部",
-      "pubDate": 2013.2,
-      "category": "academic",
-      "ndc": [
-        {
-          "#text": "KC726",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 748,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "description": "<p>パルコエンタテインメント事業部,2013,978-4-89194-998-3<p><ul><li>タイトル：URBAN RESEARCH:PARIS</li><li>タイトル（読み）：アーバン リサーチ パリ</li><li>NDC(9)：748</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I024254161",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -14051,31 +14983,6 @@
       "description": "<p>晶文社,2025,978-4-7949-8032-8<p><ul><li>タイトル：巨大建築はどうつくる?日建設計をひもとく</li><li>タイトル（読み）：キョダイ ケンチク ワ ドウ ツクル ニッケン セッケイ オ ヒモトク</li><li>責任表示：五十嵐太郎, 東北大学都市・建築理論研究室 編</li><li>NDC(10)：520.67</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034454514",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784271210320",
-      "title": "イギリス文学と文化のエートスとコンストラクション : 石田久教授喜寿記念論文集",
-      "author": "Unknown",
-      "publisher": "大阪教育図書",
-      "pubDate": 2014.8,
-      "category": "academic",
-      "ndc": [
-        "イギリス文学--論文集",
-        {
-          "#text": "KS74",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 930.4,
-          "@_xsi:type": "dcndl:NDC9"
-        }
-      ],
-      "description": "<p>大阪教育図書,2014,978-4-271-21032-0<p><ul><li>タイトル：イギリス文学と文化のエートスとコンストラクション : 石田久教授喜寿記念論文集</li><li>タイトル（読み）：イギリス ブンガク ト ブンカ ノ エートス ト コンストラクション : イシダ ヒサシ キョウジュ キジュ キネン ロンブンシュウ</li><li>責任表示：石田久教授喜寿記念論文集刊行委員会 編</li><li>NDC(9)：930.4</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I025519879",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -14558,7 +15465,7 @@
       "description": "<p>東京大学出版会,2026,978-4-13-063412-0<p><ul><li>タイトル：人類の健康はどこへ向かうのか : 持続可能な社会を考える健康のサイエンス</li><li>タイトル（読み）：ジンルイ ノ ケンコウ ワ ドコ エ ムカウ ノカ : ジゾク カノウ ナ シャカイ オ カンガエル ケンコウ ノ サイエンス</li><li>責任表示：東京大学医学部健康総合科学科 編</li><li>NDC(10)：498</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034841099",
-      "status": "調査中",
+      "status": "エラー",
       "libkey": {},
       "reserveurl": ""
     },
@@ -16193,9 +17100,11 @@
       "description": "<p>共立出版,2026,978-4-320-09450-5<p><ul><li>タイトル：創造性の敵 : 阻害要因を味方につける認知科学</li><li>タイトル（読み）：ソウゾウセイ ノ テキ</li><li>責任表示：阿部慶賀 著</li><li>NDC(10)：141.5</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034819852",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20000982"
     },
     {
       "isbn": "9784320058507",
@@ -16498,27 +17407,11 @@
       "description": "<p>有斐閣,2026-09-08,9784641213487<p><ul><li>タイトル：金融法判例百選 : 別冊ジュリストＮｏ．２７７</li><li>タイトル（読み）：キンユウホウハンレイヒャクセン</li><li>責任表示：森田 宏樹 編集,神作 裕之 編集,加藤 貴仁 編集</li><li>シリーズ名：別冊ジュリスト ； 277</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641213487",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784641166707",
-      "title": "経済と社会 : 市場・組織・国家の原理論",
-      "author": "稲葉 振一郎",
-      "publisher": [
-        "有斐閣",
-        "有斐閣"
-      ],
-      "pubDate": "2026-09-03",
-      "category": "academic",
-      "ndc": "Unknown",
-      "description": "<p>有斐閣,2026-09-03,9784641166707<p><ul><li>タイトル：経済と社会 : 市場・組織・国家の原理論</li><li>タイトル（読み）：ケイザイトシャカイ</li><li>責任表示：稲葉 振一郎 著・文・その他</li><li>シリーズ名：単行本</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641166707",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "研究室": "蔵書あり"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD20739786"
     },
     {
       "isbn": "9784641139909",
@@ -16534,9 +17427,11 @@
       "description": "<p>有斐閣,2026-09-09,9784641139909<p><ul><li>タイトル：体験する刑法入門</li><li>タイトル（読み）：タイケンスルケイホウニュウモン</li><li>責任表示：仲道 祐樹 著・文・その他</li><li>シリーズ名：ポケット法学</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784641139909",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "研究室": "蔵書あり"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD2078566X"
     },
     {
       "isbn": "9784254162844",
@@ -16608,30 +17503,6 @@
       "description": "<p>幻冬舎,2025,978-4-344-04414-2<p><ul><li>タイトル：絵馬と脅迫状</li><li>タイトル（読み）：エマ ト キョウハクジョウ</li><li>責任表示：久坂部羊 著</li><li>NDC(10)：913.6</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I033968887",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
-    },
-    {
-      "isbn": "9784065365687",
-      "title": "迷惑な終活",
-      "author": "内館, 牧子, 1948-2025",
-      "publisher": "講談社",
-      "pubDate": 2024.9,
-      "category": "academic",
-      "ndc": [
-        {
-          "#text": "KH971",
-          "@_xsi:type": "dcndl:NDLC"
-        },
-        {
-          "#text": 913.6,
-          "@_xsi:type": "dcndl:NDC10"
-        }
-      ],
-      "description": "<p>講談社,2024,978-4-06-536568-7<p><ul><li>タイトル：迷惑な終活</li><li>タイトル（読み）：メイワク ナ シュウカツ</li><li>責任表示：内館牧子 著</li><li>NDC(10)：913.6</li></ul>",
-      "toc": "Unknown",
-      "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I033671464",
       "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
@@ -17012,7 +17883,7 @@
       "description": "<p>吉川弘文館,2026-09-29,9784642306485<p><ul><li>タイトル：議会報道のメディア史 : 漫画から国会中継まで</li><li>タイトル（読み）：ギカイホウドウノメディアシ : マンガカラコッカイチュウケイマデ</li><li>責任表示：葦名　ふみ 著・文・その他</li><li>シリーズ名：歴史文化ライブラリー ； 648</li><li>シリーズ名（読み）：レキシブンカライブラリー</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306485",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17037,7 +17908,7 @@
       "description": "<p>吉川弘文館,2026,978-4-642-07829-0<p><ul><li>タイトル：黒田官兵衛 : 「天下を狙った軍師」の実像</li><li>タイトル（読み）：クロダ カンベエ : テンカ オ ネラッタ グンシ ノ ジツゾウ</li><li>責任表示：諏訪勝則 著</li><li>シリーズ名：読みなおす日本史</li><li>シリーズ名（読み）：ヨミナオス ニホンシ</li><li>NDC(10)：289.1</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034868161",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17052,7 +17923,7 @@
       "description": "<p>吉川弘文館,2026-09-25,9784642094634<p><ul><li>タイトル：交通史研究 109</li><li>タイトル（読み）：コウツウシケンキュウ１０９</li><li>責任表示：交通史学会 編集</li><li>シリーズ名：交通史研究</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642094634",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17070,7 +17941,7 @@
       "description": "<p>吉川弘文館,2026-11-24,9784642093729<p><ul><li>タイトル：古代王権の伸長と大型古墳 : 久津川車塚古墳と山城地域の開発</li><li>タイトル（読み）：コダイオウケンノシンチョウトオオガタコフン : クツカワクルマヅカコフントヤマシロチイキノカイハツ</li><li>責任表示：長友　朋子 編集,廣瀬　覚 編集</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642093729",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17085,7 +17956,7 @@
       "description": "<p>吉川弘文館,2026-11-24,9784642093712<p><ul><li>タイトル：(仮)古墳出現期の土器研究</li><li>タイトル（読み）：コフンシュツゲンキノドキケンキュウ</li><li>責任表示：田中　元浩 著・文・その他</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642093712",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17100,7 +17971,7 @@
       "description": "<p>吉川弘文館,2026-09-29,9784642306492<p><ul><li>タイトル：狛犬と歩く近現代</li><li>タイトル（読み）：コマイヌトアルクキンゲンダイ</li><li>責任表示：小野　美里 著・文・その他</li><li>シリーズ名：歴史文化ライブラリー ； 649</li><li>シリーズ名（読み）：レキシブンカライブラリー</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642306492",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -17115,7 +17986,7 @@
       "description": "<p>吉川弘文館,2026-11-30,9784642015905<p><ul><li>タイトル：(仮)『江家次第』詳解 : 有識故実とは何か</li><li>タイトル（読み）：ゴウケシダイショウカイ : ユウショクコジツトハナニカ</li><li>責任表示：近藤　好和 編集</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784642015905",
-      "status": "調査中",
+      "status": "未所蔵",
       "libkey": {},
       "reserveurl": ""
     },
@@ -18900,7 +19771,7 @@
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034736835",
       "status": "所蔵あり",
       "libkey": {
-        "本館": "貸出中"
+        "本館": "貸出可"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19307092"
     },
@@ -19296,7 +20167,7 @@
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034812719",
       "status": "所蔵あり",
       "libkey": {
-        "本館": "貸出可"
+        "本館": "貸出中"
       },
       "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19934569"
     },
@@ -19593,9 +20464,11 @@
       "description": "<p>勁草書房,2026,978-4-326-35198-5<p><ul><li>タイトル：エネルギーの地政学 : エネルギートランジションと日本の戦略</li><li>タイトル（読み）：エネルギー ノ チセイガク : エネルギー トランジション ト ニホン ノ センリャク</li><li>責任表示：橋本道雄, 中井遼 編,信岡洋子 [ほか] [執筆]</li><li>NDC(10)：501.6</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034780937",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "研究室": "蔵書あり"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19709052"
     },
     {
       "isbn": "9784326303649",
@@ -20089,9 +20962,11 @@
       "description": "<p>共立出版,2026,978-4-320-11682-5<p><ul><li>タイトル：線型代数と群 : 行列の分解から古典群へ</li><li>タイトル（読み）：センケイ ダイスウ ト グン</li><li>責任表示：示野信一 著</li><li>シリーズ名：表現論の礎 ; 2</li><li>シリーズ名（読み）：ヒョウゲンロン ノ イシズエ ; 2</li><li>NDC(10)：411.3</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034738962",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19315614"
     },
     {
       "isbn": "9784320116818",
@@ -21929,9 +22804,11 @@
       "description": "<p>新潮社,2026,978-4-10-603947-8<p><ul><li>タイトル：日本史はいかに物語られてきたか</li><li>タイトル（読み）：ニホンシ ワ イカニ モノガタラレテ キタカ</li><li>責任表示：河野有理 著</li><li>シリーズ名：新潮選書</li><li>シリーズ名（読み）：シンチョウ センショ</li><li>NDC(10)：311.21</li></ul>",
       "toc": "Unknown",
       "sourceUrl": "https://ndlsearch.ndl.go.jp/books/R100000002-I034701500",
-      "status": "未所蔵",
-      "libkey": {},
-      "reserveurl": ""
+      "status": "所蔵あり",
+      "libkey": {
+        "本館": "貸出可"
+      },
+      "reserveurl": "https://opac.lib.u-ryukyu.ac.jp/opc/recordID/catalog.bib/BD19068661"
     },
     {
       "isbn": "9784766430929",
